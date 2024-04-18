@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail3">
+  <info>
+    <title>EU-Interoperabilität einbauen</title>
+  </info>
+  <para>Folgende Interoperabilitätsaspekte sind im Modell berücksichtigt und spielen sich auch bei
+    zukünftigen Erweiterungen aus: <itemizedlist>
+      <listitem>
+        <para>Die meisten für nationale Zwecke erweiterbare deutschen Klassen erben von den
+          SDG-Klassen. Dies bedeutet im Zweifel, dass auch zukünftig rein nationale Erweiterungen
+          des Fachdatenmodells pro Forma auf dem EU-Schema basieren können. Konkret erben deutsche
+          Konzepte wie RegisterType alle Elemente vom SDGEvidence Provider. Deutsche
+          Nachweisanforderung die der SDGProceduralRequirements, deutsche Feldinhalt von den
+          SDGInformationRequirements usw. wie in Abbildung XY dargestellt. </para>
+      </listitem>
+      <listitem>
+        <para>Mehrsprachige Namen und Bezeichnungen aller Entitäten können einheitlich unter Angaben
+          des ISO-Sprachcode abgelegt werden. </para>
+      </listitem>
+      <listitem>
+        <para>Nationale IDs, wie etwa Angaben zu Ordnungskennziffern aus der DESTATIS VIP („ID.VIP“)
+          und andere, ergänzen eine stets auf EU-Ebene mögliche EU ID. Die EU ID ist dabei nicht
+          verpflichtend, da Anforderungen und die damit verbundenen Angaben aus deutscher Sicht der
+          Evidence Survey zunächst erst einen Freigabeprozess durchlaufen müssen, bevor diese in die
+          EU-System eingemeldet werden können und ihre offizielle EU-ID erhalten. </para>
+      </listitem>
+      <listitem>
+        <para>Zukünftige Erweiterungen, wie etwa eine explizite Modellierung von nicht-staatlichen
+          Evidence Providern, können diesen Vererbungsmechanismus ebenfalls einsetzen. Die
+          prinzipielle Ableitung deutscher Klassen aus einem eu-weiten einheitlichen Kern und die im
+          Bedarfsfall mögliche kollissionsfreie Einführung anderer deutschsprachiger Felder auf der
+          europaweit gemeinsamen Basis des EDM soll Datenmodellierer zu folgender bewussten
+          methodischen Fragestellung führen: „Muss wirklich ein eigenes nur in Deutschland bekanntes
+          Feld eingeführt werden, oder kann ein in der EU dafür vorgesehenes Feld benutzt werden?“.
+        </para>
+      </listitem>
+      <listitem>
+        <para>Mehrsprachige Codelisten: Der XÖV-Methodik für mehrsprachige Codelisten folgend sind
+          fremdsprachige Spalten von Wertelisten entsprechend mit dem BCP47 Code markiert. So können
+          nicht nur zeilenbasiert Werte aufeinander gemappt werden (siehe Abbildung XY), sondern es
+          sind auch im Bereich der Sprachkennzeichnung die Unterscheidung folgender Sprachvarianten
+          möglich . de-AT (Deutsch, wie es in Österreich verwendet wird) oder en-GB (Britisches
+          Englisch in Abgrenzung zu amerikanischen Englisch). </para>
+      </listitem>
+    </itemizedlist></para>
+
+  <!-- Hier noch ein Bild -->
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" fileref="../abbildungen/XRepository_Codelisten_BCP47.png"
+        format="png" scale="50"/>
+    </imageobject>
+  </mediaobject>
+
+
+
+</section>

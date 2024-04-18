@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent"> %complete;]><section xmlns="http://docbook.org/ns/docbook"
+         version="5"
+         xml:lang="de"
+         xml:id="code.datentypen.overview"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title xmlns:xlink="http://www.w3.org/1999/xlink">Übersicht über die Code-Datentypen</title>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.eeacountry.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.evidenceprovider.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.formatevidencesurvey.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.grenzueberschreitenderbezug.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.identifierschemes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.jurisdiction-level.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.language-code.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.lebensereignisse-codes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.leikafreigabe.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.leikaleistungen.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.leikatyp.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.loa.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.mappingstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.mediatypes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.nachweisaustauschde.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.nuts.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.planungsstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.rechtsgrundlage.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.regmoreifegrad.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.richtlinien.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.sdg2relevanzintern-codes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.sdg2relevanz.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.sdgprocedure.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.sdgstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.stakeholderfreigabe.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.stakeholderstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.uebersetzungsstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.workflowstatuseu.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.workflowstatus.xml"/>
+</section>

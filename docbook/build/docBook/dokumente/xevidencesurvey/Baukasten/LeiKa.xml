@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.LeiKa">
+   <title>LeiKaType</title>
+   <subtitle>Typ: <emphasis role="codebf">LeiKaType</emphasis>
+   </subtitle><para>Die Abkürzung LeiKa bezeichnet den "Leistungskatalog der öffentlichen Verwaltung“. Der Leistungskatalog stellt ein einheitliches, vollständiges und umfassendes Verzeichnis der Verwaltungsleistungen über alle Verwaltungsebenen in Deutschland hinweg dar und wird ständig fortgeschrieben. Der LeiKa umfasst derzeit einen Bestand von mehr als 8.000 Einträgen im Katalog des Bausteins Leistungen (Stand: 30.06.2021). Dies beinhaltet alle drei Arten: Leistungsobjekte, Leistungsobjekte mit Verrichtungskennung sowie Leistungsobjekte mit Verrichtungskennung und Detail.</para><figure xml:id="figure.xevidencesurvey.Baukasten.LeiKa">
+      <title>LeiKaType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/LeiKa.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.LeiKa">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">LeiKaType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">id</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.leikaLeistungenType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Der LeiKa-Schlüssel ist die eindeutige ID für die LeiKa-Leistung.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">name</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">BezeichnungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Bezeichnung" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Bezeichnung" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Der Name einer LeiKa-Leistung bezieht sich auf die offizielle Beschreibung gem. Leistungskatalog.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">typ</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.LeiKaTypType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Der LeiKa-Typ bestimmt auf welcher Verwaltungsebene (kommunal, Land oder Bund) die Regelungs- und Vollzugskompetenz der Leistung liegt.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">pruefschemaLeiKa</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">PruefschemaLeiKaType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.PruefschemaLeiKa"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.PruefschemaLeiKa" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Das Prüfschema, mit dem die SDG-Relevanz einer LeiKa-Leistung festgestellt wird.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hatMetadaten</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">MetadatenLeiKaType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenLeiKa"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenLeiKa" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element werden die Metadaten zur LeiKa-Leistung angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">workflow</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">WorkflowDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Gibt den Workflowstatus der Freigabe und Veröffentlichung von Mappings an. Dieses Element ist wiederholbar und dient der Dokumentation von Änderungen am Mapping.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/leika_list.xml"/>
+</section>

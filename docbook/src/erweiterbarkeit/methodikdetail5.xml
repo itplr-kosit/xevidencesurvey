@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail5">
+  <info>
+    <title>Toolunterstützung nutzen</title>
+  </info>
+  <para>Durch die Bereitstellung als vollumfängliche XÖV-Spezifikation kann von XÖV-Tools profitiert
+    werden: Codelisten und Datenstrukturen sowie Datentypen sind nach den Regeln der XÖV-Konformität
+    formuliert und im XRepository veröffentlicht. Dementsprechend können die auf dem
+    XRepository-Datenstand aufbauenden Anwendungen der XÖV-Koordination genutzt werden. Unter
+    anderem sind hier zu nennen: </para>
+  <para><emphasis role="bold">Toolunterstützung durch XÖV:</emphasis></para>
+  <para>
+    <itemizedlist>
+      <listitem>
+        <para> Interessierte können in der Interopmatrix ermitteln, welche XÖV-Fachkomponenten im
+          Fachdatenmodell nachgenutzt werden. </para>
+      </listitem>
+      <listitem>
+        <para>Das XRepository bietet u.a. die Möglichkeit, Codelisten via API-Schnittstelle zu
+          erhalten, eine Abonnementfunktion informiert Interessierte in Echtzeit bei Änderungen an
+          Codelisten, letztere werden in verschiedenen Darreichungsformen bereitgestellt (JSON,
+          OASIS GeneriCode, XML). </para>
+      </listitem>
+      <listitem>
+        <para>Darüber hinaus bietet die am Jahr 2023 eingeführte XÖV-Suite für den Nutzer die
+          Möglichkeit, eigene Nachrichten zu erstellen, das Fachdatenmodell zu profilieren oder den
+          Codelisten-Editor zu verwenden. Zum Zeitpunkt der Erstellung des Fachdatenmodells muss
+          eine Prüfung zur Freigabe noch erfolgen, um das Modell in die Produktivumgebung der
+          XÖV-Suite zu bringen. Erfahrungen mit anderen Standards (XBildung, XSchule) zeigen, dass
+          dies als Folge der Beachtung von XÖV-Modellierungsregeln unkompliziert möglich ist. <!-- Hier noch ein Bild -->
+          <mediaobject>
+            <imageobject>
+              <imagedata align="center" fileref="../abbildungen/XOEV_Suite_XNachweis.png"
+                format="png" scale="40"/>
+            </imageobject>
+          </mediaobject>
+        </para>
+
+        <para/>
+      </listitem>
+      <listitem>
+        <para><emphasis role="bold">Toolunterstützung durch Nutzung des W3C und OASIS
+            Technologiestack </emphasis></para>
+        <para xml:id="para_adc_zcn_5zb">Das XÖV-Rahmenwerk baut auf etablierten defacto-Standards des
+          W3C auf. Standards wie XML, XSD, Schematron aber auch OASIS Standards wie Oasis Genericode
+          oder das Docbook-Format können mit einer Vielzahl von verschiedenen Entwicklungsumgebungen
+          bearbeitet werden (Altova XML Spy, Oxygen). </para>
+        <para xml:id="para_bdc_zcn_5zb">Die Überführung von UML zu XML erfolgt über den XGenerator
+          unter Nutzung der Möglichkeiten des XMI-Formates. Die hier vorgestellten Datenstrukturen
+          können in Datenbanken gehalten, die hier definierten Views in Datenbank-Sichten und die
+          Import- und Exportnachrichten als Schnittstellen von Systemen realisiert werden. </para>
+        <para xml:id="para_cdc_zcn_5zb">Validierungen der in Fachnachrichten enthaltenen konkreten
+          Instanzdaten in XML gegen die durch das XÖV-Fachmodell entstehende XSD-Dateien oder aber
+          auch die anspruchsvollere Erweiterung des Modellierungsstacks um zusätzliche
+          XSLT-Transformationen wurden im XÖV-Kontext vielfach erprobt und sind in die methodisch
+          hier vorgesehene Produktionskette integrierbar. </para>
+      </listitem>
+    </itemizedlist>
+  </para>
+  <!-- Hier noch ein Bild -->
+
+
+
+</section>

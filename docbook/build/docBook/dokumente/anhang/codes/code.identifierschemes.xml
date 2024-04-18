@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.Codes.Code.IdentifierSchemes"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.IdentifierSchemesType</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry>Die mit dieser Codeliste beschriebenen eIDAS Legal Person Identifier Schemes sind im Kontext des SDG-OOTS und des NOOTS zu verwenden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Agent Classification (urn:sr.oots.tech.europa.eu:codelists:identifierschemes) zur Unterstützung der Umsetzung des Standards XNachweis.</entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:xoev-de:xnachweis:codeliste:identifierscheme</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>unbestimmt</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../verwendung/complexTypes/code.identifierschemes_list.xml"/>
+</section>

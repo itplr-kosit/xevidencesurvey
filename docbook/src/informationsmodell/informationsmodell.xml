@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE chapter [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.informationsmodell">
+  <info>
+    <title>Das Informationsmodell "XEvidenceSurvey"</title>
+  </info>
+
+  <para>Das Informationsmodell beschreibt das zugrundeliegende fachliche Prüfschema für Nachweise,
+    Register, LeiKas und Online-Services. Es enthält Informationen über die Informationsarchitektur
+    des Modells. Außerdem kann man in diesem Abschnitt sowohl die für XÖV-Spezifikationen typische
+    Auflistung von Datentypen und Codelisten als auch UML-Klassendiagramme ausgewählter Aspekte des
+    Modells dargestellt sehen.</para>
+
+  <include xmlns="http://www.w3.org/2001/XInclude" href="pruefschema.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude" href="informationsarchitektur.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude" href="themenkomplex.xml"/>
+
+  <!-- <include xmlns="http://www.w3.org/2001/XInclude" href="views.xml"/> -->
+
+  <include xmlns="http://www.w3.org/2001/XInclude" href="codesUndCodelisten.xml"/>
+
+</chapter>

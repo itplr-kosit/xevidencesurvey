@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.MappingDELeiKaSDG2Verfahren">
+   <title>MappingDELeiKaSDG2VerfahrenType</title>
+   <subtitle>Typ: <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>
+   </subtitle><para>Jede SDG2-relevante LeiKa Leistung wird in der Regel einem SDG2-Verfahren zugeordnet. Die SDG2-Verfahren sind die SDG-Verfahren aus Anhang II der SDG-VO (Verordnung (EU) 2018/1724) oder die Verfahren nach den EU-Richtlinien 2005/36/EG (Anerkennungsrichtlinie), 2006/123/EG (Dienstleistungsrichtlinie), 2014/24/EU und 2014/25/EU (Vergaberichtlinien).</para><figure xml:id="figure.xevidencesurvey.Baukasten.MappingDELeiKaSDG2Verfahren">
+      <title>MappingDELeiKaSDG2VerfahrenType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/MappingDELeiKaSDG2Verfahren.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.MappingDELeiKaSDG2Verfahren">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">leikaID</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.leikaLeistungenType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Der LeiKa-Schlüssel ist die eindeutige ID für die LeiKa-Leistung.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">verfahrenID</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.SDGProcedureType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>ID der Anhang II Verfahren im Format der Evidence Survey.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">workflow</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">WorkflowDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Gibt den Workflowstatus der Freigabe und Veröffentlichung von Mappings an. Dieses Element ist wiederholbar und dient der Dokumentation von Änderungen am Mapping.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">sdgDirectiveID</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">SDGDirectiveType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDGDirective" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDGDirective" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier wird die Identifikation der SDG-Direktive angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">name</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier ist der Name der Version der LeiKa-Liste anzugeben, aus der die verwendeten LeiKa-IDs entnommen wurden. Ein Beispiel wäre: Version 20240205.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">version</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier ist die URN der Version der LeiKa-Liste anzugeben, aus der die verwendeten LeiKa-IDs entnommen wurden. Ein Beispiel wäre: urn:de:fim:leika:leistung_20240205.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/mappingdeleikasdg2verfahren_list.xml"/>
+</section>

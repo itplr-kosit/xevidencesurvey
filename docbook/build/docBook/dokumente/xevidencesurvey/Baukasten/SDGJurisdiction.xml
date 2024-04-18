@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.SDGJurisdiction">
+   <title>SDGJurisdictionType</title>
+   <subtitle>Typ: <emphasis role="codebf">SDGJurisdictionType</emphasis>
+   </subtitle><para>Hier wird für das EU OOTS die Rechtsgrundlage hinterlegt.</para><figure xml:id="figure.xevidencesurvey.Baukasten.SDGJurisdiction">
+      <title>SDGJurisdictionType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/SDGJurisdiction.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.SDGJurisdiction">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">SDGJurisdictionType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">level</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.Jurisdiction-LevelType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Angabe auf welchem administrativen Ebene die Rechtsgrundlage erfolgt (federal, regional, etc) </para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nuts1</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>NUTS (Nomenclature des unités territoriales statistiques) bezeichnet eine hierarchische Systematik zur eindeutigen Identifizierung und Klassifizierung der räumlichen Bezugseinheiten der amtlichen Statistik in den Mitgliedstaaten der Europäischen Union. In diesem Element wird der NUTS1-Code (Bundesländer) angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nuts2</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>NUTS (Nomenclature des unités territoriales statistiques) bezeichnet eine hierarchische Systematik zur eindeutigen Identifizierung und Klassifizierung der räumlichen Bezugseinheiten der amtlichen Statistik in den Mitgliedstaaten der Europäischen Union. In diesem Element wird der NUTS2-Code (Regionen und Regierungsbezirke) angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nuts3</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>NUTS (Nomenclature des unités territoriales statistiques) bezeichnet eine hierarchische Systematik zur eindeutigen Identifizierung und Klassifizierung der räumlichen Bezugseinheiten der amtlichen Statistik in den Mitgliedstaaten der Europäischen Union. In diesem Element wird der NUTS3-Code (Landkreise und Stadtkreise) angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">lau</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element werden gem. NUTS-Systematik "Lokale Administrative Einheiten" (LAU) angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">country</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.EEACountryType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element wird angegeben, auf welchen EEA (EU + EFTA) Mitgliedstaat die Jurisdiction bezieht.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/sdgjurisdiction_list.xml"/>
+</section>

@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE appendix [
+    <!ENTITY % complete SYSTEM "../../../ent/complete.ent">
+    %complete;
+]>
+<appendix xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.arbeitsgruppen">
+  <info>
+    <title>Best Practices aus Arbeitsgruppen</title>
+  </info>
+  <para>In die Ausarbeitung der Spezifikation flossen Best Practices zur Formulierung von
+  EU-interoperablen Applikationsprofilen und Datenaustauschspezifikationen für die deutsche
+  Verwaltung ein. Aus den folgenden Initiativen, an denen die Autoren aktiv in der Mehrzahl aller
+  stattgefundenen Sitzungen teilnahmen, speisten sich die Erfahrungen: <orderedlist>
+    <listitem>
+      <para>ADMS working group (2010-2013) </para>
+    </listitem>
+    <listitem>
+      <para>Core Vocabulary working groups on Core Person, Core Location, Core Business (2011-2023)
+      </para>
+    </listitem>
+    <listitem>
+      <para>Core Vocabulary working groups on Core Public Services, CCCEV, Core Event (2018-2023)
+      </para>
+    </listitem>
+    <listitem>
+      <para>DIGIT SEMIC Style Guide working group (2018-2020) </para>
+    </listitem>
+    <listitem>
+      <para>EU DCAT-AP und W3C DCAT working group (2017-2020) </para>
+    </listitem>
+    <listitem>
+        <para>Access to Base Register Working Group on BRegDCAT-AP (2019-2021)</para>
+    </listitem>
+    <listitem>
+      <para>DE DCAT-AP.de Arbeitsgruppe (2017-2020) </para>
+    </listitem>
+    <listitem>
+      <para>EU OOTS Workpackage 4 (2019-2022)  </para>
+    </listitem>
+    <listitem>
+      <para>EU OOTS subgroup standardisation of OOTS Datamodel (2020-2023)</para>
+    </listitem>
+    <listitem>
+      <para>EU OOTS subgroup Map (2020-2023) </para>
+      <para>Ebenfalls flossen unmittelbare Erfahrungen ein, die die Autoren durch den Entwurf von
+        deutschen XÖV-Spezifikationen für Nachweise zur Erleichterung der OZG-Umsetzung erlangten,
+        wie etwa durch die Ausarbeitung der Standardfamilie XBildung mit XSchule, XHochschule und
+        XBerufsbildung oder Erkenntnisse beim Datentyp DIN SPEC 91379 in den Jahren 2019-2023 sowie
+        Erfahrungen bei der Entwicklung von XNachweis oder Erkenntnissen aus der regelmäßigen
+        Prüfung der DE-TDDs. </para>
+    </listitem>
+    
+  </orderedlist>
+  </para>
+</appendix>

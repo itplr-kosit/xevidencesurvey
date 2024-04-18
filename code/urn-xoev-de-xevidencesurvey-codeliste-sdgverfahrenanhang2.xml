@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>sdgprocedure</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Die mit dieser Codeliste beschriebenen Procedures sind im Kontext der nationalen Erhebung "Evidence Survey" zur Umsetzung der SDG-Verordnung und der Befüllung von Systemen des EU OOTS entstanden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Procedures (urn:sr.oots.tech.europa.eu:codelists:procedures) mit Erweiterungen um eine Spalte "Kurzname" sowie eigene IDs. Zur Unterstützung des Fachdatenmodells Evidence Survey kann diese Liste auch Procedures enthalten die (noch) nicht offiziell Teil des gesetzlichen Umfangs der SDG-Verordnung sind. Daher weicht diese Liste unter Umständen von anderen bestehenden Listen zu SDG-VO Anhang II Procedure (z.B. von XNachweis:procedures oder EU OOTS Listen) im Umfang und Releasezyklus ab.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>SDG Koordination</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:versionDescription>Die mit dieser Codeliste beschriebenen Procedures sind im Kontext der nationalen Erhebung "Evidence Survey" zur Umsetzung der SDG-Verordnung und der Befüllung von Systemen des EU OOTS entstanden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Procedures (urn:sr.oots.tech.europa.eu:codelists:procedures) mit Erweiterungen um eine Spalte "Kurzname" sowie eigene IDs. Zur Unterstützung des Fachdatenmodells Evidence Survey kann diese Liste auch Procedures enthalten die (noch) nicht offiziell Teil des gesetzlichen Umfangs der SDG-Verordnung sind. Daher weicht diese Liste unter Umständen von anderen bestehenden Listen zu SDG-VO Anhang II Procedure (z.B. von XNachweis:procedures oder EU OOTS Listen) im Umfang und Releasezyklus ab.</xoev-cl-4:versionDescription>
+         <xoev-cl-4:validFrom>2024-02-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+         <xoev-cl-4:changes>Version vom 06.09.2021.</xoev-cl-4:changes>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>sdgverfahrenanhang2</ShortName>
+      <LongName>Verfahren aus Anhang II SDG-VO</LongName>
+      <Version>2024-02-01</Version>
+      <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:sdgverfahrenanhang2</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:sdgverfahrenanhang2_2024-02-01</CanonicalVersionUri>
+      <Agency>
+         <LongName>SDG Koordination</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="nameDE" Use="required">
+         <ShortName>nameDE</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="kurznameDE" Use="required">
+         <ShortName>kurznameDE</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="nameEN" Use="required">
+         <ShortName>nameEN</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="KurznameEN" Use="required">
+         <ShortName>KurznameEN</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+      <Key Id="kurznameDEKey">
+         <ShortName>kurznameDEKey</ShortName>
+         <ColumnRef Ref="kurznameDE"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>R1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung des Nachweises über die Eintragung in das Geburtenregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Geburtsnachweis</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Requesting proof of registration of birth</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Requesting proof of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>S1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung eines Wohnsitznachweises</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Wohnsitznachweis</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Requesting proof of residence</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Requesting proof of residence</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>T1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung einer Studienfinanzierung für ein Hochschulstudium, z. B. Studienbeihilfen oder -darlehen, bei einer öffentlichen Stelle oder Einrichtung</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Studienfinanzierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Applying for a tertiary education study financing, such as study grants and loans from a public body or institution</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Applying for a study grant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>T2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Einreichung eines ersten Antrags auf Zulassung zu einer öffentlichen Hochschuleinrichtung</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Einreichung erster Antrag auf Hochschulzugang</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Submitting an initial application for admission to public tertiary education institution</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Initial application for admission</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>T3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung der Anerkennung von akademischen Diplomen, Prüfungszeugnissen oder sonstigen Nachweisen über Studien oder Kurse</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Anerkennung Diplome und Kurse zur Studiums-Fortsetzung</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Requesting academic recognition of diplomas, certificates or other proof of studies or courses</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Academic recognition of procedures</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>U1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Antrag auf Bestimmung des anwendbaren Rechts gemäß Titel II der Verordnung (EG) Nr. 883/ 2004</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Antrag auf Bestimmung anwendbares Recht (883/2004/EG)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Request for determination of applicable legislation in accordance with Title II of Regulation (EC) No 883/2004</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Request for determination of social security benefits</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>U2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Mitteilung einer Änderung der persönlichen oder beruflichen Situation des Empfängers von Sozialversicherungsleistungen, die für solche Leistungen relevant ist</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Meldung Status-Änderung bei SV-Leistungsempfänger</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Notifying changes in the personal or professional circumstances of the person receiving social security benefits, relevant for such benefits</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Changes in circumstances of social security benefits</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>U3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Antrag auf Ausstellung einer Europäischen Krankenversicherungskarte (EHIC)</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Antrag Europäische Krankenversicherungskarte (EHIC)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Application for a European Health Insurance Card (EHIC)</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Application for a European Health Insurance Card (EHIC)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>U4</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Einreichung einer Einkommensteuererklärung</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Einreichung Einkommensteuererklärung</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Submitting an income tax declaration</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Submitting an income tax declaration</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>V1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Meldung einer Adressänderung</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Meldung einer Adressänderung</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Registering a change of address</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Registering a change of address</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>V2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Zulassung eines aus einem Mitgliedstaat stammenden oder bereits in einem EU-Mitgliedstaat zugelassenen Kraftfahrzeugs in Standardverfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Zulassung EU-Kfz</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Registering a motor vehicle originating from or already registered in a Member State, in standard procedures</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Registering a motor vehicle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>V3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung von Plaketten für die Nutzung der nationalen Straßenverkehrsinfrastruktur: von einer öffentlichen Stelle oder Einrichtung ausgestellte zeitabhängige Gebühren (Vignette), entfernungsabhängige Gebühren (Maut)</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Maut-Plakette</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Obtaining stickers for the use of the national road infrastructure: time-based charges (vignette), distance-based charges (toll), issued by a public body or institution</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Obtaining stickers for the use or the national road infrastructure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>V4</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung von Emissionsplaketten, die von einer öffentlichen Stelle oder Einrichtung ausgestellt werden</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Emissionsplaketten</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Obtaining emission stickers issued by a public body or institution</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Obtaining emission stickers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>W1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Beantragung von Ruhestands- und Vorruhestandsleistungen aus obligatorischen Systemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Beantragung Ruhestandsleistungen aus Pflichtsystemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Claiming pension and pre-retirement benefits from compulsory schemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Claiming pension and pre-retirement benefits</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>W2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Ersuchen um Informationen über die Daten im Zusammenhang mit Ruhestandsleistungen aus obligatorischen Systemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Informationsersuchen zu Ruhestandsleistungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Requesting information on the data related to pension from compulsory schemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Requesting information on data related to pension</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Meldung einer Geschäftstätigkeit, Zulassung zur Ausübung einer Geschäftstätigkeit, Änderung einer Geschäftstätigkeit und Einstellung einer Geschäftstätigkeit ausgenommen Insolvenz- oder Liquidationsverfahren, ausgenommen der erstmaligen Eintragung einer Geschäftstätigkeit in das Unternehmens-Register, und ausgenommen Eintragungen im Rahmen des Verfahren zur Gründung von — oder späteren Anmeldungen oder Einreichungen von Meldungen von — Gesellschaften oder Unternehmen im Sinne von Artikel 54 Absatz 2 AEUV</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Meldung einer Geschäftstätigkeit und weitere</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Notification of business activity, permission for exercising a business activity, changes of business activity and the termination of a business activity not involving insolvency or liquidation procedures, excluding the initial registration of a business activity with the business register and excluding procedures concerning the constitution of or any subsequent filing by companies or firms within the meaning of the second paragraph of Article 54 TFEU</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Notification of a business activity</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Registrierung eines Arbeitgebers (einer natürlichen Person) bei obligatorischen Versorgungs- und Versicherungssystemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Registrierung Arbeitgeber bei Sozialversicherungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Registration of an employer (a natural person) with compulsory pension and insurance schemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Registration of employer with compulsory pension and insurance schemes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Registrierung von Beschäftigten bei obligatorischen Versorgungs- und Versicherungssystemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Registrierung Beschäftigte bei Sozialversicherungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Registration of employees with compulsory pension and insurance schemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Registration of employees with compulsory pension and insurance schemes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X4</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Einreichung einer Körperschaftsteuererklärung</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Einreichung Körperschaftsteuererklärung</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Submitting a corporate tax declaration</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Submitting and corporate tax declaration</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X5</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Meldung an die Sozialversicherungssysteme bei Beendigung des Vertrags mit einem Beschäftigten, ausgenommen bei Verfahren zur kollektiven Beendigung von Arbeitnehmerverträgen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Meldung an SV-Systeme bei Vertragsende mit Beschäftigtem</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Notification to the social security schemes of the end of contract with an employee, excluding procedures for the collective termination of employee contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Notification to social security schemes of end of contract with employee</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>X6</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameDE">
+            <SimpleValue>Zahlung von Sozialbeiträgen für Beschäftigte</SimpleValue>
+         </Value>
+         <Value ColumnRef="kurznameDE">
+            <SimpleValue>Zahlung von Sozialbeiträgen für Beschäftigte</SimpleValue>
+         </Value>
+         <Value ColumnRef="nameEN">
+            <SimpleValue>Payment of social contributions for employees</SimpleValue>
+         </Value>
+         <Value ColumnRef="KurznameEN">
+            <SimpleValue>Payment of social contributions for employees</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

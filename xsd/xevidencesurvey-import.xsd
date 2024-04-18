@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           targetNamespace="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           version="0.6"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+   <xs:annotation>
+      <xs:appinfo>
+         <standard>
+            <nameLang>XEvidenceSurvey</nameLang>
+            <nameKurz>XEvidenceSurvey</nameKurz>
+            <nameTechnisch>xevidencesurvey</nameTechnisch>
+            <kennung>urn:xoev-de:kosit:standard:xevidencesurvey</kennung>
+            <beschreibung>Das Fachdatenmodell XEvidenceSurvey beschreibt technologieneutral ein logisches Datenmodell, so wie es zur nationalen Erhebung von Nachweisanfordernden Stellen und von Nachweisprovidern sowie Umsetzungsprojekten im Rahmen der SDG-Umsetzung Verwendung findet.</beschreibung>
+         </standard>
+         <versionStandard>
+            <version>0.6</version>
+            <versionXOEVProfil>3.0.1</versionXOEVProfil>
+            <versionXOEVHandbuch>3.0.1</versionXOEVHandbuch>
+            <versionXGenerator>3.1.1</versionXGenerator>
+            <versionModellierungswerkzeug>19.0 SP 4</versionModellierungswerkzeug>
+            <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
+         </versionStandard>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:include schemaLocation="xevidencesurvey-baukasten.xsd"/>
+   <xs:element name="import.evidenceBroker.0006">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält eine Liste aller Information Requirements aus dem Common Service Administration Interface, bzw den Airtable-Dateien des EU Confluence.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="sDGInformationRequirements"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGInformationRequirementType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste von Information Requirements kann mit dieser Nachricht importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceBroker.0008">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält vom EU Confluence entnommene Daten zu Procedural Requirements</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="proceduralrequirement"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGProceduralRequirementType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste von Procedural Requirements kann mit dieser Nachricht importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0010">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu Online Services</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mappingDELeikaOnlineService"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeikaOnlineServiceType">
+               <xs:annotation>
+                  <xs:documentation>Hier können bestehende Zuordnungen (Mappings) von Leikas auf Onlineservices importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0011">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu Stakeholdern</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="stakeholder"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:StakeholderType">
+               <xs:annotation>
+                  <xs:documentation>Hier können mehrere Daten zu Stakeholdern importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0012">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu Leikas</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="leikas"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:LeiKaType">
+               <xs:annotation>
+                  <xs:documentation>Hier können Angaben zu Leikas importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0013">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu Nachweisanforderungen</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="nachweisanforderungen"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweisanforderungType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann eine Liste von Nachweisanforderungen importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0014">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu Nachweisen</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="nachweise"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann eine Liste von Nachweisen importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2023.0015">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey entnommene Daten zu "Nachweisbündeln" (Nachweise grob beschrieben aus Requester-Sicht)</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="nachweisbuendel"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann eine Liste von Nachweisen importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.dsmeld.0020">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält die Daten, die aus dem Datensatz Meldewesen DSMeld importiert werden können. (Datensatz Meldewesen = Nachweistyp; DSMeld 1001 Staatsangehörigkeiten = Feldinhalttyp</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="datensatz"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste von Information Requirements kann mit dieser Nachricht importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.leika2sdgverfahren.0031">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen und Registern.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mappingLeika2SDGVerfahren"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeiKaSDG2VerfahrenType">
+               <xs:annotation>
+                  <xs:documentation>Hier können Leikas bestimmten SDGVerfahren zugeordnet werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.nachweisanforderung2nachweistypbuendel.0032">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die Informationen zur Zusammenführung von Nachweisanforderungen und Nachweisbündeln.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mappingnachweisanforderung2nachweistypbuendel"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDENachweisanforderungNachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>Mapping von Nachweisanforderungen auf Nachweistypbündel</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.evidenceSurvey2024.0200">
+      <xs:annotation>
+         <xs:documentation>Dieser Import enthält von der deutschen Evidence Survey geführte Daten zu Umsetzungsprojekten</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="umsetzungsprojekte"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:UmsetzungsprojektType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann eine Liste von Nachweisen importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="import.destatis.4001">
+      <xs:annotation>
+         <xs:documentation>Dieser Import beschreibt eine Datenstruktur, wie aus Sicht des Evidence Survey Teams., Informationen zu Registern von DESTATIS und der Registerlandkarte erhoben werden könnten. (Status: Idee Evidence Survey-Team, noch nicht vereinbart!)</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="register"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceProviderType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste von Information Requirements kann mit dieser Nachricht importiert werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail6">
+  <info>
+    <title>mit eigenen Codelisten, eigenen Strukturen und Elementen ein eigenes Modell
+      erstellen</title>
+  </info>
+  <para>
+    <itemizedlist>
+      <listitem>
+        <para>Codelisten-Methodik </para>
+        <para>Wesentliche Prozesslogiken wurden über Codelisten realisiert, so sind z.B. <itemizedlist>
+            <listitem>
+              <para>eine Anpassung des Workflow-Status (Entwurf, zur Freigabe, Freigegeben,
+                Archiviert) über Anpassungen der Codelisten statt der Struktur möglich</para>
+            </listitem>
+            <listitem>
+              <para>Anpassungen (Erweiterung, Umbenennung, Löschung) von Procedures, Direktives,
+                LeiKas, sogar von Mitgliedstaaten sind jederzeit im Idealfall abwärtskompatibel
+                durch Anpassungen bei Codelisten möglich </para>
+            </listitem>
+            <listitem>
+              <para>Außerdem wurde eine nicht-funktionalen „Beispielentitaet“ integriert und mit
+                beispielhaften Eigenschaften sowie mit einer Beispielnachricht versehen, Um die
+                Erweiterbarkeit besser aufzeigen zu können. </para>
+            </listitem>
+          </itemizedlist></para>
+      </listitem>
+    </itemizedlist>
+  </para>
+  <!-- Hier noch ein Bild -->
+
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_Beispielentitaet.png"
+        format="png" scale="50"/>
+    </imageobject>
+  </mediaobject>
+
+
+</section>

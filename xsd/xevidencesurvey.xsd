@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           version="0.6"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+   <xs:include schemaLocation="xevidencesurvey-baukasten.xsd"/>
+   <xs:include schemaLocation="xevidencesurvey-export.xsd"/>
+   <xs:include schemaLocation="xevidencesurvey-import.xsd"/>
+   <xs:include schemaLocation="xevidencesurvey-view.xsd"/>
+</xs:schema>

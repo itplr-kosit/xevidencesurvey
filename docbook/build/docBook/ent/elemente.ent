@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY element.ref.anschrifttype.hausnummer '<emphasis role="codebf">hausnummer</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.hausnummer 'Element <emphasis role="codebf">hausnummer</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.ort '<emphasis role="codebf">ort</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.ort 'Element <emphasis role="codebf">ort</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.postfach '<emphasis role="codebf">postfach</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.postfach 'Element <emphasis role="codebf">postfach</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.postleitzahl '<emphasis role="codebf">postleitzahl</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.postleitzahl 'Element <emphasis role="codebf">postleitzahl</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.staat '<emphasis role="codebf">staat</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.strasse '<emphasis role="codebf">strasse</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.strasse 'Element <emphasis role="codebf">strasse</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.verwaltungspolitischekodierung '<emphasis role="codebf">verwaltungspolitischeKodierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.verwaltungspolitischekodierung 'Element <emphasis role="codebf">verwaltungspolitischeKodierung</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.anschrifttype.zusatz '<emphasis role="codebf">zusatz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.anschrifttype.zusatz 'Element <emphasis role="codebf">zusatz</emphasis> in Datentyp <emphasis role="codebf">AnschriftType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.anrede '<emphasis role="codebf">anrede</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.anrede 'Element <emphasis role="codebf">anrede</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.ansprechpersontyp '<emphasis role="codebf">ansprechpersontyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.ansprechpersontyp 'Element <emphasis role="codebf">ansprechpersontyp</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.email '<emphasis role="codebf">email</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.email 'Element <emphasis role="codebf">email</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.familienname '<emphasis role="codebf">familienname</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.familienname 'Element <emphasis role="codebf">familienname</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.organisation '<emphasis role="codebf">organisation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.organisation 'Element <emphasis role="codebf">organisation</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.telefon '<emphasis role="codebf">telefon</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.telefon 'Element <emphasis role="codebf">telefon</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.titel '<emphasis role="codebf">titel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.titel 'Element <emphasis role="codebf">titel</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.ansprechpersontype.vorname '<emphasis role="codebf">vorname</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ansprechpersontype.vorname 'Element <emphasis role="codebf">vorname</emphasis> in Datentyp <emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                        <!ENTITY element.ref.beispielentitaettype.beschreibung '<emphasis role="codebf">beschreibung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beispielentitaettype.beschreibung 'Element <emphasis role="codebf">beschreibung</emphasis> in Datentyp <emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.beispielentitaettype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beispielentitaettype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.beispielentitaettype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beispielentitaettype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.beispielentitaettype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beispielentitaettype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.beispielentitaettype.pruefschemabeispiel '<emphasis role="codebf">pruefschemaBeispiel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beispielentitaettype.pruefschemabeispiel 'Element <emphasis role="codebf">pruefschemaBeispiel</emphasis> in Datentyp <emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.beschreibungtype.sprache '<emphasis role="codebf">sprache</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beschreibungtype.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">BeschreibungType</emphasis>'>
+                        <!ENTITY element.ref.beschreibungtype.wert '<emphasis role="codebf">wert</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beschreibungtype.wert 'Element <emphasis role="codebf">wert</emphasis> in Datentyp <emphasis role="codebf">BeschreibungType</emphasis>'>
+                        <!ENTITY element.ref.bezeichnungtype.sprache '<emphasis role="codebf">sprache</emphasis>'>
+                        <!ENTITY element.datentyp.ref.bezeichnungtype.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">BezeichnungType</emphasis>'>
+                        <!ENTITY element.ref.bezeichnungtype.wert '<emphasis role="codebf">wert</emphasis>'>
+                        <!ENTITY element.datentyp.ref.bezeichnungtype.wert 'Element <emphasis role="codebf">wert</emphasis> in Datentyp <emphasis role="codebf">BezeichnungType</emphasis>'>
+                        <!ENTITY element.ref.beziehungtype.idscheme '<emphasis role="codebf">idScheme</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beziehungtype.idscheme 'Element <emphasis role="codebf">idScheme</emphasis> in Datentyp <emphasis role="codebf">BeziehungType</emphasis>'>
+                        <!ENTITY element.ref.beziehungtype.mitid '<emphasis role="codebf">mitID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beziehungtype.mitid 'Element <emphasis role="codebf">mitID</emphasis> in Datentyp <emphasis role="codebf">BeziehungType</emphasis>'>
+                        <!ENTITY element.ref.beziehungtype.typ '<emphasis role="codebf">typ</emphasis>'>
+                        <!ENTITY element.datentyp.ref.beziehungtype.typ 'Element <emphasis role="codebf">typ</emphasis> in Datentyp <emphasis role="codebf">BeziehungType</emphasis>'>
+                        <!ENTITY element.ref.distributiondetype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.distributiondetype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">DistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.distributiondetype.mediatype '<emphasis role="codebf">mediaType</emphasis>'>
+                        <!ENTITY element.datentyp.ref.distributiondetype.mediatype 'Element <emphasis role="codebf">mediaType</emphasis> in Datentyp <emphasis role="codebf">DistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.distributiondetype.musterdistribution '<emphasis role="codebf">musterdistribution</emphasis>'>
+                        <!ENTITY element.datentyp.ref.distributiondetype.musterdistribution 'Element <emphasis role="codebf">musterdistribution</emphasis> in Datentyp <emphasis role="codebf">DistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.haeufigkeit '<emphasis role="codebf">haeufigkeit</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.haeufigkeit 'Element <emphasis role="codebf">haeufigkeit</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.id.evidmapde '<emphasis role="codebf">id.EvidMapDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.id.evidmapde 'Element <emphasis role="codebf">id.EvidMapDE</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.laenge '<emphasis role="codebf">laenge</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.laenge 'Element <emphasis role="codebf">laenge</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.typ '<emphasis role="codebf">typ</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.typ 'Element <emphasis role="codebf">typ</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.feldinhalttype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.feldinhalttype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">FeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.jurisdictiondetype.angaberechtsgrundlage '<emphasis role="codebf">angabeRechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.jurisdictiondetype.angaberechtsgrundlage 'Element <emphasis role="codebf">angabeRechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">JurisdictionDEType</emphasis>'>
+                        <!ENTITY element.ref.jurisdictiondetype.artderrechtsgrundlage '<emphasis role="codebf">artDerRechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.jurisdictiondetype.artderrechtsgrundlage 'Element <emphasis role="codebf">artDerRechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">JurisdictionDEType</emphasis>'>
+                        <!ENTITY element.ref.jurisdictiondetype.verwaltungspolitischekodierung '<emphasis role="codebf">verwaltungspolitischeKodierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.jurisdictiondetype.verwaltungspolitischekodierung 'Element <emphasis role="codebf">verwaltungspolitischeKodierung</emphasis> in Datentyp <emphasis role="codebf">JurisdictionDEType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.pruefschemaleika '<emphasis role="codebf">pruefschemaLeiKa</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.pruefschemaleika 'Element <emphasis role="codebf">pruefschemaLeiKa</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.typ '<emphasis role="codebf">typ</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.typ 'Element <emphasis role="codebf">typ</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.leikatype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.leikatype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">LeiKaType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikanachweisanforderungtype.leikaid '<emphasis role="codebf">leikaID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikanachweisanforderungtype.leikaid 'Element <emphasis role="codebf">leikaID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaNachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikanachweisanforderungtype.nachweisanforderungid '<emphasis role="codebf">nachweisanforderungID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikanachweisanforderungtype.nachweisanforderungid 'Element <emphasis role="codebf">nachweisanforderungID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaNachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikanachweisanforderungtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikanachweisanforderungtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaNachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.leikaid '<emphasis role="codebf">leikaID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.leikaid 'Element <emphasis role="codebf">leikaID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.sdgdirectiveid '<emphasis role="codebf">sdgDirectiveID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.sdgdirectiveid 'Element <emphasis role="codebf">sdgDirectiveID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.verfahrenid '<emphasis role="codebf">verfahrenID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.verfahrenid 'Element <emphasis role="codebf">verfahrenID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.version '<emphasis role="codebf">version</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.version 'Element <emphasis role="codebf">version</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikasdg2verfahrentype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikasdg2verfahrentype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaozgleistungtype.leikaid '<emphasis role="codebf">leikaID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaozgleistungtype.leikaid 'Element <emphasis role="codebf">leikaID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaozgleistungtype.ozgleistungid '<emphasis role="codebf">ozgLeistungID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaozgleistungtype.ozgleistungid 'Element <emphasis role="codebf">ozgLeistungID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaozgleistungtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaozgleistungtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaonlineservicetype.leikaid '<emphasis role="codebf">leikaID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaonlineservicetype.leikaid 'Element <emphasis role="codebf">leikaID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaonlineservicetype.onlineserviceid '<emphasis role="codebf">onlineServiceID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaonlineservicetype.onlineserviceid 'Element <emphasis role="codebf">onlineServiceID</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeleikaonlineservicetype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeleikaonlineservicetype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDELeikaOnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungnachweistypbuendeltype.nachweisanforderungid '<emphasis role="codebf">nachweisanforderungID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungnachweistypbuendeltype.nachweisanforderungid 'Element <emphasis role="codebf">nachweisanforderungID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungnachweistypbuendeltype.nachweistypbuendelid '<emphasis role="codebf">nachweistypBuendelID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungnachweistypbuendeltype.nachweistypbuendelid 'Element <emphasis role="codebf">nachweistypBuendelID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungnachweistypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungnachweistypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.nachweisanforderungid '<emphasis role="codebf">nachweisanforderungID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.nachweisanforderungid 'Element <emphasis role="codebf">nachweisanforderungID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.sdgproceduralrequirementid '<emphasis role="codebf">sdgproceduralrequirementID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.sdgproceduralrequirementid 'Element <emphasis role="codebf">sdgproceduralrequirementID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweisanforderungsdgproceduralrequirementtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweisanforderungSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypbuendelregistertypbuendeltype.nachweistypbuendelid '<emphasis role="codebf">nachweistypBuendelID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypbuendelregistertypbuendeltype.nachweistypbuendelid 'Element <emphasis role="codebf">nachweistypBuendelID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypBuendelRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypbuendelregistertypbuendeltype.registertypbuendelid '<emphasis role="codebf">registertypbuendelID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypbuendelregistertypbuendeltype.registertypbuendelid 'Element <emphasis role="codebf">registertypbuendelID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypBuendelRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypbuendelregistertypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypbuendelregistertypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypBuendelRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypdistributiondetype.distributionid '<emphasis role="codebf">distributionID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypdistributiondetype.distributionid 'Element <emphasis role="codebf">distributionID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypDistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypdistributiondetype.nachweistypid '<emphasis role="codebf">nachweistypID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypdistributiondetype.nachweistypid 'Element <emphasis role="codebf">nachweistypID</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypDistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.mappingdenachweistypdistributiondetype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdenachweistypdistributiondetype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDENachweistypDistributionDEType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistypbuendeltype.nachweistypbuendelid '<emphasis role="codebf">nachweistypbuendelID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistypbuendeltype.nachweistypbuendelid 'Element <emphasis role="codebf">nachweistypbuendelID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistypbuendeltype.onlineserviceid '<emphasis role="codebf">onlineserviceID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistypbuendeltype.onlineserviceid 'Element <emphasis role="codebf">onlineserviceID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistyptype.alternativenachweistypid '<emphasis role="codebf">alternativenachweistypID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistyptype.alternativenachweistypid 'Element <emphasis role="codebf">alternativenachweistypID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistyptype.nachweistypid '<emphasis role="codebf">nachweistypID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistyptype.nachweistypid 'Element <emphasis role="codebf">nachweistypID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistyptype.onlineserviceid '<emphasis role="codebf">onlineserviceID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistyptype.onlineserviceid 'Element <emphasis role="codebf">onlineserviceID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicenachweistyptype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicenachweistyptype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicesdg2verfahrentype.onlineserviceid '<emphasis role="codebf">onlineserviceID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicesdg2verfahrentype.onlineserviceid 'Element <emphasis role="codebf">onlineserviceID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicesdg2verfahrentype.sdg2verfahrenid '<emphasis role="codebf">sdg2verfahrenID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicesdg2verfahrentype.sdg2verfahrenid 'Element <emphasis role="codebf">sdg2verfahrenID</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicesdg2verfahrentype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicesdg2verfahrentype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdeonlineservicesdg2verfahrentype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdeonlineservicesdg2verfahrentype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDEOnlineServiceSDG2VerfahrenType</emphasis>'>
+                        <!ENTITY element.ref.mappingdebeispielentitaetleikatype.beispielentitaetid '<emphasis role="codebf">beispielEntitaetID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdebeispielentitaetleikatype.beispielentitaetid 'Element <emphasis role="codebf">beispielEntitaetID</emphasis> in Datentyp <emphasis role="codebf">MappingDEbeispielEntitaetLeikaType</emphasis>'>
+                        <!ENTITY element.ref.mappingdebeispielentitaetleikatype.leika '<emphasis role="codebf">leika</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdebeispielentitaetleikatype.leika 'Element <emphasis role="codebf">leika</emphasis> in Datentyp <emphasis role="codebf">MappingDEbeispielEntitaetLeikaType</emphasis>'>
+                        <!ENTITY element.ref.mappingdebeispielentitaetleikatype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingdebeispielentitaetleikatype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">MappingDEbeispielEntitaetLeikaType</emphasis>'>
+                        <!ENTITY element.ref.mappingeufeldinhaltsdginformationrequirementtype.feldinhaltid '<emphasis role="codebf">feldinhaltID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype.feldinhaltid 'Element <emphasis role="codebf">feldinhaltID</emphasis> in Datentyp <emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeufeldinhaltsdginformationrequirementtype.sdginformationrequirementid '<emphasis role="codebf">sdginformationrequirementID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype.sdginformationrequirementid 'Element <emphasis role="codebf">sdginformationrequirementID</emphasis> in Datentyp <emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeufeldinhaltsdginformationrequirementtype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeufeldinhaltsdginformationrequirementtype.workflowde '<emphasis role="codebf">workflowDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype.workflowde 'Element <emphasis role="codebf">workflowDE</emphasis> in Datentyp <emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeufeldinhaltsdginformationrequirementtype.workfloweu '<emphasis role="codebf">workflowEU</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype.workfloweu 'Element <emphasis role="codebf">workflowEU</emphasis> in Datentyp <emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeuleikasdgmsproceduretype.leikaid '<emphasis role="codebf">leikaID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeuleikasdgmsproceduretype.leikaid 'Element <emphasis role="codebf">leikaID</emphasis> in Datentyp <emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.mappingeuleikasdgmsproceduretype.sdgmsprocedureid '<emphasis role="codebf">sdgmsprocedureID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeuleikasdgmsproceduretype.sdgmsprocedureid 'Element <emphasis role="codebf">sdgmsprocedureID</emphasis> in Datentyp <emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.mappingeuleikasdgmsproceduretype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeuleikasdgmsproceduretype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.mappingeuleikasdgmsproceduretype.workflowde '<emphasis role="codebf">workflowDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeuleikasdgmsproceduretype.workflowde 'Element <emphasis role="codebf">workflowDE</emphasis> in Datentyp <emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.mappingeuleikasdgmsproceduretype.workfloweu '<emphasis role="codebf">workflowEU</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeuleikasdgmsproceduretype.workfloweu 'Element <emphasis role="codebf">workflowEU</emphasis> in Datentyp <emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.evidencetypelistid '<emphasis role="codebf">evidenceTypelistID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.evidencetypelistid 'Element <emphasis role="codebf">evidenceTypelistID</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.loa '<emphasis role="codebf">loa</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.loa 'Element <emphasis role="codebf">loa</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.proceduralrequirementid '<emphasis role="codebf">proceduralrequirementID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.proceduralrequirementid 'Element <emphasis role="codebf">proceduralrequirementID</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.workflowde '<emphasis role="codebf">workflowDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.workflowde 'Element <emphasis role="codebf">workflowDE</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.workfloweu '<emphasis role="codebf">workflowEU</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype.workfloweu 'Element <emphasis role="codebf">workflowEU</emphasis> in Datentyp <emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.mediatypestype.mediatypedate '<emphasis role="codebf">mediaTypeDate</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mediatypestype.mediatypedate 'Element <emphasis role="codebf">mediaTypeDate</emphasis> in Datentyp <emphasis role="codebf">MediaTypesType</emphasis>'>
+                        <!ENTITY element.ref.mediatypestype.mediatypevalue '<emphasis role="codebf">mediaTypeValue</emphasis>'>
+                        <!ENTITY element.datentyp.ref.mediatypestype.mediatypevalue 'Element <emphasis role="codebf">mediaTypeValue</emphasis> in Datentyp <emphasis role="codebf">MediaTypesType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.beispielrelevanz '<emphasis role="codebf">beispielRelevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.beispielrelevanz 'Element <emphasis role="codebf">beispielRelevanz</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.beispielrelevanzkommentar '<emphasis role="codebf">beispielRelevanzKommentar</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.beispielrelevanzkommentar 'Element <emphasis role="codebf">beispielRelevanzKommentar</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenbeispielentitaettype.uebersetzungsstatus '<emphasis role="codebf">uebersetzungsstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenbeispielentitaettype.uebersetzungsstatus 'Element <emphasis role="codebf">uebersetzungsstatus</emphasis> in Datentyp <emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.istauthorativ '<emphasis role="codebf">istAuthorativ</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.istauthorativ 'Element <emphasis role="codebf">istAuthorativ</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenfeldinhalttype.uebersetzungsstatus '<emphasis role="codebf">uebersetzungsstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenfeldinhalttype.uebersetzungsstatus 'Element <emphasis role="codebf">uebersetzungsstatus</emphasis> in Datentyp <emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.ozgrelevanz '<emphasis role="codebf">ozgRelevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.ozgrelevanz 'Element <emphasis role="codebf">ozgRelevanz</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.ozgrelevanzkommentar '<emphasis role="codebf">ozgRelevanzKommentar</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.ozgrelevanzkommentar 'Element <emphasis role="codebf">ozgRelevanzKommentar</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatenleikatype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenleikatype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweisanforderungentype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweisanforderungentype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweisanforderungentype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweisanforderungentype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweisanforderungentype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweisanforderungentype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweisanforderungentype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweisanforderungentype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweisanforderungentype.uebersetzungsstatus '<emphasis role="codebf">uebersetzungsstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweisanforderungentype.uebersetzungsstatus 'Element <emphasis role="codebf">uebersetzungsstatus</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.amtlichausgestellt '<emphasis role="codebf">amtlichAusgestellt</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.amtlichausgestellt 'Element <emphasis role="codebf">amtlichAusgestellt</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.grenzueberschreitenderbezug '<emphasis role="codebf">grenzueberschreitenderBezug</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.grenzueberschreitenderbezug 'Element <emphasis role="codebf">grenzueberschreitenderBezug</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.nachweisaustauschde '<emphasis role="codebf">nachweisAustauschDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.nachweisaustauschde 'Element <emphasis role="codebf">nachweisAustauschDE</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.planungstrukturiertheitsgradevidencesurvey '<emphasis role="codebf">planungStrukturiertheitsgradEvidenceSurvey</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.planungstrukturiertheitsgradevidencesurvey 'Element <emphasis role="codebf">planungStrukturiertheitsgradEvidenceSurvey</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistypbuendeltype.strukturiertheitsgradevidencesurvey '<emphasis role="codebf">strukturiertheitsgradEvidenceSurvey</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistypbuendeltype.strukturiertheitsgradevidencesurvey 'Element <emphasis role="codebf">strukturiertheitsgradEvidenceSurvey</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.amtlichausgestellt '<emphasis role="codebf">amtlichAusgestellt</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.amtlichausgestellt 'Element <emphasis role="codebf">amtlichAusgestellt</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.grenzueberschreitenderbezug '<emphasis role="codebf">grenzueberschreitenderBezug</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.grenzueberschreitenderbezug 'Element <emphasis role="codebf">grenzueberschreitenderBezug</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.planungreifegradregmo '<emphasis role="codebf">planungReifegradRegMo</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.planungreifegradregmo 'Element <emphasis role="codebf">planungReifegradRegMo</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.reifegradregmo '<emphasis role="codebf">reifegradRegMo</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.reifegradregmo 'Element <emphasis role="codebf">reifegradRegMo</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.sdg2relevanz '<emphasis role="codebf">sdg2relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.sdg2relevanz 'Element <emphasis role="codebf">sdg2relevanz</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatennachweistyptype.uebersetzungsstatus '<emphasis role="codebf">uebersetzungsstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatennachweistyptype.uebersetzungsstatus 'Element <emphasis role="codebf">uebersetzungsstatus</emphasis> in Datentyp <emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                        <!ENTITY element.ref.metadatenozgleistungtype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenozgleistungtype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.metadatenozgleistungtype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenozgleistungtype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.metadatenozgleistungtype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenozgleistungtype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.metadatenozgleistungtype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenozgleistungtype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenOZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.metadatenonlineservicetype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenonlineservicetype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.metadatenonlineservicetype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenonlineservicetype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.metadatenonlineservicetype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenonlineservicetype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertyptype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertyptype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertyptype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertyptype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertyptype.hatpublikation '<emphasis role="codebf">hatPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertyptype.hatpublikation 'Element <emphasis role="codebf">hatPublikation</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertyptype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertyptype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertypbuendeltype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertypbuendeltype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertypbuendeltype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertypbuendeltype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatenregistertypbuendeltype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenregistertypbuendeltype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgdirectivetype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgdirectivetype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgdirectivetype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgdirectivetype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgdirectivetype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgdirectivetype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgdirectivetype.idintern '<emphasis role="codebf">idIntern</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgdirectivetype.idintern 'Element <emphasis role="codebf">idIntern</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgproceduretype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgproceduretype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgproceduretype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgproceduretype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.metadatensdgproceduretype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatensdgproceduretype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.hatbeziehung '<emphasis role="codebf">hatBeziehung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.hatbeziehung 'Element <emphasis role="codebf">hatBeziehung</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.hatklassifizierung '<emphasis role="codebf">hatKlassifizierung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.hatklassifizierung 'Element <emphasis role="codebf">hatKlassifizierung</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.rechtsgrundlage '<emphasis role="codebf">rechtsgrundlage</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.rechtsgrundlage 'Element <emphasis role="codebf">rechtsgrundlage</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.sdg2relevanz '<emphasis role="codebf">sdg2Relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.sdg2relevanz 'Element <emphasis role="codebf">sdg2Relevanz</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.sdg2relevanzkommentar '<emphasis role="codebf">sdg2RelevanzKommentar</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.sdg2relevanzkommentar 'Element <emphasis role="codebf">sdg2RelevanzKommentar</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.metadatenumsetzungsprojekttype.uebersetzungsstatus '<emphasis role="codebf">uebersetzungsstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.metadatenumsetzungsprojekttype.uebersetzungsstatus 'Element <emphasis role="codebf">uebersetzungsstatus</emphasis> in Datentyp <emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.musterdistributiontype.url '<emphasis role="codebf">URL</emphasis>'>
+                        <!ENTITY element.datentyp.ref.musterdistributiontype.url 'Element <emphasis role="codebf">URL</emphasis> in Datentyp <emphasis role="codebf">MusterdistributionType</emphasis>'>
+                        <!ENTITY element.ref.musterdistributiontype.binary '<emphasis role="codebf">binary</emphasis>'>
+                        <!ENTITY element.datentyp.ref.musterdistributiontype.binary 'Element <emphasis role="codebf">binary</emphasis> in Datentyp <emphasis role="codebf">MusterdistributionType</emphasis>'>
+                        <!ENTITY element.ref.musterdistributiontype.lizenz '<emphasis role="codebf">lizenz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.musterdistributiontype.lizenz 'Element <emphasis role="codebf">lizenz</emphasis> in Datentyp <emphasis role="codebf">MusterdistributionType</emphasis>'>
+                        <!ENTITY element.ref.musterdistributiontype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.musterdistributiontype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">MusterdistributionType</emphasis>'>
+                        <!ENTITY element.ref.musterdistributiontype.originalurl '<emphasis role="codebf">originalURL</emphasis>'>
+                        <!ENTITY element.datentyp.ref.musterdistributiontype.originalurl 'Element <emphasis role="codebf">originalURL</emphasis> in Datentyp <emphasis role="codebf">MusterdistributionType</emphasis>'>
+                        <!ENTITY element.ref.nachweisanforderungtype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweisanforderungtype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">NachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.nachweisanforderungtype.id.evidmapde '<emphasis role="codebf">id.EvidMapDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweisanforderungtype.id.evidmapde 'Element <emphasis role="codebf">id.EvidMapDE</emphasis> in Datentyp <emphasis role="codebf">NachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.nachweisanforderungtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweisanforderungtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">NachweisanforderungType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.enthaeltnachweistyp '<emphasis role="codebf">enthaeltNachweistyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.enthaeltnachweistyp 'Element <emphasis role="codebf">enthaeltNachweistyp</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.idevidmapde '<emphasis role="codebf">idEvidMapDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.idevidmapde 'Element <emphasis role="codebf">idEvidMapDE</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.pruefschemanachweistypbuendel '<emphasis role="codebf">pruefschemaNachweistypBuendel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.pruefschemanachweistypbuendel 'Element <emphasis role="codebf">pruefschemaNachweistypBuendel</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.viewid '<emphasis role="codebf">viewId</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.viewid 'Element <emphasis role="codebf">viewId</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.enthaeltdistributionde '<emphasis role="codebf">enthaeltDistributionDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.enthaeltdistributionde 'Element <emphasis role="codebf">enthaeltDistributionDE</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.enthaeltnachweistypinhalt '<emphasis role="codebf">enthaeltNachweistypInhalt</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.enthaeltnachweistypinhalt 'Element <emphasis role="codebf">enthaeltNachweistypInhalt</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.enthalteninregister '<emphasis role="codebf">enthaltenInRegister</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.enthalteninregister 'Element <emphasis role="codebf">enthaltenInRegister</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.planungdistributionde '<emphasis role="codebf">planungDistributionDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.planungdistributionde 'Element <emphasis role="codebf">planungDistributionDE</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.publiziertin '<emphasis role="codebf">publiziertIn</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.publiziertin 'Element <emphasis role="codebf">publiziertIn</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.nachweistyptype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.nachweistyptype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">NachweistypType</emphasis>'>
+                        <!ENTITY element.ref.ozgleistungtype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ozgleistungtype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">OZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.ozgleistungtype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ozgleistungtype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">OZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.ozgleistungtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ozgleistungtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">OZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.ozgleistungtype.onlineservice '<emphasis role="codebf">onlineService</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ozgleistungtype.onlineservice 'Element <emphasis role="codebf">onlineService</emphasis> in Datentyp <emphasis role="codebf">OZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.ozgleistungtype.umsetzungsprojekt '<emphasis role="codebf">umsetzungsprojekt</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ozgleistungtype.umsetzungsprojekt 'Element <emphasis role="codebf">umsetzungsprojekt</emphasis> in Datentyp <emphasis role="codebf">OZGLeistungType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.benoetigtdistributionde '<emphasis role="codebf">benoetigtDistributionDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.benoetigtdistributionde 'Element <emphasis role="codebf">benoetigtDistributionDE</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.pruefschemaonlineservice '<emphasis role="codebf">pruefschemaOnlineservice</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.pruefschemaonlineservice 'Element <emphasis role="codebf">pruefschemaOnlineservice</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.onlineservicetype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.onlineservicetype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">OnlineServiceType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.email '<emphasis role="codebf">email</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.email 'Element <emphasis role="codebf">email</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.namekurz '<emphasis role="codebf">nameKurz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.namekurz 'Element <emphasis role="codebf">nameKurz</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.telefon '<emphasis role="codebf">telefon</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.telefon 'Element <emphasis role="codebf">telefon</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.unterorganisation '<emphasis role="codebf">unterorganisation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.unterorganisation 'Element <emphasis role="codebf">unterorganisation</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.organisationtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.organisationtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">OrganisationType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemabeispielentitaettype.beispielbereitstellung '<emphasis role="codebf">beispielBereitstellung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemabeispielentitaettype.beispielbereitstellung 'Element <emphasis role="codebf">beispielBereitstellung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemabeispielentitaettype.beispielanschlussverpflichtung '<emphasis role="codebf">beispielanschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemabeispielentitaettype.beispielanschlussverpflichtung 'Element <emphasis role="codebf">beispielanschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemabeispielentitaettype.beispielrelevanzintern '<emphasis role="codebf">beispielrelevanzIntern</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemabeispielentitaettype.beispielrelevanzintern 'Element <emphasis role="codebf">beispielrelevanzIntern</emphasis> in Datentyp <emphasis role="codebf">PruefschemaBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemabeispielentitaettype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemabeispielentitaettype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaBeispielentitaetType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaleikatype.sdg2anschlussverpflichtung '<emphasis role="codebf">sdg2anschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaleikatype.sdg2anschlussverpflichtung 'Element <emphasis role="codebf">sdg2anschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaleikatype.sdg2onlinebereitstellung '<emphasis role="codebf">sdg2onlineBereitstellung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaleikatype.sdg2onlinebereitstellung 'Element <emphasis role="codebf">sdg2onlineBereitstellung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaleikatype.sdg2relevanzintern '<emphasis role="codebf">sdg2relevanzIntern</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaleikatype.sdg2relevanzintern 'Element <emphasis role="codebf">sdg2relevanzIntern</emphasis> in Datentyp <emphasis role="codebf">PruefschemaLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaleikatype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaleikatype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaLeiKaType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemanachweistypbuendeltype.sdg2anschlussverpflichtung '<emphasis role="codebf">sdg2anschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemanachweistypbuendeltype.sdg2anschlussverpflichtung 'Element <emphasis role="codebf">sdg2anschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemanachweistypbuendeltype.sdg2relevanz '<emphasis role="codebf">sdg2relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemanachweistypbuendeltype.sdg2relevanz 'Element <emphasis role="codebf">sdg2relevanz</emphasis> in Datentyp <emphasis role="codebf">PruefschemaNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemanachweistypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemanachweistypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaNachweistypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaonlineservicetype.sdg2anschlussverpflichtung '<emphasis role="codebf">sdg2anschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaonlineservicetype.sdg2anschlussverpflichtung 'Element <emphasis role="codebf">sdg2anschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaonlineservicetype.sdg2relevanz '<emphasis role="codebf">sdg2relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaonlineservicetype.sdg2relevanz 'Element <emphasis role="codebf">sdg2relevanz</emphasis> in Datentyp <emphasis role="codebf">PruefschemaOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaonlineservicetype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaonlineservicetype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaOnlineserviceType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaregistertyptype.sdg2anschlussverpflichtung '<emphasis role="codebf">sdg2anschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaregistertyptype.sdg2anschlussverpflichtung 'Element <emphasis role="codebf">sdg2anschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaregistertyptype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaregistertyptype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaRegistertypType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaregistertypbuendeltype.sdg2anschlussverpflichtung '<emphasis role="codebf">sdg2Anschlussverpflichtung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaregistertypbuendeltype.sdg2anschlussverpflichtung 'Element <emphasis role="codebf">sdg2Anschlussverpflichtung</emphasis> in Datentyp <emphasis role="codebf">PruefschemaRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaregistertypbuendeltype.sdg2relevanz '<emphasis role="codebf">sdg2relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaregistertypbuendeltype.sdg2relevanz 'Element <emphasis role="codebf">sdg2relevanz</emphasis> in Datentyp <emphasis role="codebf">PruefschemaRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.pruefschemaregistertypbuendeltype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.pruefschemaregistertypbuendeltype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PruefschemaRegistertypbuendelType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.bemerkung '<emphasis role="codebf">bemerkung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.bemerkung 'Element <emphasis role="codebf">bemerkung</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.datum '<emphasis role="codebf">datum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.datum 'Element <emphasis role="codebf">datum</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.statuspublikation '<emphasis role="codebf">statusPublikation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.statuspublikation 'Element <emphasis role="codebf">statusPublikation</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.system '<emphasis role="codebf">system</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.system 'Element <emphasis role="codebf">system</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.url '<emphasis role="codebf">url</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.url 'Element <emphasis role="codebf">url</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.publikationtype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.publikationtype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">PublikationType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.enthaeltregistertyp '<emphasis role="codebf">enthaeltRegistertyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.enthaeltregistertyp 'Element <emphasis role="codebf">enthaeltRegistertyp</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.id.evidmapde '<emphasis role="codebf">id.EvidMapDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.id.evidmapde 'Element <emphasis role="codebf">id.EvidMapDE</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.pruefschemaregistertypbuendel '<emphasis role="codebf">pruefschemaRegistertypbuendel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.pruefschemaregistertypbuendel 'Element <emphasis role="codebf">pruefschemaRegistertypbuendel</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertypbuendeltype.registerfuehrendestelle '<emphasis role="codebf">registerfuehrendeStelle</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertypbuendeltype.registerfuehrendestelle 'Element <emphasis role="codebf">registerfuehrendeStelle</emphasis> in Datentyp <emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.enthaeltfeldinhalt '<emphasis role="codebf">enthaeltFeldinhalt</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.enthaeltfeldinhalt 'Element <emphasis role="codebf">enthaeltFeldinhalt</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.enthaeltnachweistyp '<emphasis role="codebf">enthaeltNachweistyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.enthaeltnachweistyp 'Element <emphasis role="codebf">enthaeltNachweistyp</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.enthaeltnachweistypbuendel '<emphasis role="codebf">enthaeltNachweistypBuendel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.enthaeltnachweistypbuendel 'Element <emphasis role="codebf">enthaeltNachweistypBuendel</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.id.evidmapde '<emphasis role="codebf">id.EvidMapDE</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.id.evidmapde 'Element <emphasis role="codebf">id.EvidMapDE</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.pruefschemaregistertyp '<emphasis role="codebf">pruefschemaRegistertyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.pruefschemaregistertyp 'Element <emphasis role="codebf">pruefschemaRegistertyp</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.registerfuehrendestelle '<emphasis role="codebf">registerfuehrendeStelle</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.registerfuehrendestelle 'Element <emphasis role="codebf">registerfuehrendeStelle</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.registertyptype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.registertyptype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">RegistertypType</emphasis>'>
+                        <!ENTITY element.ref.reifegradregmotype.reifegradregmo '<emphasis role="codebf">reifegradRegMo</emphasis>'>
+                        <!ENTITY element.datentyp.ref.reifegradregmotype.reifegradregmo 'Element <emphasis role="codebf">reifegradRegMo</emphasis> in Datentyp <emphasis role="codebf">ReifegradRegMoType</emphasis>'>
+                        <!ENTITY element.ref.reifegradregmotype.reifegradregmodatum '<emphasis role="codebf">reifegradRegMoDatum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.reifegradregmotype.reifegradregmodatum 'Element <emphasis role="codebf">reifegradRegMoDatum</emphasis> in Datentyp <emphasis role="codebf">ReifegradRegMoType</emphasis>'>
+                        <!ENTITY element.ref.sdg2anschlussverpflichtungtype.statussdg2anschlussverpflichtungoots '<emphasis role="codebf">statusSDG2AnschlussverpflichtungOOTS</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdg2anschlussverpflichtungtype.statussdg2anschlussverpflichtungoots 'Element <emphasis role="codebf">statusSDG2AnschlussverpflichtungOOTS</emphasis> in Datentyp <emphasis role="codebf">SDG2AnschlussverpflichtungType</emphasis>'>
+                        <!ENTITY element.ref.sdg2anschlussverpflichtungtype.statussdg2onlinebereitstellung '<emphasis role="codebf">statusSDG2OnlineBereitstellung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdg2anschlussverpflichtungtype.statussdg2onlinebereitstellung 'Element <emphasis role="codebf">statusSDG2OnlineBereitstellung</emphasis> in Datentyp <emphasis role="codebf">SDG2AnschlussverpflichtungType</emphasis>'>
+                        <!ENTITY element.ref.sdg2anschlussverpflichtungtype.statussdg2relevanz '<emphasis role="codebf">statusSDG2Relevanz</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdg2anschlussverpflichtungtype.statussdg2relevanz 'Element <emphasis role="codebf">statusSDG2Relevanz</emphasis> in Datentyp <emphasis role="codebf">SDG2AnschlussverpflichtungType</emphasis>'>
+                        <!ENTITY element.ref.sdg2onlinebereitstellungtype.sdg2onlinebereitstellung '<emphasis role="codebf">sdg2OnlineBereitstellung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdg2onlinebereitstellungtype.sdg2onlinebereitstellung 'Element <emphasis role="codebf">sdg2OnlineBereitstellung</emphasis> in Datentyp <emphasis role="codebf">SDG2OnlineBereitstellungType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.addresssupplements '<emphasis role="codebf">addressSupplements</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.addresssupplements 'Element <emphasis role="codebf">addressSupplements</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.city '<emphasis role="codebf">city</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.city 'Element <emphasis role="codebf">city</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.country '<emphasis role="codebf">country</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.country 'Element <emphasis role="codebf">country</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.postalcode '<emphasis role="codebf">postalcode</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.postalcode 'Element <emphasis role="codebf">postalcode</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.street '<emphasis role="codebf">street</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.street 'Element <emphasis role="codebf">street</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgaddresstype.streetno '<emphasis role="codebf">streetno</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgaddresstype.streetno 'Element <emphasis role="codebf">streetno</emphasis> in Datentyp <emphasis role="codebf">SDGAddressType</emphasis>'>
+                        <!ENTITY element.ref.sdgdirectivetype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdirectivetype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">SDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.sdgdirectivetype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdirectivetype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">SDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.sdgdirectivetype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdirectivetype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGDirectiveType</emphasis>'>
+                        <!ENTITY element.ref.sdgdistributiontype.conformsto '<emphasis role="codebf">conformsTo</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdistributiontype.conformsto 'Element <emphasis role="codebf">conformsTo</emphasis> in Datentyp <emphasis role="codebf">SDGDistributionType</emphasis>'>
+                        <!ENTITY element.ref.sdgdistributiontype.language '<emphasis role="codebf">language</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdistributiontype.language 'Element <emphasis role="codebf">language</emphasis> in Datentyp <emphasis role="codebf">SDGDistributionType</emphasis>'>
+                        <!ENTITY element.ref.sdgdistributiontype.mediatypes '<emphasis role="codebf">mediaTypes</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdistributiontype.mediatypes 'Element <emphasis role="codebf">mediaTypes</emphasis> in Datentyp <emphasis role="codebf">SDGDistributionType</emphasis>'>
+                        <!ENTITY element.ref.sdgdistributiontype.standard '<emphasis role="codebf">standard</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdistributiontype.standard 'Element <emphasis role="codebf">standard</emphasis> in Datentyp <emphasis role="codebf">SDGDistributionType</emphasis>'>
+                        <!ENTITY element.ref.sdgdistributiontype.transformation '<emphasis role="codebf">transformation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgdistributiontype.transformation 'Element <emphasis role="codebf">transformation</emphasis> in Datentyp <emphasis role="codebf">SDGDistributionType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.address '<emphasis role="codebf">address</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.address 'Element <emphasis role="codebf">address</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.description '<emphasis role="codebf">description</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.description 'Element <emphasis role="codebf">description</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.evidenceid '<emphasis role="codebf">evidenceID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.evidenceid 'Element <emphasis role="codebf">evidenceID</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.id.evidmap '<emphasis role="codebf">id.EvidMap</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.id.evidmap 'Element <emphasis role="codebf">id.EvidMap</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.jurisdiction '<emphasis role="codebf">jurisdiction</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.jurisdiction 'Element <emphasis role="codebf">jurisdiction</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidenceprovidertype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidenceprovidertype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypelisttype.id.evidmapeu '<emphasis role="codebf">id.EvidMapEU</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypelisttype.id.evidmapeu 'Element <emphasis role="codebf">id.EvidMapEU</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeListType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypelisttype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypelisttype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeListType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypelisttype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypelisttype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeListType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.additionalinformation '<emphasis role="codebf">additionalInformation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.additionalinformation 'Element <emphasis role="codebf">additionalInformation</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.distribution '<emphasis role="codebf">distribution</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.distribution 'Element <emphasis role="codebf">distribution</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.jurisdictioncontext '<emphasis role="codebf">jurisdictionContext</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.jurisdictioncontext 'Element <emphasis role="codebf">jurisdictionContext</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.jurisdictionlevel '<emphasis role="codebf">jurisdictionLevel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.jurisdictionlevel 'Element <emphasis role="codebf">jurisdictionLevel</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.minloa '<emphasis role="codebf">minLoA</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.minloa 'Element <emphasis role="codebf">minLoA</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypemetadatatype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypemetadatatype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.classification '<emphasis role="codebf">classification</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.classification 'Element <emphasis role="codebf">classification</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.description '<emphasis role="codebf">description</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.description 'Element <emphasis role="codebf">description</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.id.evidmap '<emphasis role="codebf">id.EvidMap</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.id.evidmap 'Element <emphasis role="codebf">id.EvidMap</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.jurisdiction '<emphasis role="codebf">jurisdiction</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.jurisdiction 'Element <emphasis role="codebf">jurisdiction</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.metadata '<emphasis role="codebf">metadata</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.metadata 'Element <emphasis role="codebf">metadata</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdgevidencetypetype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgevidencetypetype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.description '<emphasis role="codebf">description</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.description 'Element <emphasis role="codebf">description</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.expectedvalues '<emphasis role="codebf">expectedValues</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.expectedvalues 'Element <emphasis role="codebf">expectedValues</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.id.evidmap '<emphasis role="codebf">id.EvidMap</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.id.evidmap 'Element <emphasis role="codebf">id.EvidMap</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.lastupdated '<emphasis role="codebf">lastUpdated</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.lastupdated 'Element <emphasis role="codebf">lastUpdated</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.linktocodelist '<emphasis role="codebf">linkToCodelist</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.linktocodelist 'Element <emphasis role="codebf">linkToCodelist</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.referencevocabularyterm '<emphasis role="codebf">referenceVocabularyTerm</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.referencevocabularyterm 'Element <emphasis role="codebf">referenceVocabularyTerm</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.referencevocabularyterm2 '<emphasis role="codebf">referenceVocabularyTerm2</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.referencevocabularyterm2 'Element <emphasis role="codebf">referenceVocabularyTerm2</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.relatedregulation '<emphasis role="codebf">relatedRegulation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.relatedregulation 'Element <emphasis role="codebf">relatedRegulation</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdginformationrequirementtype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdginformationrequirementtype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.country '<emphasis role="codebf">country</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.country 'Element <emphasis role="codebf">country</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.lau '<emphasis role="codebf">lau</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.lau 'Element <emphasis role="codebf">lau</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.level '<emphasis role="codebf">level</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.level 'Element <emphasis role="codebf">level</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.nuts1 '<emphasis role="codebf">nuts1</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.nuts1 'Element <emphasis role="codebf">nuts1</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.nuts2 '<emphasis role="codebf">nuts2</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.nuts2 'Element <emphasis role="codebf">nuts2</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgjurisdictiontype.nuts3 '<emphasis role="codebf">nuts3</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgjurisdictiontype.nuts3 'Element <emphasis role="codebf">nuts3</emphasis> in Datentyp <emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                        <!ENTITY element.ref.sdgmsproceduretype.description '<emphasis role="codebf">description</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgmsproceduretype.description 'Element <emphasis role="codebf">description</emphasis> in Datentyp <emphasis role="codebf">SDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgmsproceduretype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgmsproceduretype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">SDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgmsproceduretype.jurisdiction '<emphasis role="codebf">jurisdiction</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgmsproceduretype.jurisdiction 'Element <emphasis role="codebf">jurisdiction</emphasis> in Datentyp <emphasis role="codebf">SDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgmsproceduretype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgmsproceduretype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGMSProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.description '<emphasis role="codebf">description</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.description 'Element <emphasis role="codebf">description</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.id.evidmap '<emphasis role="codebf">id.EvidMap</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.id.evidmap 'Element <emphasis role="codebf">id.EvidMap</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.lastupdated '<emphasis role="codebf">lastUpdated</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.lastupdated 'Element <emphasis role="codebf">lastUpdated</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.linkedtoprocedureeu '<emphasis role="codebf">linkedToProcedureEU</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.linkedtoprocedureeu 'Element <emphasis role="codebf">linkedToProcedureEU</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.minimumir '<emphasis role="codebf">minimumIR</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.minimumir 'Element <emphasis role="codebf">minimumIR</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.minimumirtextualdescription '<emphasis role="codebf">minimumIRTextualDescription</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.minimumirtextualdescription 'Element <emphasis role="codebf">minimumIRTextualDescription</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduralrequirementtype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduralrequirementtype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.erwartetesergebnis '<emphasis role="codebf">erwartetesErgebnis</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.erwartetesergebnis 'Element <emphasis role="codebf">erwartetesErgebnis</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.idintern '<emphasis role="codebf">idIntern</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.idintern 'Element <emphasis role="codebf">idIntern</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.lifeevent '<emphasis role="codebf">lifeevent</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.lifeevent 'Element <emphasis role="codebf">lifeevent</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.metadata '<emphasis role="codebf">metadata</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.metadata 'Element <emphasis role="codebf">metadata</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgproceduretype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgproceduretype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGProcedureType</emphasis>'>
+                        <!ENTITY element.ref.sdgstandardtype.link '<emphasis role="codebf">link</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgstandardtype.link 'Element <emphasis role="codebf">link</emphasis> in Datentyp <emphasis role="codebf">SDGStandardType</emphasis>'>
+                        <!ENTITY element.ref.sdgstandardtype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.sdgstandardtype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">SDGStandardType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.ansprechperson '<emphasis role="codebf">ansprechperson</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.ansprechperson 'Element <emphasis role="codebf">ansprechperson</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.id.evidmap '<emphasis role="codebf">id.EvidMap</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.id.evidmap 'Element <emphasis role="codebf">id.EvidMap</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.rolle '<emphasis role="codebf">rolle</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.rolle 'Element <emphasis role="codebf">rolle</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.stakeholdertype.workflow '<emphasis role="codebf">workflow</emphasis>'>
+                        <!ENTITY element.datentyp.ref.stakeholdertype.workflow 'Element <emphasis role="codebf">workflow</emphasis> in Datentyp <emphasis role="codebf">StakeholderType</emphasis>'>
+                        <!ENTITY element.ref.strukturiertheitsgradtype.strukturiertheitsgraddatum '<emphasis role="codebf">strukturiertheitsgradDatum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.strukturiertheitsgradtype.strukturiertheitsgraddatum 'Element <emphasis role="codebf">strukturiertheitsgradDatum</emphasis> in Datentyp <emphasis role="codebf">StrukturiertheitsgradType</emphasis>'>
+                        <!ENTITY element.ref.strukturiertheitsgradtype.strukturiertheitsgradevidencesurvey '<emphasis role="codebf">strukturiertheitsgradEvidenceSurvey</emphasis>'>
+                        <!ENTITY element.datentyp.ref.strukturiertheitsgradtype.strukturiertheitsgradevidencesurvey 'Element <emphasis role="codebf">strukturiertheitsgradEvidenceSurvey</emphasis> in Datentyp <emphasis role="codebf">StrukturiertheitsgradType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.beschreibung '<emphasis role="codebf">beschreibung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.beschreibung 'Element <emphasis role="codebf">beschreibung</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.geographischeabdeckung '<emphasis role="codebf">geographischeAbdeckung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.geographischeabdeckung 'Element <emphasis role="codebf">geographischeAbdeckung</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.hatmetadaten '<emphasis role="codebf">hatMetadaten</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.hatmetadaten 'Element <emphasis role="codebf">hatMetadaten</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.memberstate '<emphasis role="codebf">memberState</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.memberstate 'Element <emphasis role="codebf">memberState</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.name '<emphasis role="codebf">name</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.pilotiertnachweisabruf '<emphasis role="codebf">pilotiertNachweisabruf</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.pilotiertnachweisabruf 'Element <emphasis role="codebf">pilotiertNachweisabruf</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.pilotiertnachweistyp '<emphasis role="codebf">pilotiertNachweistyp</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.pilotiertnachweistyp 'Element <emphasis role="codebf">pilotiertNachweistyp</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.umsetzungsprojekttype.pilotiertregisteranbindung '<emphasis role="codebf">pilotiertRegisteranbindung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.umsetzungsprojekttype.pilotiertregisteranbindung 'Element <emphasis role="codebf">pilotiertRegisteranbindung</emphasis> in Datentyp <emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                        <!ENTITY element.ref.verwaltungspolitischekodierungtype.bezirk '<emphasis role="codebf">bezirk</emphasis>'>
+                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierungtype.bezirk 'Element <emphasis role="codebf">bezirk</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                        <!ENTITY element.ref.verwaltungspolitischekodierungtype.bundesland '<emphasis role="codebf">bundesland</emphasis>'>
+                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierungtype.bundesland 'Element <emphasis role="codebf">bundesland</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                        <!ENTITY element.ref.verwaltungspolitischekodierungtype.gemeindeschluessel '<emphasis role="codebf">gemeindeschluessel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierungtype.gemeindeschluessel 'Element <emphasis role="codebf">gemeindeschluessel</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                        <!ENTITY element.ref.verwaltungspolitischekodierungtype.kreis '<emphasis role="codebf">kreis</emphasis>'>
+                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierungtype.kreis 'Element <emphasis role="codebf">kreis</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                        <!ENTITY element.ref.verwaltungspolitischekodierungtype.regionalschluessel '<emphasis role="codebf">regionalschluessel</emphasis>'>
+                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierungtype.regionalschluessel 'Element <emphasis role="codebf">regionalschluessel</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.autor '<emphasis role="codebf">autor</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.autor 'Element <emphasis role="codebf">autor</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.datum '<emphasis role="codebf">datum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.datum 'Element <emphasis role="codebf">datum</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.dokumentation '<emphasis role="codebf">dokumentation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.dokumentation 'Element <emphasis role="codebf">dokumentation</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.hatstakeholderid '<emphasis role="codebf">hatStakeholderID</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.hatstakeholderid 'Element <emphasis role="codebf">hatStakeholderID</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.internedokumentation '<emphasis role="codebf">interneDokumentation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.internedokumentation 'Element <emphasis role="codebf">interneDokumentation</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.quelle '<emphasis role="codebf">quelle</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.quelle 'Element <emphasis role="codebf">quelle</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workflowdetype.workflowstatus '<emphasis role="codebf">workflowstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowdetype.workflowstatus 'Element <emphasis role="codebf">workflowstatus</emphasis> in Datentyp <emphasis role="codebf">WorkflowDEType</emphasis>'>
+                        <!ENTITY element.ref.workfloweutype.datum '<emphasis role="codebf">datum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workfloweutype.datum 'Element <emphasis role="codebf">datum</emphasis> in Datentyp <emphasis role="codebf">WorkflowEUType</emphasis>'>
+                        <!ENTITY element.ref.workfloweutype.id '<emphasis role="codebf">id</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workfloweutype.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">WorkflowEUType</emphasis>'>
+                        <!ENTITY element.ref.workfloweutype.workflowstatus '<emphasis role="codebf">workflowstatus</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workfloweutype.workflowstatus 'Element <emphasis role="codebf">workflowstatus</emphasis> in Datentyp <emphasis role="codebf">WorkflowEUType</emphasis>'>
+                        <!ENTITY element.ref.workflowstakeholdertype.datum '<emphasis role="codebf">datum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowstakeholdertype.datum 'Element <emphasis role="codebf">datum</emphasis> in Datentyp <emphasis role="codebf">WorkflowStakeholderType</emphasis>'>
+                        <!ENTITY element.ref.workflowstakeholdertype.dokumentation '<emphasis role="codebf">dokumentation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowstakeholdertype.dokumentation 'Element <emphasis role="codebf">dokumentation</emphasis> in Datentyp <emphasis role="codebf">WorkflowStakeholderType</emphasis>'>
+                        <!ENTITY element.ref.workflowstakeholdertype.internedokumentation '<emphasis role="codebf">interneDokumentation</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowstakeholdertype.internedokumentation 'Element <emphasis role="codebf">interneDokumentation</emphasis> in Datentyp <emphasis role="codebf">WorkflowStakeholderType</emphasis>'>
+                        <!ENTITY element.ref.workflowstakeholdertype.status '<emphasis role="codebf">status</emphasis>'>
+                        <!ENTITY element.datentyp.ref.workflowstakeholdertype.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">WorkflowStakeholderType</emphasis>'>
+                        

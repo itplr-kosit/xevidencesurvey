@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.SDGProcedure">
+   <title>SDGProcedureType</title>
+   <subtitle>Typ: <emphasis role="codebf">SDGProcedureType</emphasis>
+   </subtitle><para>Diese Klasse beschreibt die SDG2-Verfahren nach Anhang 2 SDG-VO. Die Verfahren sind in der SDG Verordnung in Anhang 2 definiert und zusätzlich in dem Dokument „Explanatory Paper“ der Europäischen Kommission beschrieben. Durch die von der EU-Kommission geplante Erweiterung der SDG-Verordnung können hier zukünftig weitere Verfahren hinzukommen; in diesem Rahmen können auch Verfahren, die noch im Gesetzgebungsverfahren sind, von der deutschen Evidence Survey erfasst werden.</para><figure xml:id="figure.xevidencesurvey.Baukasten.SDGProcedure">
+      <title>SDGProcedureType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/SDGProcedure.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.SDGProcedure">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">SDGProcedureType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">idIntern</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Element identifiziert die Klasse eindeutig auf nationaler Ebene. Die Ausprägungen dieses Elements werden durch die nationale SDG Koordination erstellt. Die Nummerierung ist so entstanden, dass die Liste in Anhang 2 SDG-VO einfach mit 1 bis 21 durchnummeriert wurde.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">id</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.SDGProcedureType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Element identifiziert die Klasse eindeutig. Die Ausprägungen dieses Elements werden durch die Europäischen Kommission über die entsprechende EU-Codeliste veröffentlicht. Verfahren, die noch im Gesetzgebungsverfahren sind, können in der deutschen Evidence Survey erfasst werden, erhalten eine eindeutige Identifizierung jedoch erst sobald die EU-Kommission diese angelegt hat.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">name</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">BezeichnungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Bezeichnung" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Bezeichnung" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Element bezeichnet das SDG-Verfahren so wie es in der offiziellen Bezeichnung der SDG-Verordnung im Anhang 2 benannt ist.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">lifeevent</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.Lebensereignisse-CodesType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Element benennt die Oberkategorie entsprechend Anhang 2 SDG-Verordnung, der ein SDG-Verfahren zugeordnet ist. Die Zuordnung erfolgt durch die EU Kommission.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">metadata</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenSDGProcedure"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenSDGProcedure"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element werden die Metadaten zur SDG Procedure angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">erwartetesErgebnis</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Element beschreibt das Ergebnis, das gemäß SDG-VO von einem SDG-Verfahren erwartet wird. Es beschreibt nicht das tatsächliche Ergebnis der zugeordneten deutschen Verwaltungsverfahren, die gegebenenfalls von den beschriebenen Ergebnissen in der SDG-VO abweichen können.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/sdgprocedure_list.xml"/>
+</section>

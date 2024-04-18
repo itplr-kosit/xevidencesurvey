@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.MetadatenSDGProcedure">
+   <title>MetadatenSDGProcedureType</title>
+   <subtitle>Typ: <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>
+   </subtitle><para>Alle Metadaten, die der Klasse SDGProcedure zugeordnet werden, werden hier aufgeführt.</para><figure xml:id="figure.xevidencesurvey.Baukasten.MetadatenSDGProcedure">
+      <title>MetadatenSDGProcedureType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/MetadatenSDGProcedure.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.MetadatenSDGProcedure">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">MetadatenSDGProcedureType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hatStakeholderID</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">StakeholderType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Stakeholder" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Stakeholder" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier kann ein Stakeholder hinterlegt werden.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hatBeziehung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">BeziehungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Beziehung" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Beziehung" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element werden Angaben zu Beziehungen zu anderen Objekten hinterlegt (Art der Beziehung, ID und IDScheme).</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hatKlassifizierung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:string</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Mit diesem Element können im Sinne eines "Tags" / Schlagwortes Inhalte weiter klassifiziert werden. (Bsp: "Datengruppe XY" in DSMeld, "High Value Data Set Theme Statistik" oder "Inspire Profile Soil" </para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/metadatensdgprocedure_list.xml"/>
+</section>

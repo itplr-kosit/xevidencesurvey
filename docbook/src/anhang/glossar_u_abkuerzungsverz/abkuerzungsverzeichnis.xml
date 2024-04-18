@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<appendix version="5" xml:id="spezifikation.anhang.abkuerzungen" xml:lang="de" xmlns="http://docbook.org/ns/docbook">
+    <info>
+        <title>Abkürzungen</title>
+    </info>
+    <informaltable frame="all">
+        <tgroup cols="2">
+            <thead>
+                <row>
+                    <entry>Abkürzung</entry>
+                    <entry>Bedeutung</entry>
+                </row>
+            </thead>
+            <tbody>
+                <row>
+                    <entry>DSD</entry>
+                    <entry>Data Service Directory</entry>
+                </row>
+                <row>
+                    <entry>EB</entry>
+                    <entry>Evidence Broker</entry>
+                </row>
+                <row>
+                    <entry>EU-OOTS</entry>
+                    <entry>Europäisches Once-Only-Technical-System</entry>
+                </row>
+                <row>
+                    <entry>LeiKa</entry>
+                    <entry>Leistungskatalog</entry>
+                </row>
+                <row>
+                    <entry>NOOTS</entry>
+                    <entry>Nationales Once-Only-Technical-System</entry>
+                </row>
+                <row>
+                    <entry>PR</entry>
+                    <entry>Procedural Requirements</entry>
+                </row>
+                <row>
+                    <entry>SDG2</entry>
+                    <entry>Anhang 2 der Single Digital Gateway-Verordnung</entry>
+                </row>
+                <row>
+                    <entry>SDG-VO</entry>
+                    <entry>Single Digital Gateway-Verordnung</entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </informaltable>
+</appendix>

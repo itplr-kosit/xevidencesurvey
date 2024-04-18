@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           targetNamespace="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           version="0.6"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+   <xs:annotation>
+      <xs:appinfo>
+         <standard>
+            <nameLang>XEvidenceSurvey</nameLang>
+            <nameKurz>XEvidenceSurvey</nameKurz>
+            <nameTechnisch>xevidencesurvey</nameTechnisch>
+            <kennung>urn:xoev-de:kosit:standard:xevidencesurvey</kennung>
+            <beschreibung>Das Fachdatenmodell XEvidenceSurvey beschreibt technologieneutral ein logisches Datenmodell, so wie es zur nationalen Erhebung von Nachweisanfordernden Stellen und von Nachweisprovidern sowie Umsetzungsprojekten im Rahmen der SDG-Umsetzung Verwendung findet.</beschreibung>
+         </standard>
+         <versionStandard>
+            <version>0.6</version>
+            <versionXOEVProfil>3.0.1</versionXOEVProfil>
+            <versionXOEVHandbuch>3.0.1</versionXOEVHandbuch>
+            <versionXGenerator>3.1.1</versionXGenerator>
+            <versionModellierungswerkzeug>19.0 SP 4</versionModellierungswerkzeug>
+            <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
+         </versionStandard>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:include schemaLocation="xevidencesurvey-baukasten.xsd"/>
+   <xs:element name="view.nachweiszuordnung.0001">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen, Nachweisanforderungen, SDG2-Verfahren und LeiKa.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="sdg2verfahren" type="xes:SDGProcedureType">
+               <xs:annotation>
+                  <xs:documentation>SDG2-Verfahren werden SDG2-Nachweise zugeordnet, wenn dieser einer SDG2-relevanten LeiKa-Leistung zugeordnet ist. Das heißt, zur Erbringung der LeiKa-Leistung können diese aufgeführten SDG2-relevanten Nachweise von Bürgerinnen und Bürgern verlangt werden, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften der LeiKa-Leistung zu belegen. Ein zugewiesener SDG2-relevanter Nachweis bezieht sich nicht auf das Ergebnis der LeiKa-Leistung.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="leika"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:LeiKaType">
+               <xs:annotation>
+                  <xs:documentation>Die Abkürzung LeiKa bezeichnet den "Leistungskatalog der öffentlichen Verwaltung“. Der Leistungskatalog stellt ein einheitliches, vollständiges und umfassendes Verzeichnis der Verwaltungsleistungen über alle Verwaltungsebenen in Deutschland hinweg dar und wird ständig fortgeschrieben. Der LeiKa umfasst derzeit einen Bestand von mehr als 8.000 Einträgen im Katalog des Bausteins Leistungen (Stand: 30.06.2021). Dies beinhaltet alle drei Arten: Leistungsobjekte, Leistungsobjekte mit Verrichtungskennung sowie Leistungsobjekte mit Verrichtungskennung und Detail.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweisanforderung" type="xes:NachweisanforderungType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element wird die Nachweisanforderung angegeben.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweisbuendel" type="xes:NachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>Hier können Informationen zu Nachweisbündeln angegeben werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweis" type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Nachweise sind gemäß Art. 3 Nr. 5 SDG-VO „alle Unterlagen oder Daten, einschließlich Text- oder Ton-, Bild- oder audiovisuellen Aufzeichnungen, unabhängig vom verwendeten Medium, die von einer zuständigen Behörde verlangt werden.“ Nachweise können sowohl analoge („Unterlagen“) wie auch digitale Informationen („Daten“) sein, die von zuständigen Behörden verlangt werden können, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften zu belegen.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="register" type="xes:RegistertypType">
+               <xs:annotation>
+                  <xs:documentation>Die Bezeichnung der Register erfolgt gemäß Registermodernisierungsgesetz, hier „Anhang Register nach §1 des Identifikationsnummerngesetzes (IDNrG)“. Eine registerführende Stelle ist die zuständige Behörde im Sinne des Art. 14 Abs. 2 SDG-VO, die strukturierte oder unstrukturierte Nachweise rechtmäßig ausstellt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="stakeholder"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:StakeholderType">
+               <xs:annotation>
+                  <xs:documentation>Über den Stakeholder wird die Rolle einer Ansprechperson, die möglicherweise eine natürliche Person ist, definiert.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.registerzuordnung.0002">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen und Registern.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="nachweis" type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Nachweise sind gemäß Art. 3 Nr. 5 SDG-VO „alle Unterlagen oder Daten, einschließlich Text- oder Ton-, Bild- oder audiovisuellen Aufzeichnungen, unabhängig vom verwendeten Medium, die von einer zuständigen Behörde verlangt werden.“ Nachweise können sowohl analoge („Unterlagen“) wie auch digitale Informationen („Daten“) sein, die von zuständigen Behörden verlangt werden können, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften zu belegen.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="register" type="xes:RegistertypType">
+               <xs:annotation>
+                  <xs:documentation>Die Bezeichnung der Register erfolgt gemäß Registermodernisierungsgesetz, hier „Anhang Register nach §1 des Identifikationsnummerngesetzes (IDNrG)“. Eine registerführende Stelle ist die zuständige Behörde im Sinne des Art. 14 Abs. 2 SDG-VO, die strukturierte oder unstrukturierte Nachweise rechtmäßig ausstellt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.onlinediensteGesamt.0003">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von SDG2-Verfahren, LeiKa, OZG-Leistungen und Online-Services.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="ozgLeistung"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:OZGLeistungType">
+               <xs:annotation>
+                  <xs:documentation>OZG-Leistungen auf Grundlage der Datenbasis der Evidence Survey.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="onlineService" minOccurs="0" type="xes:OnlineServiceType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der zugeordnete Online-Service angegeben werden, sofern nicht durch die OZG-Leistung bereits abgedeckt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingLeiKaSDG2Verfahren"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeiKaSDG2VerfahrenType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element wird das Mapping zwischen LeiKa-Leistungen und SDG2-Verfahren aufgeführt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingLeiKaOZGLeistung"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeikaOZGLeistungType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element wird das Mapping zwischen LeiKa-Leistungen und OZG-Leistung aufgeführt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.evidenceBroker.0004">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten für die Anlage von EvidenceProvidern und ihre Evidences.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="evidenceprovider"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceProviderType">
+               <xs:annotation>
+                  <xs:documentation>Das Verfahren bezieht sich auf ein oder mehrere LeiKa-Leistungen und/oder Online-Services. Der Online-Service kann hier angegeben werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="evidencetype" type="xes:SDGEvidenceTypeType">
+               <xs:annotation>
+                  <xs:documentation>Der Nachweistyp, der zu diesem SDG2-Verfahren gehört.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.dataserviceDirectory.0015">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält die zur Befüllung des Data Service Directory erforderlichen Daten.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="evidence"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceTypeType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der Name des Datendienstes angegeben werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweis"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der Name des Datendienstes angegeben werden.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.erhebungsdaten.0017">
+      <xs:annotation>
+         <xs:documentation>In diesem View können die Daten gem. der Erhebung Evidence Survey bis 2023 angegeben werden.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mappingleikaSDG2Verfahren"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeiKaSDG2VerfahrenType">
+               <xs:annotation>
+                  <xs:documentation>Hier werden die LeiKa-Leistungen und das zugehörige SDG2-Verfahren angegeben.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingDENachweisanforderungNachweisbuendel"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDENachweisanforderungNachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element werden die Nachweisanforderungen und zu ihnen gemappte Nachweistypbündel angegeben.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingDELeikaOnlineService"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeikaOnlineServiceType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element werden die Leikas auf OnlineServices gemappt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingDEOnlineServiceNachweistypBuendel"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDEOnlineServiceNachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element werden die Onlineservices und zu ihnen gemappte Nachweistypbündel angegeben.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.leika2sdgverfahren.0031">
+      <xs:annotation>
+         <xs:documentation>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Leikas mit dem jeweiligen SDG Anhang II Verfahren.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mappingLeika2SDGVerfahren"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeiKaSDG2VerfahrenType">
+               <xs:annotation>
+                  <xs:documentation>Jede SDG2-relevante LeiKa Leistung wird in der Regel einem SDG2-Verfahren zugeordnet. Die SDG2-Verfahren sind die SDG-Verfahren aus Anhang II der SDG-VO (Verordnung (EU) 2018/1724) oder die Verfahren nach den EU-Richtlinien 2005/36/EG (Anerkennungsrichtlinie), 2006/123/EG (Dienstleistungsrichtlinie), 2014/24/EU und 2014/25/EU (Vergaberichtlinien).</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.pruefungLeika.0100">
+      <xs:annotation>
+         <xs:documentation>Diese View enthält alle im System hinterlegten LeiKas</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="leika"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:LeiKaType">
+               <xs:annotation>
+                  <xs:documentation>Die Abkürzung LeiKa bezeichnet den "Leistungskatalog der öffentlichen Verwaltung“. Der Leistungskatalog stellt ein einheitliches, vollständiges und umfassendes Verzeichnis der Verwaltungsleistungen über alle Verwaltungsebenen in Deutschland hinweg dar und wird ständig fortgeschrieben. Der LeiKa umfasst derzeit einen Bestand von mehr als 8.000 Einträgen im Katalog des Bausteins Leistungen (Stand: 30.06.2021). Dies beinhaltet alle drei Arten: Leistungsobjekte, Leistungsobjekte mit Verrichtungskennung sowie Leistungsobjekte mit Verrichtungskennung und Detail.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="view.beispielentitiaet.0999">
+      <xs:annotation>
+         <xs:documentation>Diese beispielhafte Nachricht zeigt die View einer Beispieentität und einem Register.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="beispielentitaet" type="xes:BeispielentitaetType">
+               <xs:annotation>
+                  <xs:documentation>Beispielhafte Entität</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="register" type="xes:RegistertypType">
+               <xs:annotation>
+                  <xs:documentation>Die Bezeichnung der Register erfolgt gemäß Registermodernisierungsgesetz, hier „Anhang Register nach §1 des Identifikationsnummerngesetzes (IDNrG)“. Eine registerführende Stelle ist die zuständige Behörde im Sinne des Art. 14 Abs. 2 SDG-VO, die strukturierte oder unstrukturierte Nachweise rechtmäßig ausstellt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

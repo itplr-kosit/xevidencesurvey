@@ -1,0 +1,651 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE preface [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="spezifikation.hintergrund">
+	<info>
+		<title>Hintergrund zum System für den grenzüberschreitenden elektronischen Nachweisaustausch
+			zwischen Deutschland und der EU (EU-OOTS) </title>
+	</info>
+
+	<para>Das Europäische Parlament und der Europäische Rat haben 2018 beschlossen, auf Basis der
+			<link
+			xlink:href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32018R1724"
+			>Single Digital Gateway Verordnung (VO (EU) 2018/1724, SDG-VO)</link> ein einheitliches
+		digitales Zugangstor zu Verwaltungsleistungen auf europäischer Ebene zu schaffen. Ähnlich
+		wie in den Festlegungen zum Onlinezugangsgesetz (OZG) in Deutschland sollen ab Dezember 2020
+		europaweit Informationen zu Verwaltungsleistungen auf dem Portal „Your Europe“ abrufbar
+		sein. Bis Ende des Jahres 2023 sollen über dieses Portal nicht nur Informationen
+		bereitgestellt, sondern ausgewählte Verwaltungsleistungen vollständig online angeboten
+		werden.</para>
+
+	<para>Um die Nutzung dieser Online-Verfahren weiter zu vereinfachen, ordnet Art. 14 SDG-VO an,
+		dass die Europäische Kommission (EU-KOM) ein technisches System für den automatisierten
+		Austausch von Nachweisen bereitstellt. Dieses System ist das europäische
+		Once-Only-Technical-System (EU-OOTS). Das OOTS soll den automatisierten Austausch für die
+		Verfahren nach Anhang II, sowie den Richtlinien <link
+			xlink:href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2005:255:0022:0142:de:PDF"
+			>2005/36/EG (Anerkennungsrichtlinie)</link>, <link
+			xlink:href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:376:0036:0068:de:PDF"
+			>2006/123/EG (Dienstleistungsrichtlinie)</link>, <link
+			xlink:href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32014L0024"
+			>2014/24/EU</link>, und <link
+			xlink:href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32014L0025"
+			>2014/25/EU </link>(Vergaberichtlinien), europaweit grenzüberschreitend und
+		automatisiert zwischen Behörden auf das ausdrückliche Ersuchen der Nutzerinnen und Nutzer
+		ermöglichen.</para>
+
+	<para>Das Fachdatenmodell „XEvidenceSurvey“ bildet die Grundlage für die nationale Erhebung von
+		relevanten Daten, die im Kontext der Umsetzung der SDG-Verordnung des Europäischen
+		Parlaments und des Rates stehen. Kern des Modells ist die Beschreibung der Struktur und
+		Organisation der Daten, die während der Erhebung der Evidence Survey identifiziert
+		wurden.</para>
+
+	<para>Die Evidence Survey ist ein Instrument der Umsetzung der SDG-Verordnung. Mit der Evidence
+		Survey wird eine zentrale Erhebung durch die Europäische Kommission durchgeführt.
+		Hinsichtlich der Anbindung von Online-Diensten und Registern an das EU-OOTS sind die
+		Verwaltungsverfahren zu identifizieren, die in den Anwendungsbereich des Art. 14 Abs. 1
+		SDG-VO fallen. Dabei werden auf deutscher Ebene die relevanten Verwaltungsverfahren,
+		Online-Dienste, Nachweise und Register erfasst, die unter Anhang II der SDG-VO und die in
+		Artikel 14 genannten EU-Richtlinien fallen. Darüber hinaus werden die deutschen
+		Nachweistypen erfasst, die die Nachweisanforderungen der EU-KOM abdecken. Weiterhin werden
+		die nationalen Register identifiziert, die eine Anbindung an das EU-OOTS benötigen. Die
+		nationalen Vorarbeiten dienen als Grundlage für die Erhebung der Nachweise auf europäischer
+		Ebene und werden von der SDG-Koordination durchgeführt. </para>
+
+	<section>
+		<info>
+			<title>Was?</title>
+		</info>
+		<para> Die Identifikation von SDG2-relevanten Nachweisen und Verwaltungsleistungen gemäß
+			Art. 6 / Art. 13 / Art. 14 SDG-VO bildet die Datengrundlage für die Befüllung der
+			europäischen Komponenten (EU-OOTS Common Services), Evidence Broker und Data Service
+			Directory. Das Fachdatenmodell dient somit der Erfassung von Daten zu deutschen
+			Nachweisen und Registern, sowie zu Nachweisanforderungen deutscher Online-Dienste, um
+			diese auf europäischer Ebene miteinander in Beziehung zu setzen (auch: Mapping). Das
+			Modell zielt dabei auf die Interoperabilität zwischen dem nationalen Once Only Technical
+			System (NOOTS) und dem europäischen Once Only Technical System (EU-OOTS). Dieses
+			Fachdatenmodell basiert auf den Anforderungen der SDG-Verordnung, der
+			SDG-Durchführungsverordnung und den Technical Design Documents. Darüber hinaus ist es
+			das Ergebnis der spezifischen Anforderungen aus dem "European Evidence Survey" und dem
+			'Mapping' zwischen den Mitgliedsstaaten, die vorrangig in der Subgroup "Evidence
+			Mapping" der Gateway Coordination Group zwischen den Mitgliedsstaaten verhandelt werden.
+			Das Fachdatenmodell definiert Import- und Exportschnittstellen für Daten von und zur EU
+			sowie zu anderen Systemen, wie z.B. die OZG-Informationsplattform. </para>
+	</section>
+
+	<section>
+		<title>Wozu?</title>
+
+		<para>Mehrere Dimensionen tragen zum Ziel des Fachdatenmodells bei:</para>
+		<itemizedlist>
+			<listitem>
+				<para>Dimension 1: Festlegung SDG2-relevanter deutscher Online-Services und
+					Register</para>
+			</listitem>
+			<listitem>
+				<para>Dimension 2: Abstimmungsprozess in der Leistungsklärung mit
+					Verwaltungsmitarbeitenden in Deutschland und anderer Mitgliedsstaaten
+					dokumentieren</para>
+			</listitem>
+			<listitem>
+				<para>Dimension 3: Datengrundlage für eine automatische Befüllung der europäischen
+					Komponenten Evidence Broker (EB) und Data Services Directory (DSD) über
+					europäische Schnittstellen ermöglichen</para>
+			</listitem>
+			<listitem>
+				<para>Dimension 4: Unterstützung des Monitoring der SDG2-Umsetzung in
+					Deutschland</para>
+			</listitem>
+		</itemizedlist>
+
+	</section>
+	<section>
+		<title>Warum?</title>
+		<para>Das Fachdatenmodell „XEvidenceSurvey“ schafft einen Mehrwert für die deutsche
+			Umsetzung der Artikel 6,13,14 der SDG-Verordnung. Erstens trägt ein solches Modell dazu
+			bei, die Konsistenz und Qualität der erhobenen Daten sicherzustellen. Dies ist
+			entscheidend, um verlässliche Informationen für Analysen und Berichte bereitzustellen.
+			Zweitens unterstützt das Fachdatenmodell die Interoperabilität, indem es sicherstellt,
+			dass Daten zwischen Deutschland und den europäischen Mitgliedsstaaten ausgetauscht
+			werden können. Es fördert die Zusammenarbeit und den Datenaustausch zwischen den
+			Beteiligten. Insbesondere soll es den deutschen Akteuren beim Aufbau des NOOTS helfen,
+			die europäischen Anforderungen zu berücksichtigen. Drittens erleichtert das
+			Fachdatenmodell die langfristige Datenhaltung und -nutzung. Es stellt sicher, dass die
+			Daten auch in Zukunft verständlich und nutzbar bleiben, unabhängig von technologischen
+			Veränderungen oder personellen Wechseln. Schließlich ermöglicht das Fachdatenmodell eine
+			verbesserte Datenanalyse und -interpretation, was wiederum zu fundierteren
+			Entscheidungen, u.a. der SDG-Koordination, führt. Durch die einheitliche Strukturierung
+			der Daten können Muster und Trends leichter erkannt werden. </para>
+
+	</section>
+
+	<section>
+		<info>
+			<title>Für wen?</title>
+		</info>
+		<para>Das Fachdatenmodell dient der Zusammenarbeit und dem gegenseitigen Verständnis
+			unterschiedlicher Akteur:innen: der SDG-Koordination im BMI bei der Abstimmung der
+			SDG-Umsetzung mit den deutschen und europäischen zuständigen Stellen, den Akteur:innen
+			der deutschen Registermodernisierung bei der Beschreibung der relevanten Daten für einen
+			Once-Only-Nachweisaustausch auf nationaler und europäischer Ebene, den Mitarbeiter:innen
+			der deutschen zuständigen Stellen bei der Erfüllung der Anforderungen aus der
+			SDG-Verordnung und der Bereitstellung relevanter fachlicher Informationen.</para>
+	</section>
+
+	<section>
+		<title>Wie?</title>
+
+		<para>Mit Beschluss des Lenkungsausschusses Registermodernisierung und des IT-Planungsrates
+			(Beschluss 2022/06) wurde festgelegt, dass die nationale Evidence Survey die
+			SDG2-Relevanz von Registern und Online-Services festlegt. Die fachlichen
+			Freigabeprozesse werden von der SDG-Koordination organisiert. Zudem informiert die
+			SDG-Koordination in regelmäßigen Informationsveranstaltungen sowie im direkten Austausch
+			mit den SDG-Ansprechpartner:innen über die Erfassung von Daten in der nationalen
+			Evidence Survey.</para>
+
+
+	</section>
+
+	<section>
+		<title>Wer?</title>
+
+		<para>Seit 2019 koordiniert die SDG-Koordination im BMI die nationale Erhebung für die
+			europäische Evidenzerhebung. Die zuständigen Stellen für die Befüllung der EU-OOTS
+			Common Services (EU-DSD und EU-EB) sind im Rahmen der nationalen Umsetzung der
+			SDG-Verordnung noch festzulegen, bis dahin übernimmt die SDG-Koordination teilweise die
+			damit verbundenen Aufgaben.</para>
+
+	</section>
+	<section>
+		<title>Womit?</title>
+
+		<para> Das nachfolgende Fachdatenmodell dient der Darstellung der ermittelten Daten und
+			deren Zusammenhang im Rahmen der Evidence Survey auf deutscher Ebene. Die Evidence
+			Survey ist Bestandteil bei der Umsetzung der Single Digital Gateway Verordnung (SDG-VO).
+			Sie beinhaltet die Ermittlung der Verwaltungsverfahren, Online-Services, Nachweise und
+			der entsprechenden Register, die unter die SDG-Verordnung Anhang II und die in Art. 14
+			genannten EU-Richtlinien fallen. Der zentrale Fokus vom Anhang II SDG-VO (oder auch
+			SDG2) ist dabei die Umsetzung von Artikel 6, Artikel 13 und Artikel 14 SDG-VO. Gemäß
+			Artikel 6 SDG-VO gilt für die betroffenen Online-Services die Pflicht der vollständigen
+			Bereitstellung der SDG2-relevanten Leika-Leistungen (=Umsetzung OZG Reifegrad 3) online.
+			Gemäß Artikel 13 SDG-VO (und Artikel 6) müssen die betroffenen Online-Services die
+			SDG2-relevanten LeiKa-Leistungen für europäische Bürger und Unternehmen
+			grenzüberschreitend online bereitstellen. Nach Artikel 14 SDG-VO sind die betroffenen
+			Register und Online-Services rechtlich zur technischen Anbindung an das EU-OOTS
+			verpflichtet. D.h. Online-Services haben die Pflicht Nachweisabrufe über das EU-OOTS aus
+			dem EU-Ausland zu ermöglichen und Register haben die Pflicht Nachweise in das EU Ausland
+			zu liefern, sofern diese national bereits digital und automatisiert geliefert werden.
+			Ziel ist es, mittels der Evidence Survey die Datengrundlage für die europäischen
+			Komponenten Evidence Broker und Data Service Directory zu schaffen. Mittels dieser
+			Komponenten erfolgt die grenzüberschreitende Identifikation der Nachweisäquivalente in
+			andere Mitgliedsstaaten und die Identifikation der jeweils zuständigen Behörden. </para>
+
+
+		<figure>
+			<title>Schaffung einer Datengrundlage für die Komponenten Evidence Brooker und Data
+				Service Directory</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center"
+						fileref="../abbildungen/2023-11-13%2002_22_54-XBildung.png" format="png"
+						width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
+
+	<section>
+		<info>
+			<title>Nationales Once-Only-Technical System (NOOTS)</title>
+		</info>
+		<para>Die IT-Komponenten des "Nationalen Once-Only-Technical System" (NOOTS) werden momentan
+			in Deutschland im Rahmen der Registermodernisierung entwickelt. Diese werden
+			Anforderungen an die Register und Online-Verfahren enthalten, damit diese ihrer
+			Anschlusspflicht nachkommen können. Es wurde eine architektonische Zielvision für einen
+			vollständigen digitalen Once-Only-Datenaustausch im digitalen Binnenmarkt
+			entwickelt.</para>
+		<para>Der IT-Planungsrat hat die Implementierung von NOOTS in Deutschland ebenfalls in
+			diesem <link xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2023-22"
+				>Beschluss 2023/22</link> bestätigt. Dieses soll sich weitgehend an den
+			Anforderungen des Art. 14 SDG-VO orientieren.</para>
+		<figure>
+			<title>Anforderungen an das deutsche NOOTS</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/NOOTS.png" format="png"
+						width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
+	<section>
+		<info>
+			<title>Evidence Survey</title>
+		</info>
+		<para>Die Evidence Survey ist ein Bestandteil der Umsetzung der SDG-VO.</para>
+		<para>Durch die Evidence Survey wird eine zentrale Erhebung durch die Europäische Kommission
+			vorgenommen. Hierbei werden die relevanten Verwaltungsverfahren, Online-Services,
+			Nachweise und Register ermittelt, die unter die SDG-Verordnung Anhang II und die in Art.
+			14 genannten EU-Richtlinien fallen.</para>
+		<para>Die nationalen Vorarbeiten bilden die Grundlage für die Evidence Survey auf
+			europäischer Ebene. Diese Vorarbeiten werden durch die SDG-Koordination
+			durchgeführt.</para>
+	</section>
+	<section>
+		<info>
+			<title>Erhebung und Mapping</title>
+		</info>
+		<figure>
+			<title>Erhebung und Mapping von Nachweisen</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/ErhebungMapping.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<variablelist>
+			<varlistentry>
+				<term>SDG2-Verfahren</term>
+				<listitem>
+					<para>Die SDG-VO gibt in den in Anhang II aufgeführten Bezeichnungen für
+						Verwaltungsverfahren sowie die Bezeichnungen der in Art. 14 SDG-VO genannten
+						Richtlinien an, welche Lebensereignisse und erwartete Ergebnisse betroffen
+						sind.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>LeiKa-Leistung</term>
+				<listitem>
+					<para>Basierend auf der Auslegung der Verwaltungsverfahren der SDG-VO mit Hilfe
+						des Explanatory Papers der EU-KOM werden LeiKa-Leistungen ermittelt. Sie
+						bilden die zugehörigen nationalen Verwaltungsleistungen zu den Verfahren aus
+						Anhang II SDG-VO (SDG2-Verfahren) ab.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Procedural Requirement</term>
+				<listitem>
+					<para>Procedural Requirements (PR) sind abstrakte verfahrensbezogene
+						Nachweisanforderungen, die von der EU-KOM eingeführt wurden. Diese sind
+						Tatsachen, die im Rahmen von Verfahren nachgewiesen werden müssen. Diese PRs
+						werden mit bestimmten Nachweisen belegt.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Nachweis</term>
+				<listitem>
+					<para>Nachweise werden den PRs und LeiKa-Leistungen zugeordnet. Das heißt, ein
+						oder mehrere SDG2-relevante Nachweise können im entsprechenden Verfahren vom
+						Antragsteller verlangt werden, um bestimmte Sachverhalte oder die Einhaltung
+						von Verfahrensvorschriften zu belegen.</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+	<section>
+		<info>
+			<title>Befüllung der Common Services</title>
+		</info>
+		<para>Das Common Service Administration Tool ist die Benutzeroberfläche, die den
+			EU-Mitgliedstaaten zu den OOTS Common Services zur Verfügung gestellt wird.</para>
+		<para>Das CS Admin Tool ermöglicht es den Mitgliedstaaten, ihre Nachweistypen und
+			Nachweislieferanten, sowie Verfahren, die in den Anwendungsbereich des OOTS fallen, zu
+			erstellen und zu verwalten.</para>
+		<para>Das Common Service Admin Tool ist von grundlegender Bedeutung für den
+			Evidence-Mapping-Prozess, da es den Mitgliedsstaaten die Befüllung des Evidence Brokers
+			und des Data Service Directorys erleichtert, welche zwei Schlüsselsysteme des OOTS
+			darstellen.</para>
+		<para>Um eine organisatorische Interoperabilität zu erreichen, wurden verschiedene
+			Funktionen identifiziert, die entweder zentral oder auf der Ebene der Mitgliedstaaten
+			verfügbar sein müssen. Diese Funktionen dienen dazu, die Geschäftsprozesse zur
+			Ermittlung und Beschaffung der erforderlichen Nachweise auszuführen. Die identifizierten
+			gemeinsamen Dienste sind:</para>
+		<itemizedlist>
+			<listitem>
+				<para>Das Data Service Directory (DSD), ein gemeinsamer Dienst, der als Katalog von
+					Beweisarten dient, die die Evidence Provider auf Anfrage bereitstellen können.
+					Es wird im Prozess des Nachweisaustauschs von den anfordernden Online-Verfahren
+					verwendet, um die Register zu finden, die die benötigten Nachweise bereitstellen
+					können.</para>
+			</listitem>
+			<listitem>
+				<para>Der Evidence Broker (EB) ist ein maßgebliches System, das bestimmte Datensätze
+					von Nachweisarten abbildet, die bestimmte Anforderungen beweisen. Der Evidence
+					Requester konsultiert den EB, um herauszufinden, welche Arten von Beweisen für
+					einen bestimmten Nachweis, unter Berücksichtigung des Standortes und/oder der
+					Gerichtsbarkeit des Subjektes, angefordert werden können.</para>
+			</listitem>
+			<listitem>
+				<para>Das Semantic Repository (SR) ist ein gemeinsamer Dienst, der als Datenportal
+					für das OOTS fungiert und gemeinsam vereinbarte Datenmodelle speichert, die nach
+					Domänen gruppiert sind und in verschiedenen Darstellungen bereitgestellt
+					werden.</para>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section>
+		<info>
+			<title>Das EU-OOTS Common Services Admin Interface</title>
+		</info>
+		<figure>
+			<title>Abbildung der Funktionsweise des EU-OOTS Common Services Admin Interfaces</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/BefuellungCSAdminTool.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<itemizedlist>
+			<listitem>
+				<para>Im Common Services Admin Interface werden Informationen zu Data Services (1)
+					und Evidence Providern (2) für das Data Service Directory (DSD)
+					hinterlegt.</para>
+			</listitem>
+			<listitem>
+				<para>Zudem können hier einzelne Nachweistypen (3) angelegt und unter s.g.
+					Nachweistypenlisten gebündelt werden. Weiterhin können zusätliche Metadaten
+					angereichert werden (4).</para>
+			</listitem>
+			<listitem>
+				<para>Die Requirements (Nachweisanforderungen) und die entsprechenden Nachweistypen
+					werden miteinander verknüpft (5).</para>
+			</listitem>
+			<listitem>
+				<para>Die Requirements müssen mit den einzelnen SDG2-Verfahren (6) verbunden
+					werden.</para>
+			</listitem>
+		</itemizedlist>
+		<figure>
+			<title>Befüllung des Common Service Admin Tool</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/BefuellungCSAdminTool_2.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
+	<section>
+		<info>
+			<title>Zusammenhänge zwischen CS Admin Tool und der DE Evidence Survey</title>
+		</info>
+		<figure>
+			<title>Zusammenhänge zwischen den Common Service Admin Tools und der deutschen Evidence
+				Survey</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center"
+						fileref="../abbildungen/Zusammenhaenge_CSAdminTool_EvidenceSurvey.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<figure>
+			<title>Zusammenhänge zwischen den Common Service Admin Tools und der deutschen Evidence
+				Survey an einem ausgewählten Beispiel</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center"
+						fileref="../abbildungen/Zusammenhaenge_CSAdminTool_EvidenceSurvey_Beispiel.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<para/>
+	</section>
+	<section>
+		<info>
+			<title>Datenpflege der Common Services</title>
+		</info>
+		<para>Die EU-Mitgliedsstaaten erhalten zu den OOTS Common Services eine Benutzeroberfläche -
+			das sogenannte Common Service Admin Tool. Mit dem CS Admin Tool können Mitgliedsstaaten
+			ihre ermittelten Daten der Evidence Survey in die Common Services eingeben und
+			verwalten.</para>
+		<para>Die Eintragung der Daten in die EU-OOTS Common Services erfolgt durch die nationale
+			SDG-Koordination. Die Zulieferung und Bereitstellung der jeweiligen Daten zur Befüllung
+			der EU-OOTS Common Services erfolgt durch die Umsetzungsprojekte und die zuständigen
+			Behörden (Competent Authorities).</para>
+	</section>
+	<section>
+		<info>
+			<title>Infrastrukturkomponenten</title>
+		</info>
+		<para>Um den Anschluss des Nationalen Once Only Technical Systems (NOOTS) an das Europäische
+			Once Only Technical System zu gewährleisten, werden in Deutschland verschiedene
+			Infrastrukturkomponenten entwickelt.</para>
+		<para>Ein Teil der Komponenten, wie eine eIDAS-konforme Authentifizierung und Identifikation
+			für natürliche Personen, wurden teilweise schon umgesetzt. Andere Komponenten, wie die
+			Intermediäre Plattform und der eDelivery Access Point, werden im Rahmen der SDG-VO in
+			2023 und 2024 umgesetzt. Diese sollen einen SDG-konformen Datenaustausch zwischen
+			Evidence Requestern und Evidence Providern gewährleisten.</para>
+	</section>
+	<section>
+		<info>
+			<title>eDelivery Access Point</title>
+		</info>
+		<para>Mit dem eDelivery Access Point soll eine eigenständige, fachunabhängige und lauffähige
+			Komponente für den Nachweisabruf und die Nachweisbereitstellung im europäischen Kontext
+			(gemäß SDG) geschaffen werden.</para>
+		<para>Der eDelivery Access Point stellt die Software für das sichere Versenden und Empfangen
+			von beliebigen technischen Dokumenten per OASIS AS4 Standard (Signatur +
+			Verschlüsselung) dar.</para>
+		<para>Dabei soll der eDelivery Access Point lediglich die Funktionen des Mappings von
+			Nachrichtenstrukturen sowie den sicheren und validen Transport der Dokumente abdecken
+			und erfüllen.</para>
+		<para>Ein SDG-konformer eDelivery Access Point muss von allen EU-Mitgliedsstaaten im Rahmen
+			der Umsetzung der SDG-VO realisiert werden.</para>
+		<para>In einer ersten Ausbaustufe wird eine eDelivery Access Point-Implementierung (Domibus)
+			genutzt, die von der KOM im Rahmen des eDelivery Building Block bereitgestellt
+			wird.</para>
+		<figure>
+			<title>Der eDelivery Access Point im NOOTS</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/eDeliveryAccessPoint.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
+	<section>
+		<info>
+			<title>Intermediäre Plattform</title>
+		</info>
+		<para>„[Die] intermediäre Plattform [bezeichnet] eine technische Lösung, die je nach der
+			Verwaltungsorganisation der Mitgliedstaaten, in denen die intermediäre Plattform tätig
+			ist, in Erfüllung eigener Aufgaben oder im Namen anderer Behörden wie
+			Nachweislieferanten oder Nachweise anfordernden Behörden tätig wird und über die
+			Nachweislieferanten oder Nachweise anfordernde Behörden mit den in Artikel 4 Absatz 1
+			genannten gemeinsamen Diensten oder mit Nachweislieferanten oder Nachweise anfordernden
+			Behörden aus anderen Mitgliedstaaten verbunden werden;“ (Durchführungsverordnung (EU)
+			2022/1463 Art.1 Abs.6)</para>
+		<section>
+			<info>
+				<title>Intermediäre Plattform: High-Level Architektur</title>
+			</info>
+			<figure>
+				<title>Intermediäre Plattform: High-Level Architektur</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center"
+							fileref="../abbildungen/IntermediaerePlattform_1.png" format="png"
+							width="100%"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</section>
+		<section>
+			<info>
+				<title>Intermediäre Plattform: Komponentensicht</title>
+			</info>
+			<figure>
+				<title>Intermediäre Plattform: Komponentenübersicht</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata align="center"
+							fileref="../abbildungen/IntermediaerePlattform_2.png" format="png"
+							width="100%"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</section>
+	</section>
+	<section>
+		<info>
+			<title>Nationale zentrale Kontaktstelle</title>
+		</info>
+		<para>Die nationale zentrale Kontaktstelle ist einerseits die Schnittstelle zu den Systemen
+			und Komponenten des NOOTS, soweit sie für den Nachweisaustausch über das EU-OOTS
+			relevant sind, und andererseits die Schnittstelle zum Dashboard der KOM. </para>
+		<figure>
+			<title>Nationale zentrale Kontaktstelle als Schnittstelle zwischen den Systemen</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center" fileref="../abbildungen/NatZentraleKontaktstelle.png"
+						format="png" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
+	<section>
+		<info>
+			<title>eIDAS</title>
+		</info>
+		<section>
+			<info>
+				<title>eIDAS für natürliche Personen</title>
+			</info>
+			<para>Nach Art. 13 Abs. 2c SDG-VO soll es für grenzüberschreitende Nutzende möglich
+				sein, „sich […] gemäß der Verordnung <link
+					xlink:href="https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32014R0910"
+					>(EU) Nr. 910/2014 [kurz eIDAS-Verordnung]</link> elektronisch auszuweisen und
+				zu authentifizieren, Unterlagen zu unterzeichnen oder mit einem Siegel zu
+				versehen.“  </para>
+			<section>
+				<info>
+					<title>eIDAS-konformes Nutzerkonto Bund:</title>
+				</info>
+				<para>SDG-Konformität wird durch die Einbindung des eIDAS-konformen Nutzerkontos des
+					Bundes erzielt. Akzeptiert werden derzeit folgende elektronischen
+					Identifizierungsmittel (eID): </para>
+				<itemizedlist>
+					<listitem>
+						<para>Online-Ausweisfunktion des deutschen Personalausweises, des
+							elektronischer Aufenthaltstitels sowie der eID-Karte für Bürgerinnen und
+							Bürger der EU und des EWR </para>
+					</listitem>
+					<listitem>
+						<para>Europäische eIDs der Staaten: Belgien, Dänemark, Estland, Frankreich,
+							Italien, Kroatien, Lettland, Litauen, Luxemburg, Malta, Niederlande,
+							Portugal, Schweden, Slowakische Republik, Spanien und Tschechische
+							Republik </para>
+					</listitem>
+				</itemizedlist>
+			</section>
+			<section>
+				<info>
+					<title>eID-Karte für EU-Bürgerinnen und Bürger:</title>
+				</info>
+				<para>Die eID-Karte für Bürgerinnen und Bürger der Europäischen Union sowie
+					Angehörige des Europäischen Wirtschaftsraums wurde zum 1. Januar 2021
+					eingeführt. Diese zeichnet sich durch folgende Eigenschaften aus: </para>
+				<itemizedlist>
+					<listitem>
+						<para>Einer Online-Ausweisfunktion auf hohem Vertrauensniveau, um
+							Behördengänge sowie Geschäftliches digital zu erledigen </para>
+					</listitem>
+					<listitem>
+						<para>Ebenfalls nutzbar von Angehörigen eines EU-Mitgliedstaates, der (noch)
+							nicht über ein eIDAS-notifiziertes eID-System verfügt </para>
+					</listitem>
+					<listitem>
+						<para>Die Beantragung der eID-Karte ist auch außerhalb Deutschlands bei den
+							vom Auswärtigen Amt benannten deutschen Auslandsvertretungen möglich
+						</para>
+					</listitem>
+				</itemizedlist>
+			</section>
+		</section>
+		<section>
+			<info>
+				<title>eIDAS für Organisationen (Vertretungsberechtigung)</title>
+			</info>
+			<para>Neben der Authentifizierung und Identifikation von natürlichen Personen müssen
+				auch eIDAS konforme Lösungen für Organisationen und Unternehmen geschaffen werden.
+				Diese sind noch nicht vorhanden. </para>
+			<section>
+				<info>
+					<title>Aktuelle Lösung in Deutschland: Mein Unternehmenskonto </title>
+				</info>
+				<itemizedlist>
+					<listitem>
+						<para>Das Unternehmenskonto ermöglicht die Authentifizierung von Unternehmen
+							und den handelnden natürlichen Personen </para>
+					</listitem>
+					<listitem>
+						<para>Die Nutzung eines softwarebasierten ELSTER-Zertifikat als
+							Authentifizierungsmittel für Unternehmen </para>
+					</listitem>
+					<listitem>
+						<para>Gemäß §3a und §12 VwVfG muss es auch möglich sein abzuleiten, welche
+							handelnde Person den Antrag stellt. Ein Unternehmenskonto kann über
+							Unternehmenszertifikate die antragstellende natürliche Person
+							identifizieren </para>
+					</listitem>
+					<listitem>
+						<para>Online-Anträge können nur von Mitarbeitenden mit besonderen
+							Befugnissen z.B. Geschäftsführern und Prokuristen gestellt werden,
+							andere Personen benötigen handschriftliche Vertretungsvollmachten
+						</para>
+					</listitem>
+					<listitem>
+						<para>Das Unternehmenskonto verfügt über ein Autorisierungsmodul, das
+							Transparenz über verschiedene Unternehmenskonten schafft und
+							Zugriffsrechte definiert </para>
+					</listitem>
+					<listitem>
+						<para>Das Unternehmenskonto ist nicht eIDAS notifiziert </para>
+					</listitem>
+				</itemizedlist>
+			</section>
+		</section>
+	</section>
+	<section>
+		<info>
+			<title>Beschreibung Technical Design Documents</title>
+		</info>
+		<para>Die Technical Design Documents sind eine Reihe detaillierter und unverbindlicher
+			technischer Dokumente, die von der Europäischen Kommission in Zusammenarbeit mit den
+			Mitgliedstaaten im Rahmen der Koordinierungsgruppe für das Single Digital Gateway gemäß
+			Art. 29 SDG-VO, sowie etwaiger Untergruppen gemäß Art. 19 SDG-VO, erstellt werden. Diese
+			umfassen unter anderem die oberste Ebene der Architektur, Austauschprotokolle, Normen
+			und Zusatzdienste, die die Kommission, die Mitgliedstaaten, die Nachweislieferanten, die
+			Nachweise anfordernden Behörden, die intermediären Plattformen und andere betroffene
+			Behörden bei der Einrichtung des OOTS im Einklang mit dieser Verordnung unterstützen.
+		</para>
+	</section>
+</chapter>
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: xml
+sgml-omittag:nil
+sgml-shorttag:nil
+sgml-namecase-general:nil
+sgml-general-insert-case:lower
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:2
+sgml-indent-data:nil
+sgml-parent-document:nil
+sgml-exposed-tags:nil
+sgml-local-catalogs:nil
+sgml-local-ecat-files:nil
+sgml-default-dtd-file:"e:/cygwin/home/osci/Meldewesen/xmeld/docbookzubehoer/ced/preface.ced"
+End:
+-->

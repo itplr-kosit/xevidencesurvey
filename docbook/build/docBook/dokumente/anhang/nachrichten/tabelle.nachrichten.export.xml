@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE informaltable [<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent"> %complete;]><informaltable xmlns="http://docbook.org/ns/docbook"
+               version="5"
+               xml:lang="de"
+               xml:id="tabelle.nachrichten.export">
+   <tgroup xmlns:xlink="http://www.w3.org/1999/xlink" cols="4">
+      <colspec colnum="1" colname="c1" colwidth="43mm"/>
+      <colspec colnum="2" colname="c2" colwidth="13mm"/>
+      <colspec colnum="3" colname="c3" colwidth="79mm"/>
+      <colspec colnum="4" colname="c5" colwidth="25mm"/>
+      <thead>
+         <row>
+            <entry namest="c1" nameend="c5" align="center">Alle Nachrichten zu <quote>export</quote>
+            </entry>
+         </row>
+         <row>
+            <entry align="center">Bezeichnung</entry>
+            <entry align="center">Nr.</entry>
+            <entry align="center">Beschreibung</entry>
+            <entry align="center">Seite</entry>
+         </row>
+      </thead>
+      <tbody>
+         <row>
+            <entry>
+               <para>export.evidenceBroker.0005</para>
+            </entry>
+            <entry>0005</entry>
+            <entry><para>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten der Zuordnung von Procedural Requirements zu EvidenceTypes (in einer EvidenceTypeList) </para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.export.export.evidenceBroker.0005"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>export.evidenceBroker.0007</para>
+            </entry>
+            <entry>0007</entry>
+            <entry><para>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten zu EvidenceTypes.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.export.export.evidenceBroker.0007"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>export.OZGIp.1000</para>
+            </entry>
+            <entry>1000</entry>
+            <entry><para> XML-Datenexport für die OZG-IP (Nachweise, Zuordnungen)</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.export.export.OZGIp.1000"/>
+            </entry>
+         </row>
+      </tbody>
+   </tgroup>
+</informaltable>

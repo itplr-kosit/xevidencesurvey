@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodik">
+  <info>
+    <title>Von projektspezifischen Anforderungen abstrahieren</title>
+  </info>
+
+  <para>Das Fachdatenmodell „Evidence Survey” wurde als XÖV-Spezifikation von August bis Dezember
+    2023 entwickelt. </para>
+  <para>Dazu wurden zunächst die vorliegenden Daten der Evidence Survey gesichtet und analysiert. Im
+    weiteren Verlauf wurde von konkreten Anforderungen der Evidence Survey abstrahiert und unter
+    Berücksichtigung von Best-Practices der Interoperabilität eine Methodik entwickelt, die auch
+    weitere Profilierungen des Fachdatenmodells mit weiteren abweichenden oder ergänzenden
+    Anpassungen erlaubt. Mit unterschiedlichen Programmbereichen der Registermodernisierung wurden
+    zuvor Anforderungen an ein solches Fachdatenmodell erhoben und im Sinne der Erweiterbarkeit des
+    Datenmodells methodisch berücksichtigt. Die konkrete Ausprägung des Fachdatenmodells wurde in
+    Anwendung der Methodik dann auf die Bedarfe der Evidence Survey ausgerichtet. </para>
+
+  <para>Es wurde von im Kapitel III.1 beschriebenen Evidence Survey spezifischen Ablauf wie folgt
+    abstrahiert: </para>
+  <itemizedlist>
+    <listitem>
+      <para>Erhebung spezifischer Daten bei den zuständigen Stellen,</para>
+    </listitem>
+    <listitem>
+      <para>Abgleich dieser spezifischen Daten mit dem Stand anderer,</para>
+    </listitem>
+    <listitem>
+      <para>Anwendung von Prüfschemata unter Berücksichtigung der Anschlussbedingungskriterien,</para>
+    </listitem>
+    <listitem>
+      <para>Ergänzung von Metadaten und Freigabeinformationen,</para>
+    </listitem>
+    <listitem>
+      <para>Darstellung der Ergebnisse und</para>
+    </listitem>
+    <listitem>
+      <para>Aufbereitung spezifischer Daten für den Export in externe Systeme.</para>
+    </listitem>
+  </itemizedlist>
+
+  <para>Datenstrukturen und Codelisten wurden, wo möglich nachgenutzt, wo nicht vorhanden neu
+    entworfen. Import- und Exportnachrichten wurden festgelegt. Neben den für die SDG Evidence
+    Survey notwendigen konkreten Datenfeldern wurde auch eine Beispielentität mit einem
+    beispielhaften Mapping auf Leika-Leistungen zum Zwecke besserer Veranschaulichung der Methodik
+    ergänzt. </para>
+  <para>Die Erstellung der Methodik und deren Anwendung auf die Bedarfe der Evidence Survey
+    profitierte unter anderem von den in <link xmlns:xlink="http://www.w3.org/1999/xlink"
+      linkend="spezifikation.arbeitsgruppen">Anhang IV.C</link> dargestellten über das letzte
+    Jahrzehnt gesammelte Erfahrungen aus EU-Arbeitsgruppen und nationalen Gremien zur Schaffung von
+    Datenaustauschspezifikationen für die OZG- und SDG-Umsetzung. </para>
+  <para>Die Anwendung der Methodik auf den SDG Use Case wird im Folgenden als „XEvidenceSurvey“
+    bezeichnet. Diese verwendet im Folgenden die englischsprachigen Begriffe der EU OOTS zusammen
+    mit den für die Registermodernisierung benötigten deutschsprachigen Entitäten. Die für die
+    Veröffentlichung notwendigen Prüfschritte, Metadaten und Stakeholder-Freigaben wurden am
+    Evidence Survey Use Case ausgerichtet. </para>
+  <para>Die vorliegende Spezifikation des Datenmodells wendet eine Form der Profilbildung an, in dem
+    es systematische Erweiterung von EU-Konzepten zur Nutzung auch für innerdeutsche Zwecke
+    vornimmt. Nur an „typisch deutschen Belangen“ entlang wurden Erweiterungen vorgesehen oder sie
+    sind beispielhaft skizziert. Interoperabilität zur EU und innerhalb Deutschlands ist methodisch
+    da vorgesehen, wo es durch Einhaltung von übergreifenden Design- und Entwurfsprinzipien und
+    durch konsequente Nachnutzung bestehender Artefakte wie Codelisten (FIM, EU OOTS) und
+    XÖV-Datentypen (Code) möglich ist. </para>
+  <para>Als Spezifikation mit angestrebter XÖV-Konformität werden entlang der
+    XÖV-Produktionsumgebung Standards vom W3C und von der Standardisierungsorganisation OASIS
+    eingesetzt. Den Nutzern des Modells wird so eine gute Werkzeugunterstützung zu teil. Eine
+    Nachnutzung von neuen oder bereits langjährig im Einsatz befindlichen Anwendungen wird möglich:
+    So sind etwa die im Auftrag des IT-Planungrates entwickelten Anwendungen XRepository und
+    XÖV-Suite im Zusammenhang mit dem Fachdatenmodell einsetzbar: zur oberflächengestützten
+    Profilierung des Fachdatenmodells für Anforderungen anderer Programmbereiche der
+    Registermodernisierung könnte die XÖV-Suite genutzt werden. Codelisten des Fachdatenmodells sind
+    über das XRepository für eine breite Öffentlichkeit einsehbar, die Nachnutzung von
+    XÖV-Kernkomponenten über die Interopmatrix im Bezug zu anderen Standards erkennbar. </para>
+  <para>Die Spezifikation und deren Arten der Bereitstellung erfüllen die im XÖV-Handbuch erwähnten
+    Anforderungen zur Erlangung von XÖV-Konformität, auch wenn der eigentliche
+    Zertifizierungsprozess noch nicht angestoßen wurde. Insbesondere wurde das Augenmerk auf die
+    Einhaltung der Bereitstellungspflichten, der Wiederverwendung der XÖV-Bausteine sowie der
+    Einhaltung aller technischen Kriterien zum Erhalt von XÖV-Konformität gelegt. </para>
+  <para>Die vorliegende XÖV-Spezifikationen fügt sich daher gut in das Umfeld benachbarter
+    Spezifikationen (XZuFi, XNachweis, XBasisdaten, XDatenschutzcockpit) ein. </para>
+
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center"
+        fileref="../abbildungen/Einordnung_Methodik_Fachdatenmodell_Ebenen_Interoperabilität.png"
+        format="png" scale="30"/>
+    </imageobject>
+  </mediaobject>
+
+  <para> Einzelne Aspekte der Methodik sollen im Folgenden detaillierter ausgeführt werden: </para>
+
+
+</section>

@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE book [
+    <!ENTITY % complete SYSTEM "../ent/complete.ent">
+    %complete;
+]>
+<book xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de" status="&specstatus;">
+	<info revision="1.0">
+		<title>Entwurf Fachdatenmodell XEvidenceSurvey</title>
+		<subtitle>Version 0.6 - SDG</subtitle>		
+		<abstract>
+			<para>Fassung: 12. April 2024</para>
+			<para>Herausgeber: SDG Koordination</para>
+		<!--	<para>Bezugsort: <link xmlns:xlink="http://www.w3.org/1999/xlink"
+				xlink:href="www.xoev.de/de/starterpaket">www.xoev.de/de/starterpaket</link></para> -->
+		</abstract>
+	</info>
+
+	<part xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.ueberblick">
+		<info>
+			<title>Überblick</title>
+		</info>
+		<!-- <include xmlns="http://www.w3.org/2001/XInclude" href="ueberblick/vorwort.xml"/> -->
+		<include xmlns="http://www.w3.org/2001/XInclude" href="einleitung/einleitung.xml"/>
+	</part>
+	
+	<!--  Methodik bis auf weiteres entfernt. Eventuell in neuem begleitenden Dokument wieder einfügen.
+	<part xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.erweiterbarkeitmain">
+		<info>
+			<title>Methodik</title>
+		</info>
+		<chapter xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+			xml:id="spezifikation.erweiterbarkeit">
+			<info>
+				<title>Methodik zum Erhalt von Interoperabilität bei der Erfassung von Angaben zu Registern, Services, Nachweisanforderungen und Nachweisen</title>
+			</info>
+			
+			
+		
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodik.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail1.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail2.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail3.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail4.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail5.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/methodikdetail6.xml"/>
+	 
+		
+		<include xmlns="http://www.w3.org/2001/XInclude" href="erweiterbarkeit/offenepunkte.xml"/>
+		</chapter>
+	</part>
+	-->
+	
+	<part xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.allgemeines">
+		<info>
+			<title>Fachdatenmodell "XEvidenceSurvey"</title>
+		</info>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="hintergrund/hintergrund.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude"
+			href="informationsmodell/informationsmodell.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude"
+			href="../build/docBook/dokumente/anhang/externeModelle/externeModelle.xml"/>
+	</part>
+		
+
+
+	<part xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.anhang">
+		<info>
+			<title>Anhänge</title>
+		</info>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/nachrichten/nachrichten.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/codelisten/codelisten.xml"/>
+		
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/glossar_u_abkuerzungsverz/glossar.xml"/>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/glossar_u_abkuerzungsverz/abkuerzungsverzeichnis.xml"/>
+	<!-- 	<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/autorenliste/autorenliste.xml"/> -->
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/arbeitsgruppen/arbeitsgruppen.xml"/>
+		
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/anforderungen/requirements.xml"/>
+		
+		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/versionshistorie/versionshistorie.xml"/>	 
+	</part>
+</book>

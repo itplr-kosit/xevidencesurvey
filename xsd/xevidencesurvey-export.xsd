@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           targetNamespace="http://xevidencesurvey.de/def/xevidencesurvey/0.6/xsd"
+           version="0.6"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+   <xs:annotation>
+      <xs:appinfo>
+         <standard>
+            <nameLang>XEvidenceSurvey</nameLang>
+            <nameKurz>XEvidenceSurvey</nameKurz>
+            <nameTechnisch>xevidencesurvey</nameTechnisch>
+            <kennung>urn:xoev-de:kosit:standard:xevidencesurvey</kennung>
+            <beschreibung>Das Fachdatenmodell XEvidenceSurvey beschreibt technologieneutral ein logisches Datenmodell, so wie es zur nationalen Erhebung von Nachweisanfordernden Stellen und von Nachweisprovidern sowie Umsetzungsprojekten im Rahmen der SDG-Umsetzung Verwendung findet.</beschreibung>
+         </standard>
+         <versionStandard>
+            <version>0.6</version>
+            <versionXOEVProfil>3.0.1</versionXOEVProfil>
+            <versionXOEVHandbuch>3.0.1</versionXOEVHandbuch>
+            <versionXGenerator>3.1.1</versionXGenerator>
+            <versionModellierungswerkzeug>19.0 SP 4</versionModellierungswerkzeug>
+            <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
+         </versionStandard>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:include schemaLocation="xevidencesurvey-baukasten.xsd"/>
+   <xs:element name="export.evidenceBroker.0005">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten der Zuordnung von Procedural Requirements zu EvidenceTypes (in einer EvidenceTypeList)</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="msprocedures"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGMSProcedureType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste aller Nachweise (mit UND verknüft) die auf ein Procedural Requirment mappen.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="evidenceTypeList"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceTypeListType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste aller Nachweise (mit UND verknüft) die auf ein Procedural Requirment mappen.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="proceduralrequirement"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGProceduralRequirementType">
+               <xs:annotation>
+                  <xs:documentation>Procedural requirements werden exportiert.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingEUSDGEvidenceTypeListDSGProceduralRequirement"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingEUSDGEvidenceTypeListSDGProceduralRequirementType">
+               <xs:annotation>
+                  <xs:documentation>Mapping der ETListe</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="evidencetype"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceTypeType">
+               <xs:annotation>
+                  <xs:documentation>Eine Liste aller Evidences.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="export.evidenceBroker.0007">
+      <xs:annotation>
+         <xs:documentation>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten zu EvidenceTypes.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="evidencetype"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:SDGEvidenceTypeType">
+               <xs:annotation>
+                  <xs:documentation>Export in das CS Admintool der Daten zu EvidenceTypes</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="export.OZGIp.1000">
+      <xs:annotation>
+         <xs:documentation>XML-Datenexport für die OZG-IP (Nachweise, Zuordnungen)</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="ozgLeistung"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:OZGLeistungType">
+               <xs:annotation>
+                  <xs:documentation>OZG-Leistungen auf Grundlage der Datenbasis der Evidence Survey.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="onlineService"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:OnlineServiceType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der zugeordnete Online-Service angegeben werden, sofern nicht durch die OZG-Leistung bereits abgedeckt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingLeiKaSDG2Verfahren"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeiKaSDG2VerfahrenType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element wird das Mapping zwischen LeiKa-Leistungen und SDG2-Verfahren aufgeführt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="mappingLeikaOnlineService"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:MappingDELeikaOnlineServiceType">
+               <xs:annotation>
+                  <xs:documentation>In diesem Element wird das Mapping zwischen LeiKa-Leistungen und SDG2-Verfahren aufgeführt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweis"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der zugeordnete Online-Service angegeben werden, sofern nicht durch die OZG-Leistung bereits abgedeckt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="nachweisbuendel"
+                        minOccurs="0"
+                        maxOccurs="unbounded"
+                        type="xes:NachweistypBuendelType">
+               <xs:annotation>
+                  <xs:documentation>Hier kann der zugeordnete Online-Service angegeben werden, sofern nicht durch die OZG-Leistung bereits abgedeckt.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

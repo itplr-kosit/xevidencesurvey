@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail7">
+  <info>
+    <title>Methodisch eingebaute Erweiterbarkeit</title>
+  </info>
+  <para>
+    <itemizedlist>
+      <listitem>
+        <para>Codelisten-Methodik </para>
+        <para>Wesentliche Prozesslogik wurde über Codelisten realisiert, so sind z.B. <itemizedlist>
+            <listitem>
+              <para>eine Anpassung z.B. der Workflow-Status (Entwurf, zur Freigabe, Freigegeben,
+                Archiviert) über Anpassungen der Codelisten statt der Struktur möglich</para>
+            </listitem>
+            <listitem>
+              <para>Anpassungen (Erweiterung, Umbenennung, Löschung) von Procedures, Direktiven,
+                LeiKas, gar von Mitgliedstaaten sind jederzeit im Idealfall abwärtskompatibel durch
+                Anpassungen bei Codelisten möglich </para>
+            </listitem>
+            <listitem>
+              <para>Um die Erweiterbarkeit besser aufzeigen zu können, wurde eine nicht-funktionalen
+                „Beispielentitaet“ integriertund mit Beispielnachrichten versehen. </para>
+            </listitem>
+          </itemizedlist></para>
+      </listitem>
+    </itemizedlist>
+  </para>
+  <!-- Hier noch ein Bild -->
+  
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" fileref="../abbildungen/SPEC_Beispielentitaet.png" format="png"
+        scale="50"/>
+    </imageobject>
+  </mediaobject>
+  
+
+</section>

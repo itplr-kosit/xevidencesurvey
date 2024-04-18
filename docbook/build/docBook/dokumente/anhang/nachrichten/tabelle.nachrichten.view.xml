@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE informaltable [<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent"> %complete;]><informaltable xmlns="http://docbook.org/ns/docbook"
+               version="5"
+               xml:lang="de"
+               xml:id="tabelle.nachrichten.view">
+   <tgroup xmlns:xlink="http://www.w3.org/1999/xlink" cols="4">
+      <colspec colnum="1" colname="c1" colwidth="43mm"/>
+      <colspec colnum="2" colname="c2" colwidth="13mm"/>
+      <colspec colnum="3" colname="c3" colwidth="79mm"/>
+      <colspec colnum="4" colname="c5" colwidth="25mm"/>
+      <thead>
+         <row>
+            <entry namest="c1" nameend="c5" align="center">Alle Nachrichten zu <quote>view</quote>
+            </entry>
+         </row>
+         <row>
+            <entry align="center">Bezeichnung</entry>
+            <entry align="center">Nr.</entry>
+            <entry align="center">Beschreibung</entry>
+            <entry align="center">Seite</entry>
+         </row>
+      </thead>
+      <tbody>
+         <row>
+            <entry>
+               <para>view.nachweiszuordnung.0001</para>
+            </entry>
+            <entry>0001</entry>
+            <entry><para>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen, Nachweisanforderungen, SDG2-Verfahren und LeiKa.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.nachweiszuordnung.0001"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.registerzuordnung.0002</para>
+            </entry>
+            <entry>0002</entry>
+            <entry><para>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen und Registern.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.registerzuordnung.0002"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.onlinediensteGesamt.0003</para>
+            </entry>
+            <entry>0003</entry>
+            <entry><para>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von SDG2-Verfahren, LeiKa, OZG-Leistungen und Online-Services.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.onlinediensteGesamt.0003"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.evidenceBroker.0004</para>
+            </entry>
+            <entry>0004</entry>
+            <entry><para>Dieser View enthält die zur Befüllung des Evidence Brokers notwendigen Daten für die Anlage von EvidenceProvidern und ihre Evidences.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.evidenceBroker.0004"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.dataserviceDirectory.0015</para>
+            </entry>
+            <entry>0015</entry>
+            <entry><para>Dieser View enthält die zur Befüllung des Data Service Directory erforderlichen Daten.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.dataserviceDirectory.0015"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.erhebungsdaten.0017</para>
+            </entry>
+            <entry>0017</entry>
+            <entry><para>In diesem View können die Daten gem. der Erhebung Evidence Survey bis 2023 angegeben werden.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.erhebungsdaten.0017"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.leika2sdgverfahren.0031</para>
+            </entry>
+            <entry>0031</entry>
+            <entry><para>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Leikas mit dem jeweiligen SDG Anhang II Verfahren.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.leika2sdgverfahren.0031"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.pruefungLeika.0100</para>
+            </entry>
+            <entry>0100</entry>
+            <entry><para>Diese View enthält alle im System hinterlegten LeiKas</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.pruefungLeika.0100"/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>view.beispielentitiaet.0999</para>
+            </entry>
+            <entry>0999</entry>
+            <entry><para>Diese beispielhafte Nachricht zeigt die View einer Beispieentität und einem Register.</para></entry>
+            <entry>
+               <xref role="Seitenzahl"
+                     linkend="xevidencesurvey.Nachrichten.view.view.beispielentitiaet.0999"/>
+            </entry>
+         </row>
+      </tbody>
+   </tgroup>
+</informaltable>

@@ -1,0 +1,2983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE
+                    section
+                    [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         version="5"
+         xml:lang="de"
+         xml:id="schluesseltabellen"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title xmlns:xlink="http://www.w3.org/1999/xlink">Codelisten</title>
+   <para xmlns:xlink="http://www.w3.org/1999/xlink">In diesem Abschnitt sind die in XEvidenceSurvey verwendeten Codelisten und ihre Inhalte aufgeführt.</para>
+   <section xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:id="schluesseltabellen.uebersicht">
+      <title>Übersicht</title>
+      <para>In der nachstehenden Tabelle werden die folgenden Informationen dargestellt:</para>
+      <variablelist>
+         <varlistentry>
+            <term>Codeliste</term>
+            <listitem>
+               <para>Alle in XEvidenceSurvey genutzten Codelisten in alphabetischer Reihenfolge, die in mindestens einem Code-Datentyp genutzt werden (Typ der Codelistennutzung 1 bis 3).<footnote xml:id="no-entry">
+                     <para>Sofern in der Spalte „Code-Datentyp(en)“ kein Eintrag vorhanden ist, bedeutet dies, dass der Standard die jeweilige Codeliste verwendet und dokumentieren möchte. Der die Codeliste nutzende Code-Datentyp ist jedoch nicht im Standard spezifiziert.</para>
+                  </footnote>
+               </para>
+            </listitem>
+         </varlistentry>
+         <varlistentry>
+            <term>Version</term>
+            <listitem>
+               <para>Die Version der Codeliste.</para>
+            </listitem>
+         </varlistentry>
+         <varlistentry>
+            <term>Code-Datentyp(en)</term>
+            <listitem>
+               <para>Die die jeweilige Codeliste nutzenden Code-Datentypen.<footnoteref linkend="no-entry"/>
+               </para>
+            </listitem>
+         </varlistentry>
+      </variablelist>
+      <para>Die Namen der Code-Datentypen und der Codelisten stellen Links zu den jeweiligen Detail-Abschnitten dar.</para>
+      <informaltable version="5" xml:lang="de" xml:id="codelisten-uebersichtstabelle">
+         <tgroup cols="3">
+            <colspec colnum="1" colname="codeliste" colwidth="73mm"/>
+            <colspec colnum="2" colname="version" colwidth="14mm"/>
+            <colspec colnum="3" colname="code" colwidth="73mm"/>
+            <thead>
+               <row>
+                  <entry>Codeliste</entry>
+                  <entry>Version</entry>
+                  <entry>Code-Datentyp(en)</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.0.6">
+                        <emphasis role="rot">Codeliste besitzt keinen Namen (kurz)</emphasis>
+                     </link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure">Code.SDGProcedureType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.0.6">
+                        <emphasis role="rot">Codeliste besitzt keinen Namen (kurz)</emphasis>
+                     </link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderstatus">Code.StakeholderstatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.sr.oots.tech.ec.europa.eu.codelists.ootsmediatypes.ootsmediatypes-Codes">EU OOTS BOMC</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.MediaTypes">Code.MediaTypesType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.0.6">Grenzüberschreitender Bezug</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.GrenzueberschreitenderBezug">Code.GrenzueberschreitenderBezugType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xnachweis.codeliste.identifierscheme.IdentifierSchemes-Codes">Identifier Schemes</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.IdentifierSchemes">Code.IdentifierSchemesType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_OOTS_JurisdictionLevel-CodeList.gc.jurisdiction-Level">JurisdictionLevel</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level">Code.Jurisdiction-LevelType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xnachweis.codeliste.loa.loa-Codes">LOA</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.LOA">Code.LOAType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_External_LanguageCode.gc.languageCode-Codes">LanguageCode</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Language_Code">Code.Language-CodeType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.eu-kom.codeliste.lebensereignisse.Lebensereignisse-Codes">Lebensereignisse</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes">Code.Lebensereignisse-CodesType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xnachweis.codeliste.nut.nuts-Codes">NUTS</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.NUTS">Code.NUTSType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.2.0">RegMoReifegrad</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.RegMoReifegrad">Code.RegMoReifegradType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz" linkend="tabelle.-.workflowStatusEU">WorkflowStatusEU</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.WorkflowStatusEU">Code.WorkflowStatusEUType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.evidenceprovider.evidenceprovider-codes">evidenceProvider</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.EvidenceProvider">Code.EvidenceProviderType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.formatevidencesurvey.formatevidencesurvey-codes">formatEvidenceSurvey</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.FormatEvidenceSurvey">Code.FormatEvidenceSurveyType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.grenzueberschreitenderbezug-codes">grenzüberschreitenderBezug</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.GrenzueberschreitenderBezug">Code.GrenzueberschreitenderBezugType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikafreigabe.leikafreigabe-codes">leikafreigabe</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Leikafreigabe">Code.LeikafreigabeType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.de.fim.leika.leistung.leikaLeistung">leikaleistungen</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen">Code.leikaLeistungenType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikatyp.leiKatyp-codes">leikatyp</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp">Code.LeiKaTypType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mappingstatus.mappingstatus-codes">mappingstatus</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Mappingstatus">Code.MappingstatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mitgliedsstaaten.mitgliedsstaaten-codes">mitgliedsstaaten</link>
+                  </entry>
+                  <entry align="left">2023-11</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry">Code.EEACountryType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.nachweisaustauschde.nachweisaustauschde-codes">nachweisaustausch</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.NachweisaustauschDE">Code.NachweisaustauschDEType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.planungsstatus.planungstatus-codes">planungstatus</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Planungsstatus">Code.PlanungsstatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.rechtsgrundlage.rechtsgrundlage-codes">rechtsgrundlage</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Rechtsgrundlage">Code.RechtsgrundlageType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.RegMoReifegrad-codes">regmoreifegrad</link>
+                  </entry>
+                  <entry align="left">2.0</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.RegMoReifegrad">Code.RegMoReifegradType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.richtlinien.richtlinien-codes">richtlinien</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Richtlinien">Code.RichtlinienType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanz.sdg2relevanz-codes">sdg2relevanz</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2Relevanz">Code.SDG2RelevanzType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanzintern.sdg2relevanzintern-codes">sdg2relevanzIntern</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes">Code.SDG2RelevanzIntern-CodesType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgstatus.sdgstatus-codes">sdg2status</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.SDGStatus">Code.SDGStatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.sdgprocedure-codes">sdgprocedure</link>
+                  </entry>
+                  <entry align="left">2024-02-01</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure">Code.SDGProcedureType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderfreigabe.stakeholderfreigabe-codes">stakeholderfreigabe</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderfreigabe">Code.StakeholderfreigabeType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.stakeholderstatus-codes">stakeholderstatus</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderstatus">Code.StakeholderstatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.uebersetzungsstatus.uebersetzungsstatus-codes">uebersetzungsstatus</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Uebersetzungsstatus">Code.UebersetzungsstatusType</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.workflowstatus.workflowstatus-codes">workflowstatus</link>
+                  </entry>
+                  <entry align="left">0.6</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="xevidencesurvey.Baukasten.Codes.Code.Workflowstatus">Code.WorkflowstatusType</link>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </informaltable>
+   </section>
+   <section xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:id="schluesseltabellen.details">
+      <title>Details</title>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.0.6">
+         <title>
+            <emphasis role="rot">Codeliste besitzt keinen Namen (kurz)</emphasis>
+         </title>
+         <para/>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>SDG Verfahren Anhang 2</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:sdgverfahrenanhang2</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Directorate-General for Informatics (DIGIT)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.0.6">
+         <title>
+            <emphasis role="rot">Codeliste besitzt keinen Namen (kurz)</emphasis>
+         </title>
+         <para/>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:stakeholderstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.sr.oots.tech.ec.europa.eu.codelists.ootsmediatypes.ootsmediatypes-Codes">
+         <title>EU OOTS BOMC</title>
+         <para> </para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>OOTS Binary Object Mime Code</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>EU OOTS BOMC</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:sr.oots.tech.ec.europa.eu:codelists:ootsmediatypes</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Europäische Kommission, Generaldirektorat Informatik (EC DG Informatics)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.0.6">
+         <title>Grenzüberschreitender Bezug</title>
+         <para/>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Grenzüberschreitender Bezug</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Grenzüberschreitender Bezug</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xnachweis.codeliste.identifierscheme.IdentifierSchemes-Codes">
+         <title>Identifier Schemes</title>
+         <para>Die mit dieser Codeliste beschriebenen eIDAS Legal Person Identifier Schemes sind im Kontext des SDG-OOTS und des NOOTS zu verwenden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Agent Classification (urn:sr.oots.tech.europa.eu:codelists:identifierschemes) zur Unterstützung der Umsetzung des Standards XNachweis.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>eIDAS Legal Person Identifier Schemes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Identifier Schemes</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xnachweis:codeliste:identifierscheme</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Bundesverwaltungsamt (BVA)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_OOTS_JurisdictionLevel-CodeList.gc.jurisdiction-Level">
+         <title>JurisdictionLevel</title>
+         <para>-</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Jurisdiction Level</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>JurisdictionLevel</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>https://code.europa.eu/oots/tdd/tdd_chapters/-/blob/master/OOTS-EDM/codelists/OOTS/JurisdictionLevel-CodeList.gc</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Europäische Kommission (Europäische Kommission)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xnachweis.codeliste.loa.loa-Codes">
+         <title>LOA</title>
+         <para>Die mit dieser Codeliste beschriebenen eIDAS Levels Of Assurance sind im Kontext des SDG-OOTS und des NOOTS zu verwenden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste eIDAS Levels Of Assurance (urn:sr.oots.tech.europa.eu:codelists:loa) zur Unterstützung der Umsetzung des Standards XNachweis.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>eIDAS Levels of Assurance</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>LOA</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xnachweis:codeliste:loa</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Bundesverwaltungsamt (BVA)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_External_LanguageCode.gc.languageCode-Codes">
+         <title>LanguageCode</title>
+         <para>-</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Language-Code</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>LanguageCode</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>https://code.europa.eu/oots/tdd/tdd_chapters/-/blob/master/OOTS-EDM/codelists/External/LanguageCode.gc</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>International Organization for Standardization (ISO)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.eu-kom.codeliste.lebensereignisse.Lebensereignisse-Codes">
+         <title>Lebensereignisse</title>
+         <para>Liste der im Anhang II der SDG-VO aufgeführten Lebensereignisse in Deutsch und Englisch</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Lebensereignisse (Life events) nach Anhang II der SDG-VO</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Lebensereignisse</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:eu-kom:codeliste:lebensereignisse</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Europäische Kommission (EU KOM)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xnachweis.codeliste.nut.nuts-Codes">
+         <title>NUTS</title>
+         <para>Die mit dieser Codeliste beschriebenen Codes werden in der Nomenklatur der Gebietseinheiten für die Statistik (NUTS) verwendet. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von Amt für Veröffentlichungen der Europäischen Union (Publications Office of the European Union) herausgegebenen Codeliste "Nomenclature of Territorial Units for Statistics" (http://publications.europa.eu/resource/authority/notation-type/NUTS) zur Unterstützung der Umsetzung des Standards XNachweis.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Nomenclature of Territorial Units for Statistics</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>NUTS</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xnachweis:codeliste:nut</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Bundesverwaltungsamt (BVA)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.2.0">
+         <title>RegMoReifegrad</title>
+         <para/>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Reifegrad von Nachweisen in der Registermodernisierung</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>RegMoReifegrad</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:regmoreifegrad</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>IT-Planungsrat (IT-PLR)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.-.workflowStatusEU">
+         <title>WorkflowStatusEU</title>
+         <para>-</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Workflows and Statuses</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>WorkflowStatusEU</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>-</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>EU Commission, Subgroups SDG OOTS (EU)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.evidenceprovider.evidenceprovider-codes">
+         <title>evidenceProvider</title>
+         <para>Angaben zum Evidence Provider</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Evidence Provider</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>evidenceProvider</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:evidenceprovider</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">0_keine-aussage</entry>
+                        <entry align="left">keine Aussage möglich</entry>
+                     </row>
+                     <row>
+                        <entry align="left">1_ja</entry>
+                        <entry align="left">Ja</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_nein</entry>
+                        <entry align="left">Nein</entry>
+                     </row>
+                     <row>
+                        <entry align="left">4_gemeldet</entry>
+                        <entry align="left">Gemeldet</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.formatevidencesurvey.formatevidencesurvey-codes">
+         <title>formatEvidenceSurvey</title>
+         <para>Angaben zum Strukturiertheitsgrad nach Evidence Survey 2023</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>FormatEvidenceSurvey</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>formatEvidenceSurvey</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:formatevidencesurvey</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">01_digital-strukturiert</entry>
+                        <entry align="left">digital vorliegende, strukturierte Daten</entry>
+                     </row>
+                     <row>
+                        <entry align="left">02_digital-unstrukturiert</entry>
+                        <entry align="left">digital vorliegende, unstrukturierte Daten</entry>
+                     </row>
+                     <row>
+                        <entry align="left">03_teilweise-digitalisiert</entry>
+                        <entry align="left">teilweise digital vorliegende Daten</entry>
+                     </row>
+                     <row>
+                        <entry align="left">04_analog</entry>
+                        <entry align="left">analoge, nicht digital vorliegende Daten</entry>
+                     </row>
+                     <row>
+                        <entry align="left">05_keine-Angabe</entry>
+                        <entry align="left">keine Angabe zu vorliegenden Daten</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.grenzueberschreitenderbezug-codes">
+         <title>grenzüberschreitenderBezug</title>
+         <para>Angabe, ob ein grenzüberschreitender Bezug gegeben ist</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>grenzüberschreitender Bezug</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>grenzüberschreitenderBezug</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Beschreibung (Version)</entry>
+                        <entry>Angabe, ob ein grenzüberschreitender Bezug gegeben ist</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">0_keine-aussage</entry>
+                        <entry align="left">keine Aussage möglich</entry>
+                     </row>
+                     <row>
+                        <entry align="left">1_ja</entry>
+                        <entry align="left">Ja</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_nein</entry>
+                        <entry align="left">Nein</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikafreigabe.leikafreigabe-codes">
+         <title>leikafreigabe</title>
+         <para>Stand der Freigabe der LeiKa</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>LeiKa-Freigabecodes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>leikafreigabe</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:leikafreigabe</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">fachlich_​freigegeben</entry>
+                        <entry align="left">fachlich freigegeben</entry>
+                     </row>
+                     <row>
+                        <entry align="left">fachlich_​nicht_​freigegeben</entry>
+                        <entry align="left">fachlich nicht freigegeben</entry>
+                     </row>
+                     <row>
+                        <entry align="left">fachlich_​nicht_​moeglich</entry>
+                        <entry align="left">Fachlich nicht möglich</entry>
+                     </row>
+                     <row>
+                        <entry align="left">in_pruefung</entry>
+                        <entry align="left">in Prüfung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">keine_Aussage</entry>
+                        <entry align="left">keine Aussage möglich</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.fim.leika.leistung.leikaLeistung">
+         <title>leikaleistungen</title>
+         <para>""</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Leistungen des LeiKa / FIM Baustein Leistung</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>leikaleistungen</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:fim:leika:leistung</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement - Baustein Leistungen (GK_FIM) (GK_FIM)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikatyp.leiKatyp-codes">
+         <title>leikatyp</title>
+         <para>Angabe zum Typ der LeiKa</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>LeiKa-Typ</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>leikatyp</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:leikatyp</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">01</entry>
+                        <entry align="left">Typ 1</entry>
+                     </row>
+                     <row>
+                        <entry align="left">0203</entry>
+                        <entry align="left">Typ 2/3</entry>
+                     </row>
+                     <row>
+                        <entry align="left">0204</entry>
+                        <entry align="left">Typ 2/4</entry>
+                     </row>
+                     <row>
+                        <entry align="left">03</entry>
+                        <entry align="left">Typ 3</entry>
+                     </row>
+                     <row>
+                        <entry align="left">04</entry>
+                        <entry align="left">Typ 4</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mappingstatus.mappingstatus-codes">
+         <title>mappingstatus</title>
+         <para>Angabe zum Status des Mappings</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>mappingstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>mappingstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:mappingstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="3">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="65mm"/>
+                  <colspec colnum="3" colname="desc" colwidth="70mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                        <entry align="left">definition</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">01_initiiert</entry>
+                        <entry align="left">initiiert</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">02_pruefung</entry>
+                        <entry align="left">in Prüfung</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">03_freigegeben</entry>
+                        <entry align="left">freigegeben</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">05_archiviert</entry>
+                        <entry align="left">archiviert</entry>
+                        <entry align="left"/>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mitgliedsstaaten.mitgliedsstaaten-codes">
+         <title>mitgliedsstaaten</title>
+         <para>Diese Codeliste enthält die Country Codes für die EU Mitgliedsstaaten</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>EU Mitgliedsstaaten</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>mitgliedsstaaten</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:mitgliedsstaaten</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>2023-11</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="4">
+                  <colspec colnum="1" colname="col1" colwidth="25mm"/>
+                  <colspec colnum="2" colname="col2" colwidth="45mm"/>
+                  <colspec colnum="3" colname="col3" colwidth="45mm"/>
+                  <colspec colnum="4" colname="lastcol" colwidth="45mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Bezeichnung)</entry>
+                        <entry align="left">DESTATIS-code</entry>
+                        <entry align="left">description-en-EN (englische Bezeichnung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">AT</entry>
+                        <entry align="left">Österreich</entry>
+                        <entry align="left">151</entry>
+                        <entry align="left">Austria</entry>
+                     </row>
+                     <row>
+                        <entry align="left">BE</entry>
+                        <entry align="left">Belgien</entry>
+                        <entry align="left">124</entry>
+                        <entry align="left">Belgium</entry>
+                     </row>
+                     <row>
+                        <entry align="left">BG</entry>
+                        <entry align="left">Bulgarien</entry>
+                        <entry align="left">125</entry>
+                        <entry align="left">Bulgaria</entry>
+                     </row>
+                     <row>
+                        <entry align="left">CY</entry>
+                        <entry align="left">Zypern</entry>
+                        <entry align="left">181</entry>
+                        <entry align="left">Cyprus</entry>
+                     </row>
+                     <row>
+                        <entry align="left">CZ</entry>
+                        <entry align="left">Tschechien</entry>
+                        <entry align="left">164</entry>
+                        <entry align="left">Czech Republic</entry>
+                     </row>
+                     <row>
+                        <entry align="left">DE</entry>
+                        <entry align="left">Deutschland</entry>
+                        <entry align="left">000</entry>
+                        <entry align="left">Germany</entry>
+                     </row>
+                     <row>
+                        <entry align="left">DK</entry>
+                        <entry align="left">Dänemark</entry>
+                        <entry align="left">126</entry>
+                        <entry align="left">Denmark</entry>
+                     </row>
+                     <row>
+                        <entry align="left">EE</entry>
+                        <entry align="left">Estland</entry>
+                        <entry align="left">127</entry>
+                        <entry align="left">Estonia</entry>
+                     </row>
+                     <row>
+                        <entry align="left">ES</entry>
+                        <entry align="left">Spanien</entry>
+                        <entry align="left">161</entry>
+                        <entry align="left">Spain</entry>
+                     </row>
+                     <row>
+                        <entry align="left">EU</entry>
+                        <entry align="left">Europäische Union</entry>
+                        <entry align="left">EU</entry>
+                        <entry align="left">European Union</entry>
+                     </row>
+                     <row>
+                        <entry align="left">FI</entry>
+                        <entry align="left">Finnland</entry>
+                        <entry align="left">128</entry>
+                        <entry align="left">Finland</entry>
+                     </row>
+                     <row>
+                        <entry align="left">FR</entry>
+                        <entry align="left">Frankreich</entry>
+                        <entry align="left">129</entry>
+                        <entry align="left">France</entry>
+                     </row>
+                     <row>
+                        <entry align="left">GR</entry>
+                        <entry align="left">Griechenland</entry>
+                        <entry align="left">134</entry>
+                        <entry align="left">Greece</entry>
+                     </row>
+                     <row>
+                        <entry align="left">HR</entry>
+                        <entry align="left">Kroatien</entry>
+                        <entry align="left">130</entry>
+                        <entry align="left">Croatia</entry>
+                     </row>
+                     <row>
+                        <entry align="left">HU</entry>
+                        <entry align="left">Ungarn</entry>
+                        <entry align="left">165</entry>
+                        <entry align="left">Hungary</entry>
+                     </row>
+                     <row>
+                        <entry align="left">IE</entry>
+                        <entry align="left">Irland</entry>
+                        <entry align="left">135</entry>
+                        <entry align="left">Ireland</entry>
+                     </row>
+                     <row>
+                        <entry align="left">IT</entry>
+                        <entry align="left">Italien</entry>
+                        <entry align="left">137</entry>
+                        <entry align="left">Italy</entry>
+                     </row>
+                     <row>
+                        <entry align="left">LI</entry>
+                        <entry align="left">Liechtenstein</entry>
+                        <entry align="left">141</entry>
+                        <entry align="left">Liechtenstein</entry>
+                     </row>
+                     <row>
+                        <entry align="left">LT</entry>
+                        <entry align="left">Litauen</entry>
+                        <entry align="left">142</entry>
+                        <entry align="left">Lithuania</entry>
+                     </row>
+                     <row>
+                        <entry align="left">LU</entry>
+                        <entry align="left">Luxemburg</entry>
+                        <entry align="left">143</entry>
+                        <entry align="left">Luxembourg</entry>
+                     </row>
+                     <row>
+                        <entry align="left">LV</entry>
+                        <entry align="left">Letland</entry>
+                        <entry align="left">139</entry>
+                        <entry align="left">Latvia</entry>
+                     </row>
+                     <row>
+                        <entry align="left">MT</entry>
+                        <entry align="left">Malta</entry>
+                        <entry align="left">145</entry>
+                        <entry align="left">Malta</entry>
+                     </row>
+                     <row>
+                        <entry align="left">NL</entry>
+                        <entry align="left">Niederlande</entry>
+                        <entry align="left">148</entry>
+                        <entry align="left">Netherlands</entry>
+                     </row>
+                     <row>
+                        <entry align="left">NO</entry>
+                        <entry align="left">Norwegen</entry>
+                        <entry align="left">149</entry>
+                        <entry align="left">Norway</entry>
+                     </row>
+                     <row>
+                        <entry align="left">PL</entry>
+                        <entry align="left">Polen</entry>
+                        <entry align="left">152</entry>
+                        <entry align="left">Poland</entry>
+                     </row>
+                     <row>
+                        <entry align="left">PT</entry>
+                        <entry align="left">Portugal</entry>
+                        <entry align="left">153</entry>
+                        <entry align="left">Portugal</entry>
+                     </row>
+                     <row>
+                        <entry align="left">RO</entry>
+                        <entry align="left">Rumänien</entry>
+                        <entry align="left">154</entry>
+                        <entry align="left">Romania</entry>
+                     </row>
+                     <row>
+                        <entry align="left">SE</entry>
+                        <entry align="left">Schweden</entry>
+                        <entry align="left">157</entry>
+                        <entry align="left">Sweden</entry>
+                     </row>
+                     <row>
+                        <entry align="left">SI</entry>
+                        <entry align="left">Slowenien</entry>
+                        <entry align="left">131</entry>
+                        <entry align="left">Slovenia</entry>
+                     </row>
+                     <row>
+                        <entry align="left">SI</entry>
+                        <entry align="left">Island</entry>
+                        <entry align="left">136</entry>
+                        <entry align="left">Iceland</entry>
+                     </row>
+                     <row>
+                        <entry align="left">SK</entry>
+                        <entry align="left">Slowakei</entry>
+                        <entry align="left">155</entry>
+                        <entry align="left">Slovakia</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.nachweisaustauschde.nachweisaustauschde-codes">
+         <title>nachweisaustausch</title>
+         <para>Angaben zum automatisierten Austausch der Nachweise</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>nachweisaustausch</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>nachweisaustausch</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:nachweisaustauschde</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Beschreibung (Version)</entry>
+                        <entry>Angaben zu den Planungen für den Nachweisaustausch.</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">01_Ja</entry>
+                        <entry align="left">Ja, automatischer Nachweisaustausch vorhanden</entry>
+                     </row>
+                     <row>
+                        <entry align="left">02_Nein</entry>
+                        <entry align="left">Nein, kein automatischer Austausch vorhanden</entry>
+                     </row>
+                     <row>
+                        <entry align="left">03_In_Planung</entry>
+                        <entry align="left">In Planung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">0_keine_​Aussage_​​moeglich</entry>
+                        <entry align="left">Es ist keine Aussage dazu möglich</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.planungsstatus.planungstatus-codes">
+         <title>planungstatus</title>
+         <para> Angabe zum Freigabestatus der Planung</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>planungstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>planungstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:planungsstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">freigegeben</entry>
+                        <entry align="left">03_freigegeben</entry>
+                     </row>
+                     <row>
+                        <entry align="left">initiiert</entry>
+                        <entry align="left">01_initiiert</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.rechtsgrundlage.rechtsgrundlage-codes">
+         <title>rechtsgrundlage</title>
+         <para> Angabe zur Rechtsgrundlage</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Art der Rechtsgrundlage</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>rechtsgrundlage</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:rechtsgrundlage</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">RechtsgrundlageTyp1</entry>
+                        <entry align="left">RechtsgrundlageTyp1</entry>
+                     </row>
+                     <row>
+                        <entry align="left">RechtsgrundlageTyp2</entry>
+                        <entry align="left">RechtsgrundlageTyp2</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.RegMoReifegrad-codes">
+         <title>regmoreifegrad</title>
+         <para> Diese Codeliste beschreibt die Reifegrade der Registermodernisierung laut IT-Planungsratbeschluss 2024/15 vom 20.03.2024: https://www.it-planungsrat.de/beschluss/beschluss-2024-15.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Reifegrad Registermodernisierung</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>regmoreifegrad</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:regmoreifegrad</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>2.0</entry>
+                     </row>
+                     <row>
+                        <entry>Beschreibung (Version)</entry>
+                        <entry>Diese Codeliste beschreibt die Reifegrade der Registermodernisierung laut IT-Planungsratbeschluss 2024/15 vom 20.03.2024: https://www.it-planungsrat.de/beschluss/beschluss-2024-15.</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Aufspaltung des Reifegrads D in D1 und D2</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2024-03-20</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">A</entry>
+                        <entry align="left">Offline</entry>
+                     </row>
+                     <row>
+                        <entry align="left">B</entry>
+                        <entry align="left">Elektronisch übermittelte Nachweise</entry>
+                     </row>
+                     <row>
+                        <entry align="left">C</entry>
+                        <entry align="left">Elektronisch auswertbare Nachweise</entry>
+                     </row>
+                     <row>
+                        <entry align="left">D1</entry>
+                        <entry align="left">Bedarfsgerecht übermittelte Informationen</entry>
+                     </row>
+                     <row>
+                        <entry align="left">D2</entry>
+                        <entry align="left">Antwort auf konkrete Frage</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.richtlinien.richtlinien-codes">
+         <title>richtlinien</title>
+         <para> Bei SDG berücksichtigte Richtlinien des Europäischen Parlaments und des Rates</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Richtlinien des Europäischen Parlaments</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>richtlinien</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:richtlinien</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="3">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="65mm"/>
+                  <colspec colnum="3" colname="desc" colwidth="70mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">richtlinie (Richtlinie)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">2005-36-EG</entry>
+                        <entry align="left">2005|36|EG</entry>
+                        <entry align="left">Richtlinie 2005|36|EG des Europäischen Parlaments und des Rates vom 7. September 2005 über die Anerkennung von Berufsqualifikationen</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2006-123-EG</entry>
+                        <entry align="left">2006|123|EG</entry>
+                        <entry align="left">Richtlinie 2006|123|EG des Europäischen Parlaments und des Rates vom 12. Dezember 2006 über Dienstleistungen im Binnenmarkt</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2014-24-EU</entry>
+                        <entry align="left">2014|24|EU</entry>
+                        <entry align="left">Richtlinie 2014|24|EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die öffentliche Auftragsvergabe und zur Aufhebung der Richtlinie 2004|18|EG</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2014-25-EU</entry>
+                        <entry align="left">2014|25|EU</entry>
+                        <entry align="left">Richtlinie 2014|25|EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die Vergabe von Aufträgen durch Auftraggeber im Bereich der Wasser-, Energie- und Verkehrsversorgung sowie der Postdienste und zur Aufhebung der Richtlinia 2004|17|EG</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanz.sdg2relevanz-codes">
+         <title>sdg2relevanz</title>
+         <para>Angabe der SDG2-Relevanz</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>SDG2-Relevanz</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>sdg2relevanz</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:sdg2relevanz</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">0_keineAussage</entry>
+                        <entry align="left">keine Aussage möglich</entry>
+                     </row>
+                     <row>
+                        <entry align="left">1_nachweis-ausstellung</entry>
+                        <entry align="left">Rechtsgrundlage "Ausstellung des Nachweises"</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_leika</entry>
+                        <entry align="left">Rechtsgrundlage "LeiKa"</entry>
+                     </row>
+                     <row>
+                        <entry align="left">3_leika-nachweis</entry>
+                        <entry align="left">Rechtsgrundlage "LeiKa fordert Nachweis"</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanzintern.sdg2relevanzintern-codes">
+         <title>sdg2relevanzIntern</title>
+         <para> Angabe der internen Feststellung der SDG2-Relevanz</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>interne Feststellung der SDG2-Relevanz</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>sdg2relevanzIntern</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:sdg2relevanzintern</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">1_nein</entry>
+                        <entry align="left">Nein, das Verfahren fordert keine SDG2-relevanten Nachweise</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_nein_​nicht_​grenzueberschreitend</entry>
+                        <entry align="left">Nein, Verfahren fordert keine grenzüberschreitend relevanten Nachweise</entry>
+                     </row>
+                     <row>
+                        <entry align="left">3_ja</entry>
+                        <entry align="left">DE-Verfahren fordert national SDG2-relevante Nachweise. Achtung: grenzüberschreitender Bezug nicht geprüft</entry>
+                     </row>
+                     <row>
+                        <entry align="left">4_ja_​grenzueberschreitend</entry>
+                        <entry align="left">DE-Verfahren fordert SDG2-relevante Nachweise grenzüberschreitend</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgstatus.sdgstatus-codes">
+         <title>sdg2status</title>
+         <para>Angabe des Statuses des Verfahrens</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>SDG-Status</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>sdg2status</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:sdgstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">1_draft</entry>
+                        <entry align="left">Draft</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_public</entry>
+                        <entry align="left">Public</entry>
+                     </row>
+                     <row>
+                        <entry align="left">3_review</entry>
+                        <entry align="left">Review</entry>
+                     </row>
+                     <row>
+                        <entry align="left">4_archived</entry>
+                        <entry align="left">Archived</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.sdgprocedure-codes">
+         <title>sdgprocedure</title>
+         <para> Die mit dieser Codeliste beschriebenen Procedures sind im Kontext der nationalen Erhebung "Evidence Survey" zur Umsetzung der SDG-Verordnung und der Befüllung von Systemen des EU OOTS entstanden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Procedures (urn:sr.oots.tech.europa.eu:codelists:procedures) mit Erweiterungen um eine Spalte "Kurzname" sowie eigene IDs. Zur Unterstützung des Fachdatenmodells Evidence Survey kann diese Liste auch Procedures enthalten die (noch) nicht offiziell Teil des gesetzlichen Umfangs der SDG-Verordnung sind. Daher weicht diese Liste unter Umständen von anderen bestehenden Listen zu SDG-VO Anhang II Procedure (z.B. von XNachweis:procedures oder EU OOTS Listen) im Umfang und Releasezyklus ab.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Verfahren aus Anhang II SDG-VO</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>sdgprocedure</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:sdgverfahrenanhang2</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>2024-02-01</entry>
+                     </row>
+                     <row>
+                        <entry>Beschreibung (Version)</entry>
+                        <entry>Die mit dieser Codeliste beschriebenen Procedures sind im Kontext der nationalen Erhebung "Evidence Survey" zur Umsetzung der SDG-Verordnung und der Befüllung von Systemen des EU OOTS entstanden. Bei dieser Codeliste handelt es sich um eine Nachveröffentlichung der von der Directorate-General for Informatics (DIGIT) herausgegebenen Codeliste Procedures (urn:sr.oots.tech.europa.eu:codelists:procedures) mit Erweiterungen um eine Spalte "Kurzname" sowie eigene IDs. Zur Unterstützung des Fachdatenmodells Evidence Survey kann diese Liste auch Procedures enthalten die (noch) nicht offiziell Teil des gesetzlichen Umfangs der SDG-Verordnung sind. Daher weicht diese Liste unter Umständen von anderen bestehenden Listen zu SDG-VO Anhang II Procedure (z.B. von XNachweis:procedures oder EU OOTS Listen) im Umfang und Releasezyklus ab.</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2024-02-01</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="5">
+                  <colspec colnum="1" colname="col1" colwidth="24mm"/>
+                  <colspec colnum="2" colname="col2" colwidth="34mm"/>
+                  <colspec colnum="3" colname="col3" colwidth="34mm"/>
+                  <colspec colnum="4" colname="col4" colwidth="34mm"/>
+                  <colspec colnum="5" colname="lastcol" colwidth="34mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">nameDE</entry>
+                        <entry align="left">kurznameDE</entry>
+                        <entry align="left">nameEN</entry>
+                        <entry align="left">KurznameEN</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">R1</entry>
+                        <entry align="left">Beantragung des Nachweises über die Eintragung in das Geburtenregister</entry>
+                        <entry align="left">Beantragung Geburtsnachweis</entry>
+                        <entry align="left">Requesting proof of registration of birth</entry>
+                        <entry align="left">Requesting proof of birth</entry>
+                     </row>
+                     <row>
+                        <entry align="left">S1</entry>
+                        <entry align="left">Beantragung eines Wohnsitznachweises</entry>
+                        <entry align="left">Beantragung Wohnsitznachweis</entry>
+                        <entry align="left">Requesting proof of residence</entry>
+                        <entry align="left">Requesting proof of residence</entry>
+                     </row>
+                     <row>
+                        <entry align="left">T1</entry>
+                        <entry align="left">Beantragung einer Studienfinanzierung für ein Hochschulstudium, z. B. Studienbeihilfen oder -darlehen, bei einer öffentlichen Stelle oder Einrichtung</entry>
+                        <entry align="left">Beantragung Studienfinanzierung</entry>
+                        <entry align="left">Applying for a tertiary education study financing, such as study grants and loans from a public body or institution</entry>
+                        <entry align="left">Applying for a study grant</entry>
+                     </row>
+                     <row>
+                        <entry align="left">T2</entry>
+                        <entry align="left">Einreichung eines ersten Antrags auf Zulassung zu einer öffentlichen Hochschuleinrichtung</entry>
+                        <entry align="left">Einreichung erster Antrag auf Hochschulzugang</entry>
+                        <entry align="left">Submitting an initial application for admission to public tertiary education institution</entry>
+                        <entry align="left">Initial application for admission</entry>
+                     </row>
+                     <row>
+                        <entry align="left">T3</entry>
+                        <entry align="left">Beantragung der Anerkennung von akademischen Diplomen, Prüfungszeugnissen oder sonstigen Nachweisen über Studien oder Kurse</entry>
+                        <entry align="left">Anerkennung Diplome und Kurse zur Studiums-Fortsetzung</entry>
+                        <entry align="left">Requesting academic recognition of diplomas, certificates or other proof of studies or courses</entry>
+                        <entry align="left">Academic recognition of procedures</entry>
+                     </row>
+                     <row>
+                        <entry align="left">U1</entry>
+                        <entry align="left">Antrag auf Bestimmung des anwendbaren Rechts gemäß Titel II der Verordnung (EG) Nr. 883/ 2004</entry>
+                        <entry align="left">Antrag auf Bestimmung anwendbares Recht (883/2004/EG)</entry>
+                        <entry align="left">Request for determination of applicable legislation in accordance with Title II of Regulation (EC) No 883/2004</entry>
+                        <entry align="left">Request for determination of social security benefits</entry>
+                     </row>
+                     <row>
+                        <entry align="left">U2</entry>
+                        <entry align="left">Mitteilung einer Änderung der persönlichen oder beruflichen Situation des Empfängers von Sozialversicherungsleistungen, die für solche Leistungen relevant ist</entry>
+                        <entry align="left">Meldung Status-Änderung bei SV-Leistungsempfänger</entry>
+                        <entry align="left">Notifying changes in the personal or professional circumstances of the person receiving social security benefits, relevant for such benefits</entry>
+                        <entry align="left">Changes in circumstances of social security benefits</entry>
+                     </row>
+                     <row>
+                        <entry align="left">U3</entry>
+                        <entry align="left">Antrag auf Ausstellung einer Europäischen Krankenversicherungskarte (EHIC)</entry>
+                        <entry align="left">Antrag Europäische Krankenversicherungskarte (EHIC)</entry>
+                        <entry align="left">Application for a European Health Insurance Card (EHIC)</entry>
+                        <entry align="left">Application for a European Health Insurance Card (EHIC)</entry>
+                     </row>
+                     <row>
+                        <entry align="left">U4</entry>
+                        <entry align="left">Einreichung einer Einkommensteuererklärung</entry>
+                        <entry align="left">Einreichung Einkommensteuererklärung</entry>
+                        <entry align="left">Submitting an income tax declaration</entry>
+                        <entry align="left">Submitting an income tax declaration</entry>
+                     </row>
+                     <row>
+                        <entry align="left">V1</entry>
+                        <entry align="left">Meldung einer Adressänderung</entry>
+                        <entry align="left">Meldung einer Adressänderung</entry>
+                        <entry align="left">Registering a change of address</entry>
+                        <entry align="left">Registering a change of address</entry>
+                     </row>
+                     <row>
+                        <entry align="left">V2</entry>
+                        <entry align="left">Zulassung eines aus einem Mitgliedstaat stammenden oder bereits in einem EU-Mitgliedstaat zugelassenen Kraftfahrzeugs in Standardverfahren</entry>
+                        <entry align="left">Zulassung EU-Kfz</entry>
+                        <entry align="left">Registering a motor vehicle originating from or already registered in a Member State, in standard procedures</entry>
+                        <entry align="left">Registering a motor vehicle</entry>
+                     </row>
+                     <row>
+                        <entry align="left">V3</entry>
+                        <entry align="left">Beantragung von Plaketten für die Nutzung der nationalen Straßenverkehrsinfrastruktur: von einer öffentlichen Stelle oder Einrichtung ausgestellte zeitabhängige Gebühren (Vignette), entfernungsabhängige Gebühren (Maut)</entry>
+                        <entry align="left">Beantragung Maut-Plakette</entry>
+                        <entry align="left">Obtaining stickers for the use of the national road infrastructure: time-based charges (vignette), distance-based charges (toll), issued by a public body or institution</entry>
+                        <entry align="left">Obtaining stickers for the use or the national road infrastructure</entry>
+                     </row>
+                     <row>
+                        <entry align="left">V4</entry>
+                        <entry align="left">Beantragung von Emissionsplaketten, die von einer öffentlichen Stelle oder Einrichtung ausgestellt werden</entry>
+                        <entry align="left">Beantragung Emissionsplaketten</entry>
+                        <entry align="left">Obtaining emission stickers issued by a public body or institution</entry>
+                        <entry align="left">Obtaining emission stickers</entry>
+                     </row>
+                     <row>
+                        <entry align="left">W1</entry>
+                        <entry align="left">Beantragung von Ruhestands- und Vorruhestandsleistungen aus obligatorischen Systemen</entry>
+                        <entry align="left">Beantragung Ruhestandsleistungen aus Pflichtsystemen</entry>
+                        <entry align="left">Claiming pension and pre-retirement benefits from compulsory schemes</entry>
+                        <entry align="left">Claiming pension and pre-retirement benefits</entry>
+                     </row>
+                     <row>
+                        <entry align="left">W2</entry>
+                        <entry align="left">Ersuchen um Informationen über die Daten im Zusammenhang mit Ruhestandsleistungen aus obligatorischen Systemen</entry>
+                        <entry align="left">Informationsersuchen zu Ruhestandsleistungen</entry>
+                        <entry align="left">Requesting information on the data related to pension from compulsory schemes</entry>
+                        <entry align="left">Requesting information on data related to pension</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X1</entry>
+                        <entry align="left">Meldung einer Geschäftstätigkeit, Zulassung zur Ausübung einer Geschäftstätigkeit, Änderung einer Geschäftstätigkeit und Einstellung einer Geschäftstätigkeit ausgenommen Insolvenz- oder Liquidationsverfahren, ausgenommen der erstmaligen Eintragung einer Geschäftstätigkeit in das Unternehmens-Register, und ausgenommen Eintragungen im Rahmen des Verfahren zur Gründung von — oder späteren Anmeldungen oder Einreichungen von Meldungen von — Gesellschaften oder Unternehmen im Sinne von Artikel 54 Absatz 2 AEUV</entry>
+                        <entry align="left">Meldung einer Geschäftstätigkeit und weitere</entry>
+                        <entry align="left">Notification of business activity, permission for exercising a business activity, changes of business activity and the termination of a business activity not involving insolvency or liquidation procedures, excluding the initial registration of a business activity with the business register and excluding procedures concerning the constitution of or any subsequent filing by companies or firms within the meaning of the second paragraph of Article 54 TFEU</entry>
+                        <entry align="left">Notification of a business activity</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X2</entry>
+                        <entry align="left">Registrierung eines Arbeitgebers (einer natürlichen Person) bei obligatorischen Versorgungs- und Versicherungssystemen</entry>
+                        <entry align="left">Registrierung Arbeitgeber bei Sozialversicherungen</entry>
+                        <entry align="left">Registration of an employer (a natural person) with compulsory pension and insurance schemes</entry>
+                        <entry align="left">Registration of employer with compulsory pension and insurance schemes</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X3</entry>
+                        <entry align="left">Registrierung von Beschäftigten bei obligatorischen Versorgungs- und Versicherungssystemen</entry>
+                        <entry align="left">Registrierung Beschäftigte bei Sozialversicherungen</entry>
+                        <entry align="left">Registration of employees with compulsory pension and insurance schemes</entry>
+                        <entry align="left">Registration of employees with compulsory pension and insurance schemes</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X4</entry>
+                        <entry align="left">Einreichung einer Körperschaftsteuererklärung</entry>
+                        <entry align="left">Einreichung Körperschaftsteuererklärung</entry>
+                        <entry align="left">Submitting a corporate tax declaration</entry>
+                        <entry align="left">Submitting and corporate tax declaration</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X5</entry>
+                        <entry align="left">Meldung an die Sozialversicherungssysteme bei Beendigung des Vertrags mit einem Beschäftigten, ausgenommen bei Verfahren zur kollektiven Beendigung von Arbeitnehmerverträgen</entry>
+                        <entry align="left">Meldung an SV-Systeme bei Vertragsende mit Beschäftigtem</entry>
+                        <entry align="left">Notification to the social security schemes of the end of contract with an employee, excluding procedures for the collective termination of employee contracts</entry>
+                        <entry align="left">Notification to social security schemes of end of contract with employee</entry>
+                     </row>
+                     <row>
+                        <entry align="left">X6</entry>
+                        <entry align="left">Zahlung von Sozialbeiträgen für Beschäftigte</entry>
+                        <entry align="left">Zahlung von Sozialbeiträgen für Beschäftigte</entry>
+                        <entry align="left">Payment of social contributions for employees</entry>
+                        <entry align="left">Payment of social contributions for employees</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderfreigabe.stakeholderfreigabe-codes">
+         <title>stakeholderfreigabe</title>
+         <para>Thema der Freigabe</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Freigabe durch Stakeholder</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>stakeholderfreigabe</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:stakeholderfreigabe</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Beschreibung (Version)</entry>
+                        <entry>Thema der Freigabe</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">00_keine_​Aussage</entry>
+                        <entry align="left">keine Aussage</entry>
+                     </row>
+                     <row>
+                        <entry align="left">01_digitalisierung_​nachweis</entry>
+                        <entry align="left">Digitalisierungsstand Nachweise</entry>
+                     </row>
+                     <row>
+                        <entry align="left">02_mapping_​leikasdg2​verfahren</entry>
+                        <entry align="left">Mapping LeiKa auf SDG2-Verfahren</entry>
+                     </row>
+                     <row>
+                        <entry align="left">03_mapping_​nachweisnachweisanforderung</entry>
+                        <entry align="left">Mapping Nachweis auf Nachweisanforderung</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.stakeholderstatus-codes">
+         <title>stakeholderstatus</title>
+         <para> Angabe der aktuellen Zuständigkeit des Stakeholders</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Status des Stakeholders</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>stakeholderstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:stakeholderstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">1_aktiv</entry>
+                        <entry align="left">aktiv</entry>
+                     </row>
+                     <row>
+                        <entry align="left">2_inaktiv</entry>
+                        <entry align="left">inaktiv</entry>
+                     </row>
+                     <row>
+                        <entry align="left">3_nicht_​zustaendig_​zeitweise</entry>
+                        <entry align="left">zeitweise nicht zuständig</entry>
+                     </row>
+                     <row>
+                        <entry align="left">4_nicht_​zustaendig_​dauerhaft</entry>
+                        <entry align="left">dauerhaft nicht zuständig</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.uebersetzungsstatus.uebersetzungsstatus-codes">
+         <title>uebersetzungsstatus</title>
+         <para>Angabe der Art der Übersetzung</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Übersetzungsstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>uebersetzungsstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:uebersetzungsstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>BMI SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="135mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">eigene</entry>
+                        <entry align="left">02_eigene</entry>
+                     </row>
+                     <row>
+                        <entry align="left">maschinell</entry>
+                        <entry align="left">03_maschinell</entry>
+                     </row>
+                     <row>
+                        <entry align="left">offiziell</entry>
+                        <entry align="left">01_offiziell</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.workflowstatus.workflowstatus-codes">
+         <title>workflowstatus</title>
+         <para>Gibt den Workflowstatus der Freigabe und Veröffentlichung an.</para>
+         <section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Workflowstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>workflowstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xevidencesurvey:codeliste:workflowstatus</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>SDG Koordination (SDG Koordination)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>0.6</entry>
+                     </row>
+                     <row>
+                        <entry>Änderungen zur Vorversion</entry>
+                        <entry>Version vom 06.09.2021.</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2021-09-06</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="3">
+                  <colspec colnum="1" colname="key" colwidth="25mm"/>
+                  <colspec colnum="2" colname="val" colwidth="65mm"/>
+                  <colspec colnum="3" colname="desc" colwidth="70mm"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code (Code)</entry>
+                        <entry align="left">description-de-DE (deutsche Übersetzung)</entry>
+                        <entry align="left">definition</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">1_erstaufnahme</entry>
+                        <entry align="left">Erste Aufnahme</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">2_zurPruefung</entry>
+                        <entry align="left">zur Prüfung</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">3_inPruefung</entry>
+                        <entry align="left">in Prüfung</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">4_freigabeErfolgt</entry>
+                        <entry align="left">Freigabe erfolgt</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">5_freigabeNichtErfolgt</entry>
+                        <entry align="left">Freigabe nicht erfolgt</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">6_archiviert</entry>
+                        <entry align="left">archiviert</entry>
+                        <entry align="left"/>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+   </section>
+</section>

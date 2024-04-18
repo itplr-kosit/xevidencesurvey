@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail1">
+  <info>
+    <title>Basiskomponenten als mehrsprachige europäische Entitäten modellieren</title>
+  </info>
+  <orderedlist>
+    <listitem>
+      <para>Das EU-OOTS definiert über das Zusammenspiel "Exchange Data Model" (EDM) in den Technical Design Documents (TDDs), über das
+        "Common Service Administration Tool" (CSAdminTool) sowie über die in der Subgroup MAP verwendeten Airtables wesentliche
+        Anforderungen an ein europäisches Fachdatenmodell für den grenzüberschreitenden Nachweisaustausch.</para>
+    </listitem>
+    <listitem>
+      <para>Wichtige Entitäten auf EU-Ebene wurden modelliert und verwenden die Terminologie des EU-OOTS, unter anderem „Evidence Provider“, „Procedures“, "Directives“, „MS Online Services“,
+        „Procedural Requirements“ oder „Information Requirements“. Diese Klassen sind mit dem Prefix
+        SDG versehen worden und dadurch leicht als solche gruppierbar. Die folgende Abbildung zeigt alle Klassen, wie sie von Seiten der Mitgliedstaate vom CSAdminTool b </para>
+    </listitem>
+  </orderedlist>
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" fileref="../abbildungen/SDG_prefix_Klassen.png" format="png"
+        scale="70"/>
+    </imageobject>
+  </mediaobject>
+  
+
+</section>

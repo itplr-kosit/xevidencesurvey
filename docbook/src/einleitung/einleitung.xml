@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE preface [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<preface xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xml:id="spezifikation.einleitung">
+	<info>
+		<title>Einleitung</title>
+	</info>
+	<para> Die Spezifikation behandelt die Interoperablilität bei systematischem Austausch von
+		Angaben zu Registern, Nachweisen und anderen Elementen, die bei der Umsetzung der
+		gesetzlichen Regelungen des OZG, der SDG-Verordnung und der Registermodernisierung eine
+		Rolle spielen. </para>
+
+	<para>Im Zuge dieser Darstellung wird zunächst der Hintergrund der Erhebung der Evidence Survey
+		im Rahmen der Single-Digital-Gateway-Verordnung skizziert und eingeordnet. Anschließend wird
+		anhand der Darlegung von Prüfschemas das Informationsmodell ausführlich beschrieben. Im
+		weiteren Verlauf erfolgt eine technische Darlegung des Informationsmodells anhang der
+		Darstellung der verwendeten Datentypen und Codelisten.</para>
+
+	<para>Die Anhänge enthalten nicht nur Übersichten zu allen Nachrichten und Codelisten des
+		Fachdatenmodells XEvidenceSurvey, sondern auch ein Glossar zur besseren Einordnung und
+		Erläuterung der verwendeten Fachbegriffe. Darüber hinaus wird ebenfalls eine Auflistung der
+		berücksichtigten Standardisierungsansätze aus EU-Arbeitsgruppen und weitere bekannte, über die
+		Erhebung der Evidence Survey hinausgehende, Anforderungen an ein Gesamtmodell zur Verfügung
+		gestellt.</para>
+
+
+</preface>

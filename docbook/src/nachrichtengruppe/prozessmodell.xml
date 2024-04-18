@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xml:id="spezifikation.anmeldung.prozessmodell">
+	<info>
+		<title>Der Ablauf im Detail</title>
+	</info>
+	<para>...</para>
+
+	<section
+		xml:id="spezifikation.prozessmodell.beispielnachrichtenhauptgruppe.beispieldatenuebermittlungsanlass">
+		<info>
+			<title>Folgende Anwendungsfälle des Systems,welches das Fachdatenmodell implementiert (Evidence Survey Datenbank)</title>
+		</info>
+		<para>
+			
+			Die folgenden Anwendungsfälle unterstützen den Akteur "Administrator des Systems"	
+		</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center" fileref="../abbildungen/uc__Prozesse__Anwendungsfalldiagramm-Administrator.svg" format="svg"
+					scale="50"/>
+			</imageobject>
+		</mediaobject>
+		
+		
+		<para>
+			
+			Die folgenden Anwendungsfälle unterstützen den Akteur "Evidence Survey Team"	
+		</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center" fileref="../abbildungen/uc__Prozesse__Anwendungsfalldiagramm-Nutzer.svg" format="svg"
+					scale="50"/>
+			</imageobject>
+		</mediaobject>
+
+<para>
+Die folgenden Anwendungsfälle unterstützen den Akteur "SDG-Koordination"	
+</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center" fileref="../abbildungen/uc__Prozesse__Anwendungsfalldiagramm-SDG_Koordination.svg" format="svg"
+					scale="50"/>
+			</imageobject>
+		</mediaobject>
+		
+		
+		<variablelist>
+			<varlistentry>
+				<term>Beteiligte Stellen an der Datenübermittlung</term>
+				<listitem>
+					<para>
+						<orderedlist>
+							<listitem>
+								<para><emphasis role="bold">Anfrage...</emphasis></para>
+								<itemizedlist>
+									<listitem>
+										<para>Beispielkommunikationspartner A (Sender)</para>
+									</listitem>
+									<listitem>
+										<para>Beispielkommunikationspartner B (Empfänger)</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para><emphasis role="bold">Antwort...</emphasis></para>
+								<itemizedlist>
+									<listitem>
+										<para>Beispielkommunikationspartner B (Sender)</para>
+									</listitem>
+									<listitem>
+										<para>Beispielkommunikationspartner A (Empfänger)</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</orderedlist>
+					</para>
+				</listitem>	
+			</varlistentry>
+			<varlistentry>
+				<term>Die Nachrichten</term>
+				<listitem>
+					<para>
+						<orderedlist>
+							<listitem>
+								<para><emphasis role="bold">Anfrage...</emphasis></para>
+								<itemizedlist>
+									<listitem>
+										<para>beispielhauptgruppe.beispielnachricht.0001</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para><emphasis role="bold">Antwort...</emphasis></para>
+								<itemizedlist>
+									<listitem>
+										<para>beispielhauptgruppe.beispielnachricht.0002</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</orderedlist>
+					</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Prozessbeschreibung</term>
+				<listitem>
+					<variablelist>
+						<varlistentry>
+							<term>Beispielaktivität A</term>
+							<listitem>
+								<para>Beschreibung...</para>
+							</listitem>
+						</varlistentry>
+						<varlistentry>
+							<term>Beispielaktivität B</term>
+							<listitem>
+								<para>Beschreibung...</para>
+							</listitem>
+						</varlistentry>
+						<varlistentry>
+							<term>Beispielaktivität C</term>
+							<listitem>
+								<para>Beschreibung...</para>
+							</listitem>
+						</varlistentry>
+						<varlistentry>
+							<term>Beispielaktivität D</term>
+							<listitem>
+								<para>Beschreibung...</para>
+							</listitem>
+						</varlistentry>
+					</variablelist>
+					<figure xml:id="bild.anmeldung.ablauf.zuzug_inland">
+						<info>
+							<title>Beispielprozessmodell...</title>
+						</info>
+						<mediaobject>
+							<imageobject>
+								<imagedata align="center" fileref="abbildungen/beispielprozess.svg"
+									scalefit="1" width="100%" contentdepth="100%"/>
+							</imageobject>
+						</mediaobject>
+					</figure>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Verwendung bestimmter Codes</term>
+				<listitem>
+					<orderedlist>
+						<listitem>
+							<para><emphasis role="bold">Anfrage...</emphasis></para>
+							<para>...</para>
+						</listitem>
+						<listitem>
+							<para><emphasis role="bold">Antwort...</emphasis></para>
+							<para>...</para>
+						</listitem>
+					</orderedlist>
+				</listitem>
+			</varlistentry>
+			<!-- *** Besonderheiten*** -->
+			<varlistentry>
+				<term>Besonderheiten</term>
+				<listitem>
+					<variablelist>
+						<varlistentry>
+							<term>Beispielbesonderheit A</term>
+							<listitem>
+								<para>...</para>
+							</listitem>
+						</varlistentry>
+						<varlistentry>
+							<term>Beispielbesonderheit B</term>
+							<listitem>
+								<para>...</para>
+							</listitem>
+						</varlistentry>
+					</variablelist>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+
+</section>

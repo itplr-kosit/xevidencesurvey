@@ -1,0 +1,382 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xml:id="spezifikation.informationsmodell.pruefschema">
+	<info>
+		<title>Das Prüfschema der nationalen Evidence Survey</title>
+	</info>
+	<section>
+		<info>
+			<title>Warum gibt es das Prüfschema?</title>
+		</info>
+		<para>Mit dem Prüfschema unterstützt die deutsche SDG-Koordination (BMI, Referat DV5) die
+			zuständigen Ressorts auf Bundes- und Landesebene bei der Prüfung, ob eine
+			Anschlussverpflichtung von Nachweisen und Registern an das EU-OOTS greift. Der nationale
+			SDG-Koordinator Christoph Harnoth (BMI, DV5) ist verantwortlich für die Unterstützung
+			und Beratung der Kommission bei der Umsetzung der SDG-VO. Als nationaler Koordinator
+			nimmt er an der sogenannten „Gateway Coordination Group“ teil - einer
+			Koordinierungsgruppe, die sich aus den Koordinatoren der EU-Mitgliedstaaten
+			zusammensetzt und von der Kommission geleitet wird. Ziel der Gateway Coordination Group
+			ist es, die Umsetzung der SDG-Verordnung zu erleichtern, insbesondere durch den
+			Austausch von Best Practices und die länderübergreifende Zusammenarbeit zur Förderung
+			der Kohärenz der im Portal geforderten Darstellung. In diesem Zusammenhang steuert der
+			nationale SDG-Koordinator auch die nationalen Vorarbeiten für die Evidence
+			Survey.</para>
+		<para>Die Evidence Survey ist eine zentrale Erhebung der Kommission, die durch nationale
+			Vorarbeiten vorbereitet wird. Ziel der Evidence Survey ist es, SDG2-relevante Nachweise
+			für den automatisierten, grenzüberschreitenden Austausch zu identifizieren. Im Rahmen
+			der nationalen Vorarbeiten müssen diejenigen LeiKa-Leistungen und Nachweise
+			identifiziert werden, die unter Art. 14 Abs. 2 SDG-VO fallen und den SDG2-Verfahren aus
+			Anhang II der SDG-VO und den in Art. 14 SDG-VO genannten Richtlinien zugeordnet werden
+			können. Diese nationalen Vorarbeiten sollen durch das vorliegende Prüfschema unterstützt
+			werden.</para>
+	</section>
+	<section>
+		<info>
+			<title>Was ist das Prüfschema?</title>
+		</info>
+		<para>Mittels des Schemas soll von den zuständigen Stellen geprüft werden können, welche
+			relevanten Nachweise von einer zuständigen Behörde für ein Verfahren nach Art. 14 Abs. 2
+			SDG-VO über das EU-OOTS ausgetauscht werden müssen. Daraus folgt eine Feststellung der
+			Register und registerführenden Stellen, welche die SDG2-relevanten Nachweise führen und
+			ausstellen und folglich für den Anschluss an das EU-OOTS verantwortlich sind. Die
+			umfassende Erhebung der Nachweise ist die Grundlage dafür, dass bei zukünftiger
+			Digitalisierung nachvollzogen werden kann, welche Nachweise und Register an das EU-OOTS
+			angeschlossen werden müssen.</para>
+	</section>
+	<section>
+		<info>
+			<title>An wen richtet sich das Prüfschema?</title>
+		</info>
+		<para>Das Prüfschema ist für jeden vordefinierten Schritt an unterschiedliche
+			Ansprechpartner und Akteure gerichtet.</para>
+		<itemizedlist>
+			<listitem>
+				<para>Schritt 1 und 2: In diesen Schritten werden SDG2-relevanten LeiKa-Leistungen,
+					verfahrensbezogenen Nachweisanforderungen und Nachweise wurden durch das BMI/die
+					deutsche SDG-Koordination erhoben und durch die fachverantwortlichen Ressorts
+					fachlich freigegeben.</para>
+			</listitem>
+			<listitem>
+				<para>Schritt 3: Die SDG2-Relevanz der Nachweise wird durch das BMI/die deutsche
+					SDG-Koordination identifiziert und durch die fachverantwortlichen Ressorts
+					geprüft.</para>
+			</listitem>
+			<listitem>
+				<para>Schritt 4: Nachdem die SDG2-Relevanz der Nachweise geprüft wurde, werden die
+					registerführenden Behörden um eine Erhebung und Prüfung der
+					Anschlussverpflichtung der Nachweise an das EU-OOTS gebeten.</para>
+			</listitem>
+			<listitem>
+				<para>Schritt 5: Die im letzten Schritt betroffenen Register werden durch das
+					BMI/Deutsche SDG-Koordination erhoben und anschließend durch die
+					registerführenden Behörden geprüft.</para>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section>
+		<info>
+			<title>Wer hat das Prüfschema erstellt?</title>
+		</info>
+		<para>Das Prüfschema wurde von der SDG-Koordination in Zusammenarbeit mit dem Teilprojekt
+			"EU-OOTS" (Team Evidence Survey) erstellt. Das Teilprojekt ist Teil des Projekts
+			„Gesamtsteuerung Registermodernisierung“ unter Federführung des BMI sowie der Länder
+			Nordrhein-Westfalen, Hamburg, Baden-Württemberg und Bayern und steuert die fachliche und
+			technische Identifikation und Anbindung der Online-Services und Register an das
+			EU-OOTS.</para>
+		<para>Im Folgenden werden die Prüfschemata für die SDG2-Relevanz und Anschlussverpflichtung
+			von Online-Services und Nachweisen und Registern beschrieben. Einige der Prüfschritte
+			dieser beiden Schemata sind sehr ähnlich, daher wird nachfolgend mit Verweisen auf die
+			jeweiligen Textstellen gearbeitet.</para>
+	</section>
+	<section>
+		<info>
+			<title>Das Prüfschema der nationalen Evidence Survey zur SDG2-Relevanz und
+				SDG2-Anschlussverpflichtung für Online-Services</title>
+		</info>
+		<figure>
+			<title>Das Prüfschema zur SDG2-Relevanz und Anschlussverplichtung von
+				Online-Services</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center"
+						fileref="../abbildungen/pruefschema_sdg2anschlussverpflichtungDEES.jpg"
+						format="jpg" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<variablelist>
+			<varlistentry>
+				<term>Schritt 1: Zuordnung von relevanten Verwaltungsverfahren zu den SDG2-Verfahren
+					gemäß Artikel 14 Abs. 1 der SDG-VO</term>
+				<listitem>
+					<para> SDG2-Verfahren sind die in Anhang II der SDG-Verordnung aufgeführten
+						Bezeichnungen für Verwaltungsverfahren sowie die Bezeichnungen der in
+						Artikel 14 SDG-VO genannten Richtlinien 2005/36/EG (Anerkennungsrichtlinie),
+						2006/123/EG (Dienstleistungsrichtlinie), 2014/24/EU und 2014/25/EU (jeweils
+						Vergaberecht betreffend) (SDG2-Verfahren).</para>
+					<para>Für den Begriff des „Verfahrens“ siehe die Definition im Leitfaden zur
+						Auslegung des Art. 14 SDG-VO (VO (EU) 2018/1724) und zur Ermittlung sich
+						daraus ergebender Rechtsänderungsbedarfe zur grenzüberschreitenden Umsetzung
+						des Once-Only-Prinzips (Leitfaden), S. 11: <emphasis>„Der Begriff
+							„Verfahren“ ist in der SDG-VO nicht gleichzusetzen mit dem deutschen
+							Begriff eines einzelnen Verwaltungsverfahrens. Dies wird schon daran
+							deutlich, dass in Anhang II unter Verfahren eher allgemein gehaltene
+							Beschreibungen gefasst sind. So zeigt sich z.B. bei „Studium -
+							Beantragung einer Studienfinanzierung für ein Hochschulstudium, z. B.
+							Studienbeihilfen oder -darlehen, bei einer öffentlichen Stelle oder
+							Einrichtung“, dass darunter eine Vielzahl von Einzelanträgen fallen
+							können, abhängig von der konkreten Finanzierung, der Hochschulart, dem
+							Elterneinkommen usw. Daraus folgt, dass „Verfahren“ i.S.d. SDG-VO
+							jeweils eine Bündelung vieler Verwaltungsverfahren gem. dem deutschen
+							Begriffsverständnis darstellen.“</emphasis></para>
+					<para>Im Rahmen einer Vorrecherche wurden den SDG2-Verfahren jeweils
+						verschiedene LeiKa-Leistungen zugeordnet. Die Vorrecherche wurde
+						anschließend auf Korrektheit geprüft und um den Anwendungsbereich ergänzt.
+						Die Europäische Kommission stellt für die nationale Betroffenheitsprüfung
+						das so genannte „Explanatory Paper“ zur Verfügung, welches durch zusätzliche
+						Erläuterungen und Beispiele eine nationale Identifikation der SDG2-Verfahren
+						unterstützten soll.</para>
+					<para><emphasis role="underline">Ergebnis 1: LeiKa-Leistung mit
+							SDG2-Relevanz</emphasis></para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Schritt 2: Zuordnung mindestens eines Online-Services</term>
+				<listitem>
+					<para>Anschließend werden die SDG2-relevanten LeiKa-Leistungen auf ihre
+						Zuordnung zu einem Online-Service geprüft. Dabei muss einem Online-Service
+						mindestens eine SDG2-relevante LeiKa-Leistung zugeordnet werden
+						können.</para>
+					<para><emphasis role="underline">Ergebnis 2: Online-Service mit
+							SDG2-Relevanz</emphasis></para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Schritt 3: Beweis mittels SDG2-relevanten Nachweisen und Amtlich ausgestellter
+					Nachweis auf rechtlicher Grundlage</term>
+				<listitem>
+					<para>Neben der Erfassung der nationalen Nachweise zielt die Evidence Survey
+						darauf ab, die Nachweise der einzelnen Mitgliedstaaten in die Nachweise der
+						anderen Mitgliedstaaten zu „übersetzen“. Ein Abgleich der Nachweise kann
+						jedoch nicht auf der Ebene der Nachweisarten erfolgen, da sich auf dieser
+						Ebene die Inhalte der Nachweisarten häufig unterscheiden. Beispielsweise
+						sind in einem Dokument eines Mitgliedstaates, das mit dem deutschen
+						Personalausweis vergleichbar ist, nicht unbedingt die gleichen Informationen
+						abrufbar. D.h. um z.B. einen Nachweis über den Wohnsitz zu erhalten, kann in
+						anderen Mitgliedstaaten nicht generell ein Äquivalent zum Personalausweis
+						verwendet werden. Daher ist eine „Übersetzung“ erforderlich: Diese wird
+						durch (abstrakte) verfahrensbezogene Nachweisanforderungen definiert, z.B
+						"Nachweis des Wohnsitzes". Daraufhin wird erfasst, welche Nachweisarten in
+						den Mitgliedstaaten den „Nachweis über den Wohnsitz“ definieren.
+						Schlussfolgernd müssen (abstrakte) verfahrensbezogene Nachweisanforderungen
+						im Rahmen des Evidence Survey immer erfasst werden, um auf europäischer
+						Ebene eine Übersetzung bzw. Zuordnung zu äquivalenten Nachweisen
+						(Nachweistypen) im EU-Ausland zu ermöglichen, auch wenn die Auflistung der
+						konkreten Nachweise aus nationaler Sicht zunächst ausreichend erscheint.
+						Perspektivisch soll in diesem Zusammenhang auch ein Monitoring von neu
+						digitalisierten Nachweisen bzw. Registern hinsichtlich ihrer
+						Anschlusspflicht ermöglicht werden.</para>
+					<para>Laut Art. 3 Nr. 5 SDG-VO sind Nachweise <emphasis>„alle Unterlagen oder
+							Daten, einschließlich Text- oder Ton-, Bild- oder audiovisuellen
+							Aufzeichnungen, unabhängig vom verwendeten Medium, die von einer
+							zuständigen Behörde verlangt werden, um Sachverhalte oder die Einhaltung
+							der in Artikel 2 Absatz 2 Buchstabe b genannten Verfahrensvorschriften
+							nachzuweisen.“</emphasis> Nach dieser Definition können Nachweise danach
+						sowohl analoge („Unterlagen“) wie auch digitale Informationen („Daten“)
+						sein, die von den zuständigen Behörden verlangt werden können, um bestimmte
+						Sachverhalte oder die Einhaltung von Verfahrensvorschriften zu
+						belegen.</para>
+					<para>Im Rahmen einer Vorrecherche wurden den LeiKa-Leistungen verschiedene
+						Verfahrensanforderungen (PR) zugeordnet. Die zuständigen Stellen wurden
+						gebeten, die Vorrecherche auf Richtigkeit zu überprüfen und zu ergänzen. </para>
+					<para><emphasis role="underline">Ergebnis 3: Online-Service mit Anschlusspflicht
+							EU-OOTS</emphasis></para>
+					<para>Wie bereits oben beschrieben, ist ein Online-Service dann zum Anschluss an
+						EU-OOTS verpflichtet, wenn er mindestens eine betroffene LeiKa-Leistung
+						umsetzt. Die technische Einbindung ist in Deutschland über das NOOTS und die
+						Intermediäre Plattform vorgesehen.</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+	<section>
+		<info>
+			<title>Das Prüfschema der nationalen Evidence Survey zur SDG2-Relevanz und
+				SDG2-Anschlussverpflichtung für Register</title>
+		</info>
+		<figure>
+			<title>Das Prüfschema zur SDG-Relevanz und Anschlussverpflichtung von Nachweisen und
+				Registern</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata align="center"
+						fileref="../abbildungen/pruefschema_sdg2anschlussverpflichtung_NachweiseRegister_DEES.jpg"
+						format="jpg" width="100%"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<variablelist>
+			<variablelist>
+				<varlistentry>
+					<term>Schritt 1: Zuordnung von relevanten Verwaltungsverfahren zu den
+						SDG2-Verfahren gemäß Artikel 14 Abs. 1 der SDG-VO</term>
+					<listitem>
+						<para>Siehe Schritt 1 im Prüfschema zur SDG2-Relevanz und
+							SDG2-Anschlussverpflichtung für Online-Services </para>
+						<para><emphasis role="underline">Ergebnis 1: LeiKa-Leistung mit
+								SDG2-Relevanz</emphasis></para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<variablelist>
+				<varlistentry>
+					<term>Schritt 2: Amtlich ausgestellter Nachweis auf rechtlicher Grundlage</term>
+					<listitem>
+						<para>Zur Definition eines Nachweises soll auf die jeweiligen Abschnitte von
+							Schritt 3 des Prüfschema zur SDG2-Relevanz und
+							SDG2-Anschlussverpflichtung für Online- Services hingewiesen
+							werden.</para>
+						<para>Ein Nachweis ist SDG2-relevant gemäß Art. 14 Abs. 2 SDG-VO, wenn er
+							von einer dafür zuständigen Behörde basierend auf einer Rechtsgrundlage
+							ausgestellt, sowie für SDG-Verfahren aus anderen EU-Mitgliedsstaaten von
+							deutschen Unternehmen und Bürgern angefordert wird
+							(grenzüberschreitender Bezug).</para>
+						<para>Gemäß SDG-VO ist mit der SDG2-Relevanz eines Nachweises keine
+							Verpflichtung zur Digitalisierung verbunden, sondern ausschließlich die
+							Prüfung einer Anbindung an das EU-OOTS nach Art. 14. Die nationale
+							Prüfung der SDG2-Relevanz erfolgt durch die zuständigen nationalen
+							Stellen und wird durch die nationale SDG-Koordination im Rahmen der
+							Evidence Survey unterstützt.</para>
+						<para><emphasis role="underline">Ergebnis 2: Nachweis mit
+								SDG2-Relevanz</emphasis></para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+			<varlistentry>
+				<term>Schritt 3: Elektronisches Format des Nachweises und Vollständig
+					automatisierter Austausch des Nachweises</term>
+				<listitem>
+					<para>In diesem Schritt wird geprüft, ob ein SDG-2-relevanter Nachweis bereits
+						in einem elektronischen Format vorliegt, welches einen automatisierten
+						Austausch ermöglicht. Nur wenn das der Fall ist, gilt für diese Nachweise
+						und das entsprechende Nachweisregister eine Anschlussverpflichtung an das
+						EU-OOTS.</para>
+					<para>Das Format des Nachweises definiert den Digitalisierungsstand des
+						Nachweisabrufes gemäß Art. 1 Abs. 15 und 16 Durchführungsverordnung (EU)
+						2022/1463. Das Format des Nachweises wird hier unterschieden in analog
+						(papierbasiert), digital-unstrukturiert (z.B. PDF, Bilddatei) oder
+						digital-strukturiert (z. B. XML, JSON).</para>
+					<para>Des Weiteren konkretisiert die SDG-Verordnung, wann ein Nachweis zwischen
+						Mitgliedsstaaten ausgetauscht werden sollte. <emphasis>„Die Verpflichtung,
+							das technische System für den automatisierten Austausch von Nachweisen
+							zwischen den verschiedenen Mitgliedstaaten zu nutzen, sollte für die
+							zuständige ausstellende Behörden nur gelten, wenn die Behörden in ihrem
+							Mitgliedstaat rechtmäßig Nachweise in einem elektronischen Format
+							ausstellen, das einen automatisierten Austausch ermöglicht.“</emphasis></para>
+					<para>Ein vollständig automatisierter Austausch liegt also lediglich vor, wenn
+						der Nachweis bereits vollständig automatisiert zwischen Behörden ohne
+						Mitwirkung eines Behördenmitarbeitenden innerhalb Deutschlands ausgetauscht
+						werden kann oder der Prozess der Automatisierung begonnen oder terminiert
+						ist.</para>
+					<para><emphasis role="underline">Ergebnis 3: Nachweis mit
+							SDG2-Anschlussverpflichtung</emphasis></para>
+					<para>Abschließend lässt sich zusammenfassen, dass eine Anschlusspflicht von
+						SDG2-relevanten Nachweisen über das EU-OOTS nur gilt, sofern dieser
+						SDG2-relevante Nachweis sowohl in einem elektronischen Format vorliegt als
+						auch vollständig automatisiert in Deutschland ausgetauscht werden kann oder
+						der Prozess der Automatisierung begonnen oder terminiert ist. Die Anbindung
+						eines Nachweises an das EU-OOTS kann sich auf Teilbestände der
+						nachweisführenden Register beziehen.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Schritt 4: Grenzüberschreitender Bezug des Nachweises</term>
+				<listitem>
+					<para>Die Prüfung des grenzüberschreitenden Bezugs erfolgt im Anschluss an die
+						Feststellung, ob der Nachweis behördlich auf einer Rechtsgrundlage
+						ausgestellt wird. Dieser Prüfschritt ergibt sich nicht aus der Verordnung
+						selbst, sondern wurde von der Kommission etabliert.</para>
+					<para>Grenzüberschreitender Nachweisaustausch umfasst die Nachweise, die im
+						Verfahrensablauf für ein Verfahren durch den Online-Service eines
+						Mitgliedstaates A potentiell aus einem Register eines Mitgliedstaates B
+						abgerufen werden.</para>
+					<para>Die Erhebung wurde im Rahmen einer Vorrecherche zum Teil ausgefüllt und
+						muss durch die zuständigen Stellen auf Korrektheit geprüft werden. Dafür
+						müssen folgenden Schritte zur fachlichen Prüfung und Ergänzung durchgeführt
+						werden:</para>
+					<itemizedlist>
+						<listitem>
+							<para>Wird der Nachweis von einer dafür zuständigen Behörde basierend
+								auf einer Rechtsgrundlage (nationales Gesetz oder Verordnung)
+								ausgestellt? Beispiel: Der Nachweis „Meldebescheinigung“ wird von
+								der Meldebehörde ausgestellt; Rechtliche Grundlage: § 18 Abs. 1
+								BMG</para>
+						</listitem>
+						<listitem>
+							<para>Wird der Nachweis grenzüberschreitend ausgetauscht, d.h. gibt es
+								Fälle, in denen der deutsche Nachweis potentiell von einem anderen
+								Mitgliedstaat im Rahmen eines SDG-2-Verfahrens angefordert
+								wird?</para>
+						</listitem>
+						<listitem>
+							<para>Welche konkreten Informationen (Datenfelder) werden für die
+								Nachweiserbringung benötigt? Das heißt, welche konkrete zu
+								beweisende Tatsache benötigt die Vollzugsebene für diese
+								Nachweiserbringung.</para>
+						</listitem>
+					</itemizedlist>
+					<para>Sollten die Anforderungen aus 1) und 2) mit „Ja“ beantwortet werden, so
+						gilt der Nachweis als SDG2-relevant und muss anschließend auf eine
+						Anschlussverpflichtung an das EU-OOTS geprüft werden. Sollte der Nachweis
+						nicht von einer dafür zuständigen Behörde basierend auf einer
+						Rechtsgrundlage ausgestellt werden oder kein grenzüberschreitender Austausch
+						vorhanden sein, so zählt der Nachweis als nicht-SDG2-relevant und ist für
+						die finale Erhebung nicht bedeutsam.</para>
+					<para><emphasis role="underline">Ergebnis 4: Nachweisanforderung aus EU
+							bestätigt</emphasis></para>
+					<para>Mitgliedsstaaten übermitteln ihre Nachweisanforderungen (Requirement) über
+						das Airtable-Formular in Confluence. Das EU-Team beurteilt, ob die
+						Anforderungen die Hauptkriterien für die Einstufung als OOTS-Anforderung
+						erfüllen. Anschließend fasst das EU-Team die zusammenhängenden Anforderungen
+						zusammen und legt einen Termin fest, an dem die Mitgliedstaaten die
+						Anforderungen in einer Subgroup-Sitzung vorstellen. Die Mitgliedstaaten
+						können innerhalb von vier Wochen Rückmeldungen zu den vorgelegten
+						Anforderungen auf der Grundlage von Beiträgen anderer Evidence Requester
+						oder Evidence Provider in ihrem Mitgliedstaat geben. Die Mitgliedstaaten
+						können das Feedback berücksichtigen und innerhalb von 4 Wochen mit anderen
+						Mitgliedstaaten mit ähnlichen Anforderungen diskutieren. Nach vier Wochen
+						erfolgt ein weiterer Termin, in dem die endgültige Fassung der
+						Anforderung(en) vorgelegt wird, die in die OOTS aufgenommen werden soll, es
+						sei denn, der Mitgliedstaat möchte die Anforderung archivieren. Die
+						Europäische Kommission wird die endgültige Anforderung in den OOTS Common
+						Services veröffentlichen, und die Mitgliedstaaten werden mit der Zuordnung
+						ihrer Nachweistypen fortfahren.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Schritt 5: Nachweisausstellendes Register</term>
+				<listitem>
+					<para>In diesem Schritt wird geprüft, ob das Register einen SDG2-relevanten
+						Nachweis ausstellt, der in einem elektronischen Format vollständig
+						automatisiert ohne Mitwirkung eines Behördenmitarbeiters ausgetauscht wird
+						oder der Prozess der Automatisierung des Nachweisaustauschs begonnen ist
+						oder terminiert wurde.</para>
+					<para><emphasis role="underline">Ergebnis 5: Register mit Anschlussverpflichtung
+							EU-OOTS</emphasis></para>
+					<para>Anschlussverpflichtung eines Registers an das EU-OOTS besteht, sofern es
+						einen SDG-relevanten Nachweis ausstellt und dieser Nachweis sowohl in einem
+						elektronischen Format vorliegt als auch automatisiert ausgetauscht werden
+						kann. Die Anschlussverpflichtung eines Registers kann sich auf Teilbestände
+						des Registers beziehen, dennoch wird das Register hier generell als
+						anschlussverpflichtet beschrieben.</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+	</section>
+
+</section>

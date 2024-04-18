@@ -1,0 +1,164 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xml:id="spezifikation.informationsmodell.datenarchitektur">
+	<info>
+		<title>Die Informationsarchitektur des Fachdatenmodells</title>
+	</info>
+	<variablelist>
+		<varlistentry>
+			<term>Definition der Hauptentitäten</term>
+			<listitem>
+				<para>Im Rahmen der Evidence Survey wurden große Mengen an Daten aus den einzelnen
+					Ressorts abgefragt und zusammengetragen. Diese Daten beziehen sich im Weiteren
+					auf Nachweise, Angaben zu Registern sowie den relevanten Stakeholdern.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term/>
+			<listitem>
+				<para/>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+	<figure>
+		<title>Die Hauptentitäten der nationalen XEvidenceSurvey</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center"
+					fileref="../abbildungen/class__Diagramme__SPEC_NationaleEvidenceSurvey.png"
+					format="png" width="100%"/>
+			</imageobject>
+		</mediaobject>
+	</figure>
+	<variablelist>
+		<varlistentry>
+			<term/>
+			<listitem>
+				<para/>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Prüfprozesse</term>
+			<listitem>
+				<para>Die Mehrwerte der Datenerhebung ergeben sich aus der Verknüpfung der
+					verschiedenen Hauptentitäten. Für die Feststellung der SDG-Relevanz
+					verschiedener Hauptentitäten wurden Prüfschemas angelegt.</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+	<figure>
+		<title>Ein Beispiel der Hauptentitäten mit allen zugehörigen Klassen in der nationalen
+			XEvidenceSurvey</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center"
+					fileref="../abbildungen/class__Diagramme__SPEC_Hauptentitäten_Beispiel.png"
+					format="png" width="100%"/>
+			</imageobject>
+		</mediaobject>
+	</figure>
+	<variablelist>
+		<varlistentry>
+			<term>Zusammenhang Nachweistyp und Nachweistypbündel</term>
+			<listitem>
+				<para>Die nationale Evidence Survey wurde auf Ebene sogenannter Nachweistypbündel
+					durchgeführt. Die Rückmeldungen der einzelnen Ressorts beziehen sich auf Bündel
+					wie bspw. Abschlusszeugnisse und umfassen somit konkret mehrere Nachweistypen.
+					Um diese Erfassung nachzuhalten, sieht das Datenmodell Informationen zum
+					Nachweistypbündel vor, die ergänzt werden durch konkrete Informationen zu den
+					Metadaten, das Prüfschema der SDG-Relevanz sowie die Angabe von Stakeholdern,
+					die für einzelne Elemente als Ansprechperson fungieren. Nachweistypbündel sind
+					mit konkreten Nachweistypen verbunden. Diese wiederum stellen konkrete Nachweise
+					dar, die auf EU-Ebene mit Evidence Types in Verbindung stehen.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Metadaten</term>
+			<listitem>
+				<para>Die Hauptentitäten des Datenmodells verfügen über Metadaten-Klassen. Hierbei
+					handelt es sich um die konkreten Daten, die im Kontext der Erhebung erfasst
+					wurden.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Prüfschema</term>
+			<listitem>
+				<para>Im Prüfschema werden Informationen zu einer Hauptentität gesammelt, durch die
+					sich die SDG-Relevanz ergibt.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Stakeholder</term>
+			<listitem>
+				<para>Den Hauptentitäten können Stakeholder zugeordnet werden. Diese agieren immer
+					als Vertreter:innen einer konkreten Einrichtung / eines Ressorts und können über
+					Funktionsadressen oder konkrete natürliche Personen definiert werden.</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+<figure>
+	<title>Die Verbindung der Elemente durch Mappings in der nationalen XEvidenceSurvey</title>
+	<mediaobject>
+		<imageobject>
+			<imagedata align="center"
+				fileref="../abbildungen/class__Diagramme__SPEC_MappingDEEvidenceSurvey.png"
+				format="png" width="100%"/>
+		</imageobject>
+	</mediaobject>
+</figure>
+	<variablelist>
+		<varlistentry>
+			<term>Mappings stellen Verbindungen her</term>
+			<listitem>
+				<para>Während die Hauptentitäten einzelne Punkte konkret definieren, die für die
+					Evidence Survey relevant sind, werden diese erst durch die Mappings miteinander
+					in Relation gesetzt. Nur dadurch kann die SDG-Relevanz abschließend geklärt
+					werden.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Verknüpfung ergibt Gesamtkonzept</term>
+			<listitem>
+				<para>Die Verknüpfung zwischen den Hauptentitäten sowie den einzelnen Mappings
+					stellt das Kernelement der Evidence Survey dar. Wie im Kapitel Prüfschema
+					erklärt, ergeben die einzelnen Prüfungen das Gesamtbild und die eigentliche
+					Relevanz für die Anbindung in Richtung EU-OOTS.</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+<figure>
+	<title>Ein Beispielmapping mit allen zugehörigen Klassen in der nationalen XEvidenceSurvey</title>
+	<mediaobject>
+		<imageobject>
+			<imagedata align="center"
+				fileref="../abbildungen/class__Diagramme__SPEC_MappingDELeiKaNachweisanforderung.png"
+				format="png" width="100%"/>
+		</imageobject>
+	</mediaobject>
+</figure>
+	<variablelist>
+		<varlistentry>
+			<term>Mapping und zugehörige Klassen</term>
+			<listitem>
+				<para>Im hier aufgezeigten Beispiel wird das Mapping zwischen LeiKa-Leistungen und
+					Nachweisanforderungen aufgebaut. Dabei ist erkennbar, dass wie o.g. in der
+					Klasse LeiKa-Metadaten und Prüfschema getrennt geführt werden. Die
+					Nachweisanforderung verweist ihrerseits auf die SDG Procedural Requirements und
+					erbt von diesen.</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>Workflow</term>
+			<listitem>
+				<para>Die Workflow-Klasse fungiert zur Dokumentation von Änderungen der Freigaben
+					für die einzelnen Mappings. Diese werden durch einen Stakeholder bestätigt und
+					wiederholbar befüllt, um auch eine Art Änderungshistorie zu ermöglichen.</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+</section>

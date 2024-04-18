@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY nachricht.0001 "view.nachweiszuordnung.0001">
+                    <!ENTITY nachricht.title.0001 "view.nachweiszuordnung.0001">
+                    <!ENTITY nachricht.ref.0001 "<link linkend='xevidencesurvey.Nachrichten.view.view.nachweiszuordnung.0001'>Nachricht 0001</link>">
+                    <!ENTITY nachricht.0002 "view.registerzuordnung.0002">
+                    <!ENTITY nachricht.title.0002 "view.registerzuordnung.0002">
+                    <!ENTITY nachricht.ref.0002 "<link linkend='xevidencesurvey.Nachrichten.view.view.registerzuordnung.0002'>Nachricht 0002</link>">
+                    <!ENTITY nachricht.0003 "view.onlinediensteGesamt.0003">
+                    <!ENTITY nachricht.title.0003 "view.onlinediensteGesamt.0003">
+                    <!ENTITY nachricht.ref.0003 "<link linkend='xevidencesurvey.Nachrichten.view.view.onlinediensteGesamt.0003'>Nachricht 0003</link>">
+                    <!ENTITY nachricht.0004 "view.evidenceBroker.0004">
+                    <!ENTITY nachricht.title.0004 "view.evidenceBroker.0004">
+                    <!ENTITY nachricht.ref.0004 "<link linkend='xevidencesurvey.Nachrichten.view.view.evidenceBroker.0004'>Nachricht 0004</link>">
+                    <!ENTITY nachricht.0005 "export.evidenceBroker.0005">
+                    <!ENTITY nachricht.title.0005 "export.evidenceBroker.0005">
+                    <!ENTITY nachricht.ref.0005 "<link linkend='xevidencesurvey.Nachrichten.export.export.evidenceBroker.0005'>Nachricht 0005</link>">
+                    <!ENTITY nachricht.0006 "import.evidenceBroker.0006">
+                    <!ENTITY nachricht.title.0006 "import.evidenceBroker.0006">
+                    <!ENTITY nachricht.ref.0006 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceBroker.0006'>Nachricht 0006</link>">
+                    <!ENTITY nachricht.0007 "export.evidenceBroker.0007">
+                    <!ENTITY nachricht.title.0007 "export.evidenceBroker.0007">
+                    <!ENTITY nachricht.ref.0007 "<link linkend='xevidencesurvey.Nachrichten.export.export.evidenceBroker.0007'>Nachricht 0007</link>">
+                    <!ENTITY nachricht.0008 "import.evidenceBroker.0008">
+                    <!ENTITY nachricht.title.0008 "import.evidenceBroker.0008">
+                    <!ENTITY nachricht.ref.0008 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceBroker.0008'>Nachricht 0008</link>">
+                    <!ENTITY nachricht.0010 "import.evidenceSurvey2023.0010">
+                    <!ENTITY nachricht.title.0010 "import.evidenceSurvey2023.0010">
+                    <!ENTITY nachricht.ref.0010 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0010'>Nachricht 0010</link>">
+                    <!ENTITY nachricht.0011 "import.evidenceSurvey2023.0011">
+                    <!ENTITY nachricht.title.0011 "import.evidenceSurvey2023.0011">
+                    <!ENTITY nachricht.ref.0011 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0011'>Nachricht 0011</link>">
+                    <!ENTITY nachricht.0012 "import.evidenceSurvey2023.0012">
+                    <!ENTITY nachricht.title.0012 "import.evidenceSurvey2023.0012">
+                    <!ENTITY nachricht.ref.0012 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0012'>Nachricht 0012</link>">
+                    <!ENTITY nachricht.0013 "import.evidenceSurvey2023.0013">
+                    <!ENTITY nachricht.title.0013 "import.evidenceSurvey2023.0013">
+                    <!ENTITY nachricht.ref.0013 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0013'>Nachricht 0013</link>">
+                    <!ENTITY nachricht.0014 "import.evidenceSurvey2023.0014">
+                    <!ENTITY nachricht.title.0014 "import.evidenceSurvey2023.0014">
+                    <!ENTITY nachricht.ref.0014 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0014'>Nachricht 0014</link>">
+                    <!ENTITY nachricht.0015 "view.dataserviceDirectory.0015">
+                    <!ENTITY nachricht.title.0015 "view.dataserviceDirectory.0015">
+                    <!ENTITY nachricht.ref.0015 "<link linkend='xevidencesurvey.Nachrichten.view.view.dataserviceDirectory.0015'>Nachricht 0015</link>">
+                    <!ENTITY nachricht.0015 "import.evidenceSurvey2023.0015">
+                    <!ENTITY nachricht.title.0015 "import.evidenceSurvey2023.0015">
+                    <!ENTITY nachricht.ref.0015 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2023.0015'>Nachricht 0015</link>">
+                    <!ENTITY nachricht.0017 "view.erhebungsdaten.0017">
+                    <!ENTITY nachricht.title.0017 "view.erhebungsdaten.0017">
+                    <!ENTITY nachricht.ref.0017 "<link linkend='xevidencesurvey.Nachrichten.view.view.erhebungsdaten.0017'>Nachricht 0017</link>">
+                    <!ENTITY nachricht.0020 "import.dsmeld.0020">
+                    <!ENTITY nachricht.title.0020 "import.dsmeld.0020">
+                    <!ENTITY nachricht.ref.0020 "<link linkend='xevidencesurvey.Nachrichten.import.import.dsmeld.0020'>Nachricht 0020</link>">
+                    <!ENTITY nachricht.0031 "view.leika2sdgverfahren.0031">
+                    <!ENTITY nachricht.title.0031 "view.leika2sdgverfahren.0031">
+                    <!ENTITY nachricht.ref.0031 "<link linkend='xevidencesurvey.Nachrichten.view.view.leika2sdgverfahren.0031'>Nachricht 0031</link>">
+                    <!ENTITY nachricht.0031 "import.leika2sdgverfahren.0031">
+                    <!ENTITY nachricht.title.0031 "import.leika2sdgverfahren.0031">
+                    <!ENTITY nachricht.ref.0031 "<link linkend='xevidencesurvey.Nachrichten.import.import.leika2sdgverfahren.0031'>Nachricht 0031</link>">
+                    <!ENTITY nachricht.0032 "import.nachweisanforderung2nachweistypbuendel.0032">
+                    <!ENTITY nachricht.title.0032 "import.nachweisanforderung2nachweistypbuendel.0032">
+                    <!ENTITY nachricht.ref.0032 "<link linkend='xevidencesurvey.Nachrichten.import.import.nachweisanforderung2nachweistypbuendel.0032'>Nachricht 0032</link>">
+                    <!ENTITY nachricht.0100 "view.pruefungLeika.0100">
+                    <!ENTITY nachricht.title.0100 "view.pruefungLeika.0100">
+                    <!ENTITY nachricht.ref.0100 "<link linkend='xevidencesurvey.Nachrichten.view.view.pruefungLeika.0100'>Nachricht 0100</link>">
+                    <!ENTITY nachricht.0200 "import.evidenceSurvey2024.0200">
+                    <!ENTITY nachricht.title.0200 "import.evidenceSurvey2024.0200">
+                    <!ENTITY nachricht.ref.0200 "<link linkend='xevidencesurvey.Nachrichten.import.import.evidenceSurvey2024.0200'>Nachricht 0200</link>">
+                    <!ENTITY nachricht.0999 "view.beispielentitiaet.0999">
+                    <!ENTITY nachricht.title.0999 "view.beispielentitiaet.0999">
+                    <!ENTITY nachricht.ref.0999 "<link linkend='xevidencesurvey.Nachrichten.view.view.beispielentitiaet.0999'>Nachricht 0999</link>">
+                    <!ENTITY nachricht.1000 "export.OZGIp.1000">
+                    <!ENTITY nachricht.title.1000 "export.OZGIp.1000">
+                    <!ENTITY nachricht.ref.1000 "<link linkend='xevidencesurvey.Nachrichten.export.export.OZGIp.1000'>Nachricht 1000</link>">
+                    <!ENTITY nachricht.4001 "import.destatis.4001">
+                    <!ENTITY nachricht.title.4001 "import.destatis.4001">
+                    <!ENTITY nachricht.ref.4001 "<link linkend='xevidencesurvey.Nachrichten.import.import.destatis.4001'>Nachricht 4001</link>">
+                    

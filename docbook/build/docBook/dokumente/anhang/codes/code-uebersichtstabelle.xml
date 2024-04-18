@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xml:id="code-uebersicht">
+   <title>Übersicht</title>
+   <para>In der nachstehenden Tabelle werden die folgenden Informationen dargestellt:</para>
+   <variablelist>
+      <varlistentry>
+         <term>Code-Datentyp</term>
+         <listitem>
+            <para>Alle in &fachmodul; definierten Code-Datentypen in alphabetischer Reihenfolge. </para>
+         </listitem>
+      </varlistentry>
+      <varlistentry>
+         <term>Codeliste</term>
+         <listitem>
+            <para> Der Name (kurz)<footnote>
+                  <para>Weitere Informationen zu den Metadaten einer Codeliste sind im aktuellen XÖV-Handbuch beschrieben.</para>
+               </footnote> der im jeweiligen Code-Datentyp genutzten Codeliste.</para>
+         </listitem>
+      </varlistentry>
+      <varlistentry>
+         <term>Version</term>
+         <listitem>
+            <para> Die Version der im jeweiligen Code-Datentyp genutzten Codeliste (Attribut listVersionID). </para>
+         </listitem>
+      </varlistentry>
+      <varlistentry>
+         <term>Typ</term>
+         <listitem>
+            <para> Art der Codelistennutzung, wie im XÖV-Handbuch beschrieben. </para>
+         </listitem>
+      </varlistentry>
+   </variablelist>
+   <para>Die Namen der Code-Datentypen und der Codelisten stellen Links zu den jeweiligen Detail-Abschnitten dar.</para>
+   <informaltable version="5" xml:lang="de" xml:id="code-uebersichtstabelle">
+      <tgroup cols="4">
+         <colspec colnum="1" colname="code" colwidth="74mm"/>
+         <colspec colnum="2" colname="codeliste" colwidth="65mm"/>
+         <colspec colnum="3" colname="version" colwidth="14mm"/>
+         <colspec colnum="4" colname="nutzung" colwidth="7mm"/>
+         <thead>
+            <row>
+               <entry>Code-Datentyp</entry>
+               <entry>Codeliste</entry>
+               <entry>Version</entry>
+               <entry>Typ</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry">Code.EEACountryType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mitgliedsstaaten.mitgliedsstaaten-codes">mitgliedsstaaten</link>
+               </entry>
+               <entry align="left">2023-11</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.EvidenceProvider">Code.EvidenceProviderType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.evidenceprovider.evidenceprovider-codes">evidenceProvider</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.FormatEvidenceSurvey">Code.FormatEvidenceSurveyType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.formatevidencesurvey.formatevidencesurvey-codes">formatEvidenceSurvey</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.GrenzueberschreitenderBezug">Code.GrenzueberschreitenderBezugType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.grenzueberschreitenderbezug-codes">grenzüberschreitenderBezug</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.IdentifierSchemes">Code.IdentifierSchemesType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xnachweis.codeliste.identifierscheme.IdentifierSchemes-Codes">Identifier Schemes</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level">Code.Jurisdiction-LevelType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_OOTS_JurisdictionLevel-CodeList.gc.jurisdiction-Level">JurisdictionLevel</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.LOA">Code.LOAType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xnachweis.codeliste.loa.loa-Codes">LOA</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Language_Code">Code.Language-CodeType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.https.__code.europa.eu_oots_tdd_tdd_chapters_-_blob_master_OOTS-EDM_codelists_External_LanguageCode.gc.languageCode-Codes">LanguageCode</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes">Code.Lebensereignisse-CodesType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.eu-kom.codeliste.lebensereignisse.Lebensereignisse-Codes">Lebensereignisse</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp">Code.LeiKaTypType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikatyp.leiKatyp-codes">leikatyp</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Leikafreigabe">Code.LeikafreigabeType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikafreigabe.leikafreigabe-codes">leikafreigabe</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Mappingstatus">Code.MappingstatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mappingstatus.mappingstatus-codes">mappingstatus</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.MediaTypes">Code.MediaTypesType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.sr.oots.tech.ec.europa.eu.codelists.ootsmediatypes.ootsmediatypes-Codes">EU OOTS BOMC</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.NUTS">Code.NUTSType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xnachweis.codeliste.nut.nuts-Codes">NUTS</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.NachweisaustauschDE">Code.NachweisaustauschDEType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.nachweisaustauschde.nachweisaustauschde-codes">nachweisaustausch</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Planungsstatus">Code.PlanungsstatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.planungsstatus.planungstatus-codes">planungstatus</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Rechtsgrundlage">Code.RechtsgrundlageType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.rechtsgrundlage.rechtsgrundlage-codes">rechtsgrundlage</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.RegMoReifegrad">Code.RegMoReifegradType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.RegMoReifegrad-codes">regmoreifegrad</link>
+               </entry>
+               <entry align="left">2.0</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Richtlinien">Code.RichtlinienType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.richtlinien.richtlinien-codes">richtlinien</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes">Code.SDG2RelevanzIntern-CodesType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanzintern.sdg2relevanzintern-codes">sdg2relevanzIntern</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2Relevanz">Code.SDG2RelevanzType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanz.sdg2relevanz-codes">sdg2relevanz</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure">Code.SDGProcedureType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.sdgprocedure-codes">sdgprocedure</link>
+               </entry>
+               <entry align="left">2024-02-01</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="xevidencesurvey.Baukasten.Codes.Code.SDGStatus">Code.SDGStatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgstatus.sdgstatus-codes">sdg2status</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderfreigabe">Code.StakeholderfreigabeType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderfreigabe.stakeholderfreigabe-codes">stakeholderfreigabe</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderstatus">Code.StakeholderstatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.stakeholderstatus-codes">stakeholderstatus</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Uebersetzungsstatus">Code.UebersetzungsstatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.uebersetzungsstatus.uebersetzungsstatus-codes">uebersetzungsstatus</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.WorkflowStatusEU">Code.WorkflowStatusEUType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz" linkend="tabelle.-.workflowStatusEU">WorkflowStatusEU</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.Workflowstatus">Code.WorkflowstatusType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xevidencesurvey.codeliste.workflowstatus.workflowstatus-codes">workflowstatus</link>
+               </entry>
+               <entry align="left">0.6</entry>
+               <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen">Code.leikaLeistungenType</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.fim.leika.leistung.leikaLeistung">leikaleistungen</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>
+<?KoSIT-FO hard-pagebreak?>

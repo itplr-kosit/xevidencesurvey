@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.methodikdetail2">
+  <info>
+    <title>Benötigte deutschen Entitäten von EU Komponenten ableiten</title>
+  </info>
+
+  <para>Das Modell unterstützt die in Anforderungsworkshops und Desktop-Research erhaltenen
+    Anforderungen an eine Fachdatenmodellierung. Die als Anforderung von anderen Programmbereichen
+    erhaltenen Informationen sind in Anhang IV.D abgebildet. Zur Realisierung der Evidence Survey und
+    zur Berücksichtigung der bisher erhaltenen obenstehenden Anforderungen zum Abbilden von
+    Informationen für Nachweisaustausch wurden folgende deutschsprachige Entitäten von den
+    EU-Komponenten abgeleitet und mit deutschsprachigen Merkmalen versehen: </para>
+  <para>
+    <itemizedlist>
+      <listitem>
+        <para>SDG-Verfahren, Direktiven, Nachweisanforderungen, LeiKas</para>
+      </listitem>
+      <listitem>
+        <para>Online Services, Registerbündel, Register, Nachweisbündel, Nachweistypen,
+          Distributionsformen, Feldinhalte von Nachweisen, Feldinhalte von Registern,
+          Musterdistributionen</para>
+      </listitem>
+      <listitem>
+        <para>Stakeholder, Rechtsgrundlagen, Strukturiertheitsgrad, verwaltungspolitische Kodierung
+        </para>
+      </listitem>
+    </itemizedlist>
+  </para> 
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_VererbungEUDE.png" format="png"
+        scale="50"/>
+    </imageobject>
+  </mediaobject>
+  
+  
+
+</section>

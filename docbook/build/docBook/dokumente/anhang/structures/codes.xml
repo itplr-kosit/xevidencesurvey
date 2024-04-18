@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kosit:codelists xmlns:kosit="http://www.xoev.de/de/kosit-zubehoer/3_0_0"
+                 xmlns="http://docbook.org/ns/docbook"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:evidenceprovider"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.evidenceprovider.evidenceprovider-codes">
+      <kosit:entry code="0_keine-aussage">keine Aussage möglich</kosit:entry>
+      <kosit:entry code="1_ja">Ja</kosit:entry>
+      <kosit:entry code="2_nein">Nein</kosit:entry>
+      <kosit:entry code="4_gemeldet">Gemeldet</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:formatevidencesurvey"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.formatevidencesurvey.formatevidencesurvey-codes">
+      <kosit:entry code="01_digital-strukturiert">digital vorliegende, strukturierte Daten</kosit:entry>
+      <kosit:entry code="02_digital-unstrukturiert">digital vorliegende, unstrukturierte Daten</kosit:entry>
+      <kosit:entry code="03_teilweise-digitalisiert">teilweise digital vorliegende Daten</kosit:entry>
+      <kosit:entry code="04_analog">analoge, nicht digital vorliegende Daten</kosit:entry>
+      <kosit:entry code="05_keine-Angabe">keine Angabe zu vorliegenden Daten</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.grenzueberschreitenderbezug.grenzueberschreitenderbezug-codes">
+      <kosit:entry code="0_keine-aussage">keine Aussage möglich</kosit:entry>
+      <kosit:entry code="1_ja">Ja</kosit:entry>
+      <kosit:entry code="2_nein">Nein</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:leikafreigabe"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikafreigabe.leikafreigabe-codes">
+      <kosit:entry code="fachlich_​freigegeben">fachlich freigegeben</kosit:entry>
+      <kosit:entry code="fachlich_​nicht_​freigegeben">fachlich nicht freigegeben</kosit:entry>
+      <kosit:entry code="fachlich_​nicht_​moeglich">Fachlich nicht möglich</kosit:entry>
+      <kosit:entry code="in_pruefung">in Prüfung</kosit:entry>
+      <kosit:entry code="keine_Aussage">keine Aussage möglich</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:leikatyp"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.leikatyp.leiKatyp-codes">
+      <kosit:entry code="01">Typ 1</kosit:entry>
+      <kosit:entry code="0203">Typ 2/3</kosit:entry>
+      <kosit:entry code="0204">Typ 2/4</kosit:entry>
+      <kosit:entry code="03">Typ 3</kosit:entry>
+      <kosit:entry code="04">Typ 4</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:mappingstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mappingstatus.mappingstatus-codes">
+      <kosit:entry code="01_initiiert">initiiert</kosit:entry>
+      <kosit:entry code="02_pruefung">in Prüfung</kosit:entry>
+      <kosit:entry code="03_freigegeben">freigegeben</kosit:entry>
+      <kosit:entry code="05_archiviert">archiviert</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:mitgliedsstaaten"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.mitgliedsstaaten.mitgliedsstaaten-codes">
+      <kosit:entry code="AT">Österreich</kosit:entry>
+      <kosit:entry code="BE">Belgien</kosit:entry>
+      <kosit:entry code="BG">Bulgarien</kosit:entry>
+      <kosit:entry code="CY">Zypern</kosit:entry>
+      <kosit:entry code="CZ">Tschechien</kosit:entry>
+      <kosit:entry code="DE">Deutschland</kosit:entry>
+      <kosit:entry code="DK">Dänemark</kosit:entry>
+      <kosit:entry code="EE">Estland</kosit:entry>
+      <kosit:entry code="ES">Spanien</kosit:entry>
+      <kosit:entry code="EU">Europäische Union</kosit:entry>
+      <kosit:entry code="FI">Finnland</kosit:entry>
+      <kosit:entry code="FR">Frankreich</kosit:entry>
+      <kosit:entry code="GR">Griechenland</kosit:entry>
+      <kosit:entry code="HR">Kroatien</kosit:entry>
+      <kosit:entry code="HU">Ungarn</kosit:entry>
+      <kosit:entry code="IE">Irland</kosit:entry>
+      <kosit:entry code="IT">Italien</kosit:entry>
+      <kosit:entry code="LI">Liechtenstein</kosit:entry>
+      <kosit:entry code="LT">Litauen</kosit:entry>
+      <kosit:entry code="LU">Luxemburg</kosit:entry>
+      <kosit:entry code="LV">Letland</kosit:entry>
+      <kosit:entry code="MT">Malta</kosit:entry>
+      <kosit:entry code="NL">Niederlande</kosit:entry>
+      <kosit:entry code="NO">Norwegen</kosit:entry>
+      <kosit:entry code="PL">Polen</kosit:entry>
+      <kosit:entry code="PT">Portugal</kosit:entry>
+      <kosit:entry code="RO">Rumänien</kosit:entry>
+      <kosit:entry code="SE">Schweden</kosit:entry>
+      <kosit:entry code="SI">Slowenien</kosit:entry>
+      <kosit:entry code="SI">Island</kosit:entry>
+      <kosit:entry code="SK">Slowakei</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:nachweisaustauschde"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.nachweisaustauschde.nachweisaustauschde-codes">
+      <kosit:entry code="01_Ja">Ja, automatischer Nachweisaustausch vorhanden</kosit:entry>
+      <kosit:entry code="02_Nein">Nein, kein automatischer Austausch vorhanden</kosit:entry>
+      <kosit:entry code="03_In_Planung">In Planung</kosit:entry>
+      <kosit:entry code="0_keine_​Aussage_​​moeglich">Es ist keine Aussage dazu möglich</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:planungsstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.planungsstatus.planungstatus-codes">
+      <kosit:entry code="freigegeben">03_freigegeben</kosit:entry>
+      <kosit:entry code="initiiert">01_initiiert</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:rechtsgrundlage"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.rechtsgrundlage.rechtsgrundlage-codes">
+      <kosit:entry code="RechtsgrundlageTyp1">RechtsgrundlageTyp1</kosit:entry>
+      <kosit:entry code="RechtsgrundlageTyp2">RechtsgrundlageTyp2</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:regmoreifegrad"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.regmoreifegrad.RegMoReifegrad-codes">
+      <kosit:entry code="A">Offline</kosit:entry>
+      <kosit:entry code="B">Elektronisch übermittelte Nachweise</kosit:entry>
+      <kosit:entry code="C">Elektronisch auswertbare Nachweise</kosit:entry>
+      <kosit:entry code="D1">Bedarfsgerecht übermittelte Informationen</kosit:entry>
+      <kosit:entry code="D2">Antwort auf konkrete Frage</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:richtlinien"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.richtlinien.richtlinien-codes">
+      <kosit:entry code="2005-36-EG">2005|36|EG</kosit:entry>
+      <kosit:entry code="2006-123-EG">2006|123|EG</kosit:entry>
+      <kosit:entry code="2014-24-EU">2014|24|EU</kosit:entry>
+      <kosit:entry code="2014-25-EU">2014|25|EU</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:sdg2relevanz"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanz.sdg2relevanz-codes">
+      <kosit:entry code="0_keineAussage">keine Aussage möglich</kosit:entry>
+      <kosit:entry code="1_nachweis-ausstellung">Rechtsgrundlage "Ausstellung des Nachweises"</kosit:entry>
+      <kosit:entry code="2_leika">Rechtsgrundlage "LeiKa"</kosit:entry>
+      <kosit:entry code="3_leika-nachweis">Rechtsgrundlage "LeiKa fordert Nachweis"</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:sdg2relevanzintern"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdg2relevanzintern.sdg2relevanzintern-codes">
+      <kosit:entry code="1_nein">Nein, das Verfahren fordert keine SDG2-relevanten Nachweise</kosit:entry>
+      <kosit:entry code="2_nein_​nicht_​grenzueberschreitend">Nein, Verfahren fordert keine grenzüberschreitend relevanten Nachweise</kosit:entry>
+      <kosit:entry code="3_ja">DE-Verfahren fordert national SDG2-relevante Nachweise. Achtung: grenzüberschreitender Bezug nicht geprüft</kosit:entry>
+      <kosit:entry code="4_ja_​grenzueberschreitend">DE-Verfahren fordert SDG2-relevante Nachweise grenzüberschreitend</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:sdgstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgstatus.sdgstatus-codes">
+      <kosit:entry code="1_draft">Draft</kosit:entry>
+      <kosit:entry code="2_public">Public</kosit:entry>
+      <kosit:entry code="3_review">Review</kosit:entry>
+      <kosit:entry code="4_archived">Archived</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:sdgverfahrenanhang2"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.sdgverfahrenanhang2.sdgprocedure-codes">
+      <kosit:entry code="R1">Beantragung des Nachweises über die Eintragung in das Geburtenregister</kosit:entry>
+      <kosit:entry code="S1">Beantragung eines Wohnsitznachweises</kosit:entry>
+      <kosit:entry code="T1">Beantragung einer Studienfinanzierung für ein Hochschulstudium, z. B. Studienbeihilfen oder -darlehen, bei einer öffentlichen Stelle oder Einrichtung</kosit:entry>
+      <kosit:entry code="T2">Einreichung eines ersten Antrags auf Zulassung zu einer öffentlichen Hochschuleinrichtung</kosit:entry>
+      <kosit:entry code="T3">Beantragung der Anerkennung von akademischen Diplomen, Prüfungszeugnissen oder sonstigen Nachweisen über Studien oder Kurse</kosit:entry>
+      <kosit:entry code="U1">Antrag auf Bestimmung des anwendbaren Rechts gemäß Titel II der Verordnung (EG) Nr. 883/ 2004</kosit:entry>
+      <kosit:entry code="U2">Mitteilung einer Änderung der persönlichen oder beruflichen Situation des Empfängers von Sozialversicherungsleistungen, die für solche Leistungen relevant ist</kosit:entry>
+      <kosit:entry code="U3">Antrag auf Ausstellung einer Europäischen Krankenversicherungskarte (EHIC)</kosit:entry>
+      <kosit:entry code="U4">Einreichung einer Einkommensteuererklärung</kosit:entry>
+      <kosit:entry code="V1">Meldung einer Adressänderung</kosit:entry>
+      <kosit:entry code="V2">Zulassung eines aus einem Mitgliedstaat stammenden oder bereits in einem EU-Mitgliedstaat zugelassenen Kraftfahrzeugs in Standardverfahren</kosit:entry>
+      <kosit:entry code="V3">Beantragung von Plaketten für die Nutzung der nationalen Straßenverkehrsinfrastruktur: von einer öffentlichen Stelle oder Einrichtung ausgestellte zeitabhängige Gebühren (Vignette), entfernungsabhängige Gebühren (Maut)</kosit:entry>
+      <kosit:entry code="V4">Beantragung von Emissionsplaketten, die von einer öffentlichen Stelle oder Einrichtung ausgestellt werden</kosit:entry>
+      <kosit:entry code="W1">Beantragung von Ruhestands- und Vorruhestandsleistungen aus obligatorischen Systemen</kosit:entry>
+      <kosit:entry code="W2">Ersuchen um Informationen über die Daten im Zusammenhang mit Ruhestandsleistungen aus obligatorischen Systemen</kosit:entry>
+      <kosit:entry code="X1">Meldung einer Geschäftstätigkeit, Zulassung zur Ausübung einer Geschäftstätigkeit, Änderung einer Geschäftstätigkeit und Einstellung einer Geschäftstätigkeit ausgenommen Insolvenz- oder Liquidationsverfahren, ausgenommen der erstmaligen Eintragung einer Geschäftstätigkeit in das Unternehmens-Register, und ausgenommen Eintragungen im Rahmen des Verfahren zur Gründung von — oder späteren Anmeldungen oder Einreichungen von Meldungen von — Gesellschaften oder Unternehmen im Sinne von Artikel 54 Absatz 2 AEUV</kosit:entry>
+      <kosit:entry code="X2">Registrierung eines Arbeitgebers (einer natürlichen Person) bei obligatorischen Versorgungs- und Versicherungssystemen</kosit:entry>
+      <kosit:entry code="X3">Registrierung von Beschäftigten bei obligatorischen Versorgungs- und Versicherungssystemen</kosit:entry>
+      <kosit:entry code="X4">Einreichung einer Körperschaftsteuererklärung</kosit:entry>
+      <kosit:entry code="X5">Meldung an die Sozialversicherungssysteme bei Beendigung des Vertrags mit einem Beschäftigten, ausgenommen bei Verfahren zur kollektiven Beendigung von Arbeitnehmerverträgen</kosit:entry>
+      <kosit:entry code="X6">Zahlung von Sozialbeiträgen für Beschäftigte</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:stakeholderfreigabe"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderfreigabe.stakeholderfreigabe-codes">
+      <kosit:entry code="00_keine_​Aussage">keine Aussage</kosit:entry>
+      <kosit:entry code="01_digitalisierung_​nachweis">Digitalisierungsstand Nachweise</kosit:entry>
+      <kosit:entry code="02_mapping_​leikasdg2​verfahren">Mapping LeiKa auf SDG2-Verfahren</kosit:entry>
+      <kosit:entry code="03_mapping_​nachweisnachweisanforderung">Mapping Nachweis auf Nachweisanforderung</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:stakeholderstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.stakeholderstatus.stakeholderstatus-codes">
+      <kosit:entry code="1_aktiv">aktiv</kosit:entry>
+      <kosit:entry code="2_inaktiv">inaktiv</kosit:entry>
+      <kosit:entry code="3_nicht_​zustaendig_​zeitweise">zeitweise nicht zuständig</kosit:entry>
+      <kosit:entry code="4_nicht_​zustaendig_​dauerhaft">dauerhaft nicht zuständig</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:uebersetzungsstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.uebersetzungsstatus.uebersetzungsstatus-codes">
+      <kosit:entry code="eigene">02_eigene</kosit:entry>
+      <kosit:entry code="maschinell">03_maschinell</kosit:entry>
+      <kosit:entry code="offiziell">01_offiziell</kosit:entry>
+   </kosit:codelist>
+   <kosit:codelist urn="urn:xoev-de:xevidencesurvey:codeliste:workflowstatus"
+                   id="tabelle.urn.xoev-de.xevidencesurvey.codeliste.workflowstatus.workflowstatus-codes">
+      <kosit:entry code="1_erstaufnahme">Erste Aufnahme</kosit:entry>
+      <kosit:entry code="2_zurPruefung">zur Prüfung</kosit:entry>
+      <kosit:entry code="3_inPruefung">in Prüfung</kosit:entry>
+      <kosit:entry code="4_freigabeErfolgt">Freigabe erfolgt</kosit:entry>
+      <kosit:entry code="5_freigabeNichtErfolgt">Freigabe nicht erfolgt</kosit:entry>
+      <kosit:entry code="6_archiviert">archiviert</kosit:entry>
+   </kosit:codelist>
+</kosit:codelists>

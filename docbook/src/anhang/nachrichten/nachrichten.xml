@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE appendix [
+    <!ENTITY % complete SYSTEM "../../../ent/complete.ent">
+    %complete;
+]>
+<appendix xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.nachrichten">
+  <info>
+    <title>Übersicht über alle Nachrichten</title>
+  </info>
+  <para>...</para>
+
+   
+  <!-- import -->
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceBroker.0006.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceBroker.0008.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0010.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0011.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0012.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0013.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0014.xml"/>
+  
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2023.0015.xml"/>
+  
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.evidenceSurvey2024.0200.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.dsmeld.0020.xml"/>
+  
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.destatis.4001.xml"/>
+  
+  
+  
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.leika2sdgverfahren.0031.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/import/import.nachweisanforderung2nachweistypbuendel.0032.xml"/>
+  
+  <!-- views -->
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.dataserviceDirectory.0015.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.erhebungsDaten.0017.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.evidenceBroker.0004.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.leika2sdgverfahren.0031.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.nachweiszuordnung.0001.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.onlinediensteGesamt.0003.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.pruefungLeika.0100.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.registerzuordnung.0002.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/view/view.beispielentitiaet.0999.xml"/>
+  
+  
+  <!-- export -->
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/export/export.evidenceBroker.0005.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/export/export.evidenceBroker.0007.xml"/>
+  <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/xevidencesurvey/Nachrichten/export/export.OZGIp.1000.xml"/>
+  
+ <!-- <include xmlns="http://www.w3.org/2001/XInclude"
+    href="../../../build/docBook/dokumente/anhang/nachrichten/tabelle.nachrichten.uebersicht.xml"/>    
+ --> 
+  
+</appendix>

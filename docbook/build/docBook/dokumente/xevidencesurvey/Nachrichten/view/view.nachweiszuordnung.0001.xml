@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Nachrichten.view.view.nachweiszuordnung.0001">
+   <title>view.nachweiszuordnung.0001</title>
+   <subtitle>Nachricht: <emphasis role="codebf">view.nachweiszuordnung.0001</emphasis>
+   </subtitle><para>Diese Nachricht beinhaltet die historische Verknüpfung der Datenhaltung zur Zusammenführung von Nachweisen, Nachweisanforderungen, SDG2-Verfahren und LeiKa.</para><figure xml:id="figure.xevidencesurvey.Nachrichten.view.view.nachweiszuordnung.0001">
+      <title>view.nachweiszuordnung.0001</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../../zeichnungen/xevidencesurvey/Nachrichten/view/view.nachweiszuordnung.0001.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Nachrichten.view.view.nachweiszuordnung.0001">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">view.nachweiszuordnung.0001</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">sdg2verfahren</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">SDGProcedureType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDGProcedure" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDGProcedure" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>SDG2-Verfahren werden SDG2-Nachweise zugeordnet, wenn dieser einer SDG2-relevanten LeiKa-Leistung zugeordnet ist. Das heißt, zur Erbringung der LeiKa-Leistung können diese aufgeführten SDG2-relevanten Nachweise von Bürgerinnen und Bürgern verlangt werden, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften der LeiKa-Leistung zu belegen. Ein zugewiesener SDG2-relevanter Nachweis bezieht sich nicht auf das Ergebnis der LeiKa-Leistung.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">leika</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">LeiKaType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.LeiKa" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.LeiKa" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Abkürzung LeiKa bezeichnet den "Leistungskatalog der öffentlichen Verwaltung“. Der Leistungskatalog stellt ein einheitliches, vollständiges und umfassendes Verzeichnis der Verwaltungsleistungen über alle Verwaltungsebenen in Deutschland hinweg dar und wird ständig fortgeschrieben. Der LeiKa umfasst derzeit einen Bestand von mehr als 8.000 Einträgen im Katalog des Bausteins Leistungen (Stand: 30.06.2021). Dies beinhaltet alle drei Arten: Leistungsobjekte, Leistungsobjekte mit Verrichtungskennung sowie Leistungsobjekte mit Verrichtungskennung und Detail.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nachweisanforderung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">NachweisanforderungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Nachweisanforderung"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Nachweisanforderung"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element wird die Nachweisanforderung angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nachweisbuendel</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">NachweistypBuendelType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.NachweistypBuendel"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.NachweistypBuendel"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier können Informationen zu Nachweisbündeln angegeben werden.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">nachweis</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">NachweistypType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Nachweistyp" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Nachweistyp" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Nachweise sind gemäß Art. 3 Nr. 5 SDG-VO „alle Unterlagen oder Daten, einschließlich Text- oder Ton-, Bild- oder audiovisuellen Aufzeichnungen, unabhängig vom verwendeten Medium, die von einer zuständigen Behörde verlangt werden.“ Nachweise können sowohl analoge („Unterlagen“) wie auch digitale Informationen („Daten“) sein, die von zuständigen Behörden verlangt werden können, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften zu belegen.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">register</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">RegistertypType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Registertyp" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Registertyp" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Bezeichnung der Register erfolgt gemäß Registermodernisierungsgesetz, hier „Anhang Register nach §1 des Identifikationsnummerngesetzes (IDNrG)“. Eine registerführende Stelle ist die zuständige Behörde im Sinne des Art. 14 Abs. 2 SDG-VO, die strukturierte oder unstrukturierte Nachweise rechtmäßig ausstellt.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">stakeholder</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">StakeholderType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Stakeholder" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Stakeholder" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Über den Stakeholder wird die Rolle einer Ansprechperson, die möglicherweise eine natürliche Person ist, definiert.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+</section>

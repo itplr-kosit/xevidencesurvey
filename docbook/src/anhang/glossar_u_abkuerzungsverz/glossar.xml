@@ -1,0 +1,685 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<appendix version="5" xml:id="spezifikation.anhang.glossar" xml:lang="de"
+    xmlns="http://docbook.org/ns/docbook">
+    <info>
+        <title>Glossar</title>
+    </info>
+    <informaltable frame="all">
+        <tgroup cols="3">
+            <thead>
+                <row>
+                    <entry>Begriff</entry>
+                    <entry>ggf. englische Übersetzung</entry>
+                    <entry>Beschreibung</entry>
+                </row>
+            </thead>
+            <tbody>
+                <row>
+                    <entry>Amtlicher Gemeindeschlüssel</entry>
+                    <entry/>
+                    <entry>8-stelliger Schlüssel zur eindeutigen Identifizierung einer Gemeinde mit
+                        den Bestandteilen: Bundesland (2 Stellen), Regierungsbezirk (1 Stelle),
+                        Kreis (2 Stellen) und Gemeinde (3 Stellen).</entry>
+                </row>
+                <row>
+                    <entry>Amtlicher Regionalschlüssel</entry>
+                    <entry/>
+                    <entry>12-stelliger Schlüssel zur eindeutigen Identifizierung einer Gemeinde mit
+                        den Bestandteilen: Bundesland (2 Stellen), Regierungsbezirk (1 Stelle),
+                        Kreis (2 Stellen), Gemeindeverband (4 Stellen) und Gemeinde (3
+                        Stellen).</entry>
+                </row>
+                <row>
+                    <entry>Anschlussbedingungen</entry>
+                    <entry/>
+                    <entry>Anschlussbedingungen beschreiben die technischen Anforderungen an die
+                        IT-Systeme der Data Consumer/Data Provider (z. B. bereitzustellende
+                        Schnittstellen, umzusetzende Standards, einzuhaltende Service Level
+                        Agreements), um den automatisierten Abruf von Daten über die
+                        NOOTS-Infrastruktur zu ermöglichen. Technische Anschlussbedingungen werden
+                        in den Anschlusskonzepten des PB NOOTS spezifiziert. Daneben gibt es
+                        organisatorische, fachliche und rechtliche Rahmenbedingungen und
+                        Voraussetzungen, die erfüllt sein müssen, damit eine Anschlussfähigkeit
+                        hergestellt werden kann.</entry>
+                </row>
+                <row>
+                    <entry>Antragsverfahren</entry>
+                    <entry/>
+                    <entry>ein digitaler oder analoger Antrag auf eine Verwaltungsle istung, welcher
+                        an ein Fachverfahren übermittelt wird.</entry>
+                </row>
+                <row>
+                    <entry>Behörde</entry>
+                    <entry/>
+                    <entry>Konkrete Behörde eines Behördentyps. Eine Behörde führt eine konkrete
+                        Registerinstanz und bietet einen technischen Endpunkt an, über den auf diese
+                        zugegriffen werden kann. Beispiel: Einwohnermeldeamt Köln </entry>
+                </row>
+                <row>
+                    <entry>Behörde, zuständige</entry>
+                    <entry>Competent Authority</entry>
+                    <entry>Jede Stelle oder Behörde eines Mitgliedstaats auf nationaler, regionaler
+                        oder lokaler Ebene mit bestimmten Zuständigkeiten für die unter diese
+                        Verordnung fallenden Informationen, Verfahren, Hilfs- und
+                        Problemlösungsdienste. ABGESTIMMTDEZ 2022 Art. 3 Nr. 4 SDG-VO x x</entry>
+                </row>
+                <row>
+                    <entry>Datendienst</entry>
+                    <entry/>
+                    <entry>Ein technischer Dienst, über den ein Nachweislieferant die
+                        Nachweisanfrage bearbeitet und die Nachweise übermittelt.</entry>
+                </row>
+                <row>
+                    <entry>Datenmodell</entry>
+                    <entry/>
+                    <entry>Ein Datenmodell ist eine Abstraktion, in der Datenelemente organisiert
+                        und die ihre Beziehungen zueinander standardisiert werden. Im Datenmodell
+                        werden Entitäten, deren Merkmale und die Beziehungen zueinander
+                        spezifiziert.</entry>
+                </row>
+                <row>
+                    <entry>eDelivery-Zugangspunkt</entry>
+                    <entry>(eDelivery) Access Point</entry>
+                    <entry>Eine Kommunikationskomponente, die Teil des elektronischen
+                        Zustelldienstes eDelivery ist und auf technischen Spezifikationen und Normen
+                        beruht, einschließlich des AS4-Datenübermittlungsprotokolls und zusätzlicher
+                        Dienste, die im Rahmen der Fazilität “Connecting Europe” entwickelt und im
+                        Rahmen des Programms “Digitales Europa” fortgeführt wurden, soweit sich
+                        diese technischen Spezifikationen und Normen mit der Norm ISO 15000-2
+                        decken.</entry>
+                </row>
+                <row>
+                    <entry>einheitliches Unternehmenskonto auf Basis von ELSTER</entry>
+                    <entry/>
+                    <entry>Mit Mein Unternehmenskonto bietet sich die Möglichkeit, digitale
+                        Verwaltungsleistungen verschiedenster Behörden über einen deutschlandweit
+                        einheitlichen Zugang zu nutzen. Das staatlicherseits bereitgestellte
+                        Nutzerkonto mit integriertem Postfach für Mitteilungen und behördliche
+                        Bescheide ist speziell für Organisationen entwickelt worden, die
+                        wirtschaftsbezogene Verwaltungsleistungen benötigen. Damit nur
+                        identifizierte und authentifizierte Organisationen Zugriff zu digitalen
+                        Verwaltungsleistungen erhalten, kommt über Mein Unternehmenskonto die
+                        ELSTER-Technologie zum Einsatz. ABGESTIMMTFEB 2024 </entry>
+                </row>
+                <row>
+                    <entry>Elektronisches Identifizierungsmittel</entry>
+                    <entry>Electronic Identification means</entry>
+                    <entry>Eine materielle und/oder immaterielle Einheit, die
+                        Personenidentifizierungsdaten enthält und zur Authentifizierung bei
+                        Online-Diensten verwendet wird.</entry>
+                </row>
+                <row>
+                    <entry>Europäisches Once-Only-Technical-System</entry>
+                    <entry>(EU) Once-Only Technical System</entry>
+                    <entry>Das technische System für den grenzüberschreitenden automatisierten
+                        Austausch von Nachweisen gemäß Artikel 14 Absatz 1 der Verordnung (EU)
+                        2018/1724.</entry>
+                </row>
+                <row>
+                    <entry>Europäische Technische Entwurfsdokumentation</entry>
+                    <entry>European Technical Design Documents</entry>
+                    <entry>Eine Reihe detaillierter technischer Dokumente, die von der Kommission in
+                        Zusammenarbeit mit den Mitgliedstaaten im Rahmen der Koordinierungsgruppe
+                        für das Zugangstor gemäß Artikel 29 der Verordnung (EU) 2018/1724 oder
+                        etwaiger Untergruppen gemäß Artikel 19 dieser Verordnung erstellt werden und
+                        die unter anderem eine oberste Ebene der Architektur, Austauschprotokolle,
+                        Normen und Zusatzdienste umfassen, die die Kommission, die Mitgliedstaaten,
+                        die Nachweislieferanten, die Nachweise anfordernden Behörden, die
+                        intermediären Plattformen und andere betroffene Behörden bei der Einrichtung
+                        des OOTS im Einklang mit dieser Verordnung unterstützen.</entry>
+                </row>
+                <row>
+                    <entry>Evidence Survey</entry>
+                    <entry/>
+                    <entry>Die Evidence Survey ist eine zentrale Erhebung durch die EU-Kommission,
+                        die durch innerstaatliche Vorarbeiten vorbereitet wird. Ziel der Evidence
+                        Survey ist die Identifikation von Nachweisen für den automatisierten
+                        grenzüberschreitenden Austausch zu SDG-relevanten Verfahren. Für die
+                        Erstellung der Evidence Survey müssen innerstaatliche Vorarbeiten erfolgen,
+                        die hier „Deutsche Erhebung Evidence Survey“ genannt werden. Die deutsche
+                        Erhebung für die Evidence Survey wird durch den nationalen SDG-Koordinator
+                        gesteuert. Die Bearbeitung obliegt dem PB OZG-EU-OOTS. Die Prüfung und
+                        Freigabe der deutschen Angaben für die EU KOM erfolgt durch die fachlich und
+                        rechtlich zuständigen Stellen.</entry>
+                </row>
+                <row>
+                    <entry>Exchange Data Model</entry>
+                    <entry/>
+                    <entry>Ist das Datenaustauschmodell für die Anforderung und Übermittlung von
+                        Nachweisen im EU OOTS. Das EDM bildet den Ausgangspunkt für die Entwicklung
+                        von XNachweis.</entry>
+                </row>
+                <row>
+                    <entry>Explanatory Paper</entry>
+                    <entry/>
+                    <entry>Begleitdokument, welches Aufschluss über den Anwendungsbereich des Anhang
+                        2 der SDG-Verordnung gibt. Die zu betrachtenden Richtlinien aus Artikel 14
+                        sind bislang nicht im Explanatory Paper enthalten. Die Mitgliedstaaten haben
+                        die EU KOM darauf hingewiesen, dass für die Auslegung der Richtlinien ein
+                        vergleichbares Dokument hilfreich wäre; eine entsprechende Ergänzung erfolgt
+                        möglicherweise.</entry>
+                </row>
+                <row>
+                    <entry>Fachverfahren</entry>
+                    <entry/>
+                    <entry>Fachrechtliches Verwaltungsverfahren, welches digital oder analog
+                        umgesetzt wird. Ein Antragsverfahren muss dabei nicht zwingend Bestandteil
+                        des Fachverfahrens sein.</entry>
+                </row>
+                <row>
+                    <entry>Identifikationsnummer</entry>
+                    <entry/>
+                    <entry>Die Identifikationsnummer nach § 139b der Abgabenordnung, die nach dem
+                        IDNr-Gesetz als zusätzliches Ordnungsmerkmal in allen von der
+                        Registermodernisierung betroffenen Register eingeführt wird mit dem primären
+                        Zweck, die Daten einer natürlichen Person in einem Verwaltungsverfahren
+                        eindeutig zuordnen zu können.</entry>
+                </row>
+                <row>
+                    <entry>Durchführungsverordnung</entry>
+                    <entry>Implementing Act, Implementing Regulation</entry>
+                    <entry>Durchführungsverordnungen der Kommission dienen der einheitlichen
+                        Umsetzung von EU-Rechtsvorschriften. Zu diesem Zweck hat die Kommission zu
+                        Art. 14 SDG-VO (vgl. Art. 14 Abs. 9 SDG-VO) die Durchführungsverordnung (EU)
+                        2022/1463 der Kommission vom 5. August 2022 zur Festlegung technischer und
+                        operativer Spezifikationen des technischen Systems für den
+                        grenzüberschreitenden automatisierten Austausch von Nachweisen und zur
+                        Anwendung des Grundsatzes der einmaligen Erfassung gemäß der Verordnung (EU)
+                        2018/1724 des Europäischen Parlaments und des Rates erlassen.</entry>
+                </row>
+                <row>
+                    <entry>Europäische Evidence Survey</entry>
+                    <entry/>
+                    <entry>Die Europäische Evidence Survey ist ein Bestandteil bei der Umsetzung von
+                        SDG2. Durch die Evidence Survey wird eine zentrale Erhebung durch die
+                        Europäische Kommission vorgenommen. Hierbei werden innerhalb der
+                        Europäischen Union die relevanten Verwaltungsverfahren, Online-Services,
+                        Nachweise und Register ermittelt, die unter die SDG-VO Anhang II und die in
+                        Art. 14 genannten EU-Richtlinien fallen. </entry>
+                </row>
+                <row>
+                    <entry>Europäisches Once-Only-Technical System</entry>
+                    <entry/>
+                    <entry>Das technische System für den grenzüberschreitenden automatisierten
+                        Austausch von Nachweisen innerhalb der Europäischen Union gemäß Artikel 14
+                        Absatz 1 der SDG-VO.</entry>
+                </row>
+                <row>
+                    <entry>Gateway Coordination Subgroup</entry>
+                    <entry/>
+                    <entry>Die Gateway Coordination Group ist ein vierteljährliches Treffen der
+                        SDG-Koordinatoren der jeweiligen Mitgliedsstaaten, in der ein Austausch
+                        stattfindet.</entry>
+                </row>
+                <row>
+                    <entry>Nationale Evidence Survey</entry>
+                    <entry/>
+                    <entry>Innerstaatliche Vorarbeiten leisten für die Europäische Evidence Survey
+                        eine Basis für die. Mittels der Nationalen Evidence Survey werden die
+                        Prüfungen der Verwaltungsverfahren, Online-Services, Nachweise und Register
+                        zur SDG2-Relevanz, SDG2-Online Bereitstellung und auch der
+                        SDG2-Anschlussverpflichtung an das EU-OOTS vorgenommen. Die innerstaatlichen
+                        Vorarbeiten werden durch die SDG-Koordination unterstützt.​</entry>
+                </row>
+                <row>
+                    <entry>Intermediäre Plattform</entry>
+                    <entry>Intermediary Platform</entry>
+                    <entry>Eine technische Lösung, die je nach der Verwaltungsorganisation der
+                        Mitgliedstaaten, in denen die intermediäre Plattform tätig ist, in Erfüllung
+                        eigener Aufgaben oder im Namen anderer Behörden wie Nachweislieferanten oder
+                        Nachweise anfordernden Behörden tätig wird und über die Nachweislieferanten
+                        oder Nachweise anfordernde Behörden mit den in Artikel 4 Absatz 1 genannten
+                        gemeinsamen Diensten oder mit Nachweislieferanten oder Nachweise
+                        anfordernden Behörden aus anderen Mitgliedstaaten verbunden werden.</entry>
+                </row>
+                <row>
+                    <entry>Koordinierungsstelle für IT-Standards </entry>
+                    <entry/>
+                    <entry>Die KoSIT hat die Aufgabe, die Entwicklung und den Betrieb von
+                        IT-Standards für den Datenaustausch in der öffentlichen Verwaltung zu
+                        koordinieren. </entry>
+                </row>
+                <row>
+                    <entry>LeiKa</entry>
+                    <entry/>
+                    <entry>Der Leistungskatalog (LeiKa) ist ein Verzeichnis von
+                        Verwaltungsleistungen des Bundes, der Länder und Kommunen in Deutschland.
+                        Der LeiKa soll eine zentrale Informationsbasis in Form eines
+                        Stammtext-Managements zur Verfügung stellen, die von allen
+                        Verwaltungsbereichen anwendungs- und vorhabenübergreifend für alle
+                        Informations- und Kommunikationskanäle genutzt werden kann.</entry>
+                </row>
+                <row>
+                    <entry>LeiKa-Leistungen</entry>
+                    <entry/>
+                    <entry>Die Verwaltungsverfahren bzw. Verwaltungsleistungen in Deutschland werden
+                        im Leistungskatalog (LeiKa) geführt und entsprechend als LeiKa-Leistungen
+                        bezeichnet.</entry>
+                </row>
+                <row>
+                    <entry>Mapping</entry>
+                    <entry/>
+                    <entry>Das Mapping bezeichnet das Herstellen von Beziehungen zwischen
+                        Nachweisanforderungen und äquivalenten Nachweistypen.</entry>
+                </row>
+                <row>
+                    <entry>Mapping Subgroup</entry>
+                    <entry/>
+                    <entry>In der Subgroup Evidence Mapping erarbeiten Vertreterinnern und Vertreter
+                        der Mitgliedsstaaten die Inhalte zur Befüllung des Evidence Brokers. Dabei
+                        ist das Ziel die unterschiedlichen Nachweisforderungen zu „mappen“, das
+                        heißt die äquivalenten Nachweisforderungen und deren zuständige Behörden zu
+                        erheben und in Beziehung zu setzen.</entry>
+                </row>
+                <row>
+                    <entry>Nachweis (europäisch)</entry>
+                    <entry>Evidence</entry>
+                    <entry>Alle Unterlagen oder Daten, einschließlich Text- oder Ton-, Bild- oder
+                        audiovisuellen Aufzeichnungen, unabhängig vom verwendeten Medium, die von
+                        einer zuständigen Behörde verlangt werden, um Sachverhalte oder die
+                        Einhaltung der in Artikel 2 Absatz 2 Buchstabe b genannten
+                        Verfahrensvorschriften nachzuweisen. Hinweis: Hierbei handelt es sich die
+                        Übersetzung des Begriffsverständnis gemäß SDG-VO. </entry>
+                </row>
+                <row>
+                    <entry>Nachweis (national)</entry>
+                    <entry/>
+                    <entry>Nachweise im Sinne dieses Gesetzes [EGovG Bund-Entwurf] sind Unterlagen
+                        und Daten jeder Art unabhängig vom verwendeten Medium, die zur Ermittlung
+                        des Sachverhalts geeignet sind.</entry>
+                </row>
+                <row>
+                    <entry>Nachweisart (amtliche Übersetzung)/Nachweistyp (üblicher Sprachgebrauch) </entry>
+                    <entry>Evidence Type</entry>
+                    <entry>Nachweistypen dienen zur Klassifikation von Nachweisen nach gemeinsamem
+                        Zweck oder Inhalt. Nachweistypen sind selbst keine Nachweise, aber Nachweise
+                        gehören zu einem Nachweistyp. Beispiel: Alle konkreten Geburtsurkunden sind
+                        Ausprägungen zum Nachweistyp "Geburtsurkunde". </entry>
+                </row>
+                <row>
+                    <entry>Nachweisanfordernde Stelle</entry>
+                    <entry>Data Consumer</entry>
+                    <entry>Data Consumers sind in der Regel Onlinedienste öffentlicher Stellen, die
+                        Antragstellenden die zur Beantragung einer Verwaltungsleistung notwendigen
+                        Formulare bereitstellen, diese um Nachweise aus Basisregistern ergänzen und
+                        die Formulare zusammen mit den Nachweisen an das zuständige Fachverfahren
+                        weiterleiten. Behörden, die Nachweise bzw. Daten aus Basisregistern abrufen,
+                        welche zur Aufgabenwahrnehmung erforderlich sind, sind ebenfalls Data
+                        Consumers.</entry>
+                </row>
+                <row>
+                    <entry>Nachweisdienst</entry>
+                    <entry>Evidence Broker</entry>
+                    <entry>Ein Dienst, der es einer Nachweise anfordernden Behörde ermöglicht,
+                        festzustellen, welche Nachweisart aus einem anderen Mitgliedstaat die
+                        Anforderungen an die Nachweise für die Zwecke eines nationalen Verfahrens
+                        erfüllt</entry>
+                </row>
+                <row>
+                    <entry>Nachweislieferant</entry>
+                    <entry>Evidence Provider</entry>
+                    <entry>Eine zuständige Behörde im Sinne des Artikels 14 Absatz 2 der Verordnung
+                        (EU) 2018/1724, die strukturierte oder unstrukturierte Nachweise rechtmäßig
+                        ausstellt.</entry>
+                </row>
+                <row>
+                    <entry>Nachweise anfordernde Behörde</entry>
+                    <entry>Evidence Requester</entry>
+                    <entry>Eine zuständige Behörde, die für eines oder mehrere der in Artikel 14
+                        Absatz 1 der Verordnung (EU) 2018/1724 genannten Verfahren verantwortlich
+                        ist.</entry>
+                </row>
+                <row>
+                    <entry>Nachweisliefernde Stelle</entry>
+                    <entry>Data Provider</entry>
+                    <entry>Data Provider sind registerführende Behörden oder Basisregister, die
+                        Nachweise über Antragstellende zur Bearbeitung einer Verwaltungsleistung in
+                        einem Fachverfahren ausstellen.</entry>
+                </row>
+                <row>
+                    <entry>Nationales Once-Only-Technical-System</entry>
+                    <entry/>
+                    <entry>Das Nationale Once-Only-Technical Systems (NOOTS) ist ein System aus
+                        technischen Komponenten, Schnittstellen und Standards sowie
+                        organisatorischen und rechtlichen Regelungen, das öffentlichen Stellen den
+                        rechtskonformen Abruf von elektronischen Nachweisen aus den Registern der
+                        deutschen Verwaltung ermöglicht. Über einen Anschluss an das europäische
+                        Once-Only-Technical-System (EU-OOTS) wird ein Austausch von Nachweisen mit
+                        dem EU-Ausland ermöglicht.</entry>
+                </row>
+                <row>
+                    <entry>Nutzerinnen und Nutzer</entry>
+                    <entry>User</entry>
+                    <entry>natürliche Personen mit Staatsangehörigkeit eines EU-Mitgliedstaates oder
+                        eine natürliche Person mit Wohnsitz in einem EU-Mitgliedstaat sowie eine
+                        juristische Person mit eingetragenem Sitz in einem EU-Mitgliedstaat.</entry>
+                </row>
+                <row>
+                    <entry>Once-Only-Prinzip</entry>
+                    <entry/>
+                    <entry>Ein wesentliches Ziel ist bei der Modernisierung der
+                        Verwaltungslandschaft, dass Bürgerinnen und Bürger in Zukunft ihre Daten und
+                        Nachweise nicht immer wieder erneut vorlegen müssen, um
+                        Verwaltungsleistungen zu erhalten, sondern - wenn sie dem eingewilligt haben
+                        - nur einmal.</entry>
+                </row>
+                <row>
+                    <entry>Onlinezugangsgesetz</entry>
+                    <entry/>
+                    <entry>Das im Jahr 2017 in Kraft getretene "Gesetz zur Verbesserung des
+                        Onlinezugangs zu Verwaltungsleistungen" (OZG) verpflichtet Bund und Länder,
+                        ihre Verwaltungsleistungen auch elektronisch über Verwaltungsportale
+                        anzubieten. Konkret beinhaltet das zwei Aufgaben: Digitalisierung und
+                        Vernetzung.</entry>
+                </row>
+                <row>
+                    <entry>OZG-Reifegradmodell</entry>
+                    <entry/>
+                    <entry>Das Reifegradmodell dient als Grundlage zur Beurteilung der
+                        OZG-Konformität einer Verwaltungsleistung. Es umfasst fünf Reifegrade – von
+                        0 (Offline) bis 4 (Online-Transaktion). Bei Reifegrad 4 kann die Leistung
+                        vollständig digital abgewickelt werden und für Nachweise wird das
+                        Once-Only-Prinzip angewendet. </entry>
+                </row>
+                <row>
+                    <entry>Online-Dienst/Online-Leistung/Online-Service</entry>
+                    <entry/>
+                    <entry>Ein „Online-Dienst" ist eine IT-Komponente, die ein eigenständiges
+                        elektronisches Angebot an die Nutzer darstellt, welches die Abwicklung einer
+                        oder mehrerer elektronischer Verwaltungsleistungen von Bund oder Ländern
+                        ermöglicht. Der Onlinedienst dient dem elektronischen Ausfüllen der
+                        Online-Formulare für Verwaltungsleistungen von Bund oder Ländern, der
+                        Offenlegung dieser Daten an die zuständige Fachbehörde sowie der
+                        Übermittlung elektronischer Dokumente und Informationen zu
+                        Verwaltungsvorgängen an die Nutzer, gegebenenfalls unter Einbindung von
+                        Nutzerkonten einschließlich deren Funktion zur Übermittlung von Daten aus
+                        einem Nutzerkonto an eine für die Verwaltungsleistung zuständige Behörde.
+                        Der Onlinedienst kann auch verfahrensunabhängig und länderübergreifend,
+                        insbesondere in der Verantwortung einer Landesbehörde zur Nutzung durch
+                        weitere Länder, bereitgestellt werden.</entry>
+                </row>
+                <row>
+                    <entry>OZG-Leistung</entry>
+                    <entry/>
+                    <entry>Eine OZG-Leistung ist ein Leistungsbündel, welches sich aus mehreren
+                        einzelnen Verwaltungsleistungen zusammensetzt. Aus Sicht der Nutzerinnen und
+                        Nutzer besteht zwischen diesen Verwaltungsleistungen ein thematischer
+                        Zusammenhang. Die Grundlage zur Identifikation dieser Leistungsbündel bildet
+                        der Leistungskatalog der öffentlichen Verwaltung (LeiKa). Alle
+                        OZG-Leistungen sollen im Sinne des Onlinezugangsgesetzes (OZG) online
+                        verfügbar sein. Sie sind verschiedenen Themenfeldern zugeordnet und in
+                        unterschiedliche Lebens- und Geschäftslagen unterteilt. Die OZG-Leistungen
+                        sind im OZG-Umsetzungskatalog dokumentiert, der seit September 2019 auf der
+                        OZG-Informationsplattform kontinuierlich fortgeschrieben wird.</entry>
+                </row>
+                <row>
+                    <entry>Register</entry>
+                    <entry/>
+                    <entry>Ein Register ist ein Datenbestand der öffentlichen Verwaltung. In den
+                        Registern liegen die Nachweise, welche für Verwaltungsverfahren notwendig
+                        sind.</entry>
+                </row>
+                <row>
+                    <entry>Registermodernisierung</entry>
+                    <entry/>
+                    <entry>Das Programm Registermodernisierung (RegMo) ist eines der größten
+                        Projekte im Rahmen der Digitalisierungsbestrebungen von Bund, Ländern und
+                        Kommunen. Einheitlich gestaltete, inhaltlich aktuelle, vernetzte Register
+                        stellen einen wichtigen Meilenstein dar für eine digitale, bürokratiearme
+                        und serviceorientierte Verwaltung, die Bürgerinnen und Bürger sowie
+                        Unternehmen entlastet. Ein wesentliches Ziel ist, dass Bürgerinnen und
+                        Bürger in Zukunft ihre Daten und Nachweise nicht immer wieder erneut
+                        vorlegen müssen, um Verwaltungsleistungen zu erhalten, sondern - wenn sie
+                        dem eingewilligt haben - nur einmal (Once-Only-Prinzip). </entry>
+                </row>
+                <row>
+                    <entry>registerführende Stelle</entry>
+                    <entry/>
+                    <entry>Die registerführende Stelle ist die Behörde, die rechtlich zur Führung
+                        eines Registers berechtigt oder verpflichtet ist.</entry>
+                </row>
+                <row>
+                    <entry>Registerlandkarte</entry>
+                    <entry/>
+                    <entry>Die Registerlandkarte ist eine umfassende Übersicht aller bestehenden
+                        Register, sie gibt Auskunft über deren Anschlussfähigkeit und deren
+                        Entwicklung sowie zur Datenspeicherung. Zu den Daten, die die Einträge in
+                        der Registerlandkarte beinhalten wird, gehören u. a.: Name des jeweiligen
+                        Registers, Beschreibung, Kategorisierung, Größe/Umfang, Verwaltungsebene,
+                        Gesetzesgrundlage, enthaltene Metadaten, Nachweiseübersicht, Schnittstellen,
+                        OZG-Dienste, Fachstandards. </entry>
+                </row>
+                <row>
+                    <entry>Registertyp</entry>
+                    <entry/>
+                    <entry>Registertypen dienen zur Klassifikation von Registern nach gemeinsamem
+                        Zweck oder Inhalt. Registertypen sind selbst keine Register, aber Register
+                        gehören zu einem Registertyp. Beispiel: Alle Registerinstanzen der
+                        Melderegister sind Ausprägungen zum Registertyp "Melderegister". </entry>
+                </row>
+                <row>
+                    <entry>Reifegradmodell Nachweisabruf</entry>
+                    <entry/>
+                    <entry>Modell zur Beschreibung von möglichen Reifegraden, in denen ein Nachweis
+                        in den Registern der deutschen Verwaltung vorliegen kann. Das Modell umfasst
+                        die Stufe A (Offline), die Stufe B (Elektronisch übermittelte Nachweise),
+                        die Stufe C (Elektronisch auswertbare Nachweise) und die Stufe D
+                        (bedarfsgerecht übermittelte Informationen).</entry>
+                </row>
+                <row>
+                    <entry>SDG2-Anschlussverpflichtung</entry>
+                    <entry/>
+                    <entry>Die Anschlusspflicht an das EU-OOTS von Verwaltungsverfahren bezeichnet
+                        die rechtliche Pflicht zur technischen Einbindung des EU-OOTS nach Art.14
+                        Abs.6 i.V.m. Abs.1 SDG-VO in den entsprechenden deutschen Online-Service.
+                        D.h. die relevanten Verwaltungsverfahren im Online-Service müssen
+                        SDG2-relevante Nachweise aus dem EU-Ausland annehmen können. Die technische
+                        Einbindung ist in Deutschland über das NOOTS und die Intermediäre
+                        Plattformen vorgesehen. Wenn im Verfahren von Bürgerinnen und Bürgern oder
+                        Unternehmen der Beweis einer Tatsache mittels eines SDG2-relevanten
+                        Nachweises grenzüberschreitend gefordert wird, besteht eine Anschlusspflicht
+                        der Verwaltungsverfahren an das EU-OOTS. Die Anschlusspflicht gilt
+                        entsprechend für alle SDG2-relevanten Verwaltungsverfahren, die für die
+                        Erbringung der Leistung mindestens einen SDG2-relevanten Nachweis anfordern,
+                        d.h. einen Nachweis, der von einer dafür zuständigen Behörde basierend auf
+                        einer Rechtsgrundlage ausgestellt sowie von den zuständigen deutschen
+                        Behörden grenzüberschreitend angefordert wird.</entry>
+                </row>
+                <row>
+                    <entry>SDG2-Online-Bereitstellung</entry>
+                    <entry/>
+                    <entry>Die Pflicht zur Online-Bereitstellung nach Art. 6 SDG-VO gilt für die
+                        SDG2-relevanten Verwaltungsverfahren. Bis 12.12.2023 müssen die betroffenen
+                        Verwaltungsverfahren für europäische Bürgerinnen und Bürger und Unternehmen
+                        vergleichbar mit dem OZG-Reifegrad 3 online bereitgestellt werden.
+                        Zusätzlich zur Umsetzung von Art. 6 sind diese Verwaltungsverfahren auch von
+                        der Pflicht zu Schaffung eines grenzüberschreitenden Zugangs nach Art. 13
+                        SDG-VO bis 12.12.2023 betroffen.</entry>
+                </row>
+                <row>
+                    <entry>SDG2-Relevanz</entry>
+                    <entry/>
+                    <entry>Nationale Verfahren auf LeiKa-Ebene werden bei Erfüllung der in Artikel
+                        14 der SDG-VO definierten Kriterien als SDG2-relevant bezeichnet. Die Zahl 2
+                        bezieht sich dabei auf den Anhang 2 der SDG-Verordnung, wenngleich von
+                        Artikel 14 mehr als nur die in Anhang 2 aufgeführten 21 SDG-Verfahren
+                        betroffen sind, nämlich auch die Verfahren nach den Richtlinien 2005/36/EG,
+                        2006/123/EG, 2014/24/EU und 2014/25/EU werden hier als SDG2-relevante
+                        Verfahren bezeichnet.</entry>
+                </row>
+                <row>
+                    <entry>Single Digital Gateway Durchführungsverordnung</entry>
+                    <entry/>
+                    <entry>Durchführungsverordnung (EU) 2022/1463 der Kommission vom 5. August 2022
+                        zur Festlegung technischer und operativer Spezifikationen des technischen
+                        Systems für den grenzüberschreitenden automatisierten Austausch von
+                        Nachweisen und zur Anwendung des Grundsatzes der einmaligen Erfassung gemäß
+                        der Verordnung (EU) 2018/1724 des Europäischen Parlaments und des
+                        Rates</entry>
+                </row>
+                <row>
+                    <entry>Single Digital Gateway Verordnung</entry>
+                    <entry/>
+                    <entry>Verordnung (EU) 2018/1724 des Europäischen Parlaments und des Rates vom
+                        2. Oktober 2018 über die Einrichtung eines einheitlichen digitalen
+                        Zugangstors zu Informationen, Verfahren, Hilfs- und Problemlösungsdiensten
+                        und zur Änderung der Verordnung (EU) Nr. 1024/2012 </entry>
+                </row>
+                <row>
+                    <entry>Semantischer Datenspeicher</entry>
+                    <entry>Semantic Repository</entry>
+                    <entry>Ein Archiv semantischer Spezifikationen, die mit dem Nachweisdienst und
+                        dem Verzeichnis der Datendienste verknüpft sind und aus Definitionen von
+                        Namen, Datentypen und Datenelementen bestehen, die mit bestimmten
+                        Nachweisarten verbunden sind, um das gegenseitige Verständnis und die
+                        sprachenübergreifende Auslegung für Nachweislieferanten, Nachweise
+                        anfordernde Behörden und Nutzer beim Austausch von Nachweisen über das OOTS
+                        sicherzustellen.</entry>
+                </row>
+                <row>
+                    <entry>Strukturierter Nachweis</entry>
+                    <entry>Structured Evidence</entry>
+                    <entry>Ein Archiv semantischer Spezifikationen, die mit dem Nachweisdienst und
+                        dem Verzeichnis der Datendienste verknüpft sind und aus Definitionen von
+                        Namen, Datentypen und Datenelementen bestehen, die mit bestimmten
+                        Nachweisarten verbunden sind, um das gegenseitige Verständnis und die
+                        sprachenübergreifende Auslegung für Nachweislieferanten, Nachweise
+                        anfordernde Behörden und Nutzer beim Austausch von Nachweisen über das OOTS
+                        sicherzustellen.</entry>
+                </row>
+                <row>
+                    <entry>Technischer Dienst</entry>
+                    <entry>Data Service</entry>
+                    <entry>Unter dem technischen Dienst wird die konkrete Implementierung zur
+                        Ausstellung eines Nachweises bei einer konkreten Registerinstanz bzw.
+                        nachweisliefernden Stelle verstanden. Der technische Dienst verfügt über
+                        einen eindeutigen Identifier (Service-ID). Andere technische Dienste, die
+                        Softwarekomponenten anbieten, sind im Kontext dieses Konzepts nicht gemeint.
+                        Für den Abruf von Nachweisen von einem technischen Dienst sind
+                        Verbindungsparameter erforderlich. Beispiel: Dienstinstanz von
+                        NOOTS_Meldebescheinigung für die Stadt Köln </entry>
+                </row>
+                <row>
+                    <entry>Unstrukturierter Nachweis</entry>
+                    <entry>Unstructured Evidence</entry>
+                    <entry>Nachweise in elektronischem Format, die für die in Artikel 14 Absatz 1
+                        der Verordnung (EU) 2018/1724 genannten Verfahren erforderlich sind und die
+                        nicht in vordefinierten Elementen oder Feldern organisiert sind, die eine
+                        bestimmte Bedeutung und ein bestimmtes technisches Format haben, sondern
+                        durch die Metadatenelemente des allgemeinen Metadatenmodells des OOTS gemäß
+                        Artikel 7 Absatz 1 der vorliegenden Verordnung ergänzt werden.</entry>
+                </row>
+                <row>
+                    <entry>verfahrensbezogene Nachweisanforderungen</entry>
+                    <entry>Procedural Requirements</entry>
+                    <entry>Aus den erforderlichen Nachweisen ergeben sich Procedural Requirements
+                        (PR), auf deutsch bestimmte (abstrakte) verfahrensbezogene
+                        Nachweisanforderungen genannt. Beispiel: Der erforderliche Nachweis
+                        "Ausweisdokument" hat die übergeordnete Nachweisanforderung „Nachweis der
+                        Identität“. </entry>
+                </row>
+                <row>
+                    <entry>Verfahren</entry>
+                    <entry>Procedure</entry>
+                    <entry>Eine Abfolge von Maßnahmen, die die Nutzer ergreifen müssen, um den
+                        Anforderungen zu entsprechen oder einen Beschluss einer zuständigen Behörde
+                        zu erwirken, um ihre Rechte nach Artikel 2 Absatz 2 Buchstabe a ausüben zu
+                        können.</entry>
+                </row>
+                <row>
+                    <entry>Verwaltungsverfahren</entry>
+                    <entry/>
+                    <entry>Ein Verwaltungsverfahren liefert oder benötigt Nachweise. Es kann, muss
+                        sich aber dabei nicht um eine Leistung handeln. Beispiel: „Meldedatensatz
+                        zum Abruf Bereitstellung“ (elektronische Meldebescheinigung) </entry>
+                </row>
+                <row>
+                    <entry>Verzeichnis der Datendienste</entry>
+                    <entry>Data Service Directory</entry>
+                    <entry>Ein Register, das die Liste der Nachweislieferanten und der von ihnen
+                        herausgegebenen Nachweisarten zusammen mit den entsprechenden
+                        Begleitinformationen enthält.</entry>
+                </row>
+                <row>
+                    <entry>XNachweis</entry>
+                    <entry/>
+                    <entry>XNachweis ist ein Standard des Bundesverwaltungsamtes für die
+                        fachübergreifende Anforderung und Übermittlung von Nachweisen zu natürlichen
+                        und juristischen Personen. Mittels XNachweis werden nationale
+                        Verwaltungsportale, registerführende wie auch weitere öffentlichen Stellen
+                        an das NOOTS und das EU-OOTS angebunden. Der Standard ist kompatibel mit den
+                        europäischen Spezifikationen (EU-Technical Design Documents, kurz [EU TDD])
+                        der Verordnung (EU) 2018/1724 des Europäischen Parlaments und des Rates
+                        (kurz [SDG VO]) und gleichzeitig ausgerichtet auf die spezifischen
+                        Anforderungen eines nationalen OOTS.</entry>
+                </row>
+                <row>
+                    <entry>XÖV-Fachstandards</entry>
+                    <entry/>
+                    <entry>Das Kürzel XÖV steht für XML in der Öffentlichen Verwaltung.
+                        XÖV-Standards sind Spezifikationen zum systematischen Datenaustausch in der
+                        öffentlichen Verwaltung beziehungsweise zwischen der öffentlichen Verwaltung
+                        und ihren Bürgerinnen, Bürger und Unternehmen.</entry>
+                </row>
+            </tbody>
+        </tgroup>
+    </informaltable>
+</appendix>
+<!--  Nicht in Spezifikation enthalten, jedoch möglichen Glossarbegriff für später schon eingefügt.
+                <row>
+                    <entry>Bund ID</entry>
+                    <entry/>
+                    <entry>Die Bund ID ist die zentrale Identifizierungs- und
+                        Authentifizierungskomponente für Bürger des Bundes. Der Bund stellt die
+                        BundID auch föderal zur Nachnutzung bereit. Mit der BundID wird zudem ein
+                        Postfach für Bürger zur Verfügung gestellt.</entry>
+                </row>
+                <row>
+                    <entry>Datenschutzcockpit</entry>
+                    <entry/>
+                    <entry>Das Datenschutzcockpit (vormals "Datencockpit") (DSC, Art. 2
+                        Registermodernisierungsgesetz) soll es Bürgerinnen und Bürgern ermöglichen,
+                        durchgeführte behördliche Datenübermittlungen unter Nutzung der
+                        Identifikationsnummer nach dem Identifikationsnummerngesetz nachzuvollziehen
+                        und die zur Person erfassten Registerdaten einsehen zu können.</entry>
+                </row> 
+                <row>
+                    <entry>Deutsches Verwaltungsdiensteverzeichnis</entry>
+                    <entry/>
+                    <entry>Das Deutsche Verwaltungsdiensteverzeichnis ist eine
+                        Infrastrukturkomponente im Kontext des E-Government in Deutschland. Es
+                        stellt ein zentrales Verzeichnis mit technischen Verbindungsdaten für die
+                        verwaltungsübergreifende, sichere Kommunikation der Verwaltungen von Bund,
+                        Ländern und Kommunen dar. In Kombination mit OSCI-Intermediären ermöglicht
+                        es den Datenaustausch zwischen verschiedenen Fachverfahren.</entry>
+                </row>
+                Hier wäre eher eine Erklärung für eIDAS angebracht, jedoch ist auch schon viel im Fließtext, ggf. später auslagern. 
+                <row>
+                    <entry>eIDAS-Knoten</entry>
+                    <entry/>
+                    <entry>Ein Knoten im Sinne von Artikel 2 Nummer 1 der Durchführungsverordnung
+                        (EU) 2015/1501, der die technischen und operativen Anforderungen erfüllt,
+                        die in dieser Verordnung und auf deren Grundlage festgelegt sind.</entry>
+                </row>
+               Zu klären für V0.7: Central Services vs. Common Services, ist damit dasselbe gemeint? Und wie wären dann die deutschen Übersetzungen? Gemeinsame Dienste statt Zentrale Dienste? 
+                <row>
+                    <entry>Zentrale Dienste (des EU-OOTS)</entry>
+                    <entry></entry>
+                    <entry>Von der europäischen Kommission bereitgestellte zentrale Komponenten des
+                        EU-OOTS. Sie dienen alle als "Nachschlagewerke" und verarbeiten selbst keine
+                        personenbezogenen Daten. Evidence Broker (siehe Begriffsdefinition oben)
+                        Data Service Directory (siehe Begriffsdefinition oben) Semantic Repository
+                        (siehe Begriffsdefinition oben) </entry>
+                </row>
+                XRepository momentan nicht erwähnt, da Methodikkapitel entfernt wurde.  
+                   <row>
+                    <entry>XRepository</entry>
+                    <entry/>
+                    <entry>Herausgeber XÖV-konformer Inhalte können über diese Plattform Standards
+                        und Codelisten sowie zugehörige Versionen und Dateien öffentlich
+                        bereitstellen. Die Metadaten der eingestellten Inhalte und deren Beziehungen
+                        zu anderen Inhalten werden im Rahmen des Bereitstellungsprozesses direkt aus
+                        den zugehörigen Dateien gelesen und verarbeitet.</entry>
+                </row>
+-->

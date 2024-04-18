@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY datentyp.ref.anschrifttype '<emphasis role="codebf">AnschriftType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.anschrifttype '<link linkend="xevidencesurvey.Baukasten.Anschrift">AnschriftType</link>'>
+                    <!ENTITY datentyp.ref.xref.anschrifttype '<xref linkend="xevidencesurvey.Baukasten.Anschrift" role="AS"/>'>
+                    <!ENTITY datentyp.ref.ansprechpersontype '<emphasis role="codebf">AnsprechpersonType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.ansprechpersontype '<link linkend="xevidencesurvey.Baukasten.Ansprechperson">AnsprechpersonType</link>'>
+                    <!ENTITY datentyp.ref.xref.ansprechpersontype '<xref linkend="xevidencesurvey.Baukasten.Ansprechperson" role="AS"/>'>
+                    <!ENTITY datentyp.ref.beispielentitaettype '<emphasis role="codebf">BeispielentitaetType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.beispielentitaettype '<link linkend="xevidencesurvey.Baukasten.Beispielentitaet">BeispielentitaetType</link>'>
+                    <!ENTITY datentyp.ref.xref.beispielentitaettype '<xref linkend="xevidencesurvey.Baukasten.Beispielentitaet" role="AS"/>'>
+                    <!ENTITY datentyp.ref.beschreibungtype '<emphasis role="codebf">BeschreibungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.beschreibungtype '<link linkend="xevidencesurvey.Baukasten.Beschreibung">BeschreibungType</link>'>
+                    <!ENTITY datentyp.ref.xref.beschreibungtype '<xref linkend="xevidencesurvey.Baukasten.Beschreibung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.bezeichnungtype '<emphasis role="codebf">BezeichnungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.bezeichnungtype '<link linkend="xevidencesurvey.Baukasten.Bezeichnung">BezeichnungType</link>'>
+                    <!ENTITY datentyp.ref.xref.bezeichnungtype '<xref linkend="xevidencesurvey.Baukasten.Bezeichnung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.beziehungtype '<emphasis role="codebf">BeziehungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.beziehungtype '<link linkend="xevidencesurvey.Baukasten.Beziehung">BeziehungType</link>'>
+                    <!ENTITY datentyp.ref.xref.beziehungtype '<xref linkend="xevidencesurvey.Baukasten.Beziehung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.eeacountrytype '<emphasis role="codebf">Code.EEACountryType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.eeacountrytype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry">Code.EEACountryType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.eeacountrytype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.EEACountry" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.evidenceprovidertype '<emphasis role="codebf">Code.EvidenceProviderType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.evidenceprovidertype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.EvidenceProvider">Code.EvidenceProviderType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.evidenceprovidertype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.EvidenceProvider" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.formatevidencesurveytype '<emphasis role="codebf">Code.FormatEvidenceSurveyType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.formatevidencesurveytype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.FormatEvidenceSurvey">Code.FormatEvidenceSurveyType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.formatevidencesurveytype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.FormatEvidenceSurvey" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.grenzueberschreitenderbezugtype '<emphasis role="codebf">Code.GrenzueberschreitenderBezugType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.grenzueberschreitenderbezugtype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.GrenzueberschreitenderBezug">Code.GrenzueberschreitenderBezugType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.grenzueberschreitenderbezugtype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.GrenzueberschreitenderBezug" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.identifierschemestype '<emphasis role="codebf">Code.IdentifierSchemesType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.identifierschemestype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.IdentifierSchemes">Code.IdentifierSchemesType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.identifierschemestype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.IdentifierSchemes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.jurisdiction-leveltype '<emphasis role="codebf">Code.Jurisdiction-LevelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.jurisdiction-leveltype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level">Code.Jurisdiction-LevelType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.jurisdiction-leveltype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Jurisdiction_Level" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.loatype '<emphasis role="codebf">Code.LOAType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.loatype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.LOA">Code.LOAType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.loatype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.LOA" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.language-codetype '<emphasis role="codebf">Code.Language-CodeType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.language-codetype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Language_Code">Code.Language-CodeType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.language-codetype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Language_Code" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.lebensereignisse-codestype '<emphasis role="codebf">Code.Lebensereignisse-CodesType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.lebensereignisse-codestype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes">Code.Lebensereignisse-CodesType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.lebensereignisse-codestype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Lebensereignisse_Codes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.leikatyptype '<emphasis role="codebf">Code.LeiKaTypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.leikatyptype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp">Code.LeiKaTypType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.leikatyptype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.LeiKaTyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.leikafreigabetype '<emphasis role="codebf">Code.LeikafreigabeType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.leikafreigabetype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Leikafreigabe">Code.LeikafreigabeType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.leikafreigabetype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Leikafreigabe" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.mappingstatustype '<emphasis role="codebf">Code.MappingstatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.mappingstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Mappingstatus">Code.MappingstatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.mappingstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Mappingstatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.mediatypestype '<emphasis role="codebf">Code.MediaTypesType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.mediatypestype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.MediaTypes">Code.MediaTypesType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.mediatypestype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.MediaTypes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.nutstype '<emphasis role="codebf">Code.NUTSType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.nutstype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.NUTS">Code.NUTSType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.nutstype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.NUTS" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.nachweisaustauschdetype '<emphasis role="codebf">Code.NachweisaustauschDEType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.nachweisaustauschdetype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.NachweisaustauschDE">Code.NachweisaustauschDEType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.nachweisaustauschdetype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.NachweisaustauschDE" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.planungsstatustype '<emphasis role="codebf">Code.PlanungsstatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.planungsstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Planungsstatus">Code.PlanungsstatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.planungsstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Planungsstatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.rechtsgrundlagetype '<emphasis role="codebf">Code.RechtsgrundlageType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.rechtsgrundlagetype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Rechtsgrundlage">Code.RechtsgrundlageType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.rechtsgrundlagetype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Rechtsgrundlage" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.regmoreifegradtype '<emphasis role="codebf">Code.RegMoReifegradType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.regmoreifegradtype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.RegMoReifegrad">Code.RegMoReifegradType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.regmoreifegradtype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.RegMoReifegrad" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.richtlinientype '<emphasis role="codebf">Code.RichtlinienType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.richtlinientype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Richtlinien">Code.RichtlinienType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.richtlinientype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Richtlinien" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.sdg2relevanzintern-codestype '<emphasis role="codebf">Code.SDG2RelevanzIntern-CodesType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.sdg2relevanzintern-codestype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes">Code.SDG2RelevanzIntern-CodesType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.sdg2relevanzintern-codestype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.sdg2relevanztype '<emphasis role="codebf">Code.SDG2RelevanzType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.sdg2relevanztype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2Relevanz">Code.SDG2RelevanzType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.sdg2relevanztype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2Relevanz" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.sdgproceduretype '<emphasis role="codebf">Code.SDGProcedureType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.sdgproceduretype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure">Code.SDGProcedureType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.sdgproceduretype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGProcedure" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.sdgstatustype '<emphasis role="codebf">Code.SDGStatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.sdgstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.SDGStatus">Code.SDGStatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.sdgstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDGStatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.stakeholderfreigabetype '<emphasis role="codebf">Code.StakeholderfreigabeType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.stakeholderfreigabetype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderfreigabe">Code.StakeholderfreigabeType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.stakeholderfreigabetype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderfreigabe" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.stakeholderstatustype '<emphasis role="codebf">Code.StakeholderstatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.stakeholderstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderstatus">Code.StakeholderstatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.stakeholderstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Stakeholderstatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.uebersetzungsstatustype '<emphasis role="codebf">Code.UebersetzungsstatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.uebersetzungsstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Uebersetzungsstatus">Code.UebersetzungsstatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.uebersetzungsstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Uebersetzungsstatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.workflowstatuseutype '<emphasis role="codebf">Code.WorkflowStatusEUType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.workflowstatuseutype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.WorkflowStatusEU">Code.WorkflowStatusEUType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.workflowstatuseutype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.WorkflowStatusEU" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.workflowstatustype '<emphasis role="codebf">Code.WorkflowstatusType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.workflowstatustype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.Workflowstatus">Code.WorkflowstatusType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.workflowstatustype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.Workflowstatus" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.leikaleistungentype '<emphasis role="codebf">Code.leikaLeistungenType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.leikaleistungentype '<link linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen">Code.leikaLeistungenType</link>'>
+                    <!ENTITY datentyp.ref.xref.code.leikaleistungentype '<xref linkend="xevidencesurvey.Baukasten.Codes.Code.leikaLeistungen" role="AS"/>'>
+                    <!ENTITY datentyp.ref.distributiondetype '<emphasis role="codebf">DistributionDEType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.distributiondetype '<link linkend="xevidencesurvey.Baukasten.DistributionDE">DistributionDEType</link>'>
+                    <!ENTITY datentyp.ref.xref.distributiondetype '<xref linkend="xevidencesurvey.Baukasten.DistributionDE" role="AS"/>'>
+                    <!ENTITY datentyp.ref.feldinhalttype '<emphasis role="codebf">FeldinhaltType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.feldinhalttype '<link linkend="xevidencesurvey.Baukasten.Feldinhalt">FeldinhaltType</link>'>
+                    <!ENTITY datentyp.ref.xref.feldinhalttype '<xref linkend="xevidencesurvey.Baukasten.Feldinhalt" role="AS"/>'>
+                    <!ENTITY datentyp.ref.jurisdictiondetype '<emphasis role="codebf">JurisdictionDEType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.jurisdictiondetype '<link linkend="xevidencesurvey.Baukasten.JurisdictionDE">JurisdictionDEType</link>'>
+                    <!ENTITY datentyp.ref.xref.jurisdictiondetype '<xref linkend="xevidencesurvey.Baukasten.JurisdictionDE" role="AS"/>'>
+                    <!ENTITY datentyp.ref.leikatype '<emphasis role="codebf">LeiKaType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.leikatype '<link linkend="xevidencesurvey.Baukasten.LeiKa">LeiKaType</link>'>
+                    <!ENTITY datentyp.ref.xref.leikatype '<xref linkend="xevidencesurvey.Baukasten.LeiKa" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeleikanachweisanforderungtype '<emphasis role="codebf">MappingDELeiKaNachweisanforderungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeleikanachweisanforderungtype '<link linkend="xevidencesurvey.Baukasten.MappingDELeiKaNachweisanforderung">MappingDELeiKaNachweisanforderungType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeleikanachweisanforderungtype '<xref linkend="xevidencesurvey.Baukasten.MappingDELeiKaNachweisanforderung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeleikasdg2verfahrentype '<emphasis role="codebf">MappingDELeiKaSDG2VerfahrenType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeleikasdg2verfahrentype '<link linkend="xevidencesurvey.Baukasten.MappingDELeiKaSDG2Verfahren">MappingDELeiKaSDG2VerfahrenType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeleikasdg2verfahrentype '<xref linkend="xevidencesurvey.Baukasten.MappingDELeiKaSDG2Verfahren" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeleikaozgleistungtype '<emphasis role="codebf">MappingDELeikaOZGLeistungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeleikaozgleistungtype '<link linkend="xevidencesurvey.Baukasten.MappingDELeikaOZGLeistung">MappingDELeikaOZGLeistungType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeleikaozgleistungtype '<xref linkend="xevidencesurvey.Baukasten.MappingDELeikaOZGLeistung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeleikaonlineservicetype '<emphasis role="codebf">MappingDELeikaOnlineServiceType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeleikaonlineservicetype '<link linkend="xevidencesurvey.Baukasten.MappingDELeikaOnlineService">MappingDELeikaOnlineServiceType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeleikaonlineservicetype '<xref linkend="xevidencesurvey.Baukasten.MappingDELeikaOnlineService" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdenachweisanforderungnachweistypbuendeltype '<emphasis role="codebf">MappingDENachweisanforderungNachweistypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdenachweisanforderungnachweistypbuendeltype '<link linkend="xevidencesurvey.Baukasten.MappingDENachweisanforderungNachweistypBuendel">MappingDENachweisanforderungNachweistypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdenachweisanforderungnachweistypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.MappingDENachweisanforderungNachweistypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdenachweisanforderungsdgproceduralrequirementtype '<emphasis role="codebf">MappingDENachweisanforderungSDGProceduralRequirementType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdenachweisanforderungsdgproceduralrequirementtype '<link linkend="xevidencesurvey.Baukasten.MappingDENachweisanforderungSDGProceduralRequirement">MappingDENachweisanforderungSDGProceduralRequirementType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdenachweisanforderungsdgproceduralrequirementtype '<xref linkend="xevidencesurvey.Baukasten.MappingDENachweisanforderungSDGProceduralRequirement" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdenachweistypbuendelregistertypbuendeltype '<emphasis role="codebf">MappingDENachweistypBuendelRegistertypbuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdenachweistypbuendelregistertypbuendeltype '<link linkend="xevidencesurvey.Baukasten.MappingDENachweistypBuendelRegistertypbuendel">MappingDENachweistypBuendelRegistertypbuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdenachweistypbuendelregistertypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.MappingDENachweistypBuendelRegistertypbuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdenachweistypdistributiondetype '<emphasis role="codebf">MappingDENachweistypDistributionDEType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdenachweistypdistributiondetype '<link linkend="xevidencesurvey.Baukasten.MappingDENachweistypDistributionDE">MappingDENachweistypDistributionDEType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdenachweistypdistributiondetype '<xref linkend="xevidencesurvey.Baukasten.MappingDENachweistypDistributionDE" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeonlineservicenachweistypbuendeltype '<emphasis role="codebf">MappingDEOnlineServiceNachweistypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeonlineservicenachweistypbuendeltype '<link linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceNachweistypBuendel">MappingDEOnlineServiceNachweistypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeonlineservicenachweistypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceNachweistypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeonlineservicenachweistyptype '<emphasis role="codebf">MappingDEOnlineServiceNachweistypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeonlineservicenachweistyptype '<link linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceNachweistyp">MappingDEOnlineServiceNachweistypType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeonlineservicenachweistyptype '<xref linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceNachweistyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdeonlineservicesdg2verfahrentype '<emphasis role="codebf">MappingDEOnlineServiceSDG2VerfahrenType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdeonlineservicesdg2verfahrentype '<link linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceSDG2Verfahren">MappingDEOnlineServiceSDG2VerfahrenType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdeonlineservicesdg2verfahrentype '<xref linkend="xevidencesurvey.Baukasten.MappingDEOnlineServiceSDG2Verfahren" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingdebeispielentitaetleikatype '<emphasis role="codebf">MappingDEbeispielEntitaetLeikaType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingdebeispielentitaetleikatype '<link linkend="xevidencesurvey.Baukasten.MappingDEbeispielEntitaetLeika">MappingDEbeispielEntitaetLeikaType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingdebeispielentitaetleikatype '<xref linkend="xevidencesurvey.Baukasten.MappingDEbeispielEntitaetLeika" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingeufeldinhaltsdginformationrequirementtype '<emphasis role="codebf">MappingEUFeldinhaltSDGInformationRequirementType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingeufeldinhaltsdginformationrequirementtype '<link linkend="xevidencesurvey.Baukasten.MappingEUFeldinhaltSDGInformationRequirement">MappingEUFeldinhaltSDGInformationRequirementType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingeufeldinhaltsdginformationrequirementtype '<xref linkend="xevidencesurvey.Baukasten.MappingEUFeldinhaltSDGInformationRequirement" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingeuleikasdgmsproceduretype '<emphasis role="codebf">MappingEULeiKaSDGMSProcedureType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingeuleikasdgmsproceduretype '<link linkend="xevidencesurvey.Baukasten.MappingEULeiKaSDGMSProcedure">MappingEULeiKaSDGMSProcedureType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingeuleikasdgmsproceduretype '<xref linkend="xevidencesurvey.Baukasten.MappingEULeiKaSDGMSProcedure" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mappingeusdgevidencetypelistsdgproceduralrequirementtype '<emphasis role="codebf">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mappingeusdgevidencetypelistsdgproceduralrequirementtype '<link linkend="xevidencesurvey.Baukasten.MappingEUSDGEvidenceTypeListSDGProceduralRequirement">MappingEUSDGEvidenceTypeListSDGProceduralRequirementType</link>'>
+                    <!ENTITY datentyp.ref.xref.mappingeusdgevidencetypelistsdgproceduralrequirementtype '<xref linkend="xevidencesurvey.Baukasten.MappingEUSDGEvidenceTypeListSDGProceduralRequirement" role="AS"/>'>
+                    <!ENTITY datentyp.ref.mediatypestype '<emphasis role="codebf">MediaTypesType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.mediatypestype '<link linkend="xevidencesurvey.Baukasten.MediaTypes">MediaTypesType</link>'>
+                    <!ENTITY datentyp.ref.xref.mediatypestype '<xref linkend="xevidencesurvey.Baukasten.MediaTypes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenbeispielentitaettype '<emphasis role="codebf">MetadatenBeispielentitaetType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenbeispielentitaettype '<link linkend="xevidencesurvey.Baukasten.MetadatenBeispielentitaet">MetadatenBeispielentitaetType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenbeispielentitaettype '<xref linkend="xevidencesurvey.Baukasten.MetadatenBeispielentitaet" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenfeldinhalttype '<emphasis role="codebf">MetadatenFeldinhaltType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenfeldinhalttype '<link linkend="xevidencesurvey.Baukasten.MetadatenFeldinhalt">MetadatenFeldinhaltType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenfeldinhalttype '<xref linkend="xevidencesurvey.Baukasten.MetadatenFeldinhalt" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenleikatype '<emphasis role="codebf">MetadatenLeiKaType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenleikatype '<link linkend="xevidencesurvey.Baukasten.MetadatenLeiKa">MetadatenLeiKaType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenleikatype '<xref linkend="xevidencesurvey.Baukasten.MetadatenLeiKa" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatennachweisanforderungentype '<emphasis role="codebf">MetadatenNachweisanforderungenType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatennachweisanforderungentype '<link linkend="xevidencesurvey.Baukasten.MetadatenNachweisanforderungen">MetadatenNachweisanforderungenType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatennachweisanforderungentype '<xref linkend="xevidencesurvey.Baukasten.MetadatenNachweisanforderungen" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatennachweistypbuendeltype '<emphasis role="codebf">MetadatenNachweistypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatennachweistypbuendeltype '<link linkend="xevidencesurvey.Baukasten.MetadatenNachweistypBuendel">MetadatenNachweistypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatennachweistypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.MetadatenNachweistypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatennachweistyptype '<emphasis role="codebf">MetadatenNachweistypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatennachweistyptype '<link linkend="xevidencesurvey.Baukasten.MetadatenNachweistyp">MetadatenNachweistypType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatennachweistyptype '<xref linkend="xevidencesurvey.Baukasten.MetadatenNachweistyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenozgleistungtype '<emphasis role="codebf">MetadatenOZGLeistungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenozgleistungtype '<link linkend="xevidencesurvey.Baukasten.MetadatenOZGLeistung">MetadatenOZGLeistungType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenozgleistungtype '<xref linkend="xevidencesurvey.Baukasten.MetadatenOZGLeistung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenonlineservicetype '<emphasis role="codebf">MetadatenOnlineserviceType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenonlineservicetype '<link linkend="xevidencesurvey.Baukasten.MetadatenOnlineservice">MetadatenOnlineserviceType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenonlineservicetype '<xref linkend="xevidencesurvey.Baukasten.MetadatenOnlineservice" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenregistertyptype '<emphasis role="codebf">MetadatenRegistertypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenregistertyptype '<link linkend="xevidencesurvey.Baukasten.MetadatenRegistertyp">MetadatenRegistertypType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenregistertyptype '<xref linkend="xevidencesurvey.Baukasten.MetadatenRegistertyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenregistertypbuendeltype '<emphasis role="codebf">MetadatenRegistertypbuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenregistertypbuendeltype '<link linkend="xevidencesurvey.Baukasten.MetadatenRegistertypbuendel">MetadatenRegistertypbuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenregistertypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.MetadatenRegistertypbuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatensdgdirectivetype '<emphasis role="codebf">MetadatenSDGDirectiveType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatensdgdirectivetype '<link linkend="xevidencesurvey.Baukasten.MetadatenSDGDirective">MetadatenSDGDirectiveType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatensdgdirectivetype '<xref linkend="xevidencesurvey.Baukasten.MetadatenSDGDirective" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatensdgproceduretype '<emphasis role="codebf">MetadatenSDGProcedureType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatensdgproceduretype '<link linkend="xevidencesurvey.Baukasten.MetadatenSDGProcedure">MetadatenSDGProcedureType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatensdgproceduretype '<xref linkend="xevidencesurvey.Baukasten.MetadatenSDGProcedure" role="AS"/>'>
+                    <!ENTITY datentyp.ref.metadatenumsetzungsprojekttype '<emphasis role="codebf">MetadatenUmsetzungsprojektType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.metadatenumsetzungsprojekttype '<link linkend="xevidencesurvey.Baukasten.MetadatenUmsetzungsprojekt">MetadatenUmsetzungsprojektType</link>'>
+                    <!ENTITY datentyp.ref.xref.metadatenumsetzungsprojekttype '<xref linkend="xevidencesurvey.Baukasten.MetadatenUmsetzungsprojekt" role="AS"/>'>
+                    <!ENTITY datentyp.ref.musterdistributiontype '<emphasis role="codebf">MusterdistributionType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.musterdistributiontype '<link linkend="xevidencesurvey.Baukasten.Musterdistribution">MusterdistributionType</link>'>
+                    <!ENTITY datentyp.ref.xref.musterdistributiontype '<xref linkend="xevidencesurvey.Baukasten.Musterdistribution" role="AS"/>'>
+                    <!ENTITY datentyp.ref.nachweisanforderungtype '<emphasis role="codebf">NachweisanforderungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.nachweisanforderungtype '<link linkend="xevidencesurvey.Baukasten.Nachweisanforderung">NachweisanforderungType</link>'>
+                    <!ENTITY datentyp.ref.xref.nachweisanforderungtype '<xref linkend="xevidencesurvey.Baukasten.Nachweisanforderung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.nachweistypbuendeltype '<emphasis role="codebf">NachweistypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.nachweistypbuendeltype '<link linkend="xevidencesurvey.Baukasten.NachweistypBuendel">NachweistypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.nachweistypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.NachweistypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.nachweistyptype '<emphasis role="codebf">NachweistypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.nachweistyptype '<link linkend="xevidencesurvey.Baukasten.Nachweistyp">NachweistypType</link>'>
+                    <!ENTITY datentyp.ref.xref.nachweistyptype '<xref linkend="xevidencesurvey.Baukasten.Nachweistyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.ozgleistungtype '<emphasis role="codebf">OZGLeistungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.ozgleistungtype '<link linkend="xevidencesurvey.Baukasten.OZGLeistung">OZGLeistungType</link>'>
+                    <!ENTITY datentyp.ref.xref.ozgleistungtype '<xref linkend="xevidencesurvey.Baukasten.OZGLeistung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.onlineservicetype '<emphasis role="codebf">OnlineServiceType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.onlineservicetype '<link linkend="xevidencesurvey.Baukasten.OnlineService">OnlineServiceType</link>'>
+                    <!ENTITY datentyp.ref.xref.onlineservicetype '<xref linkend="xevidencesurvey.Baukasten.OnlineService" role="AS"/>'>
+                    <!ENTITY datentyp.ref.organisationtype '<emphasis role="codebf">OrganisationType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.organisationtype '<link linkend="xevidencesurvey.Baukasten.Organisation">OrganisationType</link>'>
+                    <!ENTITY datentyp.ref.xref.organisationtype '<xref linkend="xevidencesurvey.Baukasten.Organisation" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemabeispielentitaettype '<emphasis role="codebf">PruefschemaBeispielentitaetType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemabeispielentitaettype '<link linkend="xevidencesurvey.Baukasten.PruefschemaBeispielentitaet">PruefschemaBeispielentitaetType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemabeispielentitaettype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaBeispielentitaet" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemaleikatype '<emphasis role="codebf">PruefschemaLeiKaType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemaleikatype '<link linkend="xevidencesurvey.Baukasten.PruefschemaLeiKa">PruefschemaLeiKaType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemaleikatype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaLeiKa" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemanachweistypbuendeltype '<emphasis role="codebf">PruefschemaNachweistypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemanachweistypbuendeltype '<link linkend="xevidencesurvey.Baukasten.PruefschemaNachweistypBuendel">PruefschemaNachweistypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemanachweistypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaNachweistypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemaonlineservicetype '<emphasis role="codebf">PruefschemaOnlineserviceType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemaonlineservicetype '<link linkend="xevidencesurvey.Baukasten.PruefschemaOnlineservice">PruefschemaOnlineserviceType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemaonlineservicetype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaOnlineservice" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemaregistertyptype '<emphasis role="codebf">PruefschemaRegistertypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemaregistertyptype '<link linkend="xevidencesurvey.Baukasten.PruefschemaRegistertyp">PruefschemaRegistertypType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemaregistertyptype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaRegistertyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.pruefschemaregistertypbuendeltype '<emphasis role="codebf">PruefschemaRegistertypbuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.pruefschemaregistertypbuendeltype '<link linkend="xevidencesurvey.Baukasten.PruefschemaRegistertypbuendel">PruefschemaRegistertypbuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.pruefschemaregistertypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.PruefschemaRegistertypbuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.publikationtype '<emphasis role="codebf">PublikationType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.publikationtype '<link linkend="xevidencesurvey.Baukasten.Publikation">PublikationType</link>'>
+                    <!ENTITY datentyp.ref.xref.publikationtype '<xref linkend="xevidencesurvey.Baukasten.Publikation" role="AS"/>'>
+                    <!ENTITY datentyp.ref.registertypbuendeltype '<emphasis role="codebf">RegistertypBuendelType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.registertypbuendeltype '<link linkend="xevidencesurvey.Baukasten.RegistertypBuendel">RegistertypBuendelType</link>'>
+                    <!ENTITY datentyp.ref.xref.registertypbuendeltype '<xref linkend="xevidencesurvey.Baukasten.RegistertypBuendel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.registertyptype '<emphasis role="codebf">RegistertypType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.registertyptype '<link linkend="xevidencesurvey.Baukasten.Registertyp">RegistertypType</link>'>
+                    <!ENTITY datentyp.ref.xref.registertyptype '<xref linkend="xevidencesurvey.Baukasten.Registertyp" role="AS"/>'>
+                    <!ENTITY datentyp.ref.reifegradregmotype '<emphasis role="codebf">ReifegradRegMoType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.reifegradregmotype '<link linkend="xevidencesurvey.Baukasten.ReifegradRegMo">ReifegradRegMoType</link>'>
+                    <!ENTITY datentyp.ref.xref.reifegradregmotype '<xref linkend="xevidencesurvey.Baukasten.ReifegradRegMo" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdg2anschlussverpflichtungtype '<emphasis role="codebf">SDG2AnschlussverpflichtungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdg2anschlussverpflichtungtype '<link linkend="xevidencesurvey.Baukasten.SDG2Anschlussverpflichtung">SDG2AnschlussverpflichtungType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdg2anschlussverpflichtungtype '<xref linkend="xevidencesurvey.Baukasten.SDG2Anschlussverpflichtung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdg2onlinebereitstellungtype '<emphasis role="codebf">SDG2OnlineBereitstellungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdg2onlinebereitstellungtype '<link linkend="xevidencesurvey.Baukasten.SDG2OnlineBereitstellung">SDG2OnlineBereitstellungType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdg2onlinebereitstellungtype '<xref linkend="xevidencesurvey.Baukasten.SDG2OnlineBereitstellung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgaddresstype '<emphasis role="codebf">SDGAddressType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgaddresstype '<link linkend="xevidencesurvey.Baukasten.SDGAddress">SDGAddressType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgaddresstype '<xref linkend="xevidencesurvey.Baukasten.SDGAddress" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgdirectivetype '<emphasis role="codebf">SDGDirectiveType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgdirectivetype '<link linkend="xevidencesurvey.Baukasten.SDGDirective">SDGDirectiveType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgdirectivetype '<xref linkend="xevidencesurvey.Baukasten.SDGDirective" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgdistributiontype '<emphasis role="codebf">SDGDistributionType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgdistributiontype '<link linkend="xevidencesurvey.Baukasten.SDGDistribution">SDGDistributionType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgdistributiontype '<xref linkend="xevidencesurvey.Baukasten.SDGDistribution" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgevidenceprovidertype '<emphasis role="codebf">SDGEvidenceProviderType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgevidenceprovidertype '<link linkend="xevidencesurvey.Baukasten.SDGEvidenceProvider">SDGEvidenceProviderType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgevidenceprovidertype '<xref linkend="xevidencesurvey.Baukasten.SDGEvidenceProvider" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgevidencetypelisttype '<emphasis role="codebf">SDGEvidenceTypeListType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgevidencetypelisttype '<link linkend="xevidencesurvey.Baukasten.SDGEvidenceTypeList">SDGEvidenceTypeListType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgevidencetypelisttype '<xref linkend="xevidencesurvey.Baukasten.SDGEvidenceTypeList" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgevidencetypemetadatatype '<emphasis role="codebf">SDGEvidenceTypeMetadataType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgevidencetypemetadatatype '<link linkend="xevidencesurvey.Baukasten.SDGEvidenceTypeMetadata">SDGEvidenceTypeMetadataType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgevidencetypemetadatatype '<xref linkend="xevidencesurvey.Baukasten.SDGEvidenceTypeMetadata" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgevidencetypetype '<emphasis role="codebf">SDGEvidenceTypeType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgevidencetypetype '<link linkend="xevidencesurvey.Baukasten.SDGEvidenceType">SDGEvidenceTypeType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgevidencetypetype '<xref linkend="xevidencesurvey.Baukasten.SDGEvidenceType" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdginformationrequirementtype '<emphasis role="codebf">SDGInformationRequirementType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdginformationrequirementtype '<link linkend="xevidencesurvey.Baukasten.SDGInformationRequirement">SDGInformationRequirementType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdginformationrequirementtype '<xref linkend="xevidencesurvey.Baukasten.SDGInformationRequirement" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgjurisdictiontype '<emphasis role="codebf">SDGJurisdictionType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgjurisdictiontype '<link linkend="xevidencesurvey.Baukasten.SDGJurisdiction">SDGJurisdictionType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgjurisdictiontype '<xref linkend="xevidencesurvey.Baukasten.SDGJurisdiction" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgmsproceduretype '<emphasis role="codebf">SDGMSProcedureType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgmsproceduretype '<link linkend="xevidencesurvey.Baukasten.SDGMSProcedure">SDGMSProcedureType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgmsproceduretype '<xref linkend="xevidencesurvey.Baukasten.SDGMSProcedure" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgproceduralrequirementtype '<emphasis role="codebf">SDGProceduralRequirementType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgproceduralrequirementtype '<link linkend="xevidencesurvey.Baukasten.SDGProceduralRequirement">SDGProceduralRequirementType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgproceduralrequirementtype '<xref linkend="xevidencesurvey.Baukasten.SDGProceduralRequirement" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgproceduretype '<emphasis role="codebf">SDGProcedureType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgproceduretype '<link linkend="xevidencesurvey.Baukasten.SDGProcedure">SDGProcedureType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgproceduretype '<xref linkend="xevidencesurvey.Baukasten.SDGProcedure" role="AS"/>'>
+                    <!ENTITY datentyp.ref.sdgstandardtype '<emphasis role="codebf">SDGStandardType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.sdgstandardtype '<link linkend="xevidencesurvey.Baukasten.SDGStandard">SDGStandardType</link>'>
+                    <!ENTITY datentyp.ref.xref.sdgstandardtype '<xref linkend="xevidencesurvey.Baukasten.SDGStandard" role="AS"/>'>
+                    <!ENTITY datentyp.ref.stakeholdertype '<emphasis role="codebf">StakeholderType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.stakeholdertype '<link linkend="xevidencesurvey.Baukasten.Stakeholder">StakeholderType</link>'>
+                    <!ENTITY datentyp.ref.xref.stakeholdertype '<xref linkend="xevidencesurvey.Baukasten.Stakeholder" role="AS"/>'>
+                    <!ENTITY datentyp.ref.strukturiertheitsgradtype '<emphasis role="codebf">StrukturiertheitsgradType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.strukturiertheitsgradtype '<link linkend="xevidencesurvey.Baukasten.Strukturiertheitsgrad">StrukturiertheitsgradType</link>'>
+                    <!ENTITY datentyp.ref.xref.strukturiertheitsgradtype '<xref linkend="xevidencesurvey.Baukasten.Strukturiertheitsgrad" role="AS"/>'>
+                    <!ENTITY datentyp.ref.umsetzungsprojekttype '<emphasis role="codebf">UmsetzungsprojektType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.umsetzungsprojekttype '<link linkend="xevidencesurvey.Baukasten.Umsetzungsprojekt">UmsetzungsprojektType</link>'>
+                    <!ENTITY datentyp.ref.xref.umsetzungsprojekttype '<xref linkend="xevidencesurvey.Baukasten.Umsetzungsprojekt" role="AS"/>'>
+                    <!ENTITY datentyp.ref.verwaltungspolitischekodierungtype '<emphasis role="codebf">VerwaltungspolitischeKodierungType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.verwaltungspolitischekodierungtype '<link linkend="xevidencesurvey.Baukasten.VerwaltungspolitischeKodierung">VerwaltungspolitischeKodierungType</link>'>
+                    <!ENTITY datentyp.ref.xref.verwaltungspolitischekodierungtype '<xref linkend="xevidencesurvey.Baukasten.VerwaltungspolitischeKodierung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.workflowdetype '<emphasis role="codebf">WorkflowDEType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.workflowdetype '<link linkend="xevidencesurvey.Baukasten.WorkflowDE">WorkflowDEType</link>'>
+                    <!ENTITY datentyp.ref.xref.workflowdetype '<xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="AS"/>'>
+                    <!ENTITY datentyp.ref.workfloweutype '<emphasis role="codebf">WorkflowEUType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.workfloweutype '<link linkend="xevidencesurvey.Baukasten.WorkflowEU">WorkflowEUType</link>'>
+                    <!ENTITY datentyp.ref.xref.workfloweutype '<xref linkend="xevidencesurvey.Baukasten.WorkflowEU" role="AS"/>'>
+                    <!ENTITY datentyp.ref.workflowstakeholdertype '<emphasis role="codebf">WorkflowStakeholderType</emphasis>'>
+                    <!ENTITY datentyp.ref.link.workflowstakeholdertype '<link linkend="xevidencesurvey.Baukasten.WorkflowStakeholder">WorkflowStakeholderType</link>'>
+                    <!ENTITY datentyp.ref.xref.workflowstakeholdertype '<xref linkend="xevidencesurvey.Baukasten.WorkflowStakeholder" role="AS"/>'>
+                    

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.Nachweistyp">
+   <title>NachweistypType</title>
+   <subtitle>Typ: <emphasis role="codebf">NachweistypType</emphasis>
+   </subtitle><para>Nachweise sind gemäß Art. 3 Nr. 5 SDG-VO „alle Unterlagen oder Daten, einschließlich Text- oder Ton-, Bild- oder audiovisuellen Aufzeichnungen, unabhängig vom verwendeten Medium, die von einer zuständigen Behörde verlangt werden.“ Nachweise können sowohl analoge („Unterlagen“) wie auch digitale Informationen („Daten“) sein, die von zuständigen Behörden verlangt werden können, um bestimmte Sachverhalte oder die Einhaltung von Verfahrensvorschriften zu belegen.</para><figure xml:id="figure.xevidencesurvey.Baukasten.Nachweistyp">
+      <title>NachweistypType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/Nachweistyp.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <para>Dieser Typ  ist eine Erweiterung des Basistyps <emphasis role="codebf">SDGEvidenceTypeType</emphasis> (siehe <xref linkend="xevidencesurvey.Baukasten.SDGEvidenceType" role="AS"/>).</para>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.Nachweistyp">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">NachweistypType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">enthaltenInRegister</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">RegistertypType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Registertyp" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Registertyp" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Zuordnung des Nachweises zu einem Register.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">enthaeltNachweistypInhalt</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">FeldinhaltType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Feldinhalt" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Feldinhalt" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Listet die Feldinhalte des Nachweises, die zu seiner Verwendung erforderlich sind.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">publiziertIn</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">PublikationType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Publikation" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Publikation" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element wird die Publikation eines Nachweistypen angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">enthaeltDistributionDE</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">DistributionDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.DistributionDE"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.DistributionDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Das Format des Nachweis definiert den Digitalisierungsstand des Nachweisabrufes gemäß Art. 1 Abs. 15 und 16 Durchführungsverordnung (EU) 2022/1463. Das Format des Nachweises wird hier unterschieden in analog (papierbasiert), digital-unstrukturiert (z.B. PDF, Bilddatei) oder digital-strukturiert (z. B. XML, JSON).</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hatMetadaten</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">MetadatenNachweistypType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenNachweistyp"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.MetadatenNachweistyp"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element werden die Metadaten zum Nachweistyp angegeben.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">workflow</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">WorkflowDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Gibt den Workflowstatus der Freigabe und Veröffentlichung von Mappings an. Dieses Element ist wiederholbar und dient der Dokumentation von Änderungen am Mapping.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">planungDistributionDE</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">DistributionDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.DistributionDE"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.DistributionDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Das Format des Nachweis definiert den geplanten Digitalisierungsstand des Nachweisabrufes gemäß Art. 1 Abs. 15 und 16 Durchführungsverordnung (EU) 2022/1463. Das Format des Nachweises wird hier unterschieden in analog (papierbasiert), digital-unstrukturiert (z.B. PDF, Bilddatei) oder digital-strukturiert (z. B. XML, JSON).</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/nachweistyp_list.xml"/>
+</section>

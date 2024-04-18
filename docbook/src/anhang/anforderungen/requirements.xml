@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE appendix [
+    <!ENTITY % complete SYSTEM "../../../ent/complete.ent">
+    %complete;
+]>
+<appendix xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+  xml:id="spezifikation.requirements">
+  <info>
+    <title>Übersicht über bekannte Anforderungen</title>
+  </info>
+
+  <para><emphasis>Vermutete</emphasis> oder benannten Anforderungen bestehen unter anderem in
+    folgenden Bereichen: </para>
+  <itemizedlist>
+    <listitem>
+      <para>PB OZG - Mapping zwischen Online-Service und Nachweis muss prinzipiell möglich
+        sein</para>
+    </listitem>
+    <listitem>
+      <para>PB OZG – Idee der Verwendung von Registermodernisierungsreifegrad für Nachweise auch für
+        die Digitalisierungsplanung </para>
+    </listitem>
+    <listitem>
+      <para>Projekt Registerlandkarte - Möglichkeit zwischen Registerbündel nach IDNr Anlage 1 und
+        tatsächlich konkreten Registern zu unterscheiden</para>
+    </listitem>
+    <listitem>
+      <para>DESTATIS VIP (Angaben zu Open Data Fähigkeit von Registerinhalten und Berücksichtung
+        VIP.ID </para>
+    </listitem>
+    <listitem>
+      <para>PB Register (Erweiterung der verwendeten Reifegrad-Modelle muss prinzipiell möglich
+        sein, z.B. Diskussionen zu Reifegrad D1 im Workshop PB Register Juni 2023) </para>
+    </listitem>
+    <listitem>
+      <para>Austausch mit der KoSIT – Bereitstellung als technologieneutrales SDG bezogenes
+        Datenmodell nach Entwicklung einer generellen Methodik </para>
+    </listitem>
+    <listitem>
+      <para>weitere Anforderungen mit Blick auf das Programm „Interoperable Europe“ wie z.B. die
+        Unterstützung von Datenraum-Klassifikationen, So kann etwa ein Datensatz als „Statistik“
+        ausgezeichnet werden, wie es etwa für die Umsetzung der High Value Dataset Direktive
+        nützlich erscheint.</para>
+    </listitem>
+  </itemizedlist>
+</appendix>

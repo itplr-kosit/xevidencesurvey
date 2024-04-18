@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>richtlinien</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Bei SDG berücksichtigte Richtlinien des Europäischen Parlaments und des Rates</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>SDG Koordination</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2021-09-06</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+         <xoev-cl-4:changes>Version vom 06.09.2021.</xoev-cl-4:changes>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>richtlinien</ShortName>
+      <LongName>Richtlinien des Europäischen Parlaments</LongName>
+      <Version>0.6</Version>
+      <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:richtlinien</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:richtlinien_0.6</CanonicalVersionUri>
+      <Agency>
+         <LongName>SDG Koordination</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="richtlinie" Use="required">
+         <ShortName>richtlinie</ShortName>
+         <LongName>Richtlinie</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>deutsche Übersetzung</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2005-36-EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="richtlinie">
+            <SimpleValue>2005|36|EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Richtlinie 2005|36|EG des Europäischen Parlaments und des Rates vom 7. September 2005 über die Anerkennung von Berufsqualifikationen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2006-123-EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="richtlinie">
+            <SimpleValue>2006|123|EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Richtlinie 2006|123|EG des Europäischen Parlaments und des Rates vom 12. Dezember 2006 über Dienstleistungen im Binnenmarkt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2014-24-EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="richtlinie">
+            <SimpleValue>2014|24|EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Richtlinie 2014|24|EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die öffentliche Auftragsvergabe und zur Aufhebung der Richtlinie 2004|18|EG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2014-25-EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="richtlinie">
+            <SimpleValue>2014|25|EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Richtlinie 2014|25|EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die Vergabe von Aufträgen durch Auftraggeber im Bereich der Wasser-, Energie- und Verkehrsversorgung sowie der Postdienste und zur Aufhebung der Richtlinia 2004|17|EG</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

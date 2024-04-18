@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="xevidencesurvey.Baukasten.PruefschemaLeiKa">
+   <title>PruefschemaLeiKaType</title>
+   <subtitle>Typ: <emphasis role="codebf">PruefschemaLeiKaType</emphasis>
+   </subtitle><para>Das Prüfschema, mit dem die SDG-Relevanz einer LeiKa-Leistung festgestellt wird.</para><figure xml:id="figure.xevidencesurvey.Baukasten.PruefschemaLeiKa">
+      <title>PruefschemaLeiKaType</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../zeichnungen/xevidencesurvey/Baukasten/PruefschemaLeiKa.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.xevidencesurvey.Baukasten.PruefschemaLeiKa">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">PruefschemaLeiKaType</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">sdg2onlineBereitstellung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">SDG2OnlineBereitstellungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDG2OnlineBereitstellung"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDG2OnlineBereitstellung"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Pflicht zur Online-Bereitstellung nach Art. 6 SDG-VO gilt für die SDG2-relevanten LeiKa-Leistungen, die dem Anhang II der SDG-VO (Verordnung (EU) 2018/1724) zugeordnet sind. Bis 12.12.2023 müssen die betroffenen LeiKa-Leistungen für europäische Bürger und Unternehmen vergleichbar mit dem OZG-Reifegrad 3 online bereitgestellt werden. Zusätzlich zur Umsetzung von Art. 6 sind diese LeiKa-Leistungen auch von der Pflicht zu Schaffung eines grenzüberschreitenden Zugangs nach Art. 13 SDG-VO bis 12.12.2023 betroffen.</para>
+<para>Im Einzelfall kann eine Bewertung der Digitalisierung im Rahmen der OZG-Umsetzung als unmöglich (faktisch, rechtlich, wirtschaftlich, aus Sicherheitsgründen) bewirken, dass eine Online-Bereitstellung auch nach Art. 6 SDG-VO nicht erfolgen muss.
+</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">sdg2relevanzIntern</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.SDG2RelevanzIntern-CodesType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.Codes.Code.SDG2RelevanzIntern_Codes"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>INFO: Dieses Feld wurde im Rahmen der Evidence Survey 2022 definiert und dient der Ermittlung des Grades der Anschlussverpflichtung</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">sdg2anschlussverpflichtung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">SDG2AnschlussverpflichtungType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDG2Anschlussverpflichtung"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.SDG2Anschlussverpflichtung"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Anschlusspflicht EU-OOTS von LeiKa-Leistungen bezeichnet die rechtliche Pflicht zur technischen Einbindung des EU-OOTS nach Art.14 Abs.6 i.V.m. Abs.1 SDG-VO in den entsprechenden deutschen Online-Service. D.h. die relevanten LeiKa-Leistungen im Online Service müssen SDG2-relevante Nachweise aus dem EU-Ausland annehmen können. Die technische Einbindung ist in Deutschland über das NOOTS und Intermediäre Plattformen vorgesehen. Wenn im Verfahren von Bürgern oder Unternehmen der Beweis einer Tatsache mittels eines SDG2-relevanten Nachweises grenzüberschreitend gefordert wird, besteht eine Anschlusspflicht der LeiKa-Leistung an das EU-OOTS. Die Anschlusspflicht gilt entsprechend für alle SDG2-relevanten LeiKa-Leistungen, die für die Erbringung der Leistung mindestens einen SDG2-relevanten Nachweis anfordern, d.h. einen Nachweis, der von einer dafür zuständigen Behörde basierend auf einer Rechtsgrundlage ausgestellt sowie von den zuständigen deutschen Behörden grenzüberschreitend angefordert wird. Das Ergebnis der LeiKa-Leistung ist nicht von einer Bereitstellung über das EU-OOTS betroffen</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">workflow</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">WorkflowDEType</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="xevidencesurvey.Baukasten.WorkflowDE" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Gibt den Workflowstatus der Freigabe und Veröffentlichung von Mappings an. Dieses Element ist wiederholbar und dient der Dokumentation von Änderungen am Mapping.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../anhang/verwendung/complexTypes/pruefschemaleika_list.xml"/>
+</section>

@@ -1,0 +1,178 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE appendix [
+	<!ENTITY % complete SYSTEM "../../../ent/complete.ent">
+	%complete;
+]>
+<appendix xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+	xml:id="spezifikation.anhang.versionshistorie">
+	<info>
+		<title>Versionshistorie</title>
+	</info>
+	<sect1 xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.anhang.versionshistorie.version06">
+		<info>
+			<title>Version 0.6</title>
+		</info>
+		<para>Veröffentlichungsdatum 12.04.2024</para>
+		<sect2>
+			<title>Allgemeine Änderungen</title>
+			<simplesect>
+				<title>Redaktioneller Teil</title>
+				<itemizedlist>
+					<listitem>
+						<para>Textliche Überarbeitung redaktioneller Inhalte</para>
+					</listitem>
+					<listitem>
+						<para>Einbettung eines Glossars und Abkürzungsverzeichnisses</para>
+					</listitem>
+					<listitem>
+						<para>Aktualisierung und Optimierung von UML-Klassendiagrammen</para>
+					</listitem>
+					<listitem>
+						<para>Korrektur von Verweisen auf Abbildungen und externe Webseiten</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			<simplesect>
+				<title>Klassen und Codelisten</title>
+				<itemizedlist>
+					<listitem>
+						<para>"Organisation" als eigene Entität aufgenommen</para>
+					</listitem>
+					<listitem>
+						<para>Hauptentität "Umsetzungsprojekt" aufgenommen</para>
+					</listitem>
+					<listitem>
+						<para>Korrektur der Codelisten SDG2Status, SDGDistribution und ArtDerRechtsgrundlage</para>
+					</listitem>
+					<listitem>
+						<para>Codeliste "SDGProcedures" um Spalte "KurznameEN" erweitert</para>
+					</listitem>
+					<listitem>
+						<para>Kardinalität "AnsprechpartnerRolle" auf 0..* korrigiert, um somit mehrere Rolleneinträge für denselben Stakeholder ermöglicht</para>
+					</listitem>
+					<listitem>
+						<para>"Mitgliedstaat" in "Stakeholder" aufgenommen</para>
+					</listitem>
+					<listitem>
+						<para>Entfernung redundanter Codelisten</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			
+		</sect2>
+		<sect2>
+			<title>Änderungen aufgrund von Rückmeldungen zum Modell</title>	
+			<simplesect>
+				<title>Rückmeldungen TDD-Arbeitsgruppe</title>
+				<itemizedlist>
+					<listitem>
+						<para>Umstellung der Codeliste "Mitgliedstaaten" auf EEA Country Codes</para>
+					</listitem>
+					<listitem>
+						<para>Anpassungen in SDGDistribution: "Language", "ConformsTo" und "Transformation" aufgenommen</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			<simplesect>
+				<title>Rückmeldungen PBRegister</title>
+				<itemizedlist>
+					<listitem>
+						<para>Maßnahmen zur besseren Lesbarkeit der Spezifikation: Streamlinen einführender Texte, Lesbarkeit von Darstellungen und Tabellen</para>
+					</listitem>
+					<listitem>
+						<para>Element "LeiKaListenVersion" in MappingDELeiKaSDG2Verfahren zur besseren Identifizierung der LeiKa-ID hinzugefügt</para>
+					</listitem>
+					<listitem>
+						<para>Anpassungen LeiKa-ID: Kardinalität und weiteres Feld zur Angabe der konkreten Version in SDG</para>
+					</listitem>
+					<listitem>
+						<para>Erweiterung der Reifegradmodells von 1.0 auf 2.0 nach IT-PLR Beschluss 2024/15 vom 20.03.2024</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+		</sect2>
+		<sect2>
+				<title>Rückmeldungen DSMeld</title>
+				<itemizedlist>
+					<listitem>
+						<para>Angabe der FIM-ID ergänzt</para>
+					</listitem>
+					<listitem>
+						<para>Angabe von Längenbegrenzungen und Häufigkeit von Feldinhalten</para>
+					</listitem>
+					<listitem>
+						<para>Entfernen von kontextspezifischen Pflichtfeldern, um Nachnutzung zu erleichtern</para>
+					</listitem>
+					<listitem>
+						<para>Anpassung an deutsche Anforderungen - InformationRequirement.relatedRegulation auf 0..* erweitern</para>
+					</listitem>
+					<listitem>
+						<para>Deutsche Rechtsgrundlage als "JurisdictionDE" eingebunden</para>
+					</listitem>
+					<listitem>
+						<para>Instanznachricht import.DSMeld.0020 erstellen</para>
+					</listitem>
+					<listitem>
+						<para>Ergänzung Eigenschaft "hatKlassifizierung" in allen Metadatenklassen</para>
+					</listitem>
+				</itemizedlist>
+			
+		</sect2>
+		<sect2>
+			<title>DESTATIS/Registerlandkarte</title>
+			<itemizedlist>
+				<listitem>
+					<para>Ergänzungen in den Beschreibungen der Werte und Codelisten für datenliefernde Stellen (Register)</para>
+				</listitem>
+				<listitem>
+					<para>Hinzufügen der Instanznachricht "import.destatis.4001</para>
+				</listitem>
+			</itemizedlist>
+			
+		</sect2>
+	</sect1>
+		
+			<!-- 
+			RKE-794	Testdaten erstellen und in Import-XML verwenden
+			RKE-819	WorkflowID statt workflowtype MappingLeika2SDG
+			RKE-754	Codeliste ArtDerRechtsgrundlage Werte korrigieren
+			RKE-749	Errata: Verweise in den Anhang korrigieren
+			RKE-743	Errata: UML-Klassendiagramme Abbildungen aktualisieren und optimieren
+			RKE-748	Wert Review in SDG2STatus Codeliste korrigieren
+			RKE-735	Häufigkeit an Feldinhalten angeben können
+			
+			
+			RKE-745	TDD 1.0 Änderung: SDGDistribution anpassen
+			RKE-739	Angabe der FIM-ID ermöglichen
+			
+			
+			RKE-742	Errata: Herausgeber des XEvidenceSurvey korrigieren
+			RKE-740	Klassifizierung von Feldinhalten ermöglichen
+			
+			
+			RKE-734	Längenbegrenzungen an Feldinhalten angeben können
+			
+			
+			RKE-750	Errata: XÖV Logo entfernen
+			RKE-751	Errata: redundante Codeliste SDGDirectives entfernen
+			RKE-752	Logo für XEvidenceSurvey entwickeln
+			RKE-774	Pflichtfelder entpflichten für DSMeld
+			RKE-776	relatedRegulation mehrfach ermöglichen
+			RKE-782	JurisdictionDE einbinden in Feldinhalt
+			RKE-779	neue Sicht Import.DSMeld.0020 aufnehmen
+			RKE-821	WorkflowDE ggf. auch in Hauptentitäten anlegen
+			RKE-896	Instanznachricht import.destatis.4001 erstellen
+			RKE-893	XML Version 0.1 umstellen
+			RKE-815	Organisation als eigene Entität führen
+			RKE-878	Fachdatenmodell konsequent umbenennen in XEvidenceSurvey
+			RKE-741	TDD 1.0 Änderung: Code. Mitgliedstaaten umstellen auf EEA Country Codes
+			RKE-812	Mitgliedstaat aufnehmen auch in Stakeholder
+			RKE-744	TDD 1.0 Änderungen prüfen und Auswirkungen auf Fachdatenmodell herausarbeiten
+			RKE-811	AnsprechpartnerRolle von 0..1 auf 0..* setzen
+			RKE-786	Hauptentität "Umsetzungsprojekt" aufnehmen
+			RKE-891	Import Nachricht für Daten von DESTATIS/Registerlandkarte erstellen
+			
+			-->
+</appendix>

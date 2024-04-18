@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de" xml:id="spezifikation.informationsmodell.beispielthemenkomplex">
+    <info>
+        <title>Datentypen der Evidence Survey</title>
+    </info>
+   
+    <figure>
+        <title>Klassendiagramm zum Nachweistyp und EvidenceTypes</title>
+    <mediaobject>
+        <imageobject>
+            <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_Nachweis.png" format="png" width="100%"/>
+        </imageobject>
+    </mediaobject> 
+    </figure>
+
+    <figure>
+        <title>Klassendiagramm zur Darstellung von Daten betreffend der Klasse Stakeholder</title>
+    <mediaobject>
+        <imageobject>
+            <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_Stakeholder.png" format="png"
+                width="100%"/>
+        </imageobject>
+    </mediaobject>
+    </figure>
+    <figure>
+        <title>Klassendiagramm zur Darstellung der nationalen Evidence Survey</title>
+    <mediaobject>
+        <imageobject>
+            <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_NationaleEvidenceSurvey.png" format="png"
+                width="100%"/>
+        </imageobject>
+    </mediaobject>
+    </figure>
+
+    <figure>
+        <title>Klassendiagramm zur Darstellung der Daten für das EU-OOTS Common Service Admin Tool</title>
+    <mediaobject>
+        <imageobject>
+            <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_SDG_TDD_Klassen.png" format="png"
+                width="100%"/>
+        </imageobject>
+    </mediaobject>
+    </figure>
+   
+        
+       
+    
+    
+    
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Anschrift.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Ansprechperson.xml"/>
+    
+  
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Beispielentitaet.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Beschreibung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Bezeichnung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Beziehung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/DistributionDE.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Feldinhalt.xml"/>
+    
+
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/JurisdictionDE.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/LeiKa.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDEbeispielentitaetLeiKa.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDELeiKaNachweisanforderung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDELeikaOnlineService.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDELeikaOZGLeistung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDELeiKaSDG2Verfahren.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDENachweisanforderungNachweistypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDENachweisanforderungSDGProceduralRequirement.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDENachweistypbuendelRegistertypbuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDENachweistypDistributionDE.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDEOnlineServiceNachweistyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDEOnlineServiceNachweistypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingDEOnlineServiceSDG2Verfahren.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingEUFeldinhaltSDGInformationRequirement.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingEULeikaSDGMSProcedure.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MappingEUSDGEvidenceTypeListSDGPRoceduralRequirement.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenLeiKa.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenBeispielentitaet.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenFeldinhalt.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenOnlineservice.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenOZGLeistung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenNachweistyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenNachweistypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenNachweisanforderungen.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenRegistertyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenRegistertypbuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenSDGDirective.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenSDGProcedure.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MetadatenUmsetzungsprojekt.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/MediaTypes.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Musterdistribution.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Nachweisanforderung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Nachweistyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/NachweistypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/OnlineService.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Organisation.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/OZGLeistung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaLeiKa.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaBeispielentitaet.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaNachweistypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaOnlineservice.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaRegistertyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/PruefschemaRegistertypbuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Publikation.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Registertyp.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/RegistertypBuendel.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDG2Anschlussverpflichtung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDG2OnlineBereitstellung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGAddress.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGDirective.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGDistribution.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGEvidenceProvider.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGEvidenceType.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGEvidenceTypeList.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGEvidenceTypeMetadata.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGInformationRequirement.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGJurisdiction.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGProceduralRequirement.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGProcedure.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGMSProcedure.xml"/>
+    
+    
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/SDGStandard.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Stakeholder.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Strukturiertheitsgrad.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/ReifegradRegMo.xml"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/Umsetzungsprojekt.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/verwaltungspolitischeKodierung.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/WorkflowDE.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/WorkflowEU.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/xevidencesurvey/Baukasten/WorkflowStakeholder.xml"/>
+</section>
