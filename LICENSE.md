@@ -1,0 +1,1 @@
+Die Lizenz zum Standardisierungsvorhaben XEvidenceSurvey wird hier abgelegt und kann in Kürze hier abgerufen werden.
