@@ -15,6 +15,7 @@ Das Vorgehen für Ihre Teilnahme umfasst folgende Schritte :
 
 1. Sie erstellen ein [Nutzerkonto bei GitHub](https://github.com/join?ref_cta=Sign+up) oder loggen Sie sich mit einem bestehenden Konto ein.
 2. Sie erstellen [ein Issue](https://github.com/itplr-kosit/xevidencesurvey/issues/new) in dem Sie Ihr Anliegen beschreiben.
-3. Ihr Anliegen ist nun veröffentlicht und wird bei der Weiterentwicklung der Spezifikation in Betracht genommen.
+3. Kommentieren Sie gern Ihre Anmerkungen zur Spezifikation: https://github.com/itplr-kosit/xevidencesurvey/blob/main/spec/XEvidenceSurvey_Methodik_Praesentation_V06.pdf 
+4. Ihr Anliegen ist nun veröffentlicht und kann so bei der Weiterentwicklung der Spezifikation in Betracht genommen werden.
 
 Vielen Dank für Ihre Beteiligung!
