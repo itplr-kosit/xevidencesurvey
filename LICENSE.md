@@ -1,1 +1,1 @@
-Die Lizenz zum Standardisierungsvorhaben XEvidenceSurvey wird hier abgelegt und kann in Kürze hier abgerufen werden.
+CC BY 4.0 int, "]init[ AG im Auftrag des BMI"
