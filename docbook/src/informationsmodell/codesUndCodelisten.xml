@@ -10,7 +10,7 @@
         <title>Codes und Codelisten</title>
     </info>
 
-    <para>Das Fachdatenmodell XEvidenceSurvey enthält Codelisten des Typ 1, 2 und 3. Dabei sind Typ
+    <para>Das Informationsmodell XEvidenceSurvey enthält Codelisten des Typ 1, 2 und 3. Dabei sind Typ
         3 Codelisten benannt, was bedeutet, dass diese zwar vorgegeben ist, jedoch keine Angabe zur
         Nutzung der spezifischen Version gemacht wird. Typ 2 Codelisten sind ebenfalls benannte
         Codelisten, welche jedoch die konkrete Version des zu nutzenden Standards vorgeben.

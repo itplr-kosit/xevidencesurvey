@@ -48,7 +48,16 @@
     </figure>
    
         
-       
+    <figure>
+        <title>Klassendiagramm zur Darstellung der EU ETLists</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata align="center" fileref="../abbildungen/class__Diagramme__SPEC_MappingEUETListPR.png" format="png"
+                    width="100%"/>
+            </imageobject>
+        </mediaobject>
+    </figure>
+    
     
     
     

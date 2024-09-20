@@ -46,7 +46,7 @@
                 <row>
                     <entry>Antragsverfahren</entry>
                     <entry/>
-                    <entry>ein digitaler oder analoger Antrag auf eine Verwaltungsle istung, welcher
+                    <entry>Ein digitaler oder analoger Antrag auf eine Verwaltungsle istung, welcher
                         an ein Fachverfahren übermittelt wird.</entry>
                 </row>
                 <row>
@@ -79,6 +79,18 @@
                         spezifiziert.</entry>
                 </row>
                 <row>
+                    <entry>Durchführungsverordnung</entry>
+                    <entry>Implementing Act, Implementing Regulation</entry>
+                    <entry>Durchführungsverordnungen der Kommission dienen der einheitlichen
+                        Umsetzung von EU-Rechtsvorschriften. Zu diesem Zweck hat die Kommission zu
+                        Art. 14 SDG-VO (vgl. Art. 14 Abs. 9 SDG-VO) die Durchführungsverordnung (EU)
+                        2022/1463 der Kommission vom 5. August 2022 zur Festlegung technischer und
+                        operativer Spezifikationen des technischen Systems für den
+                        grenzüberschreitenden automatisierten Austausch von Nachweisen und zur
+                        Anwendung des Grundsatzes der einmaligen Erfassung gemäß der Verordnung (EU)
+                        2018/1724 des Europäischen Parlaments und des Rates erlassen.</entry>
+                </row>
+                <row>
                     <entry>eDelivery-Zugangspunkt</entry>
                     <entry>(eDelivery) Access Point</entry>
                     <entry>Eine Kommunikationskomponente, die Teil des elektronischen
@@ -90,17 +102,12 @@
                         decken.</entry>
                 </row>
                 <row>
-                    <entry>einheitliches Unternehmenskonto auf Basis von ELSTER</entry>
+                    <entry>Elektronisches Identifizierung</entry>
                     <entry/>
-                    <entry>Mit Mein Unternehmenskonto bietet sich die Möglichkeit, digitale
-                        Verwaltungsleistungen verschiedenster Behörden über einen deutschlandweit
-                        einheitlichen Zugang zu nutzen. Das staatlicherseits bereitgestellte
-                        Nutzerkonto mit integriertem Postfach für Mitteilungen und behördliche
-                        Bescheide ist speziell für Organisationen entwickelt worden, die
-                        wirtschaftsbezogene Verwaltungsleistungen benötigen. Damit nur
-                        identifizierte und authentifizierte Organisationen Zugriff zu digitalen
-                        Verwaltungsleistungen erhalten, kommt über Mein Unternehmenskonto die
-                        ELSTER-Technologie zum Einsatz. ABGESTIMMTFEB 2024 </entry>
+                    <entry>„Elektronische Identifizierung“ (eID) ist der Prozess der Verwendung von
+                        Personenidentifizierungsdaten in elektronischer Form, die eine natürliche
+                        oder juristische Person oder eine natürliche Person, die eine juristische
+                        Person vertritt, eindeutig repräsentieren.</entry>
                 </row>
                 <row>
                     <entry>Elektronisches Identifizierungsmittel</entry>
@@ -108,6 +115,16 @@
                     <entry>Eine materielle und/oder immaterielle Einheit, die
                         Personenidentifizierungsdaten enthält und zur Authentifizierung bei
                         Online-Diensten verwendet wird.</entry>
+                </row>
+                <row>
+                    <entry>Europäische Evidence Survey</entry>
+                    <entry/>
+                    <entry>Die Europäische Evidence Survey ist ein Bestandteil bei der Umsetzung von
+                        SDG2. Durch die Evidence Survey wird eine zentrale Erhebung durch die
+                        Europäische Kommission vorgenommen. Hierbei werden innerhalb der
+                        Europäischen Union die relevanten Verwaltungsverfahren, Online-Services,
+                        Nachweise und Register ermittelt, die unter die SDG-VO Anhang II und die in
+                        Art. 14 genannten EU-Richtlinien fallen. </entry>
                 </row>
                 <row>
                     <entry>Europäisches Once-Only-Technical-System</entry>
@@ -168,44 +185,6 @@
                         des Fachverfahrens sein.</entry>
                 </row>
                 <row>
-                    <entry>Identifikationsnummer</entry>
-                    <entry/>
-                    <entry>Die Identifikationsnummer nach § 139b der Abgabenordnung, die nach dem
-                        IDNr-Gesetz als zusätzliches Ordnungsmerkmal in allen von der
-                        Registermodernisierung betroffenen Register eingeführt wird mit dem primären
-                        Zweck, die Daten einer natürlichen Person in einem Verwaltungsverfahren
-                        eindeutig zuordnen zu können.</entry>
-                </row>
-                <row>
-                    <entry>Durchführungsverordnung</entry>
-                    <entry>Implementing Act, Implementing Regulation</entry>
-                    <entry>Durchführungsverordnungen der Kommission dienen der einheitlichen
-                        Umsetzung von EU-Rechtsvorschriften. Zu diesem Zweck hat die Kommission zu
-                        Art. 14 SDG-VO (vgl. Art. 14 Abs. 9 SDG-VO) die Durchführungsverordnung (EU)
-                        2022/1463 der Kommission vom 5. August 2022 zur Festlegung technischer und
-                        operativer Spezifikationen des technischen Systems für den
-                        grenzüberschreitenden automatisierten Austausch von Nachweisen und zur
-                        Anwendung des Grundsatzes der einmaligen Erfassung gemäß der Verordnung (EU)
-                        2018/1724 des Europäischen Parlaments und des Rates erlassen.</entry>
-                </row>
-                <row>
-                    <entry>Europäische Evidence Survey</entry>
-                    <entry/>
-                    <entry>Die Europäische Evidence Survey ist ein Bestandteil bei der Umsetzung von
-                        SDG2. Durch die Evidence Survey wird eine zentrale Erhebung durch die
-                        Europäische Kommission vorgenommen. Hierbei werden innerhalb der
-                        Europäischen Union die relevanten Verwaltungsverfahren, Online-Services,
-                        Nachweise und Register ermittelt, die unter die SDG-VO Anhang II und die in
-                        Art. 14 genannten EU-Richtlinien fallen. </entry>
-                </row>
-                <row>
-                    <entry>Europäisches Once-Only-Technical System</entry>
-                    <entry/>
-                    <entry>Das technische System für den grenzüberschreitenden automatisierten
-                        Austausch von Nachweisen innerhalb der Europäischen Union gemäß Artikel 14
-                        Absatz 1 der SDG-VO.</entry>
-                </row>
-                <row>
                     <entry>Gateway Coordination Subgroup</entry>
                     <entry/>
                     <entry>Die Gateway Coordination Group ist ein vierteljährliches Treffen der
@@ -213,14 +192,13 @@
                         stattfindet.</entry>
                 </row>
                 <row>
-                    <entry>Nationale Evidence Survey</entry>
+                    <entry>Identifikationsnummer</entry>
                     <entry/>
-                    <entry>Innerstaatliche Vorarbeiten leisten für die Europäische Evidence Survey
-                        eine Basis für die. Mittels der Nationalen Evidence Survey werden die
-                        Prüfungen der Verwaltungsverfahren, Online-Services, Nachweise und Register
-                        zur SDG2-Relevanz, SDG2-Online Bereitstellung und auch der
-                        SDG2-Anschlussverpflichtung an das EU-OOTS vorgenommen. Die innerstaatlichen
-                        Vorarbeiten werden durch die SDG-Koordination unterstützt.​</entry>
+                    <entry>Die Identifikationsnummer nach § 139b der Abgabenordnung, die nach dem
+                        IDNr-Gesetz als zusätzliches Ordnungsmerkmal in allen von der
+                        Registermodernisierung betroffenen Register eingeführt wird mit dem primären
+                        Zweck, die Daten einer natürlichen Person in einem Verwaltungsverfahren
+                        eindeutig zuordnen zu können.</entry>
                 </row>
                 <row>
                     <entry>Intermediäre Plattform</entry>
@@ -271,6 +249,19 @@
                         ist das Ziel die unterschiedlichen Nachweisforderungen zu „mappen“, das
                         heißt die äquivalenten Nachweisforderungen und deren zuständige Behörden zu
                         erheben und in Beziehung zu setzen.</entry>
+                </row>
+                <row>
+                    <entry>Mein Unternehmenskonto</entry>
+                    <entry/>
+                    <entry>Mit Mein Unternehmenskonto bietet sich die Möglichkeit, digitale
+                        Verwaltungsleistungen verschiedenster Behörden über einen deutschlandweit
+                        einheitlichen Zugang zu nutzen. Das staatlicherseits bereitgestellte
+                        Nutzerkonto mit integriertem Postfach für Mitteilungen und behördliche
+                        Bescheide ist speziell für Organisationen entwickelt worden, die
+                        wirtschaftsbezogene Verwaltungsleistungen benötigen. Damit nur
+                        identifizierte und authentifizierte Organisationen Zugriff zu digitalen
+                        Verwaltungsleistungen erhalten, kommt über Mein Unternehmenskonto die
+                        ELSTER-Technologie zum Einsatz.</entry>
                 </row>
                 <row>
                     <entry>Nachweis (europäisch)</entry>
@@ -338,6 +329,16 @@
                         einem Fachverfahren ausstellen.</entry>
                 </row>
                 <row>
+                    <entry>Nationale Evidence Survey</entry>
+                    <entry/>
+                    <entry>Innerstaatliche Vorarbeiten leisten für die Europäische Evidence Survey
+                        eine Basis für die. Mittels der Nationalen Evidence Survey werden die
+                        Prüfungen der Verwaltungsverfahren, Online-Services, Nachweise und Register
+                        zur SDG2-Relevanz, SDG2-Online Bereitstellung und auch der
+                        SDG2-Anschlussverpflichtung an das EU-OOTS vorgenommen. Die innerstaatlichen
+                        Vorarbeiten werden durch die SDG-Koordination unterstützt.​</entry>
+                </row>
+                <row>
                     <entry>Nationales Once-Only-Technical-System</entry>
                     <entry/>
                     <entry>Das Nationale Once-Only-Technical Systems (NOOTS) ist ein System aus
@@ -374,15 +375,6 @@
                         Vernetzung.</entry>
                 </row>
                 <row>
-                    <entry>OZG-Reifegradmodell</entry>
-                    <entry/>
-                    <entry>Das Reifegradmodell dient als Grundlage zur Beurteilung der
-                        OZG-Konformität einer Verwaltungsleistung. Es umfasst fünf Reifegrade – von
-                        0 (Offline) bis 4 (Online-Transaktion). Bei Reifegrad 4 kann die Leistung
-                        vollständig digital abgewickelt werden und für Nachweise wird das
-                        Once-Only-Prinzip angewendet. </entry>
-                </row>
-                <row>
                     <entry>Online-Dienst/Online-Leistung/Online-Service</entry>
                     <entry/>
                     <entry>Ein „Online-Dienst" ist eine IT-Komponente, die ein eigenständiges
@@ -414,6 +406,15 @@
                         OZG-Informationsplattform kontinuierlich fortgeschrieben wird.</entry>
                 </row>
                 <row>
+                    <entry>OZG-Reifegradmodell</entry>
+                    <entry/>
+                    <entry>Das Reifegradmodell dient als Grundlage zur Beurteilung der
+                        OZG-Konformität einer Verwaltungsleistung. Es umfasst fünf Reifegrade – von
+                        0 (Offline) bis 4 (Online-Transaktion). Bei Reifegrad 4 kann die Leistung
+                        vollständig digital abgewickelt werden und für Nachweise wird das
+                        Once-Only-Prinzip angewendet. </entry>
+                </row>
+                <row>
                     <entry>Register</entry>
                     <entry/>
                     <entry>Ein Register ist ein Datenbestand der öffentlichen Verwaltung. In den
@@ -443,7 +444,7 @@
                     <entry>Registerlandkarte</entry>
                     <entry/>
                     <entry>Die Registerlandkarte ist eine umfassende Übersicht aller bestehenden
-                        Register, sie gibt Auskunft über deren Anschlussfähigkeit und deren
+                        Register. Sie gibt Auskunft über deren Anschlussfähigkeit und deren
                         Entwicklung sowie zur Datenspeicherung. Zu den Daten, die die Einträge in
                         der Registerlandkarte beinhalten wird, gehören u. a.: Name des jeweiligen
                         Registers, Beschreibung, Kategorisierung, Größe/Umfang, Verwaltungsebene,
@@ -571,6 +572,14 @@
                         Artikel 7 Absatz 1 der vorliegenden Verordnung ergänzt werden.</entry>
                 </row>
                 <row>
+                    <entry>Verfahren</entry>
+                    <entry>Procedure</entry>
+                    <entry>Eine Abfolge von Maßnahmen, die die Nutzer ergreifen müssen, um den
+                        Anforderungen zu entsprechen oder einen Beschluss einer zuständigen Behörde
+                        zu erwirken, um ihre Rechte nach Artikel 2 Absatz 2 Buchstabe a ausüben zu
+                        können.</entry>
+                </row>
+                <row>
                     <entry>verfahrensbezogene Nachweisanforderungen</entry>
                     <entry>Procedural Requirements</entry>
                     <entry>Aus den erforderlichen Nachweisen ergeben sich Procedural Requirements
@@ -578,14 +587,6 @@
                         Nachweisanforderungen genannt. Beispiel: Der erforderliche Nachweis
                         "Ausweisdokument" hat die übergeordnete Nachweisanforderung „Nachweis der
                         Identität“. </entry>
-                </row>
-                <row>
-                    <entry>Verfahren</entry>
-                    <entry>Procedure</entry>
-                    <entry>Eine Abfolge von Maßnahmen, die die Nutzer ergreifen müssen, um den
-                        Anforderungen zu entsprechen oder einen Beschluss einer zuständigen Behörde
-                        zu erwirken, um ihre Rechte nach Artikel 2 Absatz 2 Buchstabe a ausüben zu
-                        können.</entry>
                 </row>
                 <row>
                     <entry>Verwaltungsverfahren</entry>

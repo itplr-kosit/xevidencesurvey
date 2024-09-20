@@ -38,7 +38,7 @@
 		automatisiert zwischen Behörden auf das ausdrückliche Ersuchen der Nutzerinnen und Nutzer
 		ermöglichen.</para>
 
-	<para>Das Fachdatenmodell „XEvidenceSurvey“ bildet die Grundlage für die nationale Erhebung von
+	<para>Das Informationsmodell „XEvidenceSurvey“ bildet die Grundlage für die nationale Erhebung von
 		relevanten Daten, die im Kontext der Umsetzung der SDG-Verordnung des Europäischen
 		Parlaments und des Rates stehen. Kern des Modells ist die Beschreibung der Struktur und
 		Organisation der Daten, die während der Erhebung der Evidence Survey identifiziert
@@ -63,24 +63,24 @@
 		<para> Die Identifikation von SDG2-relevanten Nachweisen und Verwaltungsleistungen gemäß
 			Art. 6 / Art. 13 / Art. 14 SDG-VO bildet die Datengrundlage für die Befüllung der
 			europäischen Komponenten (EU-OOTS Common Services), Evidence Broker und Data Service
-			Directory. Das Fachdatenmodell dient somit der Erfassung von Daten zu deutschen
+			Directory. Das Informationsmodell dient somit der Erfassung von Daten zu deutschen
 			Nachweisen und Registern, sowie zu Nachweisanforderungen deutscher Online-Dienste, um
 			diese auf europäischer Ebene miteinander in Beziehung zu setzen (auch: Mapping). Das
 			Modell zielt dabei auf die Interoperabilität zwischen dem nationalen Once Only Technical
 			System (NOOTS) und dem europäischen Once Only Technical System (EU-OOTS). Dieses
-			Fachdatenmodell basiert auf den Anforderungen der SDG-Verordnung, der
+			Informationsmodell basiert auf den Anforderungen der SDG-Verordnung, der
 			SDG-Durchführungsverordnung und den Technical Design Documents. Darüber hinaus ist es
 			das Ergebnis der spezifischen Anforderungen aus dem "European Evidence Survey" und dem
 			'Mapping' zwischen den Mitgliedsstaaten, die vorrangig in der Subgroup "Evidence
 			Mapping" der Gateway Coordination Group zwischen den Mitgliedsstaaten verhandelt werden.
-			Das Fachdatenmodell definiert Import- und Exportschnittstellen für Daten von und zur EU
+			Das Informationsmodell definiert Import- und Exportschnittstellen für Daten von und zur EU
 			sowie zu anderen Systemen, wie z.B. die OZG-Informationsplattform. </para>
 	</section>
 
 	<section>
 		<title>Wozu?</title>
 
-		<para>Mehrere Dimensionen tragen zum Ziel des Fachdatenmodells bei:</para>
+		<para>Mehrere Dimensionen tragen zum Ziel des Informationsmodells bei:</para>
 		<itemizedlist>
 			<listitem>
 				<para>Dimension 1: Festlegung SDG2-relevanter deutscher Online-Services und
@@ -93,8 +93,11 @@
 			</listitem>
 			<listitem>
 				<para>Dimension 3: Datengrundlage für eine automatische Befüllung der europäischen
-					Komponenten Evidence Broker (EB) und Data Services Directory (DSD) über
-					europäische Schnittstellen ermöglichen</para>
+					Komponenten Evidence Broker (EB) und Data Services Directory (DSD) über die
+					europäische Pflegeschnittstelle <link
+						xlink:href="https://code.europa.eu/oots/tdd/tdd_chapters/-/blob/master/OOTS-EDM/sch/LCM-ERR.sch?ref_type=heads"
+						>(LCM)</link> ermöglichen. Dies ist vor allem anzuraten in Fällen, bei denen
+					mehrere 100 Einträge erfolgen sollen.</para>
 			</listitem>
 			<listitem>
 				<para>Dimension 4: Unterstützung des Monitoring der SDG2-Umsetzung in
@@ -105,18 +108,18 @@
 	</section>
 	<section>
 		<title>Warum?</title>
-		<para>Das Fachdatenmodell „XEvidenceSurvey“ schafft einen Mehrwert für die deutsche
+		<para>Das Informationsmodell „XEvidenceSurvey“ schafft einen Mehrwert für die deutsche
 			Umsetzung der Artikel 6,13,14 der SDG-Verordnung. Erstens trägt ein solches Modell dazu
 			bei, die Konsistenz und Qualität der erhobenen Daten sicherzustellen. Dies ist
 			entscheidend, um verlässliche Informationen für Analysen und Berichte bereitzustellen.
-			Zweitens unterstützt das Fachdatenmodell die Interoperabilität, indem es sicherstellt,
+			Zweitens unterstützt das Informationsmodell die Interoperabilität, indem es sicherstellt,
 			dass Daten zwischen Deutschland und den europäischen Mitgliedsstaaten ausgetauscht
 			werden können. Es fördert die Zusammenarbeit und den Datenaustausch zwischen den
 			Beteiligten. Insbesondere soll es den deutschen Akteuren beim Aufbau des NOOTS helfen,
 			die europäischen Anforderungen zu berücksichtigen. Drittens erleichtert das
-			Fachdatenmodell die langfristige Datenhaltung und -nutzung. Es stellt sicher, dass die
+			Informationsmodell die langfristige Datenhaltung und -nutzung. Es stellt sicher, dass die
 			Daten auch in Zukunft verständlich und nutzbar bleiben, unabhängig von technologischen
-			Veränderungen oder personellen Wechseln. Schließlich ermöglicht das Fachdatenmodell eine
+			Veränderungen oder personellen Wechseln. Schließlich ermöglicht das Informationsmodell eine
 			verbesserte Datenanalyse und -interpretation, was wiederum zu fundierteren
 			Entscheidungen, u.a. der SDG-Koordination, führt. Durch die einheitliche Strukturierung
 			der Daten können Muster und Trends leichter erkannt werden. </para>
@@ -127,7 +130,7 @@
 		<info>
 			<title>Für wen?</title>
 		</info>
-		<para>Das Fachdatenmodell dient der Zusammenarbeit und dem gegenseitigen Verständnis
+		<para>Das Informationsmodell dient der Zusammenarbeit und dem gegenseitigen Verständnis
 			unterschiedlicher Akteur:innen: der SDG-Koordination im BMI bei der Abstimmung der
 			SDG-Umsetzung mit den deutschen und europäischen zuständigen Stellen, den Akteur:innen
 			der deutschen Registermodernisierung bei der Beschreibung der relevanten Daten für einen
@@ -163,7 +166,7 @@
 	<section>
 		<title>Womit?</title>
 
-		<para> Das nachfolgende Fachdatenmodell dient der Darstellung der ermittelten Daten und
+		<para> Das nachfolgende Informationsmodell dient der Darstellung der ermittelten Daten und
 			deren Zusammenhang im Rahmen der Evidence Survey auf deutscher Ebene. Die Evidence
 			Survey ist Bestandteil bei der Umsetzung der Single Digital Gateway Verordnung (SDG-VO).
 			Sie beinhaltet die Ermittlung der Verwaltungsverfahren, Online-Services, Nachweise und
@@ -231,7 +234,7 @@
 			vorgenommen. Hierbei werden die relevanten Verwaltungsverfahren, Online-Services,
 			Nachweise und Register ermittelt, die unter die SDG-Verordnung Anhang II und die in Art.
 			14 genannten EU-Richtlinien fallen.</para>
-		<para>Die nationalen Vorarbeiten bilden die Grundlage für die Evidence Survey auf
+		<para>Die nationalen Vorarbeiten, die sogenannte nationale Evidence Survey, bilden die Grundlage für die Evidence Survey auf
 			europäischer Ebene. Diese Vorarbeiten werden durch die SDG-Koordination
 			durchgeführt.</para>
 	</section>

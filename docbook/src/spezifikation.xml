@@ -6,10 +6,10 @@
 ]>
 <book xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de" status="&specstatus;">
 	<info revision="1.0">
-		<title>Entwurf Fachdatenmodell XEvidenceSurvey</title>
-		<subtitle>Version 0.6 - SDG</subtitle>		
+		<title>Informationsmodell XEvidenceSurvey</title>
+		<subtitle>Version 0.7 - SDG Koordination</subtitle>		
 		<abstract>
-			<para>Fassung: 12. April 2024</para>
+			<para>Fassung: 23. August 2024</para>
 			<para>Herausgeber: SDG Koordination</para>
 		<!--	<para>Bezugsort: <link xmlns:xlink="http://www.w3.org/1999/xlink"
 				xlink:href="www.xoev.de/de/starterpaket">www.xoev.de/de/starterpaket</link></para> -->
@@ -56,7 +56,7 @@
 	<part xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
 		xml:id="spezifikation.allgemeines">
 		<info>
-			<title>Fachdatenmodell "XEvidenceSurvey"</title>
+			<title>Informationsmodell "XEvidenceSurvey"</title>
 		</info>
 		<include xmlns="http://www.w3.org/2001/XInclude" href="hintergrund/hintergrund.xml"/>
 		<include xmlns="http://www.w3.org/2001/XInclude"
@@ -80,7 +80,7 @@
 	<!-- 	<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/autorenliste/autorenliste.xml"/> -->
 		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/arbeitsgruppen/arbeitsgruppen.xml"/>
 		
-		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/anforderungen/requirements.xml"/>
+	<!-- 	<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/anforderungen/requirements.xml"/> -->
 		
 		<include xmlns="http://www.w3.org/2001/XInclude" href="anhang/versionshistorie/versionshistorie.xml"/>	 
 	</part>

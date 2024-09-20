@@ -10,6 +10,68 @@
 		<title>Versionshistorie</title>
 	</info>
 	<sect1 xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+		xml:id="spezifikation.anhang.versionshistorie.version07">
+		<info>
+			<title>Version 0.7</title>
+		</info>
+		<para>Veröffentlichungsdatum 23.08.2024</para>
+		<sect2>
+			<title>Änderungen zur Version 0.7</title>
+			<simplesect>
+				<title>Redaktioneller Teil</title>
+				<itemizedlist>
+					<listitem>
+						<para>UML-Diagramm zu europäischen ETLists hinzugefügt</para>
+					</listitem>
+					<listitem>
+						<para>UML-Abbildungen überarbeitet und neu eingebunden</para>
+					</listitem>
+					<listitem>
+						<para>Lizenzangaben überarbeitet</para>
+					</listitem>
+					<listitem>
+						<para>Fehlerhafte Anzeige im Kapitel "externe Modelle" angepasst</para>
+					</listitem>
+					<listitem>
+						<para>Redundante Suffixe bei Basistypen entfernt</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			<simplesect>
+				<title>Klassen und Codelisten</title>
+				<itemizedlist>
+					<listitem>
+						<para>LeiKa-ID eingefügt und inhaltlich von LeiKa-Schlüssel abgegrenzt</para>
+					</listitem>
+					<listitem>
+						<para>Fehlerhafte Codelisten überprüft und angepasst</para>
+					</listitem>
+					<listitem>
+						<para>Mehrfachnennungen bei Codelisten bereinigt</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			<simplesect>
+				<title>Änderungen aufgrund von Rückmeldungen zum Modell</title>
+				<itemizedlist>
+					<listitem>
+						<para>Erklärung zur Befüllung der europäischen Komponenten im Abschnitt " II.1.2. Wozu" angepasst</para>
+					</listitem>
+					<listitem>
+						<para>Kapitel III.F "Übersicht über bekannte Anforderungen" gestrichen</para>
+					</listitem>
+					<listitem>
+						<para>Abbildung II.2.6. überarbeitet</para>
+					</listitem>
+					<listitem>
+						<para>Aktualisierung des Glossars mit dem Stand des Glossars der Registermodernisierung (August 2024)</para>
+					</listitem>
+				</itemizedlist>
+			</simplesect>
+			
+		</sect2>
+	</sect1>
+	<sect1 xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
 		xml:id="spezifikation.anhang.versionshistorie.version06">
 		<info>
 			<title>Version 0.6</title>
@@ -131,9 +193,12 @@
 				</listitem>
 			</itemizedlist>
 			
+			
+			
 		</sect2>
 	</sect1>
-		
+	
+	
 			<!-- 
 			RKE-794	Testdaten erstellen und in Import-XML verwenden
 			RKE-819	WorkflowID statt workflowtype MappingLeika2SDG

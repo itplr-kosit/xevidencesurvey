@@ -7,7 +7,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
 	xml:id="spezifikation.informationsmodell.datenarchitektur">
 	<info>
-		<title>Die Informationsarchitektur des Fachdatenmodells</title>
+		<title>Die Informationsarchitektur des Informationsmodells</title>
 	</info>
 	<variablelist>
 		<varlistentry>
@@ -66,10 +66,12 @@
 		<varlistentry>
 			<term>Zusammenhang Nachweistyp und Nachweistypbündel</term>
 			<listitem>
-				<para>Die nationale Evidence Survey wurde auf Ebene sogenannter Nachweistypbündel
-					durchgeführt. Die Rückmeldungen der einzelnen Ressorts beziehen sich auf Bündel
-					wie bspw. Abschlusszeugnisse und umfassen somit konkret mehrere Nachweistypen.
-					Um diese Erfassung nachzuhalten, sieht das Datenmodell Informationen zum
+				<para>Die nationale Evidence Survey fokussiert sich auf die vor dem Abruf der
+					Nachweise im Vorfeld benötigten Klärungen und Freigaben. Zu diesem Zweck wird
+					die nationale Evidence Survey auf Ebene sogenannter Nachweistypbündel durchgeführt. Die
+					Rückmeldungen der einzelnen Ressorts beziehen sich auf Bündel wie bspw.
+					Abschlusszeugnisse und umfassen somit konkret mehrere Nachweistypen. Um diese
+					Erfassung nachzuhalten, sieht das Datenmodell Informationen zum
 					Nachweistypbündel vor, die ergänzt werden durch konkrete Informationen zu den
 					Metadaten, das Prüfschema der SDG-Relevanz sowie die Angabe von Stakeholdern,
 					die für einzelne Elemente als Ansprechperson fungieren. Nachweistypbündel sind
@@ -101,16 +103,16 @@
 			</listitem>
 		</varlistentry>
 	</variablelist>
-<figure>
-	<title>Die Verbindung der Elemente durch Mappings in der nationalen XEvidenceSurvey</title>
-	<mediaobject>
-		<imageobject>
-			<imagedata align="center"
-				fileref="../abbildungen/class__Diagramme__SPEC_MappingDEEvidenceSurvey.png"
-				format="png" width="100%"/>
-		</imageobject>
-	</mediaobject>
-</figure>
+	<figure>
+		<title>Die Verbindung der Elemente durch Mappings in der nationalen XEvidenceSurvey</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center"
+					fileref="../abbildungen/class__Diagramme__SPEC_MappingDEEvidenceSurvey.png"
+					format="png" width="100%"/>
+			</imageobject>
+		</mediaobject>
+	</figure>
 	<variablelist>
 		<varlistentry>
 			<term>Mappings stellen Verbindungen her</term>
@@ -131,25 +133,27 @@
 			</listitem>
 		</varlistentry>
 	</variablelist>
-<figure>
-	<title>Ein Beispielmapping mit allen zugehörigen Klassen in der nationalen XEvidenceSurvey</title>
-	<mediaobject>
-		<imageobject>
-			<imagedata align="center"
-				fileref="../abbildungen/class__Diagramme__SPEC_MappingDELeiKaNachweisanforderung.png"
-				format="png" width="100%"/>
-		</imageobject>
-	</mediaobject>
-</figure>
+	<figure>
+		<title>Mapping mit allen zugehörigen Klassen in der nationalen XEvidenceSurvey</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata align="center"
+					fileref="../abbildungen/class__Diagramme__SPEC_MappingDELeiKaNachweisanforderung.png"
+					format="png" width="100%"/>
+			</imageobject>
+		</mediaobject>
+	</figure>
 	<variablelist>
 		<varlistentry>
 			<term>Mapping und zugehörige Klassen</term>
 			<listitem>
-				<para>Im hier aufgezeigten Beispiel wird das Mapping zwischen LeiKa-Leistungen und
-					Nachweisanforderungen aufgebaut. Dabei ist erkennbar, dass wie o.g. in der
+				<para>In Abbildung II.2.6. wird das Mapping zwischen LeiKa-Leistungen und
+					Nachweisanforderungen ersichtlich. Dabei ist erkennbar, dass wie o.g. in der
 					Klasse LeiKa-Metadaten und Prüfschema getrennt geführt werden. Die
 					Nachweisanforderung verweist ihrerseits auf die SDG Procedural Requirements und
-					erbt von diesen.</para>
+					erbt von diesen. Außerdem sollte erkenntlich sein, dass es zwar keine direkte
+					Verbindung zwischen z.B. LeiKa und Nachweisanforderung gibt, diese aber über
+					MappingDELeiKaNachweianforderung verknüpft sind.</para>
 			</listitem>
 		</varlistentry>
 		<varlistentry>
