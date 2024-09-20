@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- view.erhebungsdaten.0017 nach XEvidenceSurvey Version 0.7.
+Version: XEvidenceSurvey 0.7 
+Letzte Aktualisierung: 22.08.2024
+Lizenz: Creative Commons 4.0 Namensnennung International, "]init[ AG im Auftrag des BMI" -->
+<xes:view.erhebungsdaten.0017 xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd"
+ xmlns:xoev-code="http://xoev.de/schemata/code/1_0"
+ xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
+ xmlns:xoev-lc="http://xoev.de/latinchars/1_1/datatypes"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd file:/C:/Code/XEvidenceSurvey/Spezifikation/build/xsd/xevidencesurvey.xsd">
+<xes:mappingDENachweisanforderungNachweisbuendel>
+ <xes:nachweisanforderungID>
+  <xes:name>
+   <xes:wert>Nachweis über Immatrikulation an einer Universität</xes:wert>
+  </xes:name>
+  <xes:linkedToProcedureEU>
+   <code>T1</code>
+  </xes:linkedToProcedureEU>
+  <xes:lastUpdated>2023-12-12T12:12:43</xes:lastUpdated>
+ </xes:nachweisanforderungID>
+ <xes:nachweistypBuendelID>
+  <xes:name>
+   <xes:wert>Immatrikulationsbescheinigung</xes:wert>
+  </xes:name>
+ </xes:nachweistypBuendelID>
+</xes:mappingDENachweisanforderungNachweisbuendel>
+ 
+ <xes:mappingDELeikaOnlineService>
+  <xes:leikaID listVersionID="">
+   <code>99022001017003</code>
+  </xes:leikaID>
+  <xes:onlineServiceID>ID für Onlineservice BAföG Online</xes:onlineServiceID>
+ <xes:workflow>
+  <xes:workflowstatus>
+   <code>1_erstaufnahme</code>
+  </xes:workflowstatus>
+  <xes:datum>2023-12-12T00:00:01</xes:datum>
+  <xes:autor>Sklarß</xes:autor>
+  <xes:interneDokumentation>Erstbefüllung von Hand aus Evidence Survey Erhebung</xes:interneDokumentation>
+ </xes:workflow>
+ </xes:mappingDELeikaOnlineService>
+ 
+ <xes:mappingDEOnlineServiceNachweistypBuendel>
+  <xes:onlineserviceID>ID für Onlineservice BAföG Online</xes:onlineserviceID>
+  <xes:nachweistypbuendelID>Immatrikulationsbescheinigung</xes:nachweistypbuendelID>
+ <xes:workflow>
+  <xes:workflowstatus>
+   <code>1_erstaufnahme</code>
+  </xes:workflowstatus>
+  <xes:datum>2023-12-12T09:09:12</xes:datum>
+ </xes:workflow>
+ </xes:mappingDEOnlineServiceNachweistypBuendel>
+ 
+</xes:view.erhebungsdaten.0017>

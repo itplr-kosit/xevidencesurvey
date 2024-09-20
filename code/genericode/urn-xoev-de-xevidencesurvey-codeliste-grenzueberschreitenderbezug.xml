@@ -16,9 +16,9 @@
    <Identification>
       <ShortName>grenzueberschreitenderbezug</ShortName>
       <LongName>grenzüberschreitender Bezug</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:grenzueberschreitenderbezug_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>BMI SDG Koordination</LongName>
       </Agency>

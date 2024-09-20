@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>leiKatyp</ShortName>
       <LongName>LeiKa-Typ</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:leikatyp</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:leikatyp_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:leikatyp_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>BMI SDG Koordination</LongName>
       </Agency>

@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>formatevidencesurvey</ShortName>
       <LongName>FormatEvidenceSurvey</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:formatevidencesurvey</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:formatevidencesurvey_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:formatevidencesurvey_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>BMI SDG Koordination</LongName>
       </Agency>

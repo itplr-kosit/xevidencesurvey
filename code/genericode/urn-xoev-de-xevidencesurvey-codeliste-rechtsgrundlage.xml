@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>rechtsgrundlage</ShortName>
       <LongName>Art der Rechtsgrundlage</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:rechtsgrundlage</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:rechtsgrundlage_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:rechtsgrundlage_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>BMI SDG Koordination</LongName>
       </Agency>

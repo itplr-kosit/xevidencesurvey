@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- export.evidenceBroker0005 nach XEvidenceSurvey Version 0.7.
+Version: XEvidenceSurvey 0.7 
+Letzte Aktualisierung: 22.08.2024
+Lizenz: Creative Commons 4.0 Namensnennung International, "]init[ AG im Auftrag des BMI" -->
+<xes:export.evidenceBroker.0005 xmlns:xoev-lc="http://xoev.de/latinchars/1_1/datatypes"
+ xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd"
+ xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
+ xmlns:xoev-code="http://xoev.de/schemata/code/1_0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd file:/C:/Code/XEvidenceSurvey/Spezifikation/build/xsd/xevidencesurvey.xsd">
+ <xes:msprocedures>
+  <xes:name>
+   <xes:wert>Gewerbeanmeldung</xes:wert>
+  </xes:name>
+  <xes:description>
+   <xes:wert>A business registration is always necessary when you start a standing business. 
+    The business registration must be carried out at the same time as the start of the business.
+    OZG-ID: 99050012104000</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:description>
+  <xes:description>
+   <xes:wert>Eine Gewerbeanmeldung ist immer dann notwendig, wenn Sie einen stehenden
+    Gewerbebetrieb beginnen. 
+    Die Gewerbeanmeldung ist gleichzeitig mit dem Beginn des Betriebs vorzunehmen. 
+    Leistungsschlüssel: 99050012104000</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:description>
+  <xes:jurisdiction>
+   <xes:level listVersionID="">
+    <code>Regional</code>
+   </xes:level>
+   <xes:nuts1>Nordrhein-Westfalen</xes:nuts1>
+   <xes:country>
+    <code>DE</code>
+   </xes:country>
+  </xes:jurisdiction>
+ </xes:msprocedures>
+ 
+ <xes:evidenceTypeList>
+  <xes:id.EvidMapEU>
+   <xes:name>
+    <xes:wert>ETL1002</xes:wert>
+   </xes:name>
+  </xes:id.EvidMapEU>
+  <xes:name>
+   <xes:wert>Nachweise für Gewerbeanmeldungen</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:name>
+  <xes:memberState>
+   <code>DE</code>
+  </xes:memberState>
+ </xes:evidenceTypeList>
+ <xes:proceduralrequirement>
+  <xes:id.EvidMap>292</xes:id.EvidMap>
+  <!-- ID des eingemeldeten PRs des DENLAT Projektes -->
+  <xes:name>
+   <xes:wert>Proof of business legal form</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:name>
+  
+  <xes:name>
+   <xes:wert>Nachweis der Rechtsform des Unternehmens</xes:wert>
+   <!-- deutscher Name der europäischen Procedural Requirement-->
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:name>
+  
+  <xes:name>
+   <xes:wert>business registration</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:name>
+  
+  <xes:description>
+   <xes:wert>A business registration is always necessary when you start a standing business. 
+    The business registration must be carried out at the same time as the start of the business.
+    German LEIKA-ID: 99050012104000</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:description>
+  
+  <xes:description>
+   <xes:wert>Eine Gewerbeanmeldung ist immer dann notwendig, wenn Sie einen stehenden
+    Gewerbebetrieb beginnen. 
+    Die Gewerbeanmeldung ist gleichzeitig mit dem Beginn des Betriebs vorzunehmen. 
+    Leistungsschlüssel: 99050012104000</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:description>
+  
+  <xes:status>
+   <code>1_draft</code>
+  </xes:status>
+  <xes:memberState>
+   <code>DE</code>
+  </xes:memberState>
+  
+  <xes:linkedToProcedureEU>
+   <code>X1</code>
+  </xes:linkedToProcedureEU>
+  
+ </xes:proceduralrequirement>
+ 
+ <xes:mappingEUSDGEvidenceTypeListDSGProceduralRequirement>
+  <xes:proceduralrequirementID>
+   <xes:name>
+    <xes:wert>292</xes:wert>
+   </xes:name>
+   <xes:linkedToProcedureEU>
+    <!-- Notification of Business Activity -->
+    <code>X1</code>
+   </xes:linkedToProcedureEU>
+   <xes:lastUpdated>2023-12-18T09:00:00</xes:lastUpdated>
+  </xes:proceduralrequirementID>
+  <xes:evidenceTypelistID>
+   <xes:name>
+    <xes:wert>ETL1002</xes:wert>
+   </xes:name>
+  </xes:evidenceTypelistID>
+  <xes:status>
+   <code>01_initiiert</code>
+  </xes:status>
+  
+  <xes:workflowDE>
+   <xes:workflowstatus>
+    <code>2_zurPruefung</code>
+   </xes:workflowstatus>
+   <xes:datum>2023-12-01T06:12:22</xes:datum>
+   <xes:hatStakeholderID>
+    <xes:ansprechperson>
+     <xes:organisation>
+      <xes:name>Musterorganisation</xes:name>
+     </xes:organisation>
+     <xes:email>erika.mustermann@musterorganisation.de</xes:email>
+    </xes:ansprechperson>
+   </xes:hatStakeholderID>
+   <xes:interneDokumentation>Gemäß BMWK lautet das Procedural Requirement (PR) “Nachweis zur unternehmerischen Rechtsform“. Die Übersetzung ist zweifelhaft und bedarf nochmals Prüfung.
+    
+    Es wird empfohlen, um das PR konkreter zu beschreiben Information Requirement zu verwenden die aus dem Core Vocabulary Business stammen. Da auch nur diese aus der fest vorgegebenen Liste ausgewählt werden können. Falls Elemente fehlen sollten, müssen diese in die Beteiligungsverfahren für Core Vocabulary eingebracht werden.
+    
+    Aufgrund unserer Recherchen und der Gespräche mit der Fachlichkeit aus Düsseldorf machen wir folgende Vorschläge für die Nachweisanforderungen bei der Gewerbeanmeldung:
+    
+    Nachweis über den wirtschaftlichen Gegenstand/Tätigkeit
+    Nachweis über Zeichnungsberechtigung (Geschäftsführer, Vertretungsberechtigte, Prokurist)
+    Nachweis über den Geschäftssitz</xes:interneDokumentation>
+  </xes:workflowDE>
+  
+  <xes:loa listVersionID="">
+   <code>Substantiell</code>
+  </xes:loa>
+  
+  <xes:workflowEU>
+   <xes:workflowstatus>
+    <code>2_zurPruefung</code>
+   </xes:workflowstatus>
+   <xes:datum>2023-12-01T08:12:22</xes:datum>
+   <xes:id></xes:id>
+  </xes:workflowEU> 
+ </xes:mappingEUSDGEvidenceTypeListDSGProceduralRequirement>
+ 
+ <xes:evidencetype>
+  <xes:name>
+   <xes:wert>Excerpt from the commercial register</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:name>
+  <xes:name>
+   <xes:wert>Handelsregisterauszug</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:name>
+  
+  <xes:description>
+   <xes:wert>The Commercial Register is divided in Section A (HRA) for - sole trader (Einzelkaufmann
+    = e. K.) - the general partnership (offene Handelsgesellschaft = oHG) - the limited partnership
+    (Kommanditgesellschaft = KG) and - the European Economic Interest Grouping (EEIG), Section B
+    (HRB) for - the joint-stock company (Aktiengesellschaft = AG), - the partnership limited by
+    shares (Kommanditgesellschaft auf Aktien = KGaA), - the limited liability company (Gesellschaft
+    mit beschränkter Haftung = GmbH), - the Societas Europaea (SE), - the mutual insurance company
+    (Versicherungsverein auf Gegenseitigkeit = VVaG) and - the mutual pension funds
+    (Pensionsfondsverein auf Gegenseitigkeit = PVaG). In addition to the commercial register data,
+    data from the cooperatives and partnerships registers as well as associations register data are
+    provided as well. You can search for individual firms specifically, even if you have no
+    registration number at hand. The content of the register is made available in various forms as
+    PDF file and can be saved and printed as a hard copy.</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>ENG</code>
+   </xes:sprache>
+  </xes:description>
+  
+  <xes:description>
+   <xes:wert>Das Handelsregister ist ein öffentliches Verzeichnis über eingetragene Kaufleute
+    (Gewerbetreibende und Unternehmen) im Bezirk des zuständigen Registergerichts und beinhaltet
+    deren wesentliche rechtliche und wirtschaftliche Verhältnisse. Die Informationen können von
+    jedermann eingesehen werden. Folgende Unternehmen müssen im Handelsregister eingetragen werden:
+    Kaufleute (Einzelunternehmen), Gesellschaften mit beschränkter Haftung (GmbH),
+    Unternehmergesellschaften (haftungsbeschränkt), Offene Handelsgesellschaften (OHG),
+    Kommanditgesellschaften (KG), Aktiengesellschaften (AG) sowie juristische Personen, die ein
+    Handelsgewerbe betreiben. Ein von einer natürlichen Person oder einer Handelsgesellschaft
+    betriebenes Gewerbe muss in das Handelsregister eingetragen werden, wenn es nach Art und Umfang
+    einen in kaufmännischer Weise eingerichteten Geschäftsbetrieb erfordert. Ausgenommen sind somit
+    sogenannte Kleingewerbetreibende, die zwar ein Gewerbe ausüben, aber nach Art und Umfang keinen
+    in kaufmännischer Weise eingerichteten Geschäftsbetrieb benötigen; diese unterliegen nicht den
+    Regelungen für Kaufleute. In das Handelsregister ebenfalls einzutragen sind die
+    Kommanditgesellschaft auf Aktien sowie die Versicherungsvereine auf Gegenseitigkeit. Das
+    Register besteht aus zwei Abteilungen, Abteilung A (HRA) für Einzelunternehmen, Offene
+    Handelsgesellschaften, Kommanditgesellschaften und Europäische wirtschaftliche
+    Interessenvereinigungen (EWIV) sowie Abteilung B (HRB) für Kapitalgesellschaften, die
+    Europäische Gesellschaft (SE) sowie Zweigniederlassungen von Kapitalgesellschaften mit Sitz in
+    Europa bzw. in einem Vertragsstaat.</xes:wert>
+   <xes:sprache listVersionID="">
+    <code>DEU</code>
+   </xes:sprache>
+  </xes:description>
+  
+  <xes:metadata>
+   <xes:minLoA listVersionID="">
+    <code>Low</code>
+   </xes:minLoA>
+   <xes:jurisdictionLevel listVersionID="">
+    <code>national</code>
+   </xes:jurisdictionLevel>
+   <xes:distribution>
+    <xes:mediaTypes listVersionID="">
+     <code>application/pdf</code>
+    </xes:mediaTypes>
+   </xes:distribution>
+   <xes:jurisdictionContext>
+   </xes:jurisdictionContext>
+   <xes:status>
+    <code>1_draft</code>
+   </xes:status>
+  </xes:metadata>
+  
+  <xes:classification>DE/Nachweis0043</xes:classification>
+  
+  <xes:jurisdiction>
+   <xes:level listVersionID="">
+    <code>National</code>
+   </xes:level>
+   <xes:nuts1>Deutschland</xes:nuts1>
+   <xes:country>
+    <code>DE</code>
+   </xes:country>
+  </xes:jurisdiction>
+
+ </xes:evidencetype>
+ 
+</xes:export.evidenceBroker.0005>

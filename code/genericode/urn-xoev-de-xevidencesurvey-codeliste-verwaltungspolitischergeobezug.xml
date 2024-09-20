@@ -5,7 +5,7 @@
    <Annotation>
       <Description>
          <xoev-cl-4:shortName>verwaltungspolitischergeobezug</xoev-cl-4:shortName>
-         <xoev-cl-4:codelistDescription/>
+         <xoev-cl-4:codelistDescription>Gibt Auskunft über die verwaltungspolitische Kodierung</xoev-cl-4:codelistDescription>
          <xoev-cl-4:agencyShortName>SDG Koordination</xoev-cl-4:agencyShortName>
          <xoev-cl-4:versionDescription>Codeliste orientiert an DCAT-AP.de + Ergänzung "anderer Mitgliedstaat der EU"</xoev-cl-4:versionDescription>
          <xoev-cl-4:validFrom>2021-09-06</xoev-cl-4:validFrom>
@@ -16,9 +16,9 @@
    <Identification>
       <ShortName>verwaltungspolitischergeobezug</ShortName>
       <LongName>verwaltungspolitischergeobezug</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:verwaltungspolitischergeobezug</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:verwaltungspolitischergeobezug_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:verwaltungspolitischergeobezug_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>SDG Koordination</LongName>
       </Agency>

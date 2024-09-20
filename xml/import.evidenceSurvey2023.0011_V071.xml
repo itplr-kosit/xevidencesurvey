@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- import.evidenceSurvey2023.0011 nach XEvidenceSurvey Version 0.7.
+Version: XEvidenceSurvey 0.7 
+Letzte Aktualisierung: 28.08.2024
+Lizenz: Creative Commons 4.0 Namensnennung International, "]init[ AG im Auftrag des BMI" -->
+<xes:import.evidenceSurvey2023.0011 xmlns:xes="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd"
+ xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
+ xmlns:xoev-code="http://xoev.de/schemata/code/1_0"
+ xmlns:xoev-lc="http://xoev.de/latinchars/1_1/datatypes"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://xevidencesurvey.de/def/xevidencesurvey/0.7/xsd file:/C:/Code/XEvidenceSurvey/Spezifikation/build/xsd/xevidencesurvey.xsd">
+ 
+ <xes:stakeholder>
+  <xes:ansprechperson>
+   <xes:organisation>
+    <xes:unterorganisation>
+     <xes:name>Abteilung M1</xes:name>
+    </xes:unterorganisation>
+    <xes:name>Musterorganisation</xes:name>
+    <xes:nameKurz>MO</xes:nameKurz>
+    <xes:email>musterorga2@example.com</xes:email>
+    <xes:telefon>0123456789</xes:telefon>
+   </xes:organisation>
+   <xes:ansprechpersontyp>Funktionspostfach</xes:ansprechpersontyp>
+   <xes:status>aktiv</xes:status>
+   <xes:email>musterorga@example.com</xes:email>
+  </xes:ansprechperson>
+  
+  <xes:id>S00001</xes:id>
+  <xes:workflow>
+   <xes:status>
+    <code>2_inaktiv</code>
+   </xes:status>
+   <xes:datum>2024-04-06T09:00:00</xes:datum>
+  </xes:workflow> 
+ </xes:stakeholder>
+ 
+ <xes:stakeholder>
+  <xes:ansprechperson>
+   <xes:organisation> <xes:unterorganisation>
+    <xes:name>Abteilung M3</xes:name>
+   </xes:unterorganisation>
+    <xes:name>Musterorganisation2</xes:name>
+   </xes:organisation>
+   <xes:id></xes:id>
+   <xes:ansprechpersontyp>natürlichePerson</xes:ansprechpersontyp>
+   <xes:status>aktiv</xes:status>
+   <xes:email>person@example.com</xes:email>
+   <xes:familienname>Mustermann</xes:familienname>
+   <xes:vorname>Eva</xes:vorname>
+   <xes:titel></xes:titel>
+   <xes:anrede>Frau</xes:anrede>  
+  </xes:ansprechperson>
+  <xes:id>S00002</xes:id>
+  
+  <xes:workflow>
+   <xes:status>
+    <code>2_inaktiv</code>
+   </xes:status>
+  <xes:datum>2023-12-01T09:00:00</xes:datum>
+  <xes:dokumentation>Verantwortlich für Musterregister 1</xes:dokumentation>
+  <xes:interneDokumentation>hat sich nur per Telefon aber noch nicht per Mail committed</xes:interneDokumentation>
+  </xes:workflow>
+ </xes:stakeholder>
+ 
+ <xes:stakeholder>
+  <xes:ansprechperson>
+   <xes:organisation>
+    <xes:name>Musterorganisation3</xes:name>
+   </xes:organisation>
+   <xes:id></xes:id>
+   <xes:ansprechpersontyp>natürlichePerson</xes:ansprechpersontyp>
+   <xes:status>inaktiv</xes:status>
+   <xes:email>musterorga4@example.com</xes:email>
+  </xes:ansprechperson>
+  <xes:id>S00003</xes:id>
+  <xes:workflow>
+   <xes:status>
+    <code>1_aktiv</code>
+   </xes:status>
+   <xes:datum>2023-12-01T09:00:00</xes:datum>
+  </xes:workflow>
+ </xes:stakeholder>
+ 
+</xes:import.evidenceSurvey2023.0011>

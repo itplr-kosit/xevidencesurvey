@@ -16,9 +16,9 @@
    <Identification>
       <ShortName>nachweisaustauschde</ShortName>
       <LongName>nachweisaustausch</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:nachweisaustauschde</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:nachweisaustauschde_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:nachweisaustauschde_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>SDG Koordination</LongName>
       </Agency>

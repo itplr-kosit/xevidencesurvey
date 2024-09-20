@@ -1,1 +1,1 @@
-Hier können in Zukunft Instanznachrichten des Standards XEvidenceSurvey eingesehen werden.
+Hier können einige beispielhafte Instanznachrichten des Standards XEvidence Survey eingesehen werden. Dies stellt jedoch keine vollständige Abbildung aller möglichen Instanznachrichten dar, sondern lediglich einen beispielhaften Auszug.

@@ -16,9 +16,9 @@
    <Identification>
       <ShortName>stakeholderfreigabe</ShortName>
       <LongName>Freigabe durch Stakeholder</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xoev-de:xevidencesurvey:codeliste:stakeholderfreigabe</CanonicalUri>
-      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:stakeholderfreigabe_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xoev-de:xevidencesurvey:codeliste:stakeholderfreigabe_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>SDG Koordination</LongName>
       </Agency>
